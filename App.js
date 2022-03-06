@@ -7,7 +7,7 @@ function urlFor(search) {
   const start = 0;
   const count = 10;
   const url = new URL("https://www.googleapis.com/books/v1/volumes");
-  url.searchParams.append("q", `"${search}"`); // quotes for strict search
+  url.searchParams.append("q", `"${search}"`); // adding quotes for strict search
   url.searchParams.append("langRestrict", "en");
   url.searchParams.append("startIndex", start);
   url.searchParams.append("maxResults", count); // default 10, max 40
@@ -19,13 +19,14 @@ function urlFor(search) {
 }
 
 document.querySelector("form").addEventListener("submit", handleSubmit);
+
 function handleSubmit(event) {
   event.preventDefault();
   let url = urlFor(document.getElementById("search").value);
   // url = "mock_data.json"; // request for local json file instead of Google Books API
+  const list = document.getElementById("book-list"); // DOM container for the search results
+  while (list.lastChild) list.lastChild.remove(); // clearing results
 
-  const list = document.getElementById("book-list");
-  Array.from(list.children).forEach((child) => child.remove());
   const t0 = performance.now();
   fetch(url)
     .then((responce) => responce.json())
