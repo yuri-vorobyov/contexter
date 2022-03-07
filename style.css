@@ -52,3 +52,19 @@ form #go {
 .transparent {
   opacity: 0;
 }
+
+#book-list {
+  list-style-type: none;
+  margin: 1rem;
+  padding: 0 1rem;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+#book-list li strong {
+  font-weight: bold;
+  color: black;
+}

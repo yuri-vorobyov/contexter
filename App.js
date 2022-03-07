@@ -1,43 +1,35 @@
-/**
- * Constructs a url for Google Books API for the specified search string.
- * @param {string} search - word or phrase to search for
- * @returns {URL} A URL object
- */
-function urlFor(search) {
-  const start = 0;
-  const count = 10;
-  const url = new URL("https://www.googleapis.com/books/v1/volumes");
-  url.searchParams.append("q", `"${search}"`); // adding quotes for strict search
-  url.searchParams.append("langRestrict", "en");
-  url.searchParams.append("startIndex", start);
-  url.searchParams.append("maxResults", count); // default 10, max 40
-  url.searchParams.append(
-    "fields",
-    "totalItems,items(volumeInfo(title,authors,publishedDate),searchInfo/textSnippet)"
-  );
-  return url;
-}
+import { search as gbSearch } from "./gb-client.js";
 
 document.querySelector("form").addEventListener("submit", handleSubmit);
 
-function handleSubmit(event) {
+async function handleSubmit(event) {
   event.preventDefault();
-  let url = urlFor(document.getElementById("search").value);
-  // url = "mock_data.json"; // request for local json file instead of Google Books API
+
   const list = document.getElementById("book-list"); // DOM container for the search results
   while (list.lastChild) list.lastChild.remove(); // clearing results
 
-  const t0 = performance.now();
-  fetch(url)
-    .then((responce) => responce.json())
-    .then((books) => {
-      console.log(`request took ${performance.now() - t0}ms`);
-      books.items.forEach((item) => {
-        if (item.searchInfo?.textSnippet) {
-          const listItem = document.createElement("li");
-          listItem.innerHTML = item.searchInfo.textSnippet;
-          list.append(listItem);
-        }
-      });
-    });
+  const searchText = document.getElementById("search").value;
+  const result = await gbSearch(searchText);
+  result.forEach((book) => {
+    const text = book.searchInfo.textSnippet;
+    const parts = text
+      .split(`<b>${searchText}</b>`)
+      .map((value) => value.trim());
+    if (parts.length === 2) {
+      const left = parts[0].split(/\s+/).slice(-4); // last 4 words
+      // console.log(left);
+      const right = parts[1].split(/\s+/).slice(0, 4); // first 4 words
+      // console.log(right);
+      const listItem = document.createElement("li");
+      const innerHTML =
+        left.join(" ") +
+        " <strong>" +
+        searchText +
+        "</strong>" +
+        (right[0][0] !== "." && right[0][0] !== "," ? " " : "") +
+        right.join(" ");
+      listItem.innerHTML = innerHTML;
+      list.append(listItem);
+    }
+  });
 }
