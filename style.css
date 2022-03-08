@@ -16,12 +16,19 @@ header {
   justify-content: center;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
 form {
+  max-width: 500px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  max-width: 50ch;
-  margin: auto;
   box-shadow: 0 0 1rem rgba(48, 26, 129, 0.418);
   border-radius: var(--input-radius);
 }
@@ -34,7 +41,7 @@ form #search,
 }
 
 form #search {
-  flex: 1 0 auto;
+  flex: 1 1 auto;
   border-radius: var(--input-radius) 0 0 var(--input-radius);
   border: 2px solid dodgerblue;
   outline: none;
@@ -54,17 +61,36 @@ form #go {
 }
 
 #book-list {
+  margin: 0;
   list-style-type: none;
-  margin: 1rem;
   padding: 0 1rem;
   color: #222;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 0.5rem;
-  width: fit-content;
-  margin: 1rem auto;
 }
 
 #book-list li strong {
   font-weight: bold;
   color: black;
+}
+
+@keyframes wheel {
+  0% {
+    transform: translateX(calc(-1.57 * 2.5rem));
+  }
+
+  100% {
+    transform: translateX(calc(1.57 * 2.5rem)) rotate(360deg);
+  }
+}
+
+#wheel {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  animation-name: wheel;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
