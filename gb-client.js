@@ -27,7 +27,6 @@ function urlFor(search, start = 0, count = 10) {
     "fields",
     "totalItems,items(volumeInfo(title,authors,publishedDate),searchInfo(textSnippet))"
   );
-  url.searchParams.append("key", "AIzaSyAxjRae-iUNy_yZuSw-O5G_6BUHdZkTxFM");
   return url;
 }
 
