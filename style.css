@@ -77,9 +77,9 @@ form #go {
 
 #loader {
   display: none;
-  width: 3rem;
-  height: 3rem;
-  margin: 2rem auto;
+  width: 4rem;
+  height: 4rem;
+  margin: 4rem auto;
 }
 #loader circle {
   fill: none;
