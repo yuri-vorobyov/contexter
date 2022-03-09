@@ -6,7 +6,7 @@ async function handleSubmit(event) {
   event.preventDefault();
 
   /* showing wheel */
-  document.getElementById("wheel").style.display = "initial";
+  document.getElementById("loader").style.display = "block";
 
   const list = document.getElementById("book-list"); // DOM container for the search results
   while (list.lastChild) list.lastChild.remove(); // clearing results
@@ -15,7 +15,7 @@ async function handleSubmit(event) {
   const result = await gbSearch(searchText);
 
   /* hiding wheel */
-  document.getElementById("wheel").style.display = "none";
+  document.getElementById("loader").style.display = "none";
 
   result.forEach((book) => {
     const text = book.searchInfo.textSnippet;
