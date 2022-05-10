@@ -7,6 +7,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #222;
   background-color: rgb(177, 210, 252);
+  overflow-y: scroll;
 }
 
 header {
@@ -14,6 +15,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+header svg {
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.4));
 }
 
 main {
@@ -57,16 +62,22 @@ form #go {
   opacity: 0;
 }
 
-#book-list {
-  margin: 0;
-  list-style-type: none;
-  padding: 0 1rem;
-  color: #222;
-  background-color: rgba(255, 255, 255, 0.4);
+#gb {
+  max-height: 15rem;
+  overflow-y: auto;
   border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
-#book-list li strong {
+#gb ul {
+  color: #222;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+#gb ul li strong {
   font-weight: bold;
   color: black;
 }
@@ -80,6 +91,7 @@ form #go {
   width: 4rem;
   height: 4rem;
   margin: 4rem auto;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.4));
 }
 #loader circle {
   fill: none;

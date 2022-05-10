@@ -72,12 +72,6 @@ async function searchPage(search, start = 0, count = 10) {
   }
 }
 
-/**
- * Performs search using Google Books API.
- *
- * @param {string} search - Search string.
- * @returns {Item[]}
- */
 async function search(search) {
   const t0 = performance.now();
 
