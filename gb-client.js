@@ -72,10 +72,19 @@ async function searchPage(search, start = 0, count = 10) {
   }
 }
 
+/**
+ * Returns a Promise that will be resolved after delay.
+ * @param {Number} delay - Delay in ms.
+ * @returns {Promise}
+ */
+function wait(delay) {
+  return new Promise((resolve) => setTimeout(resolve, delay));
+}
+
 async function search(search) {
   const t0 = performance.now();
 
-  /* retrieving first page */
+  /* retrieving first page to get idea about the total count of search results */
   const firstPage = await searchPage(search, 0, COUNT);
   const books = []; // preparing container for books
   books.push(...processPage(firstPage)); // saving only valid items
@@ -87,7 +96,11 @@ async function search(search) {
     const promises = []; // preparing container for fetch promises
     /* making requests and saving promises */
     for (let i = 0; i < remainingItems / COUNT; i++) {
-      promises.push(searchPage(search, (i + 1) * COUNT, COUNT));
+      promises.push(
+        wait((i + 1) * 100).then(() =>
+          searchPage(search, (i + 1) * COUNT, COUNT)
+        )
+      );
     }
     /* collecting fetched results */
     const results = await Promise.allSettled(promises);

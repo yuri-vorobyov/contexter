@@ -39,8 +39,10 @@ async function search(search) {
 
   /* initial request to ensure cached results */
   const firstPage = await searchPage(search);
-  console.log(`request #1 finished in ${performance.now() - t0}ms`);
-  console.log(firstPage["fts-api"].cached);
+  console.log(`[OL] request #1 finished in ${performance.now() - t0}ms`);
+  console.log(`[OL] ${firstPage.hits.total} hits found`);
+  console.log(`[OL] ${firstPage.hits.hits.length} items returned`);
+  console.log(`[OL] cached = ${firstPage["fts-api"].cached}`);
   const books = [];
   books.push(...firstPage.hits.hits);
 
@@ -48,10 +50,13 @@ async function search(search) {
   const remainingItems = firstPage.hits.total - firstPage.hits.hits.length;
   if (remainingItems > 0) {
     const promises = []; // preparing container for fetch promises
-    /* making requests and saving promises */
-    for (let i = 0; i < remainingItems / COUNT; i++) {
-      promises.push(wait((i + 1) * 100).then(() => searchPage(search, i + 2)));
+    /* making requests and saving promises 
+       - maximum 10 pages (200 items) will be requested for the sake of performance
+       - each request is delayed 150 ms */
+    for (let i = 0; i < Math.min(remainingItems / COUNT, 10); i++) {
+      promises.push(wait((i + 1) * 150).then(() => searchPage(search, i + 2)));
     }
+    console.log(`[OL] ${promises.length} additional pages requested`);
     /* collecting fetched results */
     const results = await Promise.allSettled(promises);
     console.log(`total time ${performance.now() - t0}ms`);
