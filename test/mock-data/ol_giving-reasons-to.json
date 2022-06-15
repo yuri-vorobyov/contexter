@@ -1,0 +1,2659 @@
+{
+  "fts-api": {
+      "commit": "master - 0ef53b14",
+      "version": "v3.9.4",
+      "host": "search-text.us.archive.org",
+      "cached": false,
+      "auth": {
+          "email": "",
+          "type": "None",
+          "context_scope": "standard"
+      },
+      "query_type": "dsl"
+  },
+  "timed_out": false,
+  "aggregations": {
+      "top-languages": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+              {
+                  "doc_count": 989,
+                  "key": "English"
+              },
+              {
+                  "doc_count": 5,
+                  "key": "Italian"
+              },
+              {
+                  "doc_count": 3,
+                  "key": "Chinese"
+              },
+              {
+                  "doc_count": 2,
+                  "key": "French"
+              },
+              {
+                  "doc_count": 2,
+                  "key": "undetermined"
+              },
+              {
+                  "doc_count": 1,
+                  "key": "German"
+              },
+              {
+                  "doc_count": 1,
+                  "key": "Latin"
+              },
+              {
+                  "doc_count": 1,
+                  "key": "Spanish"
+              }
+          ]
+      },
+      "top-subject": {
+          "doc_count_error_upper_bound": 22,
+          "sum_other_doc_count": 3063,
+          "buckets": [
+              {
+                  "doc_count": 52,
+                  "key": "English language"
+              },
+              {
+                  "doc_count": 31,
+                  "key": "Great Britain"
+              },
+              {
+                  "doc_count": 26,
+                  "key": "United States"
+              },
+              {
+                  "doc_count": 23,
+                  "key": "Ethics"
+              },
+              {
+                  "doc_count": 19,
+                  "key": "Critical thinking"
+              },
+              {
+                  "doc_count": 19,
+                  "key": "English language -- Rhetoric"
+              },
+              {
+                  "doc_count": 18,
+                  "key": "Reasoning"
+              },
+              {
+                  "doc_count": 17,
+                  "key": "Logic"
+              },
+              {
+                  "doc_count": 14,
+                  "key": "Caesar, Julius"
+              },
+              {
+                  "doc_count": 13,
+                  "key": "Report writing"
+              },
+              {
+                  "doc_count": 12,
+                  "key": "English language -- Dictionaries"
+              },
+              {
+                  "doc_count": 12,
+                  "key": "Finance, Personal"
+              },
+              {
+                  "doc_count": 11,
+                  "key": "Accounting"
+              },
+              {
+                  "doc_count": 11,
+                  "key": "College readers"
+              },
+              {
+                  "doc_count": 11,
+                  "key": "Law"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "English language -- Textbooks for foreign speakers"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "Exposition (Rhetoric)"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "Gro\u00dfbritannien"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "Language arts (Elementary)"
+              },
+              {
+                  "doc_count": 9,
+                  "key": "Business"
+              }
+          ]
+      },
+      "top-year": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 538,
+          "buckets": [
+              {
+                  "doc_count": 29,
+                  "key": 1998
+              },
+              {
+                  "doc_count": 28,
+                  "key": 1996
+              },
+              {
+                  "doc_count": 28,
+                  "key": 2005
+              },
+              {
+                  "doc_count": 27,
+                  "key": 2002
+              },
+              {
+                  "doc_count": 26,
+                  "key": 2000
+              },
+              {
+                  "doc_count": 26,
+                  "key": 2001
+              },
+              {
+                  "doc_count": 26,
+                  "key": 2004
+              },
+              {
+                  "doc_count": 25,
+                  "key": 2006
+              },
+              {
+                  "doc_count": 24,
+                  "key": 1999
+              },
+              {
+                  "doc_count": 23,
+                  "key": 2007
+              },
+              {
+                  "doc_count": 23,
+                  "key": 2008
+              },
+              {
+                  "doc_count": 22,
+                  "key": 1993
+              },
+              {
+                  "doc_count": 22,
+                  "key": 2003
+              },
+              {
+                  "doc_count": 22,
+                  "key": 2011
+              },
+              {
+                  "doc_count": 21,
+                  "key": 1989
+              },
+              {
+                  "doc_count": 21,
+                  "key": 1991
+              },
+              {
+                  "doc_count": 19,
+                  "key": 2009
+              },
+              {
+                  "doc_count": 18,
+                  "key": 1990
+              },
+              {
+                  "doc_count": 18,
+                  "key": 2015
+              },
+              {
+                  "doc_count": 17,
+                  "key": 1987
+              }
+          ]
+      },
+      "top-creator": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 695,
+          "buckets": [
+              {
+                  "doc_count": 15,
+                  "key": "froude, james anthony, 1818-1894"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "gitman, lawrence j"
+              },
+              {
+                  "doc_count": 10,
+                  "key": "paul, richard"
+              },
+              {
+                  "doc_count": 9,
+                  "key": "brackenridge, h. m. (henry marie), 1786-1871"
+              },
+              {
+                  "doc_count": 9,
+                  "key": "manzoni, alessandro, 1785-1873"
+              },
+              {
+                  "doc_count": 8,
+                  "key": "moore, thomas, 1779-1852"
+              },
+              {
+                  "doc_count": 7,
+                  "key": "abbott, jacob, 1803-1879"
+              },
+              {
+                  "doc_count": 6,
+                  "key": "corey, gerald"
+              },
+              {
+                  "doc_count": 5,
+                  "key": "johnston, mary, 1870-1936"
+              },
+              {
+                  "doc_count": 5,
+                  "key": "seward, william henry, 1801-1872"
+              },
+              {
+                  "doc_count": 5,
+                  "key": "smith, kenneth, 1910-1966"
+              },
+              {
+                  "doc_count": 5,
+                  "key": "stewart, kay l. (kay lanette), 1942-"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "barnet, sylvan"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "bolingbroke, henry st. john, viscount, 1678-1751"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "emanuel, steven"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "graham, e"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "gray, john, 1951-"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "great britain. royal commission on historical manuscripts"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "jones, richard m. (richard martin), 1945-"
+              },
+              {
+                  "doc_count": 4,
+                  "key": "lesseps, ferdinand de, 1805-1894"
+              }
+          ]
+      },
+      "top-mediatype": {
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0,
+          "buckets": [
+              {
+                  "doc_count": 1004,
+                  "key": "texts"
+              }
+          ]
+      },
+      "top-collection": {
+          "doc_count_error_upper_bound": 15,
+          "sum_other_doc_count": 1936,
+          "buckets": [
+              {
+                  "doc_count": 807,
+                  "key": "internetarchivebooks"
+              },
+              {
+                  "doc_count": 798,
+                  "key": "inlibrary"
+              },
+              {
+                  "doc_count": 798,
+                  "key": "printdisabled"
+              },
+              {
+                  "doc_count": 198,
+                  "key": "americana"
+              },
+              {
+                  "doc_count": 136,
+                  "key": "china"
+              },
+              {
+                  "doc_count": 108,
+                  "key": "universityofcoloradoboulder-ol"
+              },
+              {
+                  "doc_count": 102,
+                  "key": "universityofarizona-ol"
+              },
+              {
+                  "doc_count": 100,
+                  "key": "cuny-ol"
+              },
+              {
+                  "doc_count": 93,
+                  "key": "johnshopkins-ol"
+              },
+              {
+                  "doc_count": 88,
+                  "key": "universityofoklahoma-ol"
+              },
+              {
+                  "doc_count": 87,
+                  "key": "dartmouthlibrary-ol"
+              },
+              {
+                  "doc_count": 83,
+                  "key": "binghamton-ol"
+              },
+              {
+                  "doc_count": 70,
+                  "key": "the-claremont-colleges-ol"
+              },
+              {
+                  "doc_count": 67,
+                  "key": "riceuniversity-ol"
+              },
+              {
+                  "doc_count": 65,
+                  "key": "rochester-ol"
+              },
+              {
+                  "doc_count": 59,
+                  "key": "gwulibraries-ol"
+              },
+              {
+                  "doc_count": 59,
+                  "key": "tamu-evanslibrary-ol"
+              },
+              {
+                  "doc_count": 52,
+                  "key": "uni-ol"
+              },
+              {
+                  "doc_count": 49,
+                  "key": "drakeuniversity-ol"
+              },
+              {
+                  "doc_count": 48,
+                  "key": "trent_university"
+              }
+          ]
+      }
+  },
+  "hits": {
+      "hits": [
+          {
+              "_score": 15.493027,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1646844681",
+                  "identifier": [
+                      "aslevelcriticalt0000unse"
+                  ],
+                  "filename": [
+                      "aslevelcriticalt0000unse_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      6
+                  ],
+                  "meta_year": [
+                      2011
+                  ],
+                  "created_on": "2022-03-09 17:20:40",
+                  "file_basename": "aslevelcriticalt0000unse",
+                  "meta_title": [
+                      "AS-level critical thinking : complete revision and practice"
+                  ],
+                  "page_num": [
+                      [
+                          86
+                      ]
+                  ],
+                  "sha1_file": "8949c64f27898abae3e32ae93fa4787f0a827c3a",
+                  "meta_publicdate": [
+                      "2022-03-03T05:57:37Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-05-21 14:09:52",
+                  "meta_publisher": [
+                      "[Broughton-in-Furness] : CGP"
+                  ],
+                  "meta_titleSorter": [
+                      "as-level critical thinking : complete revision and practice"
+                  ],
+                  "meta_subjectSorter": [
+                      "Critical thinking -- Examinations -- Study guides"
+                  ],
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_date": [
+                      "2011-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "Supporting something means backing it up by {{{giving reasons to}}} accept it.\n \n \nQ1 What is the correct term",
+                      "right\u2019 flaws.\nrefute Refuting a claim means {{{giving reasons to}}} prove that it\u2019s wrong.\nreliability A source",
+                      "Supporting something means backing it up by {{{giving reasons to}}} accept it.\nsweeping generalisation When an"
+                  ]
+              },
+              "_id": "aslevelcriticalt0000unse|c5805a7d392e98c802695f0e3fe064718098e8d4",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL37747432M",
+                  "url": "/books/OL37747432M/AS-level_critical_thinking",
+                  "title": "AS-level critical thinking",
+                  "ocaid": "aslevelcriticalt0000unse",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL9125574A",
+                          "name": "Josephine Gibbons"
+                      },
+                      {
+                          "key": "/authors/OL8271328A",
+                          "name": "Rachael Powers"
+                      },
+                      {
+                          "key": "/authors/OL9316338A",
+                          "name": "Rebecca Tate"
+                      }
+                  ],
+                  "work_key": "/works/OL27681577W",
+                  "cover_url": "//covers.openlibrary.org/w/id/12661400-M.jpg",
+                  "borrow_url": "/books/OL37747432M/AS-level_critical_thinking/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "aslevelcriticalt0000unse",
+                  "isbn": "9781847625991",
+                  "oclc": null,
+                  "openlibrary_work": "OL27681577W",
+                  "openlibrary_edition": "OL37747432M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 15.491283,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1636865725",
+                  "identifier": [
+                      "fromcoursetocour0000lamb"
+                  ],
+                  "filename": [
+                      "fromcoursetocour0000lamb_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      5
+                  ],
+                  "meta_year": [
+                      1988
+                  ],
+                  "created_on": "2021-11-14 05:03:36",
+                  "file_basename": "fromcoursetocour0000lamb",
+                  "meta_creatorSorter": [
+                      "lambert, judith"
+                  ],
+                  "meta_title": [
+                      "From course to course : a beginner's guide to college writing"
+                  ],
+                  "page_num": [
+                      [
+                          526
+                      ]
+                  ],
+                  "sha1_file": "1d7ba37cb004783c73e92150111cc9b466750fe3",
+                  "meta_publicdate": [
+                      "2020-02-14T00:24:50Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-11-14 05:03:36",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "Glenview, Ill. : Scott, Foresman"
+                  ],
+                  "meta_titleSorter": [
+                      "from course to course : a beginner's guide to college writing"
+                  ],
+                  "meta_subjectSorter": [
+                      "English language -- Rhetoric",
+                      "Academic writing"
+                  ],
+                  "meta_creator": [
+                      "Lambert, Judith"
+                  ],
+                  "meta_date": [
+                      "1988-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "Smoother  Reading  and  Clearer Meaning  141\n{{{GIVING  REASONS  TO}}}  EXPLAIN  148\nLooking  Again  at  Verbs ",
+                      "148\nEXAMPLES,  COMPARISON,  AND  REASONS\n{{{Giving  reasons  to}}}  explain\nIn  conversation,  when  you  make",
+                      "comment  +  reasons  pat\u00ac tern  follows.\n{{{Giving  Reasons  To}}}  Explain\n149\n<\u00a3c\u00a3Zc-*-ts\nI '  ve  loved ",
+                      " verbs  and  present  tense  verbs:\n151\n{{{Giving  Reasons  To}}}  Explain\nPast  Tense  Present  Tense\n(add",
+                      "to  its  correct  present  tense  form.\n{{{Giving  Reasons  To}}}  Explain\n153\n7.  Jake\u2019s\n^explained  the "
+                  ]
+              },
+              "_id": "fromcoursetocour0000lamb|be896f6a7be8cd8798289200a16479b0a46a240c",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL2388171M",
+                  "url": "/books/OL2388171M/From_course_to_course",
+                  "title": "From course to course",
+                  "ocaid": "fromcoursetocour0000lamb",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL616853A",
+                          "name": "Judith Lambert"
+                      },
+                      {
+                          "key": "/authors/OL2753313A",
+                          "name": "Jane Peterson"
+                      }
+                  ],
+                  "work_key": "/works/OL3622514W",
+                  "cover_url": "//covers.openlibrary.org/w/id/9273276-M.jpg",
+                  "borrow_url": "/books/OL2388171M/From_course_to_course/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "fromcoursetocour0000lamb",
+                  "isbn": "0673183289",
+                  "oclc": null,
+                  "openlibrary_work": "OL3622514W",
+                  "openlibrary_edition": "OL2388171M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 15.076326,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1643969434",
+                  "identifier": [
+                      "teachingcritical0000leic"
+                  ],
+                  "filename": [
+                      "teachingcritical0000leic_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      3
+                  ],
+                  "meta_year": [
+                      2010
+                  ],
+                  "created_on": "2022-02-04 10:28:58",
+                  "file_basename": "teachingcritical0000leic",
+                  "meta_creatorSorter": [
+                      "leicester, mal"
+                  ],
+                  "meta_title": [
+                      "Teaching critical thinking skills"
+                  ],
+                  "page_num": [
+                      [
+                          142
+                      ]
+                  ],
+                  "sha1_file": "c6540de076ab7bc52ab8f1add3d3482a60573356",
+                  "meta_publicdate": [
+                      "2022-01-31T05:39:00Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-03-09 18:28:53",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "fav-f4z41h"
+                  ],
+                  "meta_publisher": [
+                      "London ; New York : Continuum"
+                  ],
+                  "meta_titleSorter": [
+                      "teaching critical thinking skills"
+                  ],
+                  "meta_subjectSorter": [
+                      "Critical thinking -- Study and teaching"
+                  ],
+                  "meta_creator": [
+                      "Leicester, Mal"
+                  ],
+                  "meta_date": [
+                      "2010-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "activities\nThe children write a paragraph {{{giving reasons to}}} support the claim that, in the story, Emerald",
+                      "Elf existed.\nThe children write a paragraph {{{giving reasons to}}} support the claim that, in the story, Emeraid"
+                  ]
+              },
+              "_id": "teachingcritical0000leic|be187264c7b4de96ceda7a71eb50d7dbb0c49149",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL23169847M",
+                  "url": "/books/OL23169847M/Teaching_critical_thinking_skills",
+                  "title": "Teaching critical thinking skills",
+                  "ocaid": "teachingcritical0000leic",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL709667A",
+                          "name": "Mal Leicester"
+                      }
+                  ],
+                  "work_key": "/works/OL3901916W",
+                  "cover_url": "//covers.openlibrary.org/w/id/12615738-M.jpg",
+                  "borrow_url": "/books/OL23169847M/Teaching_critical_thinking_skills/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "teachingcritical0000leic",
+                  "isbn": "9780826435439",
+                  "oclc": null,
+                  "openlibrary_work": "OL3901916W",
+                  "openlibrary_edition": "OL23169847M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.719035,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1633804927",
+                  "identifier": [
+                      "whatisourrespons0000wrig"
+                  ],
+                  "filename": [
+                      "whatisourrespons0000wrig_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      3
+                  ],
+                  "meta_year": [
+                      2004
+                  ],
+                  "created_on": "2021-10-09 19:04:57",
+                  "file_basename": "whatisourrespons0000wrig",
+                  "meta_creatorSorter": [
+                      "wright, chris, 1961-"
+                  ],
+                  "meta_title": [
+                      "What is our response?"
+                  ],
+                  "page_num": [
+                      [
+                          102
+                      ]
+                  ],
+                  "sha1_file": "43dcda4721ac9c0acd37989f05d8dc0949787f26",
+                  "meta_publicdate": [
+                      "2021-10-05T04:31:10Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-11-24 05:36:03",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "Oxford : Oxford University Press"
+                  ],
+                  "meta_titleSorter": [
+                      "what is our response?"
+                  ],
+                  "meta_subjectSorter": [
+                      "Religion -- Study and teaching (Secondary) -- Great Britain",
+                      "Religion -- Study and teaching (Secondary)",
+                      "Great Britain"
+                  ],
+                  "meta_creator": [
+                      "Wright, Chris, 1961-"
+                  ],
+                  "meta_date": [
+                      "2004-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "gender equality\u2019 (Source A).\nWrite a paragraph {{{giving reasons to}}} support this view.\nImagine that you work for",
+                      "belief in life after death important? of view, {{{giving reasons to}}}\n6 To what extent do you think a person\u2019s belief"
+                  ]
+              },
+              "_id": "whatisourrespons0000wrig|09ce680785c76c59d12f4f469c11be3e03ea4227",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL20067966M",
+                  "url": "/books/OL20067966M/Religion_for_today",
+                  "title": "Religion for today",
+                  "ocaid": "whatisourrespons0000wrig",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL212278A",
+                          "name": "Chris Wright"
+                      }
+                  ],
+                  "work_key": "/works/OL1782687W",
+                  "cover_url": "//covers.openlibrary.org/w/id/5514023-M.jpg",
+                  "borrow_url": "/books/OL20067966M/Religion_for_today/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "whatisourrespons0000wrig",
+                  "isbn": "0199148252",
+                  "oclc": null,
+                  "openlibrary_work": "OL1782687W",
+                  "openlibrary_edition": "OL20067966M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.681758,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1313481976",
+                  "identifier": [
+                      "composition00dian"
+                  ],
+                  "filename": [
+                      "composition00dian_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      58
+                  ],
+                  "meta_year": [
+                      "1971"
+                  ],
+                  "created_on": "2016-10-08 07:34:02",
+                  "file_basename": "composition00dian",
+                  "meta_creatorSorter": [
+                      "wilbur, diane a"
+                  ],
+                  "meta_title": [
+                      "Composition : models and exercises"
+                  ],
+                  "page_num": [
+                      276
+                  ],
+                  "sha1_file": "6d22f80e176bb69aa522f5472b41aaaed86b0aa3",
+                  "meta_publicdate": [
+                      "2011-08-03T18:53:41Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2020-12-23 20:45:30",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "americana",
+                      "fav-theslothxxpr",
+                      "fav-samatteb",
+                      "fav-mcorina"
+                  ],
+                  "meta_publisher": [
+                      "New York : Harcourt Brace Jovanovich"
+                  ],
+                  "meta_titleSorter": [
+                      "composition : models and exercises"
+                  ],
+                  "meta_creator": [
+                      "Wilbur, Diane A",
+                      "McFarland, Philip",
+                      "Nunan, Desmond J",
+                      "Warriner, John E"
+                  ],
+                  "meta_date": [
+                      "1971-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "should satisfy the reader's curiosity by {{{giving reasons to}}} support it. The reasons may consist of examples",
+                      "White develops the following paragraph by {{{giving reasons to}}} support his opening statement.\n16      E.",
+                      "paragraph.\nNow You Try It\nWrite a brief paragraph {{{giving reasons to}}} support one of the topic sentences listed"
+                  ]
+              },
+              "_id": "composition00dian|a4761a8e03a312fada4657969fbf872ca7d951b3",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL10102068M",
+                  "url": "/books/OL10102068M/Composition",
+                  "title": "Composition",
+                  "ocaid": "composition00dian",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL3372117A",
+                          "name": "Diane A. Wilbur"
+                      },
+                      {
+                          "key": "/authors/OL2840029A",
+                          "name": "Philip McFarland"
+                      }
+                  ],
+                  "work_key": "/works/OL18155407W",
+                  "cover_url": "//covers.openlibrary.org/w/id/8322377-M.jpg",
+                  "borrow_url": "/books/OL10102068M/Composition/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": true,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "composition00dian",
+                  "isbn": "0153109815",
+                  "oclc": null,
+                  "openlibrary_work": "OL18155407W",
+                  "openlibrary_edition": "OL10102068M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.634794,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1597767612",
+                  "identifier": [
+                      "businessaccounti0002edcoll"
+                  ],
+                  "filename": [
+                      "businessaccounti0002edcoll_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      22
+                  ],
+                  "meta_year": [
+                      2012
+                  ],
+                  "created_on": "2020-08-27 22:25:53",
+                  "file_basename": "businessaccounti0002edcoll",
+                  "meta_creatorSorter": [
+                      "collis, jill"
+                  ],
+                  "meta_title": [
+                      "Business accounting : an introduction to financial and management accounting"
+                  ],
+                  "page_num": [
+                      478
+                  ],
+                  "sha1_file": "d6dbe3503d831f683594213b8d22e5530268cfcb",
+                  "meta_publicdate": [
+                      "2020-08-12T08:00:24Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-05-03 23:09:10",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "worthingtonlibraries-ol"
+                  ],
+                  "meta_publisher": [
+                      "New York : Palgrave Macmillan"
+                  ],
+                  "meta_titleSorter": [
+                      "business accounting : an introduction to financial and management accounting"
+                  ],
+                  "meta_subjectSorter": [
+                      "BUSINESS & ECONOMICS / Accounting / Financial",
+                      "BUSINESS & ECONOMICS / Accounting / Managerial",
+                      "BUSINESS & ECONOMICS / Accounting / General",
+                      "Accounting"
+                  ],
+                  "meta_creator": [
+                      "Collis, Jill"
+                  ],
+                  "meta_date": [
+                      "2012-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations",
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations",
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(d) Comment on any limitations",
+                      "whether Kerry should go ahead with the project, {{{giving reasons to}}} support your advice.\n(c) Comment on any financial",
+                      "which of the two projects should be chosen, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations"
+                  ]
+              },
+              "_id": "businessaccounti0002edcoll|cdb5623f9ed00ad2ceb09fd4ef1a420df80b0fcc",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL25260484M",
+                  "url": "/books/OL25260484M/Business_accounting",
+                  "title": "Business accounting",
+                  "ocaid": "businessaccounti0002edcoll",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL3330670A",
+                          "name": "Jill Collis"
+                      }
+                  ],
+                  "work_key": "/works/OL16572815W",
+                  "cover_url": "//covers.openlibrary.org/w/id/10366935-M.jpg",
+                  "borrow_url": "/books/OL25260484M/Business_accounting/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": true,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "businessaccounti0002edcoll",
+                  "isbn": "9780230276239",
+                  "oclc": null,
+                  "openlibrary_work": "OL16572815W",
+                  "openlibrary_edition": "OL25260484M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.609419,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1614682482",
+                  "identifier": [
+                      "businessaccounti0000coll"
+                  ],
+                  "filename": [
+                      "businessaccounti0000coll_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      12
+                  ],
+                  "meta_year": [
+                      2007
+                  ],
+                  "created_on": "2021-03-02 11:00:16",
+                  "file_basename": "businessaccounti0000coll",
+                  "meta_creatorSorter": [
+                      "collis, jill"
+                  ],
+                  "meta_title": [
+                      "Business accounting : an introduction to financial and management accounting"
+                  ],
+                  "page_num": [
+                      [
+                          408
+                      ]
+                  ],
+                  "sha1_file": "66537c41ba50c2dde8671b7cd51aec177a5bb4d1",
+                  "meta_publicdate": [
+                      "2020-11-10T11:49:00Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-08-13 00:47:16",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "fav-zabbok"
+                  ],
+                  "meta_publisher": [
+                      "Basingstoke [England] ; New York : Palgrave Macmillan"
+                  ],
+                  "meta_titleSorter": [
+                      "business accounting : an introduction to financial and management accounting"
+                  ],
+                  "meta_subjectSorter": [
+                      "Accounting",
+                      "Managerial accounting",
+                      "Management accounting"
+                  ],
+                  "meta_creator": [
+                      "Collis, Jill"
+                  ],
+                  "meta_date": [
+                      "2007-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations",
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations",
+                      "projects is likely to be the better investment, {{{giving reasons to}}} support your advice.\n(d) Comment on any limitations",
+                      "whether Kerry should go ahead with the project, {{{giving reasons to}}} support your advice.\n(c) Comment on any financial",
+                      "which of the two projects should be chosen, {{{giving reasons to}}} support your advice.\n(c) Comment on any limitations"
+                  ]
+              },
+              "_id": "businessaccounti0000coll|eb0973688dcbde08214cf124bb82984f19cc9b82",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL11642674M",
+                  "url": "/books/OL11642674M/Business_Accounting",
+                  "title": "Business Accounting",
+                  "ocaid": "businessaccounti0000coll",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL3330670A",
+                          "name": "Jill Collis"
+                      },
+                      {
+                          "key": "/authors/OL1348260A",
+                          "name": "Roger Hussey"
+                      }
+                  ],
+                  "work_key": "/works/OL24816121W",
+                  "cover_url": "//covers.openlibrary.org/w/id/2744854-M.jpg",
+                  "borrow_url": "/books/OL11642674M/Business_Accounting/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "businessaccounti0000coll",
+                  "isbn": "1403948860",
+                  "oclc": null,
+                  "openlibrary_work": "OL24816121W",
+                  "openlibrary_edition": "OL11642674M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.384708,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1261072962",
+                  "identifier": [
+                      "deputationtorigh00impe"
+                  ],
+                  "filename": [
+                      "deputationtorigh00impe_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      270
+                  ],
+                  "meta_year": [
+                      1897
+                  ],
+                  "created_on": "2016-10-08 21:32:15",
+                  "file_basename": "deputationtorigh00impe",
+                  "meta_creatorSorter": [
+                      "imperial federation league. defence committee"
+                  ],
+                  "meta_title": [
+                      "Deputation to the Right Honourable Sir J. Gordon Sprigg, Premier of Cape Colony"
+                  ],
+                  "page_num": [
+                      26
+                  ],
+                  "sha1_file": "43ac9ecee76e3b262e4288bf4f9fb81d229920b3",
+                  "meta_publicdate": [
+                      "2009-12-15T15:34:07Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-03-26 10:38:16",
+                  "meta_collection": [
+                      "YorkUniversity",
+                      "toronto"
+                  ],
+                  "meta_publisher": [
+                      "Westminster, S.W. : s.n."
+                  ],
+                  "meta_titleSorter": [
+                      "deputation to the right honourable sir j. gordon sprigg, premier of cape colony"
+                  ],
+                  "meta_subjectSorter": [
+                      "Imperial federation",
+                      "Sea-power"
+                  ],
+                  "meta_creator": [
+                      "Imperial Federation League. Defence Committee"
+                  ],
+                  "meta_date": [
+                      "1897-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "maintaining the defences of the Empire. I am {{{giving reasons to}}} show you that by reason of our position there"
+                  ]
+              },
+              "_id": "deputationtorigh00impe|7b996800ecac5b768b26814f38f759d2e2b47510",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL24132139M",
+                  "url": "/books/OL24132139M/Deputation_to_the_Right_Honourable_Sir_J._Gordon_Sprigg_Premier_of_Cape_Colony",
+                  "title": "Deputation to the Right Honourable Sir J. Gordon Sprigg, Premier of Cape Colony",
+                  "ocaid": "deputationtorigh00impe",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [],
+                  "work_key": "/works/OL16744202W",
+                  "cover_url": "//covers.openlibrary.org/b/id/6312956-M.jpg",
+                  "read_url": "/books/OL24132139M/Deputation_to_the_Right_Honourable_Sir_J._Gordon_Sprigg_Premier_of_Cape_Colony/borrow"
+              },
+              "availability": {
+                  "status": "open",
+                  "available_to_browse": false,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": false,
+                  "is_readable": true,
+                  "is_lendable": false,
+                  "is_previewable": true,
+                  "identifier": "deputationtorigh00impe",
+                  "isbn": null,
+                  "oclc": null,
+                  "openlibrary_work": "OL16744202W",
+                  "openlibrary_edition": "OL24132139M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": false,
+                  "is_browseable": false,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.1905365,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1633584872",
+                  "identifier": [
+                      "universityfounda0000mann"
+                  ],
+                  "filename": [
+                      "universityfounda0000mann_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      2
+                  ],
+                  "meta_year": [
+                      2007
+                  ],
+                  "created_on": "2021-10-07 05:43:10",
+                  "file_basename": "universityfounda0000mann",
+                  "meta_creatorSorter": [
+                      "manning, anthony"
+                  ],
+                  "meta_title": [
+                      "University foundation study. Key foundation skills : course book"
+                  ],
+                  "page_num": [
+                      [
+                          30
+                      ]
+                  ],
+                  "sha1_file": "ad791c4929caaff991ad97e3e8d4542a13f93ef4",
+                  "meta_publicdate": [
+                      "2021-10-01T02:07:53Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-11-24 04:48:58",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "Reading, UK : Garnet Education"
+                  ],
+                  "meta_titleSorter": [
+                      "university foundation study. key foundation skills : course book"
+                  ],
+                  "meta_subjectSorter": [
+                      "Study skills -- Study and teaching (Higher) -- Great Britain",
+                      "Study skills -- Study and teaching (Higher)",
+                      "Great Britain"
+                  ],
+                  "meta_creator": [
+                      "Manning, Anthony"
+                  ],
+                  "meta_date": [
+                      "2007-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "Compare your answers with another student, {{{giving reasons to}}} justify your choices.\n1.3 Think about yourself"
+                  ]
+              },
+              "_id": "universityfounda0000mann|6b41b78861eb7b6ce16b074519db20437111602f",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL27315125M",
+                  "url": "/books/OL27315125M/Transferable_Academic_Skills_Kit_(TASK)",
+                  "title": "Transferable Academic Skills Kit (TASK)",
+                  "ocaid": "universityfounda0000mann",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL3375437A",
+                          "name": "Anthony Manning"
+                      }
+                  ],
+                  "work_key": "/works/OL20135144W",
+                  "cover_url": "//covers.openlibrary.org/w/id/8785932-M.jpg",
+                  "borrow_url": "/books/OL27315125M/Transferable_Academic_Skills_Kit_(TASK)/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "universityfounda0000mann",
+                  "isbn": "9781859649152",
+                  "oclc": null,
+                  "openlibrary_work": "OL20135144W",
+                  "openlibrary_edition": "OL27315125M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 14.008144,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1568089601",
+                  "identifier": [
+                      "moralnotions0000kove"
+                  ],
+                  "filename": [
+                      "moralnotions0000kove_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      22
+                  ],
+                  "meta_year": [
+                      1967
+                  ],
+                  "created_on": "2019-09-10 18:38:01",
+                  "file_basename": "moralnotions0000kove",
+                  "meta_creatorSorter": [
+                      "kovesi, julius"
+                  ],
+                  "meta_title": [
+                      "Moral notions. --"
+                  ],
+                  "page_num": [
+                      186
+                  ],
+                  "sha1_file": "12ddfb3ff2c74c2d4e8aabde9c311ce723b0d4d4",
+                  "meta_publicdate": [
+                      "2019-09-06T03:51:51Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-05-09 03:41:09",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "trent_university",
+                      "internetarchivebooks",
+                      "fav-ray_ponz"
+                  ],
+                  "meta_publisher": [
+                      "London : Routledge & Kegan Paul; New York : Humanities P."
+                  ],
+                  "meta_titleSorter": [
+                      "moral notions. --"
+                  ],
+                  "meta_subjectSorter": [
+                      "Ethics -- Terminology",
+                      "Ethics"
+                  ],
+                  "meta_creator": [
+                      "Kovesi, Julius"
+                  ],
+                  "meta_date": [
+                      "1967-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "quite obvious but needs\nFOLLOWING RULES AND {{{GIVING REASONS\nto}}} be substantiated by further arguments, may",
+                      "features relevant\n61\nFOLLOWING RULES AND {{{GIVING REASONS\nto}}} judging something to be a such and such? Obviously"
+                  ]
+              },
+              "_id": "moralnotions0000kove|cf4dd03c080891869b2771514502f7746cf77a79",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL5544112M",
+                  "url": "/books/OL5544112M/Moral_notions.",
+                  "title": "Moral notions.",
+                  "ocaid": "moralnotions0000kove",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL390784A",
+                          "name": "Julius Kovesi"
+                      }
+                  ],
+                  "work_key": "/works/OL2677772W",
+                  "cover_url": "//covers.openlibrary.org/w/id/2075299-M.jpg",
+                  "borrow_url": "/books/OL5544112M/Moral_notions./borrow"
+              },
+              "availability": {
+                  "status": "private",
+                  "available_to_browse": null,
+                  "available_to_borrow": null,
+                  "available_to_waitlist": null,
+                  "is_printdisabled": null,
+                  "is_readable": null,
+                  "is_lendable": null,
+                  "is_previewable": true,
+                  "identifier": "moralnotions0000kove",
+                  "isbn": null,
+                  "oclc": null,
+                  "openlibrary_work": "OL2677772W",
+                  "openlibrary_edition": "OL5544112M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": null,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.881351,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1446215660",
+                  "identifier": [
+                      "b22376355"
+                  ],
+                  "filename": [
+                      "b22376355_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      85
+                  ],
+                  "meta_year": [
+                      1851
+                  ],
+                  "created_on": "2016-10-09 00:15:43",
+                  "file_basename": "b22376355",
+                  "meta_creatorSorter": [
+                      "richardson, sir benjamin ward, (1828-1897)"
+                  ],
+                  "meta_title": [
+                      "Remarks on the fibrinous element of the blood in relation to disease : read before the Medical Society of London, Nov. 15, 1851"
+                  ],
+                  "page_num": [
+                      20
+                  ],
+                  "sha1_file": "78a95ccbe2d934837fdc35bb241fd597a3427882",
+                  "meta_publicdate": [
+                      "2015-09-29T08:40:04Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-03-25 04:59:38",
+                  "meta_collection": [
+                      "rcseng",
+                      "ukmhl",
+                      "medicalheritagelibrary",
+                      "europeanlibraries"
+                  ],
+                  "meta_publisher": [
+                      "London : Printed by Wilson and Ogilvy"
+                  ],
+                  "meta_titleSorter": [
+                      "remarks on the fibrinous element of the blood in relation to disease : read before the medical society of london, nov. 15, 1851"
+                  ],
+                  "meta_subjectSorter": [
+                      "Fibrin"
+                  ],
+                  "meta_creator": [
+                      "Richardson, Sir Benjamin Ward, (1828-1897)",
+                      "Royal College of Surgeons of England"
+                  ],
+                  "meta_date": [
+                      "1851-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "the arterial branches.\u201d Dr. Corrigan, after {{{giving reasons to}}} show that this concretion was not formed in"
+                  ]
+              },
+              "_id": "b22376355|030099967015181fd84d11de42557b6a45058fd0",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL33082956M",
+                  "url": "/books/OL33082956M/Remarks_on_the_fibrinous_element_of_the_blood_in_relation_to_disease",
+                  "title": "Remarks on the fibrinous element of the blood in relation to disease",
+                  "ocaid": "b22376355",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL7371369A",
+                          "name": "Sir Benjamin Ward Richardson"
+                      }
+                  ],
+                  "work_key": "/works/OL24888653W",
+                  "cover_url": "//covers.openlibrary.org/w/id/11784574-M.jpg",
+                  "read_url": "/books/OL33082956M/Remarks_on_the_fibrinous_element_of_the_blood_in_relation_to_disease/borrow"
+              },
+              "availability": {
+                  "status": "open",
+                  "available_to_browse": false,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": false,
+                  "is_readable": true,
+                  "is_lendable": false,
+                  "is_previewable": true,
+                  "identifier": "b22376355",
+                  "isbn": null,
+                  "oclc": null,
+                  "openlibrary_work": "OL24888653W",
+                  "openlibrary_edition": "OL33082956M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": false,
+                  "is_browseable": false,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.845869,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1381330818",
+                  "identifier": [
+                      "secularconscienc00dace"
+                  ],
+                  "filename": [
+                      "secularconscienc00dace_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      48
+                  ],
+                  "meta_year": [
+                      "2008"
+                  ],
+                  "created_on": "2016-10-09 01:12:03",
+                  "file_basename": "secularconscienc00dace",
+                  "meta_creatorSorter": [
+                      "dacey, austin, 1972-"
+                  ],
+                  "meta_title": [
+                      "The secular conscience : why belief belongs in public life"
+                  ],
+                  "page_num": [
+                      286
+                  ],
+                  "sha1_file": "8c6e52ec488139060a3c56be2b435cda327ae960",
+                  "meta_publicdate": [
+                      "2012-12-19T18:25:03Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2020-08-31 02:20:12",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "americana",
+                      "fav-stevexxxx",
+                      "fav-stevexx",
+                      "belmont-ol",
+                      "cuny-ol",
+                      "dartmouthlibrary-ol",
+                      "denverpubliclibrary-ol",
+                      "drakeuniversity-ol",
+                      "holdings-test",
+                      "kalamazoocollege-ol",
+                      "randolph-macon-college-ol",
+                      "riceuniversity-ol",
+                      "tamu-evanslibrary-ol",
+                      "the-claremont-colleges-ol",
+                      "universityofarizona-ol",
+                      "universityofoklahoma-ol",
+                      "yaleuniversitylibrary-ol"
+                  ],
+                  "meta_publisher": [
+                      "Amherst, N.Y. : Prometheus Books"
+                  ],
+                  "meta_titleSorter": [
+                      "the secular conscience : why belief belongs in public life"
+                  ],
+                  "meta_subjectSorter": [
+                      "Secularism",
+                      "Religion and ethics",
+                      "Religion and politics"
+                  ],
+                  "meta_creator": [
+                      "Dacey, Austin, 1972-"
+                  ],
+                  "meta_date": [
+                      "2008-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "takes shape inside a social context of people {{{giving reasons to}}} each other. In this way, although conscience",
+                      "Nothing could be further from intolerance. {{{Giving reasons to}}} others is the laudable alternative to imposing",
+                      "facts, then they are essentially motivating, {{{giving reasons to}}} all rational beings.\nThe Search for the Theory"
+                  ]
+              },
+              "_id": "secularconscienc00dace|02b5aa4828a4bd3460ecca1f72338f3164787678",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL18017287M",
+                  "url": "/books/OL18017287M/The_secular_conscience",
+                  "title": "The secular conscience",
+                  "ocaid": "secularconscienc00dace",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL5388170A",
+                          "name": "Austin Dacey"
+                      }
+                  ],
+                  "work_key": "/works/OL12304135W",
+                  "cover_url": "//covers.openlibrary.org/b/id/9752022-M.jpg",
+                  "borrow_url": "/books/OL18017287M/The_secular_conscience/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": true,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "secularconscienc00dace",
+                  "isbn": "9781591026044",
+                  "oclc": null,
+                  "openlibrary_work": "OL12304135W",
+                  "openlibrary_edition": "OL18017287M",
+                  "last_loan_date": "2020-06-21T14:54:56Z",
+                  "num_waitlist": "0",
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.818737,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1631658028",
+                  "identifier": [
+                      "comprehension0000butt"
+                  ],
+                  "filename": [
+                      "comprehension0000butt_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      3
+                  ],
+                  "meta_year": [
+                      2001
+                  ],
+                  "created_on": "2021-09-14 22:47:47",
+                  "file_basename": "comprehension0000butt",
+                  "meta_creatorSorter": [
+                      "butterworth, john, 1944-"
+                  ],
+                  "meta_title": [
+                      "Comprehension"
+                  ],
+                  "page_num": [
+                      [
+                          38
+                      ]
+                  ],
+                  "sha1_file": "9d483edada1a1903b9dcf82db937c856afcbe660",
+                  "meta_publicdate": [
+                      "2021-09-07T11:48:51Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-11-02 07:07:56",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "Oxford : Oxford University Press"
+                  ],
+                  "meta_titleSorter": [
+                      "comprehension"
+                  ],
+                  "meta_subjectSorter": [
+                      "English language -- Usage -- Juvenile literature",
+                      "Reading comprehension -- Juvenile literature",
+                      "English language -- Usage",
+                      "Reading comprehension"
+                  ],
+                  "meta_creator": [
+                      "Butterworth, John, 1944-"
+                  ],
+                  "meta_date": [
+                      "2001-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "tries to persuade the reader or listener by {{{giving reasons to}}} support an opinion or idea.\nWhoever a text"
+                  ]
+              },
+              "_id": "comprehension0000butt|8143d0e233803124fc06427954ab9f2060f364f4",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL10141886M",
+                  "url": "/books/OL10141886M/Comprehension",
+                  "title": "Comprehension",
+                  "ocaid": "comprehension0000butt",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL2668435A",
+                          "name": "John Butterworth"
+                      }
+                  ],
+                  "work_key": "/works/OL8015012W",
+                  "cover_url": "//covers.openlibrary.org/w/id/2332423-M.jpg",
+                  "borrow_url": "/books/OL10141886M/Comprehension/borrow"
+              },
+              "availability": {
+                  "status": "borrow_unavailable",
+                  "available_to_browse": false,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "comprehension0000butt",
+                  "isbn": "0199107513",
+                  "oclc": null,
+                  "openlibrary_work": "OL8015012W",
+                  "openlibrary_edition": "OL10141886M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": false,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.805401,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1576131620",
+                  "identifier": [
+                      "waltermondaleser0000schn"
+                  ],
+                  "filename": [
+                      "waltermondaleser0000schn_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      1
+                  ],
+                  "meta_year": [
+                      "1984"
+                  ],
+                  "created_on": "2019-12-14 04:05:39",
+                  "file_basename": "waltermondaleser0000schn",
+                  "meta_creatorSorter": [
+                      "schneider, tom"
+                  ],
+                  "meta_title": [
+                      "Walter Mondale : serving all the people"
+                  ],
+                  "page_num": [
+                      74
+                  ],
+                  "sha1_file": "362b56be260df5844edd812df7a4be9e53753ead",
+                  "meta_publicdate": [
+                      "2019-12-07T05:39:23Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2020-10-13 20:47:58",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "bpljordan-ol"
+                  ],
+                  "meta_publisher": [
+                      "Minneapolis, Minn. : Dillon Press"
+                  ],
+                  "meta_titleSorter": [
+                      "walter mondale : serving all the people"
+                  ],
+                  "meta_subjectSorter": [
+                      "United States",
+                      "Mondale, Walter F., 1928-",
+                      "Mondale, Walter F., 1928- -- Juvenile literature",
+                      "United States. Congress. Senate -- Biography -- Juvenile literature",
+                      "Vice-Presidents -- United States -- Biography -- Juvenile literature",
+                      "United States. Congress. Senate",
+                      "Vice-Presidents",
+                      "Legislators -- United States -- Biography -- Juvenile literature",
+                      "Legislators"
+                  ],
+                  "meta_creator": [
+                      "Schneider, Tom"
+                  ],
+                  "meta_date": [
+                      "1984-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "Hubert Humphrey. At homes he left pamphlets {{{giving reasons to}}} vote for the mayor. In stores he put up Humphrey"
+                  ]
+              },
+              "_id": "waltermondaleser0000schn|c09bfd7bdb86657653f7ad9ff7436bd5871e7c4b",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL3180559M",
+                  "url": "/books/OL3180559M/Walter_Mondale",
+                  "title": "Walter Mondale",
+                  "ocaid": "waltermondaleser0000schn",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL1150123A",
+                          "name": "Tom Schneider"
+                      }
+                  ],
+                  "work_key": "/works/OL5171748W",
+                  "cover_url": "//covers.openlibrary.org/w/id/8552133-M.jpg",
+                  "borrow_url": "/books/OL3180559M/Walter_Mondale/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": true,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "waltermondaleser0000schn",
+                  "isbn": "0875182593",
+                  "oclc": null,
+                  "openlibrary_work": "OL5171748W",
+                  "openlibrary_edition": "OL3180559M",
+                  "last_loan_date": null,
+                  "num_waitlist": "0",
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.803783,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1318369054",
+                  "identifier": [
+                      "measuredpace00cole"
+                  ],
+                  "filename": [
+                      "measuredpace00cole_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      29
+                  ],
+                  "meta_year": [
+                      1986
+                  ],
+                  "created_on": "2016-10-08 17:40:51",
+                  "file_basename": "measuredpace00cole",
+                  "meta_creatorSorter": [
+                      "coleman, william l"
+                  ],
+                  "meta_title": [
+                      "A measured pace"
+                  ],
+                  "page_num": [
+                      150
+                  ],
+                  "sha1_file": "d873844757fa2f23c08801668bf80dd10cf745c6",
+                  "meta_publicdate": [
+                      "2010-09-02T13:54:06Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2021-02-25 19:43:59",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "china"
+                  ],
+                  "meta_publisher": [
+                      "Minneapolis, Minn. : Bethany House"
+                  ],
+                  "meta_titleSorter": [
+                      "a measured pace"
+                  ],
+                  "meta_subjectSorter": [
+                      "Meditations"
+                  ],
+                  "meta_creator": [
+                      "Coleman, William L"
+                  ],
+                  "meta_date": [
+                      "1986-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "is taking pain\nAnd making the best\nOfit,\n{{{Giving reasons to}}} go on.\nSupplying hope for tomorrow.\nI apologize"
+                  ]
+              },
+              "_id": "measuredpace00cole|00f08b59595a42ad0194db90c43643e441e3559e",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL2718494M",
+                  "url": "/books/OL2718494M/A_measured_pace",
+                  "title": "A measured pace",
+                  "ocaid": "measuredpace00cole",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL220972A",
+                          "name": "William L. Coleman"
+                      }
+                  ],
+                  "work_key": "/works/OL1845667W",
+                  "cover_url": "//covers.openlibrary.org/w/id/4167278-M.jpg",
+                  "borrow_url": "/books/OL2718494M/A_measured_pace/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "measuredpace00cole",
+                  "isbn": "0871236710",
+                  "oclc": null,
+                  "openlibrary_work": "OL1845667W",
+                  "openlibrary_edition": "OL2718494M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.795542,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1639425504",
+                  "identifier": [
+                      "secularconscienc0000dace"
+                  ],
+                  "filename": [
+                      "secularconscienc0000dace_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      1
+                  ],
+                  "meta_year": [
+                      2008
+                  ],
+                  "created_on": "2021-12-13 20:31:59",
+                  "file_basename": "secularconscienc0000dace",
+                  "meta_creatorSorter": [
+                      "dacey, austin, 1972-"
+                  ],
+                  "meta_title": [
+                      "The secular conscience : why belief belongs in public life"
+                  ],
+                  "page_num": [
+                      [
+                          290
+                      ]
+                  ],
+                  "sha1_file": "cb6bc525b3fb7441d4808b567cd923b22e96f766",
+                  "meta_publicdate": [
+                      "2021-12-07T11:14:25Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-05-25 17:25:26",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "Amherst, N.Y. : Prometheus Books"
+                  ],
+                  "meta_titleSorter": [
+                      "the secular conscience : why belief belongs in public life"
+                  ],
+                  "meta_subjectSorter": [
+                      "Secularism",
+                      "Religion and ethics",
+                      "Religion and politics"
+                  ],
+                  "meta_creator": [
+                      "Dacey, Austin, 1972-"
+                  ],
+                  "meta_date": [
+                      "2008-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "takes shape inside a social context of people {{{giving reasons to}}} each other. In this way, although conscience",
+                      "Nothing could be further from intolerance. {{{Giving reasons to}}} others is the laudable alternative to imposing",
+                      "facts, then they are essentially motivating, {{{giving reasons to}}} all rational beings.\nPerhaps the most widely"
+                  ]
+              },
+              "_id": "secularconscienc0000dace|97a7dc80f7481fadfe6babc5a2bb4df52d7664db",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL12371886M",
+                  "url": "/books/OL12371886M/Secular_Conscience",
+                  "title": "Secular Conscience",
+                  "ocaid": "secularconscienc0000dace",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL2814155A",
+                          "name": "Austin Dacey"
+                      },
+                      {
+                          "key": "/authors/OL5388170A",
+                          "name": "Austin Dacey"
+                      }
+                  ],
+                  "work_key": "/works/OL8441965W",
+                  "cover_url": "//covers.openlibrary.org/w/id/2952277-M.jpg",
+                  "borrow_url": "/books/OL12371886M/Secular_Conscience/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "secularconscienc0000dace",
+                  "isbn": "9781591026044",
+                  "oclc": null,
+                  "openlibrary_work": "OL8441965W",
+                  "openlibrary_edition": "OL12371886M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.666119,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1301498955",
+                  "identifier": [
+                      "thomasgordoninde00bull"
+                  ],
+                  "filename": [
+                      "thomasgordoninde00bull_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      546
+                  ],
+                  "meta_year": [
+                      1918
+                  ],
+                  "created_on": "2020-09-19 00:10:48",
+                  "file_basename": "thomasgordoninde00bull",
+                  "meta_creatorSorter": [
+                      "bulloch, john malcolm"
+                  ],
+                  "meta_title": [
+                      "Thomas Gordon, the \"Independent Whig,\" by J.M. Bulloch"
+                  ],
+                  "page_num": [
+                      40
+                  ],
+                  "sha1_file": "2e5247913a6c4f7b40ea97e1863a1c4cf3550cb9",
+                  "meta_publicdate": [
+                      "2011-03-23T13:38:06Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-04-06 05:48:59",
+                  "meta_collection": [
+                      "library_of_congress",
+                      "americana"
+                  ],
+                  "meta_publisher": [
+                      "Aberdeen, University Press"
+                  ],
+                  "meta_titleSorter": [
+                      "thomas gordon, the \"independent whig,\" by j.m. bulloch"
+                  ],
+                  "meta_subjectSorter": [
+                      "Gordon, Thomas, d. 1750"
+                  ],
+                  "meta_creator": [
+                      "Bulloch, John Malcolm"
+                  ],
+                  "meta_date": [
+                      "1918-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "series, which opened with a letter by Gordon {{{giving \" Reasons to}}} prove we are in no danger of losing Gibraltar"
+                  ]
+              },
+              "_id": "thomasgordoninde00bull|ef800e8d6e690f7961e6fd9274650b91f7e3f4b1",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL6614884M",
+                  "url": "/books/OL6614884M/Thomas_Gordon_the_Independent_Whig_by_J.M._Bulloch.",
+                  "title": "Thomas Gordon, the \"Independent Whig,\" by J.M. Bulloch.",
+                  "ocaid": "thomasgordoninde00bull",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL2312702A",
+                          "name": "Bulloch, John Malcolm."
+                      }
+                  ],
+                  "work_key": "/works/OL7556744W",
+                  "cover_url": "//covers.openlibrary.org/w/id/7051316-M.jpg",
+                  "read_url": "/books/OL6614884M/Thomas_Gordon_the_Independent_Whig_by_J.M._Bulloch./borrow"
+              },
+              "availability": {
+                  "status": "open",
+                  "available_to_browse": false,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": false,
+                  "is_readable": true,
+                  "is_lendable": false,
+                  "is_previewable": true,
+                  "identifier": "thomasgordoninde00bull",
+                  "isbn": null,
+                  "oclc": null,
+                  "openlibrary_work": "OL7556744W",
+                  "openlibrary_edition": "OL6614884M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": false,
+                  "is_browseable": false,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.656725,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1329411077",
+                  "identifier": [
+                      "thomasgordonind00bull"
+                  ],
+                  "filename": [
+                      "thomasgordonind00bull_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      424
+                  ],
+                  "meta_year": [
+                      1918
+                  ],
+                  "created_on": "2016-10-09 17:58:00",
+                  "file_basename": "thomasgordonind00bull",
+                  "meta_creatorSorter": [
+                      "bulloch, john malcolm"
+                  ],
+                  "meta_title": [
+                      "Thomas Gordon, the \"Independent whig\". (A biographical bibliography. Reprinted from the Aberdeen University Library bulletin, vol. III, no. 17, 18.)"
+                  ],
+                  "page_num": [
+                      42
+                  ],
+                  "sha1_file": "e466e463acab4884fd26f52e95c26b20956d5e62",
+                  "meta_publicdate": [
+                      "2012-02-16T10:30:44Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-04-06 05:49:00",
+                  "meta_collection": [
+                      "scottishfamilyhistory",
+                      "nationallibraryofscotland",
+                      "europeanlibraries"
+                  ],
+                  "meta_publisher": [
+                      "Aberdeen"
+                  ],
+                  "meta_titleSorter": [
+                      "thomas gordon, the \"independent whig\". (a biographical bibliography. reprinted from the aberdeen university library bulletin, vol. iii, no. 17, 18.)"
+                  ],
+                  "meta_creator": [
+                      "Bulloch, John Malcolm"
+                  ],
+                  "meta_date": [
+                      "1918-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "series, which opened with a letter by Gordon {{{giving \" Reasons to}}} prove we are in no danger of losing Gibraltar\"\u2014the"
+                  ]
+              },
+              "_id": "thomasgordonind00bull|bae4690ead0fb34bf5625c76529ba837e7378aaa",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL25207965M",
+                  "url": "/books/OL25207965M/Thomas_Gordon_the_Independent_whig_._(A_biographical_bibliography._Reprinted_from_the_Aberdeen_Unive",
+                  "title": "Thomas Gordon, the \"Independent whig\". (A biographical bibliography. Reprinted from the Aberdeen University Library bulletin, vol. III, no. 17, 18.).",
+                  "ocaid": "thomasgordonind00bull",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL6553455A",
+                          "name": "John Malcolm Bulloch"
+                      }
+                  ],
+                  "work_key": "/works/OL16511631W",
+                  "cover_url": "//covers.openlibrary.org/w/id/7064212-M.jpg",
+                  "read_url": "/books/OL25207965M/Thomas_Gordon_the_Independent_whig_._(A_biographical_bibliography._Reprinted_from_the_Aberdeen_Unive/borrow"
+              },
+              "availability": {
+                  "status": "open",
+                  "available_to_browse": false,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": false,
+                  "is_readable": true,
+                  "is_lendable": false,
+                  "is_previewable": true,
+                  "identifier": "thomasgordonind00bull",
+                  "isbn": null,
+                  "oclc": null,
+                  "openlibrary_work": "OL16511631W",
+                  "openlibrary_edition": "OL25207965M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": false,
+                  "is_browseable": false,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.626456,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1547267544",
+                  "identifier": [
+                      "adventureofchris0000whel"
+                  ],
+                  "filename": [
+                      "adventureofchris0000whel_abbyy.gz"
+                  ],
+                  "meta_downloads": [
+                      8
+                  ],
+                  "meta_year": [
+                      "2004"
+                  ],
+                  "created_on": "2019-01-15 10:26:18",
+                  "file_basename": "adventureofchris0000whel",
+                  "meta_creatorSorter": [
+                      "whelchel, lisa"
+                  ],
+                  "meta_title": [
+                      "The adventure of Christmas : helping children find Jesus in our holiday traditions : mom's guide"
+                  ],
+                  "page_num": [
+                      74
+                  ],
+                  "sha1_file": "268cff0dcdade94ad8d67901add8b13340948eaf",
+                  "meta_publicdate": [
+                      "2019-01-10T01:58:21Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2020-08-31 10:56:09",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks",
+                      "holdings-test"
+                  ],
+                  "meta_publisher": [
+                      "Sisters, Or. : Multnomah Gifts"
+                  ],
+                  "meta_titleSorter": [
+                      "the adventure of christmas : helping children find jesus in our holiday traditions : mom's guide"
+                  ],
+                  "meta_subjectSorter": [
+                      "{u'12': u'Nativity of Jesus Christ', u'1': u'Jesus Christ', u'0': u'Jesus Christ -- Nativity', u'3': u'Christmas cooking', u'2': u'Christmas', u'5': u'Christian life', u'4': u'Christmas decorations', u'6': u'Children -- Religious life'}",
+                      "Jesus Christ -- Nativity",
+                      "Jesus Christ",
+                      "Christmas",
+                      "Christmas cooking",
+                      "Christmas decorations",
+                      "Christian life",
+                      "Children -- Religious life",
+                      "Nativity of Jesus Christ"
+                  ],
+                  "meta_creator": [
+                      "Whelchel, Lisa"
+                  ],
+                  "meta_date": [
+                      "2004-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "TZ Y \u00b0fChnstm\" captures the true\nseason, {{{giving reasons to}}} celebrate for years to come.\nmeaning\nLisa"
+                  ]
+              },
+              "_id": "adventureofchris0000whel|5ffa5d573e4259b0dc83129e4364483e86ccc33b",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL3328977M",
+                  "url": "/books/OL3328977M/The_adventure_of_Christmas",
+                  "title": "The adventure of Christmas",
+                  "ocaid": "adventureofchris0000whel",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL1401537A",
+                          "name": "Lisa Whelchel"
+                      }
+                  ],
+                  "work_key": "/works/OL5759454W",
+                  "cover_url": "//covers.openlibrary.org/w/id/860271-M.jpg",
+                  "borrow_url": "/books/OL3328977M/The_adventure_of_Christmas/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": true,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "adventureofchris0000whel",
+                  "isbn": "1590520890",
+                  "oclc": null,
+                  "openlibrary_work": "OL5759454W",
+                  "openlibrary_edition": "OL3328977M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          },
+          {
+              "_score": 13.570379,
+              "_index": "fts_main",
+              "fields": {
+                  "file_creation_mtime": "1648537530",
+                  "identifier": [
+                      "answerstoproblem0000page"
+                  ],
+                  "filename": [
+                      "answerstoproblem0000page_hocr_searchtext.txt.gz"
+                  ],
+                  "meta_downloads": [
+                      4
+                  ],
+                  "meta_year": [
+                      1969
+                  ],
+                  "created_on": "2022-03-29 07:31:10",
+                  "file_basename": "answerstoproblem0000page",
+                  "meta_creatorSorter": [
+                      "page, m. g. (matthew george)"
+                  ],
+                  "meta_title": [
+                      "Answers to problems in workshop technology"
+                  ],
+                  "page_num": [
+                      [
+                          222
+                      ]
+                  ],
+                  "sha1_file": "cc4cb29825d6d16f3d9acec8f0fa7c0ec1a4113e",
+                  "meta_publicdate": [
+                      "2022-03-25T13:12:04Z"
+                  ],
+                  "meta_mediatype": [
+                      "texts"
+                  ],
+                  "meta_languageSorter": [
+                      "English"
+                  ],
+                  "updated_on": "2022-05-21 14:43:38",
+                  "meta_collection": [
+                      "inlibrary",
+                      "printdisabled",
+                      "internetarchivebooks"
+                  ],
+                  "meta_publisher": [
+                      "London : Cassell"
+                  ],
+                  "meta_titleSorter": [
+                      "answers to problems in workshop technology"
+                  ],
+                  "meta_subjectSorter": [
+                      "Machine-shop practice -- Examinations, questions, etc",
+                      "Machine-shop practice"
+                  ],
+                  "meta_creator": [
+                      "Page, M. G. (Matthew George)"
+                  ],
+                  "meta_date": [
+                      "1969-01-01T00:00:00Z"
+                  ]
+              },
+              "highlight": {
+                  "text": [
+                      "normalizing would be preferred to annealing, {{{giving reasons to}}} support your answer. (W.L.C.L.)\n(a) (i) Case-hardening",
+                      "steady is of the fixed or travelling kind, {{{giving reasons to}}} support your answer. Give two examples each"
+                  ]
+              },
+              "_id": "answerstoproblem0000page|6ccd12a8936e3a374cb4af364d3b59774a798726",
+              "_type": "_doc",
+              "edition": {
+                  "key": "/books/OL14989420M",
+                  "url": "/books/OL14989420M/Answers_to_problems_in_workshop_technology",
+                  "title": "Answers to problems in workshop technology",
+                  "ocaid": "answerstoproblem0000page",
+                  "eligibility": {},
+                  "availability": {},
+                  "authors": [
+                      {
+                          "key": "/authors/OL3474569A",
+                          "name": "M. G. Page"
+                      }
+                  ],
+                  "work_key": "/works/OL9446701W",
+                  "cover_url": "//covers.openlibrary.org/w/id/12698595-M.jpg",
+                  "borrow_url": "/books/OL14989420M/Answers_to_problems_in_workshop_technology/borrow"
+              },
+              "availability": {
+                  "status": "borrow_available",
+                  "available_to_browse": true,
+                  "available_to_borrow": false,
+                  "available_to_waitlist": false,
+                  "is_printdisabled": true,
+                  "is_readable": false,
+                  "is_lendable": true,
+                  "is_previewable": true,
+                  "identifier": "answerstoproblem0000page",
+                  "isbn": "0304932957",
+                  "oclc": null,
+                  "openlibrary_work": "OL9446701W",
+                  "openlibrary_edition": "OL14989420M",
+                  "last_loan_date": null,
+                  "num_waitlist": null,
+                  "last_waitlist_date": null,
+                  "is_restricted": true,
+                  "is_browseable": true,
+                  "__src__": "core.models.lending.get_availability"
+              }
+          }
+      ],
+      "max_score": 15.493027,
+      "total": 1004
+  },
+  "_shards": {
+      "skipped": 0,
+      "successful": 240,
+      "failed": 0,
+      "total": 240
+  },
+  "took": 1071
+}

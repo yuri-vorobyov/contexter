@@ -1,4 +1,14 @@
-export { search };
+import { Snippet } from "./snippet.js";
+export { search, searchPage };
+
+/**
+ * Returns a Promise that will be resolved after delay.
+ * @param {Number} delay - Delay in ms.
+ * @returns {Promise}
+ */
+function wait(delay) {
+  return new Promise((resolve) => setTimeout(resolve, delay));
+}
 
 /**
  * A book information returned by Google Books API. The concrete set of properties
@@ -8,6 +18,10 @@ export { search };
  *         searchInfo: {textSnippet: string}}}
  */
 
+/**
+ * Number of results on a single page.
+ * @const {Number}
+ */
 const COUNT = 40;
 
 /**
@@ -20,7 +34,7 @@ const COUNT = 40;
 function urlFor(search, start = 0, count = 10) {
   const url = new URL("https://www.googleapis.com/books/v1/volumes");
   url.searchParams.append("q", `"${search}"`); // adding quotes for strict search
-  url.searchParams.append("langRestrict", "en");
+  url.searchParams.append("langRestrict", "en"); // English sources only
   url.searchParams.append("startIndex", start);
   url.searchParams.append("maxResults", count);
   url.searchParams.append(
@@ -40,11 +54,52 @@ function urlFor(search, start = 0, count = 10) {
  */
 function processPage(page) {
   if ("items" in page) {
-    return page.items
+    page.items = page.items
       .filter((item) => "searchInfo" in item) // "searchInfo" must be available
       .filter((item) => item.searchInfo.textSnippet.match(/<b>.*<\/b>/)); // "textSnippet" must contain search token
   } else {
-    return [];
+    page.items = [];
+  }
+
+  return page;
+}
+
+class GBSnippet extends Snippet {
+  constructor(source) {
+    super(source, /<b>(.+?)<\/b>/);
+  }
+}
+
+/**
+ * Parses the data returned by Google Books API and returns the result in unified format.
+ * @param {object} item
+ * @param { {title: string, authors: string[], publishedDate: string} } item.volumeInfo
+ * @param { {textSnippet: string} } item.searchInfo
+ */
+function parseItem(item) {
+  const out = {};
+  try {
+    /* parsing title, authors, and year */
+    out.title = item.volumeInfo.title;
+    out.authors = item.volumeInfo.authors;
+    out.publishedYear = new Date(item.volumeInfo.publishedDate).getFullYear();
+    /* decoding HTML stuff and parsing */
+    const snippetText = item.searchInfo.textSnippet
+      .replace(/&#(\d+);/g, (match, code) => String.fromCharCode(code))
+      .replace(/&nbsp;/g, " ")
+      .replace(/&quot;/g, '"')
+      .replace(/&gt;/g, ">")
+      .replace(/&lt;/g, "<")
+      .replace(/[“”]/g, '"')
+      .replace(/\s([\.,:;])/g, "$1") // removing space before some punctuation
+      .replace(/(\w)(-\s+)/g, "$1-");
+    const snippet = new GBSnippet(snippetText);
+    out.snippets = [snippet];
+    return out;
+  } catch (err) {
+    console.log(`Error: ${err}`);
+    console.log("while parsing:");
+    console.log(item);
   }
 }
 
@@ -52,18 +107,28 @@ function processPage(page) {
  * Convenient wrapper around fetch() function.
  *
  * @param {string} search
- * @param {number} start
- * @param {number} count
+ * @param {number} [start=0]
+ * @param {number} [count=40]
  * @returns
  */
-async function searchPage(search, start = 0, count = 10) {
+async function searchPage(search, start = 0, count = 40) {
   const url = urlFor(search, start, count);
+  // const url = "/test/mock-data/gb_giving-reasons-to.json";
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
     if (contentType.match(/application\/json/)) {
       const page = await responce.json();
-      return page;
+      const out = {};
+      /* total number of results */
+      out.totalItems = page.totalItems;
+      /* search results in unified format */
+      out.items = processPage(page).items.map(parseItem);
+      /* search results must be strictly equal to the query */
+      out.items = out.items.filter(
+        (item) => item.snippets[0].search.toLowerCase() === search.toLowerCase()
+      );
+      return out;
     } else {
       throw new Error(`Unexpected content type "${contentType}"`);
     }
@@ -73,15 +138,12 @@ async function searchPage(search, start = 0, count = 10) {
 }
 
 /**
- * Returns a Promise that will be resolved after delay.
- * @param {Number} delay - Delay in ms.
- * @returns {Promise}
+ * The main search facility.
+ * @param {string} search - Search query.
+ * @returns
  */
-function wait(delay) {
-  return new Promise((resolve) => setTimeout(resolve, delay));
-}
-
 async function search(search) {
+  /* for benchmark purposes */
   const t0 = performance.now();
 
   /* retrieving first page to get idea about the total count of search results */

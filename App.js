@@ -1,19 +1,15 @@
-import { search as gbSearch } from "./gb-client.js";
-import { search as olSearch } from "./ol-client.js";
+import { search as gbSearch, searchPage as gbSearchPage } from "./gb-client.js";
+import { search as olSearch, searchPage as olSearchPage } from "./ol-client.js";
 
 document.querySelector("form").addEventListener("submit", handleSubmit);
 
 const gbList = document.querySelector("#gb ul"); // DOM container for the GB search results
 const olList = document.querySelector("#ol ul"); // DOM container for the OL search results
 
-// function showLoader() {
-//   document.getElementById("loader").style.display = "block";
-// }
-
-// function hideLoader() {
-//   document.getElementById("loader").style.display = "none";
-// }
-
+/**
+ * Removes root's children one by one.
+ * @param {Node} root - Parent node.
+ */
 function clearChildren(root) {
   while (root.lastChild) root.lastChild.remove();
 }
@@ -84,8 +80,19 @@ async function loadFromOpenLibrary(search) {
   });
 }
 
+/**
+ * Handles user's search query.
+ * @param {SubmitEvent} event
+ */
 function handleSubmit(event) {
   event.preventDefault();
+
+  const searchText = document.getElementById("search").value;
+
+  gbSearchPage(searchText).then(console.log);
+  olSearchPage(searchText).then(console.log);
+
+  return;
 
   clearChildren(gbList);
   clearChildren(olList);
@@ -93,8 +100,6 @@ function handleSubmit(event) {
   /* showing loaders */
   document.querySelector("#gb .loader").style.display = "block";
   document.querySelector("#ol .loader").style.display = "block";
-
-  const searchText = document.getElementById("search").value;
 
   loadFromGoogleBooks(searchText);
   loadFromOpenLibrary(searchText);
