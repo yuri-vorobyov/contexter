@@ -84,13 +84,14 @@ async function loadFromOpenLibrary(search) {
  * Handles user's search query.
  * @param {SubmitEvent} event
  */
-function handleSubmit(event) {
+async function handleSubmit(event) {
   event.preventDefault();
 
   const searchText = document.getElementById("search").value;
 
-  gbSearchPage(searchText).then(console.log);
-  olSearchPage(searchText).then(console.log);
+  for await (const chunk of gbSearch(searchText)) {
+    console.log(chunk);
+  }
 
   return;
 
@@ -100,7 +101,4 @@ function handleSubmit(event) {
   /* showing loaders */
   document.querySelector("#gb .loader").style.display = "block";
   document.querySelector("#ol .loader").style.display = "block";
-
-  loadFromGoogleBooks(searchText);
-  loadFromOpenLibrary(searchText);
 }

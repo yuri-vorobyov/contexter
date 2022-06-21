@@ -1,14 +1,6 @@
+import { wait, whoIsFirst, PromiseStatus } from "./asygen.js";
 import { Snippet } from "./snippet.js";
 export { search, searchPage };
-
-/**
- * Returns a Promise that will be resolved after delay.
- * @param {Number} delay - Delay in ms.
- * @returns {Promise}
- */
-function wait(delay) {
-  return new Promise((resolve) => setTimeout(resolve, delay));
-}
 
 /**
  * A book information returned by Google Books API. The concrete set of properties
@@ -109,7 +101,7 @@ function parseItem(item) {
  * @param {string} search
  * @param {number} [start=0]
  * @param {number} [count=40]
- * @returns
+ * @returns {Promise<{totalItems: number, items: GBSnippet[]}>}
  */
 async function searchPage(search, start = 0, count = 40) {
   const url = urlFor(search, start, count);
@@ -138,42 +130,42 @@ async function searchPage(search, start = 0, count = 40) {
 }
 
 /**
- * The main search facility.
+ * The main search facility. Asyncronous generator.
  * @param {string} search - Search query.
- * @returns
  */
-async function search(search) {
-  /* for benchmark purposes */
+async function* search(search) {
+  /* saving execution time for benchmark purposes */
   const t0 = performance.now();
 
-  /* retrieving first page to get idea about the total count of search results */
+  /* retrieving first page to get the idea about the total number of search results */
   const firstPage = await searchPage(search, 0, COUNT);
-  const books = []; // preparing container for books
-  books.push(...processPage(firstPage)); // saving only valid items
   console.log(`first request took ${performance.now() - t0}ms`);
 
-  const remainingItems = 0.85 * firstPage.totalItems - firstPage.items.length; // magic number CRUTCH for broken API
-  /* retrieving all the rest items if any */
+  yield firstPage.items;
+
+  /* Unfortunately, GB API is broken - the number of total results is incorrect. The
+     row below is a magic-number-crutch to circumvent it somehow. */
+  const remainingItems = 0.85 * firstPage.totalItems - firstPage.items.length;
+
+  /* Retrieving all the rest items if any */
   if (remainingItems > 0) {
     const promises = []; // preparing container for fetch promises
-    /* making requests and saving promises */
+    /* Making requests and saving promises. There is a 50 ms delay between each request
+    to avoid status code 429 Too Many Requests. */
     for (let i = 0; i < remainingItems / COUNT; i++) {
       promises.push(
-        wait((i + 1) * 100).then(() =>
-          searchPage(search, (i + 1) * COUNT, COUNT)
-        )
+        wait(i * 50).then(() => searchPage(search, (i + 1) * COUNT, COUNT))
       );
     }
-    /* collecting fetched results */
-    const results = await Promise.allSettled(promises);
-    /* processing results */
-    for (const element of results) {
-      if (element.status === "fulfilled") {
-        books.push(...processPage(element.value));
+    while (promises.length > 0) {
+      const current = await whoIsFirst(promises);
+      promises.splice(current.index, 1);
+      if (current.status === PromiseStatus.FULFILLED) {
+        if (current.value.items.length > 0) {
+          yield current.value.items;
+        }
       }
     }
   }
   console.log(`total time ${performance.now() - t0}ms`);
-
-  return books;
 }
