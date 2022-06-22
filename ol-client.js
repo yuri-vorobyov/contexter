@@ -74,12 +74,12 @@ function parseHit(hit) {
  * query to the Open Library API.
  *
  * @param {string} search - Search query.
- * @param {number} page - Page (a 20-book chunk) number.
+ * @param {number} [page=1] - Page (a 20-book chunk) number.
  * @returns {Promise<{cached: Boolean, totalItems: Number, items: OLSnippet[]}>}
  */
-async function searchPage(search, page) {
-  const url = urlFor(search, page);
-  // const url = "/test/mock-data/ol_giving-reasons-to.json";
+async function searchPage(search, page = 1) {
+  // const url = urlFor(search, page);
+  const url = `/test/mock-data/ol_making-it-increasingly_${page}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
