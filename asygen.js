@@ -32,16 +32,27 @@ export const PromiseStatus = {
 };
 
 /**
+ * @typedef {Object} TFulfilledResult - Information about a fulfilled Promise.
+ * @property {PromiseStatus} status - A string "fulfilled".
+ * @property {*} value - Fulfillment value.
+ * @property {Number} index - Index of a fulfilled Promise from the input array.
+ */
+
+/**
+ * @typedef {Object} TRejectedResult - Information about a rejected Promise.
+ * @property {PromiseStatus} status - A string "rejected".
+ * @property {*} reason - Rejection reason.
+ * @property {Number} index - Index of a rejected Promise from the input array.
+ */
+
+/**
  * Being given an array of Promise objects, returns a Promise that will be resolved
  * by the result of the first resolved Promise among array elements.
- *
- * @typedef {{status: PromiseStatus; value: any; index: number}} TFulfilledResult
- * @typedef {{status: PromiseStatus; reason: any; index: number}} TRejectedResult
  *
  * @param {Promise[]} promises - Array of Promise objects. May be sparse?
  * @param {Promise[]} rest
  * @returns {Promise<TFulfilledResult | TRejectedResult>} Promise fulfilled with the
- * value (reason) and index of the first resolved (rejected) Promise from the array.
+ * value (reason) and index of the first fulfilled (rejected) Promise from the array.
  */
 export function whoIsFirst(promises, ...rest) {
   promises = Array.of(promises).concat(rest).flat();
