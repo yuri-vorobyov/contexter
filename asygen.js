@@ -1,14 +1,12 @@
 // @ts-check
 
-export { whoIsFirst, PromiseStatus };
-
 /**
  * Returns a Promise that waits for a specified delay time (in ms), then
  * resolves with `undefined`.
  * @param {number} delay - Waiting delay in milliseconds.
  * @returns {Promise<undefined>}
  */
-function wait(delay) {
+export function wait(delay) {
   return new Promise((resolve) => setTimeout(resolve, delay));
 }
 
@@ -28,7 +26,7 @@ async function waitAndReturn(delay, result) {
 /**
  * @enum {string} Represents status of a Promise.
  */
-const PromiseStatus = {
+export const PromiseStatus = {
   FULFILLED: "fulfilled",
   REJECTED: "rejected",
 };
@@ -45,7 +43,7 @@ const PromiseStatus = {
  * @returns {Promise<TFulfilledResult | TRejectedResult>} Promise fulfilled with the
  * value (reason) and index of the first resolved (rejected) Promise from the array.
  */
-function whoIsFirst(promises, ...rest) {
+export function whoIsFirst(promises, ...rest) {
   promises = Array.of(promises).concat(rest).flat();
   return new Promise((resolve) => {
     promises.forEach((promise, index) =>
