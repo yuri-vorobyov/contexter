@@ -1,0 +1,2669 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1182,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.074379,
+        "hits": [
+            {
+                "_id": "arnoldbennettcal00benn|baedd7b3f5696fb1571670887c606929fddf6a4f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1275384787",
+                    "identifier": [
+                        "arnoldbennettcal00benn"
+                    ],
+                    "meta_publicdate": [
+                        "2009-11-17T18:41:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the arnold bennett calendar"
+                    ],
+                    "meta_downloads": [
+                        761
+                    ],
+                    "filename": [
+                        "arnoldbennettcal00benn_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 08:34:23",
+                    "file_basename": "arnoldbennettcal00benn",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "The Arnold Bennett calendar"
+                    ],
+                    "page_num": [
+                        142
+                    ],
+                    "sha1_file": "ff7dd75b6242051f86ddb87a53d9f1a7910085cd",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, George H. Doran company"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1912
+                    ],
+                    "updated_on": "2022-04-05 04:06:37",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana",
+                        "fav-gangstarr4life",
+                        "fav-flhoosier",
+                        "fav-steshaw83"
+                    ],
+                    "meta_subjectSorter": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931",
+                        "Bennett, Frank C., [from old catalog] comp"
+                    ],
+                    "meta_date": [
+                        "1912-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "\u2014 what an idea!\nTwenty-eight\nScience is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.679714,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL13447330M",
+                    "url": "/books/OL13447330M/The_Arnold_Bennett_calendar.",
+                    "title": "The Arnold Bennett calendar.",
+                    "ocaid": "arnoldbennettcal00benn",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109162W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6275985-M.jpg",
+                    "read_url": "/books/OL13447330M/The_Arnold_Bennett_calendar./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "arnoldbennettcal00benn",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL109162W",
+                    "openlibrary_edition": "OL13447330M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "riverspeople00brow|587660a01b0acc2b55d5bbf02effe5cc58678bb1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1302938394",
+                    "identifier": [
+                        "riverspeople00brow"
+                    ],
+                    "meta_publicdate": [
+                        "2010-11-05T18:52:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "rivers and people"
+                    ],
+                    "meta_downloads": [
+                        41
+                    ],
+                    "filename": [
+                        "riverspeople00brow_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 20:58:52",
+                    "file_basename": "riverspeople00brow",
+                    "meta_creatorSorter": [
+                        "browne, tom"
+                    ],
+                    "meta_title": [
+                        "Rivers and people"
+                    ],
+                    "page_num": [
+                        108
+                    ],
+                    "sha1_file": "8f27e888e4f0aab07d7ac58e2ac50576072fb281",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Morristown, N.J. : Silver Burdett Co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1982
+                    ],
+                    "updated_on": "2021-06-30 13:03:33",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "bpljordan-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Rivers",
+                        "Human geography"
+                    ],
+                    "meta_creator": [
+                        "Browne, Tom"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "vertically, thus widening the valley floor and {{{making it increasingly}}} suitable as a routeway and for human settlement"
+                    ]
+                },
+                "_score": 9.679401,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3508113M",
+                    "url": "/books/OL3508113M/Rivers_and_people",
+                    "title": "Rivers and people",
+                    "ocaid": "riverspeople00brow",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1460925A",
+                            "name": "Browne, Tom."
+                        },
+                        {
+                            "key": "/authors/OL4764115A",
+                            "name": "Tom Browne"
+                        }
+                    ],
+                    "work_key": "/works/OL5916455W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6724203-M.jpg",
+                    "borrow_url": "/books/OL3508113M/Rivers_and_people/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "riverspeople00brow",
+                    "isbn": "0382066715",
+                    "oclc": null,
+                    "openlibrary_work": "OL5916455W",
+                    "openlibrary_edition": "OL3508113M",
+                    "last_loan_date": "2020-07-19T02:54:35Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "buildingofpanama0000kell|0029c202eaa8e3eb838b41bde9a010811aadd890",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1580093677",
+                    "identifier": [
+                        "buildingofpanama0000kell"
+                    ],
+                    "meta_publicdate": [
+                        "2020-01-21T08:15:19Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the building of the panama canal in historic photographs"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "buildingofpanama0000kell_abbyy.gz"
+                    ],
+                    "created_on": "2020-02-21 22:59:02",
+                    "file_basename": "buildingofpanama0000kell",
+                    "meta_creatorSorter": [
+                        "keller, ulrich, 1944-"
+                    ],
+                    "meta_title": [
+                        "The building of the Panama Canal in historic photographs"
+                    ],
+                    "page_num": [
+                        132
+                    ],
+                    "sha1_file": "3aa487bcdbdf362d32febe4986c8ee750e83aaf4",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Dover Publications"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1983"
+                    ],
+                    "updated_on": "2020-11-18 15:46:00",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-fotoplus_brasil",
+                        "binghamton-ol",
+                        "cuny-ol",
+                        "holdings-test",
+                        "tamu-evanslibrary-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Panama Canal (Panama) -- History -- Pictorial works"
+                    ],
+                    "meta_creator": [
+                        "Keller, Ulrich, 1944-"
+                    ],
+                    "meta_date": [
+                        "1983-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        " about 22,000 workers died on the job, {{{making it increasingly}}} difficult to recruit volunteers for canal"
+                    ]
+                },
+                "_score": 9.678074,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3489817M",
+                    "url": "/books/OL3489817M/The_building_of_the_Panama_Canal_in_historic_photographs",
+                    "title": "The building of the Panama Canal in historic photographs",
+                    "ocaid": "buildingofpanama0000kell",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1456673A",
+                            "name": "Ulrich Keller"
+                        }
+                    ],
+                    "work_key": "/works/OL5902179W",
+                    "cover_url": "//covers.openlibrary.org/w/id/309799-M.jpg",
+                    "borrow_url": "/books/OL3489817M/The_building_of_the_Panama_Canal_in_historic_photographs/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "buildingofpanama0000kell",
+                    "isbn": "0486244083",
+                    "oclc": null,
+                    "openlibrary_work": "OL5902179W",
+                    "openlibrary_edition": "OL3489817M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "arecanadianussoc0000boyc|557e1ce0196facf8532ee1797465c1b72ac6b865",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614612094",
+                    "identifier": [
+                        "arecanadianussoc0000boyc"
+                    ],
+                    "meta_publicdate": [
+                        "2020-11-20T00:49:12Z"
+                    ],
+                    "meta_titleSorter": [
+                        "are canadian and u.s. social assistance policies converging?"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "arecanadianussoc0000boyc_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-01 15:34:59",
+                    "file_basename": "arecanadianussoc0000boyc",
+                    "meta_creatorSorter": [
+                        "boychuk, gerard william, 1967-"
+                    ],
+                    "meta_title": [
+                        "Are Canadian and U.S. social assistance policies converging?"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "96a2544bb2ce46be351295625ff3a6f2f5467b02",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Orono, ME : Canadian-American Center, University of Maine"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1997
+                    ],
+                    "updated_on": "2021-08-12 10:12:23",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "occidentalcollegelibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Public welfare -- Canada",
+                        "Public welfare -- United States",
+                        "Public welfare",
+                        "Social policy",
+                        "Canada -- Social policy",
+                        "United States -- Social policy",
+                        "Canada",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "Boychuk, Gerard William, 1967-"
+                    ],
+                    "meta_date": [
+                        "1997-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "tive eligibility requirements, thereby {{{making it increasingly}}} difficult to obtain and maintain eligibility"
+                    ]
+                },
+                "_score": 9.669254,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL17186791M",
+                    "url": "/books/OL17186791M/Are_Canadian_and_U.S._social_assistance_policies_converging",
+                    "title": "Are Canadian and U.S. social assistance policies converging?",
+                    "ocaid": "arecanadianussoc0000boyc",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2491932A",
+                            "name": "Gerard William Boychuk"
+                        }
+                    ],
+                    "work_key": "/works/OL23937207W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11590249-M.jpg",
+                    "borrow_url": "/books/OL17186791M/Are_Canadian_and_U.S._social_assistance_policies_converging/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "arecanadianussoc0000boyc",
+                    "isbn": "1882582195",
+                    "oclc": null,
+                    "openlibrary_work": "OL23937207W",
+                    "openlibrary_edition": "OL17186791M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "inthismomentfive0000stro|04ea1bcaee066893aa4a67eb32556d724e40cc0a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1630907873",
+                    "identifier": [
+                        "inthismomentfive0000stro"
+                    ],
+                    "meta_publicdate": [
+                        "2021-09-01T05:23:30Z"
+                    ],
+                    "meta_titleSorter": [
+                        "in this moment : five steps to transcending stress using mindfulness and neuroscience"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "inthismomentfive0000stro_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-09-06 06:27:43",
+                    "file_basename": "inthismomentfive0000stro",
+                    "meta_creatorSorter": [
+                        "strosahl, kirk, 1950-"
+                    ],
+                    "meta_title": [
+                        "In this moment : five steps to transcending stress using mindfulness and neuroscience"
+                    ],
+                    "page_num": [
+                        [
+                            222
+                        ]
+                    ],
+                    "sha1_file": "294242b812d45afd3238a8381d08583b667257e3",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Oakland, CA : New Harbinger Publications, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2015
+                    ],
+                    "updated_on": "2021-11-03 06:08:01",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-divya_sharma905"
+                    ],
+                    "meta_subjectSorter": [
+                        "Stress management",
+                        "Meditation -- Therapeutic use",
+                        "Neuroplasticity",
+                        "Neurosciences",
+                        "SELF-HELP / Stress Management",
+                        "BODY, MIND & SPIRIT / Meditation",
+                        "MEDICAL / Neuroscience"
+                    ],
+                    "meta_creator": [
+                        "Strosahl, Kirk, 1950-"
+                    ],
+                    "meta_date": [
+                        "2015-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "strengthens neural networks in the brain, {{{making it increasingly}}} easy to be mindful in times of stress.",
+                        "emerging field of cognitive neuroscience is {{{making it increasingly}}} clear that you can train your brain to"
+                    ]
+                },
+                "_score": 9.664181,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL27174723M",
+                    "url": "/books/OL27174723M/In_this_moment",
+                    "title": "In this moment",
+                    "ocaid": "inthismomentfive0000stro",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7159311A",
+                            "name": "Kirk Strosahl"
+                        }
+                    ],
+                    "work_key": "/works/OL19994613W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11962188-M.jpg",
+                    "borrow_url": "/books/OL27174723M/In_this_moment/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "inthismomentfive0000stro",
+                    "isbn": "9781626251274",
+                    "oclc": null,
+                    "openlibrary_work": "OL19994613W",
+                    "openlibrary_edition": "OL27174723M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "24hourcomicsdayh0000unse|1886b574be58b90a1e9420116459c5732baea11a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614580351",
+                    "identifier": [
+                        "24hourcomicsdayh0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2020-10-22T10:28:37Z"
+                    ],
+                    "meta_downloads": [
+                        11
+                    ],
+                    "filename": [
+                        "24hourcomicsdayh0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-01 06:44:14",
+                    "file_basename": "24hourcomicsdayh0000unse",
+                    "meta_title": [
+                        "24 Hour Comics Day highlights, 2005"
+                    ],
+                    "page_num": [
+                        [
+                            502
+                        ]
+                    ],
+                    "sha1_file": "3ed87359db6b2c47f825f39fd1c33a2090924c27",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Thousand Oaks, CA : About Comics"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2005
+                    ],
+                    "updated_on": "2021-10-05 00:24:36",
+                    "meta_titleSorter": [
+                        "24 hour comics day highlights, 2005"
+                    ],
+                    "meta_subjectSorter": [
+                        "Comic books, strips, etc"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-ethos_pathos-logos",
+                        "fav-lammyv0x"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "ac ore Starting thar OWW Dutouromics ~ {{{making it increasingly}}} easy for me to : \u201cgo with the Flow\" ef"
+                    ]
+                },
+                "_score": 9.654031,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8585183M",
+                    "url": "/books/OL8585183M/24_Hour_Comics_Day_Highlights_2005",
+                    "title": "24 Hour Comics Day Highlights 2005",
+                    "ocaid": "24hourcomicsdayh0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2974783A",
+                            "name": "Zander Cannon"
+                        }
+                    ],
+                    "work_key": "/works/OL14991509W",
+                    "cover_url": "//covers.openlibrary.org/w/id/741150-M.jpg",
+                    "borrow_url": "/books/OL8585183M/24_Hour_Comics_Day_Highlights_2005/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "24hourcomicsdayh0000unse",
+                    "isbn": "0975395866",
+                    "oclc": null,
+                    "openlibrary_work": "OL14991509W",
+                    "openlibrary_edition": "OL8585183M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "china0000brow|11146ae74fb6a66db4f81e15577807b100cb3a6c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1599837537",
+                    "identifier": [
+                        "china0000brow"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-08T04:54:03Z"
+                    ],
+                    "meta_titleSorter": [
+                        "china"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "china0000brow_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-11 22:08:53",
+                    "file_basename": "china0000brow",
+                    "meta_creatorSorter": [
+                        "brownlie bojang, ali, 1949-"
+                    ],
+                    "meta_title": [
+                        "China"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "6767dd9b5873c4b8183761871f09d11ad1c81626",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Hodder Wayland"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2006"
+                    ],
+                    "updated_on": "2020-10-22 23:33:45",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "China -- Juvenile literature",
+                        "China"
+                    ],
+                    "meta_creator": [
+                        "Brownlie Bojang, Ali, 1949-"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "turns to a more open, market economy are {{{making it increasingly}}} difficult for its government to control"
+                    ]
+                },
+                "_score": 9.649904,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL30113577M",
+                    "url": "/books/OL30113577M/China",
+                    "title": "China",
+                    "ocaid": "china0000brow",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL20367A",
+                            "name": "Ali Brownlie Bojang"
+                        }
+                    ],
+                    "work_key": "/works/OL22071914W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10435794-M.jpg",
+                    "borrow_url": "/books/OL30113577M/China/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "china0000brow",
+                    "isbn": "0750246367",
+                    "oclc": null,
+                    "openlibrary_work": "OL22071914W",
+                    "openlibrary_edition": "OL30113577M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "responsiveworsh00budigoog|26b495b2a1664f6253e1b230fb95fc6b81fff16a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1218155201",
+                    "identifier": [
+                        "responsiveworsh00budigoog"
+                    ],
+                    "meta_publicdate": [
+                        "2008-08-08T00:28:44Z"
+                    ],
+                    "meta_titleSorter": [
+                        "responsive worship: a discourse, with notes"
+                    ],
+                    "meta_downloads": [
+                        146
+                    ],
+                    "filename": [
+                        "responsiveworsh00budigoog_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 00:08:18",
+                    "file_basename": "responsiveworsh00budigoog",
+                    "meta_creatorSorter": [
+                        "william ives budington"
+                    ],
+                    "meta_title": [
+                        "Responsive Worship: A Discourse, with Notes"
+                    ],
+                    "page_num": [
+                        104
+                    ],
+                    "sha1_file": "fa17e556f726b3372fd5888033f912792c9e1970",
+                    "meta_publisher": [
+                        "A.S. Barnes"
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1873"
+                    ],
+                    "updated_on": "2020-09-18 19:30:08",
+                    "meta_collection": [
+                        "americana"
+                    ],
+                    "meta_creator": [
+                        "William Ives Budington"
+                    ],
+                    "meta_date": [
+                        "1873-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "to make the worship more attractive by {{{making it increasingly}}} elaborate and ornamental in the musical"
+                    ]
+                },
+                "_score": 9.645418,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL23450223M",
+                    "url": "/books/OL23450223M/Responsive_Worship_A_Discourse_with_Notes",
+                    "title": "Responsive Worship: A Discourse, with Notes",
+                    "ocaid": "responsiveworsh00budigoog",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2397910A",
+                            "name": "William Ives Budington"
+                        }
+                    ],
+                    "work_key": "/works/OL15264654W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6166286-M.jpg",
+                    "read_url": "/books/OL23450223M/Responsive_Worship_A_Discourse_with_Notes/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "responsiveworsh00budigoog",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15264654W",
+                    "openlibrary_edition": "OL23450223M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "responsivewors00budi|b0a7dcffc70db80315096b53bcae7204be883c51",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1229504627",
+                    "identifier": [
+                        "responsivewors00budi"
+                    ],
+                    "meta_publicdate": [
+                        "2008-12-15T22:57:47Z"
+                    ],
+                    "meta_titleSorter": [
+                        "responsive worship; a discourse, with notes"
+                    ],
+                    "meta_downloads": [
+                        319
+                    ],
+                    "filename": [
+                        "responsivewors00budi_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 07:54:19",
+                    "file_basename": "responsivewors00budi",
+                    "meta_creatorSorter": [
+                        "budington, william ives, 1815-1879"
+                    ],
+                    "meta_title": [
+                        "Responsive worship; a discourse, with notes"
+                    ],
+                    "page_num": [
+                        110
+                    ],
+                    "sha1_file": "f0b7f5a45fc2f2a7d109232c8f4e67b614c61993",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, Chicago, A.S. Barnes & Company"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1873
+                    ],
+                    "updated_on": "2022-04-06 00:59:20",
+                    "meta_collection": [
+                        "Princeton",
+                        "americana"
+                    ],
+                    "meta_creator": [
+                        "Budington, William Ives, 1815-1879"
+                    ],
+                    "meta_date": [
+                        "1873-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "to make the worship more attractive by {{{making it increasingly}}} elaborate and ornamental in the musical"
+                    ]
+                },
+                "_score": 9.6404,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22892136M",
+                    "url": "/books/OL22892136M/Responsive_worship",
+                    "title": "Responsive worship",
+                    "ocaid": "responsivewors00budi",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2397910A",
+                            "name": "William Ives Budington"
+                        }
+                    ],
+                    "work_key": "/works/OL15264653W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6248623-M.jpg",
+                    "read_url": "/books/OL22892136M/Responsive_worship/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "responsivewors00budi",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15264653W",
+                    "openlibrary_edition": "OL22892136M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "19641965newyorkw0000cott|4a54f13e5de22f1a7b0fd472772a30549de89aec",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1647574436",
+                    "identifier": [
+                        "19641965newyorkw0000cott"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-16T19:02:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the 1964-1965 new york world's fair : creation and legacy"
+                    ],
+                    "meta_downloads": [
+                        9
+                    ],
+                    "filename": [
+                        "19641965newyorkw0000cott_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-18 04:15:31",
+                    "file_basename": "19641965newyorkw0000cott",
+                    "meta_creatorSorter": [
+                        "cotter, bill, 1952-"
+                    ],
+                    "meta_title": [
+                        "The 1964-1965 New York World's Fair : creation and legacy"
+                    ],
+                    "page_num": [
+                        [
+                            134
+                        ]
+                    ],
+                    "sha1_file": "043c609e67a528c931b1f99399a066d0a8cba971",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Charleston, SC : Arcadia Pub."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2008
+                    ],
+                    "updated_on": "2022-05-21 14:16:40",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-dtka",
+                        "fav-mkihlan"
+                    ],
+                    "meta_subjectSorter": [
+                        "New York World's Fair (1964-1965 : New York, N.Y.) -- Pictorial works",
+                        "Exhibitions -- New York (State) -- New York -- Pictorial works",
+                        "Fairs -- New York (State) -- New York -- Pictorial works"
+                    ],
+                    "meta_creator": [
+                        "Cotter, Bill, 1952-"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "of\nvalue was stripped from the building, {{{making it increasingly}}} less likely that any use would be found"
+                    ]
+                },
+                "_score": 9.63439,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22970885M",
+                    "url": "/books/OL22970885M/The_1964-1965_New_York_World's_Fair",
+                    "title": "The 1964-1965 New York World's Fair",
+                    "ocaid": "19641965newyorkw0000cott",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL389469A",
+                            "name": "Bill Cotter"
+                        }
+                    ],
+                    "work_key": "/works/OL2669789W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7303238-M.jpg",
+                    "borrow_url": "/books/OL22970885M/The_1964-1965_New_York_World's_Fair/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "19641965newyorkw0000cott",
+                    "isbn": "9780738557458",
+                    "oclc": null,
+                    "openlibrary_work": "OL2669789W",
+                    "openlibrary_edition": "OL22970885M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "southafricasince00hayw|ad37dc9bc7315e28ca1e1d9a8490edcc5ae583ca",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1342565423",
+                    "identifier": [
+                        "southafricasince00hayw"
+                    ],
+                    "meta_publicdate": [
+                        "2012-04-27T15:08:06Z"
+                    ],
+                    "meta_titleSorter": [
+                        "south africa since 1948"
+                    ],
+                    "meta_downloads": [
+                        48
+                    ],
+                    "filename": [
+                        "southafricasince00hayw_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 16:08:53",
+                    "file_basename": "southafricasince00hayw",
+                    "meta_creatorSorter": [
+                        "hayward, jean"
+                    ],
+                    "meta_title": [
+                        "South Africa since 1948"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "f047a4fce0490faa7ca0c355d5c093a1da455314",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Bookwright Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1989"
+                    ],
+                    "updated_on": "2020-08-30 04:46:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "fav-unavailable001",
+                        "fav-cainezee",
+                        "bpljordan-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Apartheid",
+                        "Apartheid"
+                    ],
+                    "meta_creator": [
+                        "Hayward, Jean"
+                    ],
+                    "meta_date": [
+                        "1989-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "late 1980s, imposing strict censorship and {{{making it increasingly}}} difficult for the rest of the world to"
+                    ]
+                },
+                "_score": 9.632252,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2031981M",
+                    "url": "/books/OL2031981M/South_Africa_since_1948",
+                    "title": "South Africa since 1948",
+                    "ocaid": "southafricasince00hayw",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL947450A",
+                            "name": "Jean Hayward"
+                        }
+                    ],
+                    "work_key": "/works/OL4619487W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7163019-M.jpg",
+                    "borrow_url": "/books/OL2031981M/South_Africa_since_1948/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "southafricasince00hayw",
+                    "isbn": "0531182622",
+                    "oclc": null,
+                    "openlibrary_work": "OL4619487W",
+                    "openlibrary_edition": "OL2031981M",
+                    "last_loan_date": "2020-05-20T18:00:23Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "culturalresource1987muns|48c8f0cc5782b959c76f000d6f362ee7a7be9199",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1300763651",
+                    "identifier": [
+                        "culturalresource1987muns"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-18T16:35:27Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource inventory and evaluation of selected coal mines in the great falls coal field, montana for the montana department of state lands"
+                    ],
+                    "meta_downloads": [
+                        220
+                    ],
+                    "filename": [
+                        "culturalresource1987muns_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 09:18:13",
+                    "file_basename": "culturalresource1987muns",
+                    "meta_creatorSorter": [
+                        "munson, gene"
+                    ],
+                    "meta_title": [
+                        "Cultural resource inventory and evaluation of selected coal mines in the Great Falls Coal Field, Montana for the Montana Department of State Lands"
+                    ],
+                    "page_num": [
+                        108
+                    ],
+                    "sha1_file": "dfabc07cee7d37128af74f6f670990df52dba2b4",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, GCM Services, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1987"
+                    ],
+                    "updated_on": "2020-12-23 22:33:53",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Munson, Gene",
+                        "GCM Services, Inc. Cultural Resource Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1987-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} expensive to mine. More important, demand"
+                    ]
+                },
+                "_score": 9.631571,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24621811M",
+                    "url": "/books/OL24621811M/Cultural_resource_inventory_and_evaluation_of_selected_coal_mines_in_the_Great_Falls_Coal_Field_Mont",
+                    "title": "Cultural resource inventory and evaluation of selected coal mines in the Great Falls Coal Field, Montana for the Montana Department of State Lands",
+                    "ocaid": "culturalresource1987muns",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6629279A",
+                            "name": "Gene Munson"
+                        }
+                    ],
+                    "work_key": "/works/OL15695763W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6985238-M.jpg",
+                    "read_url": "/books/OL24621811M/Cultural_resource_inventory_and_evaluation_of_selected_coal_mines_in_the_Great_Falls_Coal_Field_Mont/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "culturalresource1987muns",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15695763W",
+                    "openlibrary_edition": "OL24621811M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "messagetomiddlec00demirich|af280d2b4bdd8bd09ef935bc1d4e6aba3db9395b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1192130580",
+                    "identifier": [
+                        "messagetomiddlec00demirich"
+                    ],
+                    "meta_publicdate": [
+                        "2007-10-09T02:08:54Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a message to the middle class"
+                    ],
+                    "meta_downloads": [
+                        345
+                    ],
+                    "filename": [
+                        "messagetomiddlec00demirich_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 10:15:13",
+                    "file_basename": "messagetomiddlec00demirich",
+                    "meta_creatorSorter": [
+                        "deming, seymour, 1883-"
+                    ],
+                    "meta_title": [
+                        "A message to the middle class"
+                    ],
+                    "page_num": [
+                        140
+                    ],
+                    "sha1_file": "bf0b5ae1f2bb190da2c936029b58d6e1afaedda7",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Boston, Small, Maynard & company"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1915
+                    ],
+                    "updated_on": "2022-04-05 02:31:58",
+                    "meta_collection": [
+                        "cdl",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Social problems"
+                    ],
+                    "meta_creator": [
+                        "Deming, Seymour, 1883-"
+                    ],
+                    "meta_date": [
+                        "1915-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "educate, and if it did, a crowded market is {{{making it increasingly}}} difficult to sell.\nWhat Would the Neighbors"
+                    ]
+                },
+                "_score": 9.628562,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7251018M",
+                    "url": "/books/OL7251018M/A_message_to_the_middle_class",
+                    "title": "A message to the middle class",
+                    "ocaid": "messagetomiddlec00demirich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2403135A",
+                            "name": "Seymour Deming"
+                        }
+                    ],
+                    "work_key": "/works/OL201805W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5566806-M.jpg",
+                    "read_url": "/books/OL7251018M/A_message_to_the_middle_class/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "messagetomiddlec00demirich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL201805W",
+                    "openlibrary_edition": "OL7251018M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "communityofcanad0000cour|4c1df33cdbb7eb1b4c0e67ca15fd1773aca36159",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1555910834",
+                    "identifier": [
+                        "communityofcanad0000cour"
+                    ],
+                    "meta_publicdate": [
+                        "2019-04-16T05:57:24Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the community of the canadas"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "communityofcanad0000cour_abbyy.gz"
+                    ],
+                    "created_on": "2019-04-25 18:18:04",
+                    "file_basename": "communityofcanad0000cour",
+                    "meta_creatorSorter": [
+                        "courchene, thomas j., 1940-"
+                    ],
+                    "meta_title": [
+                        "The community of the Canadas"
+                    ],
+                    "page_num": [
+                        54
+                    ],
+                    "sha1_file": "95f69b1b922d951547b25ab031ae59afc9475b7a",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Kingston, Ont. : Institute of Intergovernmental Relations, Queen's University"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1991"
+                    ],
+                    "updated_on": "2020-08-30 22:59:12",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "tamu-evanslibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Federal government -- Canada",
+                        "Federal-provincial relations -- Quebec (Province)",
+                        "Canada -- Constitutional law -- Amendments",
+                        "Que\u0301bec (Province) -- History -- Autonomy and independence movements",
+                        "Que\u0301bec (Province) -- History -- 1960-"
+                    ],
+                    "meta_creator": [
+                        "Courchene, Thomas J., 1940-"
+                    ],
+                    "meta_date": [
+                        "1991-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "growing support from other Canadi\u00ac ans, {{{making it increasingly}}} difficult to dislodge or counterbalance"
+                    ]
+                },
+                "_score": 9.626647,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL1647924M",
+                    "url": "/books/OL1647924M/The_community_of_the_Canadas",
+                    "title": "The community of the Canadas",
+                    "ocaid": "communityofcanad0000cour",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL505272A",
+                            "name": "Thomas J. Courchene"
+                        }
+                    ],
+                    "work_key": "/works/OL3164378W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9489938-M.jpg",
+                    "borrow_url": "/books/OL1647924M/The_community_of_the_Canadas/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "communityofcanad0000cour",
+                    "isbn": "0889115842",
+                    "oclc": null,
+                    "openlibrary_work": "OL3164378W",
+                    "openlibrary_edition": "OL1647924M",
+                    "last_loan_date": "2019-08-09T22:53:47Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "tobaccogrowingin176macr|a86cf6db941c3d9de8c204b02f8a382b3ff6ae19",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1358355834",
+                    "identifier": [
+                        "tobaccogrowingin176macr"
+                    ],
+                    "meta_publicdate": [
+                        "2013-01-15T14:47:23Z"
+                    ],
+                    "meta_titleSorter": [
+                        "tobacco growing in canada."
+                    ],
+                    "meta_downloads": [
+                        577
+                    ],
+                    "filename": [
+                        "tobaccogrowingin176macr_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 07:39:10",
+                    "file_basename": "tobaccogrowingin176macr",
+                    "meta_creatorSorter": [
+                        "macrae, n. a"
+                    ],
+                    "meta_title": [
+                        "Tobacco growing in Canada."
+                    ],
+                    "page_num": [
+                        50
+                    ],
+                    "sha1_file": "8c95c6ec62063b52fda471ef59be1294a6ecbc05",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa : Department of Agriculture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1935
+                    ],
+                    "updated_on": "2022-04-06 06:02:06",
+                    "meta_collection": [
+                        "canadianagriculturallibrary",
+                        "toronto",
+                        "governmentpublications"
+                    ],
+                    "meta_creator": [
+                        "MacRae, N. A",
+                        "Canada. Dept. of Agriculture"
+                    ],
+                    "meta_date": [
+                        "1935-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "also become\n&5616\u20143\n18\nwoody as they age, {{{making it increasingly}}} difficult to break them off without damaging"
+                    ]
+                },
+                "_score": 9.618429,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25497249M",
+                    "url": "/books/OL25497249M/Tobacco_growing_in_Canada_by_N.A._MacRae",
+                    "title": "Tobacco growing in Canada / by N.A. MacRae",
+                    "ocaid": "tobaccogrowingin176macr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7188648A",
+                            "name": "N. A. MacRae"
+                        }
+                    ],
+                    "work_key": "/works/OL16874612W",
+                    "cover_url": "//covers.openlibrary.org/b/id/10277619-M.jpg",
+                    "read_url": "/books/OL25497249M/Tobacco_growing_in_Canada_by_N.A._MacRae/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "tobaccogrowingin176macr",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16874612W",
+                    "openlibrary_edition": "OL25497249M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "arabisraeliconfl0000minn|62c7471fdc3ed3ca63de52bd490fd86814674b2e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1577394929",
+                    "identifier": [
+                        "arabisraeliconfl0000minn"
+                    ],
+                    "meta_publicdate": [
+                        "2019-12-18T05:42:31Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the arab-israeli conflict"
+                    ],
+                    "meta_downloads": [
+                        9
+                    ],
+                    "filename": [
+                        "arabisraeliconfl0000minn_abbyy.gz"
+                    ],
+                    "created_on": "2019-12-29 18:18:29",
+                    "file_basename": "arabisraeliconfl0000minn",
+                    "meta_creatorSorter": [
+                        "minnis, ivan"
+                    ],
+                    "meta_title": [
+                        "The Arab-Israeli conflict"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "100e9b3ca7b20c030a4f994bc65a609cc0784765",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Austin, TX : Raintree Steck-Vaughn"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2003"
+                    ],
+                    "updated_on": "2020-11-24 11:23:29",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-baha_el_amine",
+                        "bpljordan-ol",
+                        "cnusd-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Arab-Israeli conflict -- Juvenile literature",
+                        "Arab-Israeli conflict"
+                    ],
+                    "meta_creator": [
+                        "Minnis, Ivan"
+                    ],
+                    "meta_date": [
+                        "2003-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "set up its new headquarters in Lebanon, {{{making it increasingly}}} difficult for the Lebanese army to limit"
+                    ]
+                },
+                "_score": 9.615013,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3565038M",
+                    "url": "/books/OL3565038M/The_Arab-Israeli_conflict",
+                    "title": "The Arab-Israeli conflict",
+                    "ocaid": "arabisraeliconfl0000minn",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1478847A",
+                            "name": "Ivan Minnis"
+                        }
+                    ],
+                    "work_key": "/works/OL5959838W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1379441-M.jpg",
+                    "borrow_url": "/books/OL3565038M/The_Arab-Israeli_conflict/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "arabisraeliconfl0000minn",
+                    "isbn": "0739863401",
+                    "oclc": null,
+                    "openlibrary_work": "OL5959838W",
+                    "openlibrary_edition": "OL3565038M",
+                    "last_loan_date": "2020-06-19T18:17:12Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "personaltranspor0000hugh|818d13d2aa07fba20e21e35184e147011a93f1d4",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1615177942",
+                    "identifier": [
+                        "personaltranspor0000hugh"
+                    ],
+                    "meta_publicdate": [
+                        "2021-01-25T12:46:22Z"
+                    ],
+                    "meta_titleSorter": [
+                        "personal transport and the greenhouse effect : a strategy for sustainability"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "personaltranspor0000hugh_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-08 04:38:25",
+                    "file_basename": "personaltranspor0000hugh",
+                    "meta_creatorSorter": [
+                        "hughes, peter"
+                    ],
+                    "meta_title": [
+                        "Personal transport and the greenhouse effect : a strategy for sustainability"
+                    ],
+                    "page_num": [
+                        [
+                            198
+                        ]
+                    ],
+                    "sha1_file": "17d94b5dfce5516df11a7f71cfd6568037c19f7f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Earthscan Publications"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1993
+                    ],
+                    "updated_on": "2021-04-14 16:28:06",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Transportation -- Environmental aspects",
+                        "Greenhouse effect, Atmospheric",
+                        "Treibhauseffekt",
+                        "Personenverkehr",
+                        "Personenvervoer",
+                        "Broeikaseffect",
+                        "Duurzame ontwikkeling",
+                        "luchtverontreiniging",
+                        "air pollution",
+                        "basisproducten",
+                        "commodities",
+                        "communicatie",
+                        "communication",
+                        "milieuwetgeving",
+                        "environmental legislation",
+                        "milieubeleid",
+                        "environmental policy",
+                        "opwarming van de aarde",
+                        "global warming",
+                        "overheidsbeleid",
+                        "government policy",
+                        "broeikaseffect",
+                        "greenhouse effect",
+                        "bodemverontreiniging",
+                        "soil pollution",
+                        "verkeer",
+                        "traffic",
+                        "transport",
+                        "reizigers",
+                        "travellers",
+                        "waterverontreiniging",
+                        "water pollution",
+                        "Climatic Change",
+                        "Klimaatverandering"
+                    ],
+                    "meta_creator": [
+                        "Hughes, Peter"
+                    ],
+                    "meta_date": [
+                        "1993-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "private cars.\nTechnological advances are {{{making it increasingly}}} possible to replace journeys with digital",
+                        "Advances in \u2018smartcard\u2019 technology are {{{making it increasingly}}} possible to charge motorists automatically"
+                    ]
+                },
+                "_score": 9.6089325,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11966091M",
+                    "url": "/books/OL11966091M/Personal_Transport_and_the_Greenhouse_Effect",
+                    "title": "Personal Transport and the Greenhouse Effect",
+                    "ocaid": "personaltranspor0000hugh",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2098603A",
+                            "name": "Peter Hughes"
+                        }
+                    ],
+                    "work_key": "/works/OL177463W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10596352-M.jpg",
+                    "borrow_url": "/books/OL11966091M/Personal_Transport_and_the_Greenhouse_Effect/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "personaltranspor0000hugh",
+                    "isbn": "1853831697",
+                    "oclc": null,
+                    "openlibrary_work": "OL177463W",
+                    "openlibrary_edition": "OL11966091M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "emailarchivingfo0000spur|fa2c961b8401deb64a0a2d9e82e8ddca6aab9e33",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614802241",
+                    "identifier": [
+                        "emailarchivingfo0000spur"
+                    ],
+                    "meta_publicdate": [
+                        "2020-12-10T13:26:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "email archiving for dummies"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "emailarchivingfo0000spur_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-03 20:19:03",
+                    "file_basename": "emailarchivingfo0000spur",
+                    "meta_creatorSorter": [
+                        "spurzem, bob"
+                    ],
+                    "meta_title": [
+                        "Email archiving for dummies"
+                    ],
+                    "page_num": [
+                        [
+                            78
+                        ]
+                    ],
+                    "sha1_file": "c1ea35b062c67a6216d977ba7cdfd7823206a8f4",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Indianapolis, Ind. : Wiley Pub."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2008
+                    ],
+                    "updated_on": "2021-04-05 19:08:38",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Electronic mail systems",
+                        "Electronic mail messages -- Management"
+                    ],
+                    "meta_creator": [
+                        "Spurzem, Bob"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "many ways. The huge volume of email is {{{making it increasingly}}} difficult to store and keep accessible"
+                    ]
+                },
+                "_score": 9.607803,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32096297M",
+                    "url": "/books/OL32096297M/Email_archiving_for_dummies",
+                    "title": "Email archiving for dummies",
+                    "ocaid": "emailarchivingfo0000spur",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9130044A",
+                            "name": "Bob Spurzem"
+                        }
+                    ],
+                    "work_key": "/works/OL24262912W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10751813-M.jpg",
+                    "borrow_url": "/books/OL32096297M/Email_archiving_for_dummies/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "emailarchivingfo0000spur",
+                    "isbn": "9780470249932",
+                    "oclc": null,
+                    "openlibrary_work": "OL24262912W",
+                    "openlibrary_edition": "OL32096297M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "plasticback0000rake|07a60fc157f84df49f4ffdd80dce5a9f99bfe1f5",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1636055741",
+                    "identifier": [
+                        "plasticback0000rake"
+                    ],
+                    "meta_publicdate": [
+                        "2021-11-03T05:15:57Z"
+                    ],
+                    "meta_titleSorter": [
+                        "plastic back"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "plasticback0000rake_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-11-08 22:30:29",
+                    "file_basename": "plasticback0000rake",
+                    "meta_creatorSorter": [
+                        "rakes, anna"
+                    ],
+                    "meta_title": [
+                        "Plastic back"
+                    ],
+                    "page_num": [
+                        [
+                            102
+                        ]
+                    ],
+                    "sha1_file": "94a5af256d7852254baaf3130421ac7443c7478c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : iUniverse"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2006
+                    ],
+                    "updated_on": "2021-12-05 05:56:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Scoliosis -- Fiction",
+                        "Teenagers -- Fiction",
+                        "Scoliosis",
+                        "Teenagers"
+                    ],
+                    "meta_creator": [
+                        "Rakes, Anna"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "frigid floor, my toes were curling up, {{{making it increasingly}}} harder to walk straight. My toes squeezed"
+                    ]
+                },
+                "_score": 9.604399,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL9403664M",
+                    "url": "/books/OL9403664M/Plastic_Back",
+                    "title": "Plastic Back",
+                    "ocaid": "plasticback0000rake",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3253386A",
+                            "name": "Anna Rakes"
+                        }
+                    ],
+                    "work_key": "/works/OL9184524W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1304498-M.jpg",
+                    "borrow_url": "/books/OL9403664M/Plastic_Back/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "plasticback0000rake",
+                    "isbn": "0595385435",
+                    "oclc": null,
+                    "openlibrary_work": "OL9184524W",
+                    "openlibrary_edition": "OL9403664M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "kerencytteranlas0000unse|5548f83cba8e5ce2cc93399c02cc5ef7d25f5a5c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1643000987",
+                    "identifier": [
+                        "kerencytteranlas0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2022-01-20T06:50:46Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "kerencytteranlas0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-01-24 05:20:35",
+                    "file_basename": "kerencytteranlas0000unse",
+                    "meta_title": [
+                        "Keren Cytter [anla\u0308sslich der Ausstellung Keren Cytter. The Victim, im Museum Moderner Kunst Stiftung Ludwig Wien (16. November 2007 - 20. Januar 2008)]"
+                    ],
+                    "page_num": [
+                        [
+                            102
+                        ]
+                    ],
+                    "sha1_file": "d5327f1fc5574a46f4619655d97b8b143c08edec",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Nu\u0308rnberg Verl. fu\u0308r Moderne Kunst"
+                    ],
+                    "meta_languageSorter": [
+                        "German"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2022-03-07 14:56:10",
+                    "meta_titleSorter": [
+                        "keren cytter [anla\u0308sslich der ausstellung keren cytter. the victim, im museum moderner kunst stiftung ludwig wien (16. november 2007 - 20. januar 2008)]"
+                    ],
+                    "meta_subjectSorter": [
+                        "Tsi\u0323ter, K\u0323eren 1977-",
+                        "Tsiter, Keren",
+                        "Videokunst",
+                        "Zeichnung",
+                        "Wien",
+                        "(VLB-FS)Cytter, Keren",
+                        "(VLB-FS)Film",
+                        "(VLB-FS)Zeichnung",
+                        "(VLB-PF)BC: Paperback",
+                        "(VLB-WN)1583: HC/Kunst/Bildende Kunst"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "language of its internalisation, instead {{{making it increasingly}}} poet- ic and self-referential. This restores"
+                    ]
+                },
+                "_score": 9.601492,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL36696814M",
+                    "url": "/books/OL36696814M/Keren_Cytter",
+                    "title": "Keren Cytter",
+                    "ocaid": "kerencytteranlas0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL291574A",
+                            "name": "Marlene Dumas"
+                        }
+                    ],
+                    "work_key": "/works/OL27063424W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12585425-M.jpg",
+                    "borrow_url": "/books/OL36696814M/Keren_Cytter/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "kerencytteranlas0000unse",
+                    "isbn": "9783940748010",
+                    "oclc": null,
+                    "openlibrary_work": "OL27063424W",
+                    "openlibrary_edition": "OL36696814M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

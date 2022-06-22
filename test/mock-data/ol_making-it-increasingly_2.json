@@ -1,0 +1,2551 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1362,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.074379,
+        "hits": [
+            {
+                "_id": "privacyprivacyri0000unse|8691ce31a0fa6e31fd925b547a6bfbe116dae0c1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1615270177",
+                    "identifier": [
+                        "privacyprivacyri0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2020-10-30T12:45:56Z"
+                    ],
+                    "meta_downloads": [
+                        10
+                    ],
+                    "filename": [
+                        "privacyprivacyri0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-09 06:14:24",
+                    "file_basename": "privacyprivacyri0000unse",
+                    "meta_title": [
+                        "Privacy and privacy rights"
+                    ],
+                    "page_num": [
+                        [
+                            114
+                        ]
+                    ],
+                    "sha1_file": "f7a99129520e434c9763e857d5ed3d0adac1cc8f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Parkersburg, WV : Interactivity Foundation Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2005
+                    ],
+                    "updated_on": "2022-01-28 00:54:22",
+                    "meta_titleSorter": [
+                        "privacy and privacy rights"
+                    ],
+                    "meta_subjectSorter": [
+                        "Privacy, Right of -- United States",
+                        "Privacy, Right of -- Government policy",
+                        "Privacy, Right of -- Research",
+                        "Policy sciences",
+                        "Political planning",
+                        "Privacy, Right of",
+                        "United States"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "wrlc-ol"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the complexities of modern society, are {{{making it increasingly}}} difficult to protect our personal privacy",
+                        "the complexities of modern society, are {{{making it increasingly}}} difficult to protect our personal privacy"
+                    ]
+                },
+                "_score": 10.357079,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11812638M",
+                    "url": "/books/OL11812638M/Privacy_and_Privacy_Rights",
+                    "title": "Privacy and Privacy Rights",
+                    "ocaid": "privacyprivacyri0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1232594A",
+                            "name": "Mark Amadeus Notturno"
+                        }
+                    ],
+                    "work_key": "/works/OL24847123W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11699009-M.jpg",
+                    "borrow_url": "/books/OL11812638M/Privacy_and_Privacy_Rights/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "privacyprivacyri0000unse",
+                    "isbn": "0976623811",
+                    "oclc": null,
+                    "openlibrary_work": "OL24847123W",
+                    "openlibrary_edition": "OL11812638M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "whistlerpeacockr00free|9e2bfbfb31e31a79e161baed180f4136c36358b3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1430513084",
+                    "identifier": [
+                        "whistlerpeacockr00free"
+                    ],
+                    "meta_publicdate": [
+                        "2015-04-21T12:32:34Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the whistler peacock room"
+                    ],
+                    "meta_downloads": [
+                        272
+                    ],
+                    "filename": [
+                        "whistlerpeacockr00free_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 21:17:22",
+                    "file_basename": "whistlerpeacockr00free",
+                    "meta_creatorSorter": [
+                        "freer gallery of art"
+                    ],
+                    "meta_title": [
+                        "The Whistler Peacock Room"
+                    ],
+                    "page_num": [
+                        40
+                    ],
+                    "sha1_file": "d3d4fe7f0d23b354f74d774b144e16cfae5d1ef2",
+                    "meta_publisher": [
+                        "Washington, D.C. : Freer Gallery of Art, Smithsonian Institution"
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1980"
+                    ],
+                    "updated_on": "2017-12-01 04:15:07",
+                    "meta_collection": [
+                        "smithsonian",
+                        "smithsonianlibraries"
+                    ],
+                    "meta_subjectSorter": [
+                        "Whistler, James McNeill, 1834-1903",
+                        "Freer Gallery of Art",
+                        "Peacock Room"
+                    ],
+                    "meta_creator": [
+                        "Freer Gallery of Art",
+                        "Hobbs, Susan, 1945-",
+                        "Hobbs, Susan"
+                    ],
+                    "meta_date": [
+                        "1980-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "dramatic account has often been repeated, {{{making it increasingly}}} difficult to separate fact from fiction"
+                    ]
+                },
+                "_score": 10.334493,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4105819M",
+                    "url": "/books/OL4105819M/The_Whistler_Peacock_Room",
+                    "title": "The Whistler Peacock Room",
+                    "ocaid": "whistlerpeacockr00free",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1126838A",
+                            "name": "Freer Gallery of Art."
+                        }
+                    ],
+                    "work_key": "/works/OL5113868W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7343243-M.jpg",
+                    "read_url": "/books/OL4105819M/The_Whistler_Peacock_Room/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "whistlerpeacockr00free",
+                    "isbn": "0934686343",
+                    "oclc": null,
+                    "openlibrary_work": "OL5113868W",
+                    "openlibrary_edition": "OL4105819M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "captainthomasjam0000maci|38ab119c2a8eeaeffae29afd7d07df7479e56366",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1555994131",
+                    "identifier": [
+                        "captainthomasjam0000maci"
+                    ],
+                    "meta_publicdate": [
+                        "2019-04-17T00:12:32Z"
+                    ],
+                    "meta_titleSorter": [
+                        "captain thomas james and the north west passage"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "captainthomasjam0000maci_abbyy.gz"
+                    ],
+                    "created_on": "2019-04-25 18:08:26",
+                    "file_basename": "captainthomasjam0000maci",
+                    "meta_creatorSorter": [
+                        "macinnes, c. m. (charles malcolm), 1891-"
+                    ],
+                    "meta_title": [
+                        "Captain Thomas James and the North West Passage"
+                    ],
+                    "page_num": [
+                        42
+                    ],
+                    "sha1_file": "1d277807f54efc680161b30f886870c4ea054b27",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Bristol, Historical Association (Bristol Branch)"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1967
+                    ],
+                    "updated_on": "2022-05-09 00:56:12",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "James, Thomas, 1593?-1635?",
+                        "Northwest Passage"
+                    ],
+                    "meta_creator": [
+                        "MacInnes, C. M. (Charles Malcolm), 1891-"
+                    ],
+                    "meta_date": [
+                        "1967-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "rising costs of printing and postage are {{{making it increasingly}}} difficult to cover costs, and it may be"
+                    ]
+                },
+                "_score": 10.326319,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5658068M",
+                    "url": "/books/OL5658068M/Captain_Thomas_James_and_the_North_West_Passage",
+                    "title": "Captain Thomas James and the North West Passage",
+                    "ocaid": "captainthomasjam0000maci",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1968228A",
+                            "name": "C. M. MacInnes"
+                        }
+                    ],
+                    "work_key": "/works/OL7028218W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9752602-M.jpg",
+                    "borrow_url": "/books/OL5658068M/Captain_Thomas_James_and_the_North_West_Passage/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "captainthomasjam0000maci",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7028218W",
+                    "openlibrary_edition": "OL5658068M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "CAT10680042|bd4105d63b592b4320127277c4ece043b9fb3492",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1455896086",
+                    "identifier": [
+                        "CAT10680042"
+                    ],
+                    "meta_publicdate": [
+                        "2016-02-02T17:26:57Z"
+                    ],
+                    "meta_titleSorter": [
+                        "how the public learned of the program. missouri river basin agricultural program"
+                    ],
+                    "meta_downloads": [
+                        68
+                    ],
+                    "filename": [
+                        "CAT10680042_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-16 22:57:03",
+                    "file_basename": "CAT10680042",
+                    "meta_creatorSorter": [
+                        "united states. department of agriculture"
+                    ],
+                    "meta_title": [
+                        "How the public learned of the program. Missouri River Basin agricultural program"
+                    ],
+                    "page_num": [
+                        72
+                    ],
+                    "sha1_file": "e3551cb03716d890c343b31befbe0fa700179380",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Washington]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1949
+                    ],
+                    "updated_on": "2022-03-21 23:03:43",
+                    "meta_collection": [
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Agricultural policies and programs Missouri River Valley"
+                    ],
+                    "meta_creator": [
+                        "United States. Department of Agriculture",
+                        "United States. Department of Agriculture. Missouri River Basin Agricultural Program"
+                    ],
+                    "meta_date": [
+                        "1949-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "said unwise land practices in the area is {{{making it \u201cincreasingly}}} vulnerable\u201d to drouth.\nDENVER P0.ST\no\n$10-Billion",
+                        "unwise land practices in the area were {{{making it \u201cincreasingly}}} vulnerable\u201d to drought.\nThe system of paying"
+                    ]
+                },
+                "_score": 10.312433,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25901457M",
+                    "url": "/books/OL25901457M/How_the_public_learned_of_the_program._Missouri_River_Basin_agricultural_program",
+                    "title": "How the public learned of the program. Missouri River Basin agricultural program",
+                    "ocaid": "CAT10680042",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7195094A",
+                            "name": "United States. Department of Agriculture"
+                        }
+                    ],
+                    "work_key": "/works/OL17325376W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7403925-M.jpg",
+                    "read_url": "/books/OL25901457M/How_the_public_learned_of_the_program._Missouri_River_Basin_agricultural_program/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "CAT10680042",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17325376W",
+                    "openlibrary_edition": "OL25901457M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "workforcestrateg00albe_5|b9a5806e56b6f3b194f612e394e5117610bf43bd",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1455118058",
+                    "identifier": [
+                        "workforcestrateg00albe_5"
+                    ],
+                    "meta_publicdate": [
+                        "2016-01-14T20:26:23Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a workforce strategy for alberta's energy sector"
+                    ],
+                    "meta_downloads": [
+                        68
+                    ],
+                    "filename": [
+                        "workforcestrateg00albe_5_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 15:28:24",
+                    "file_basename": "workforcestrateg00albe_5",
+                    "meta_creatorSorter": [
+                        "alberta. alberta employment, immigration and industry"
+                    ],
+                    "meta_title": [
+                        "A Workforce strategy for Alberta's energy sector"
+                    ],
+                    "page_num": [
+                        26
+                    ],
+                    "sha1_file": "c653c377cae563377aca66404b5883dc7c50e88d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Edmonton : Alberta Employment, Immigration and Industry"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2022-04-06 08:13:02",
+                    "meta_collection": [
+                        "albertagovernmentpublications",
+                        "university_of_alberta_libraries",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Natural resources",
+                        "Skilled labor",
+                        "Labor supply"
+                    ],
+                    "meta_creator": [
+                        "Alberta. Alberta Employment, Immigration and Industry"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "on the quality of life in the community {{{making it increasingly}}} difficult to attract workers to these communities"
+                    ]
+                },
+                "_score": 10.304106,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25907262M",
+                    "url": "/books/OL25907262M/A_Workforce_strategy_for_Alberta's_energy_sector",
+                    "title": "A Workforce strategy for Alberta's energy sector",
+                    "ocaid": "workforcestrateg00albe_5",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7204085A",
+                            "name": "Alberta. Alberta Employment, Immigration and Industry"
+                        }
+                    ],
+                    "work_key": "/works/OL17331376W",
+                    "cover_url": "https://archive.org/services/img/workforcestrateg00albe_5",
+                    "read_url": "/books/OL25907262M/A_Workforce_strategy_for_Alberta's_energy_sector/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "workforcestrateg00albe_5",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17331376W",
+                    "openlibrary_edition": "OL25907262M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "trendsaffectinge19frys|55d7cd20442d1abdd81193593441dc42e75a18e3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1374187189",
+                    "identifier": [
+                        "trendsaffectinge19frys"
+                    ],
+                    "meta_publicdate": [
+                        "2013-07-16T10:39:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "trends affecting extension work"
+                    ],
+                    "meta_downloads": [
+                        97
+                    ],
+                    "filename": [
+                        "trendsaffectinge19frys_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 20:35:07",
+                    "file_basename": "trendsaffectinge19frys",
+                    "meta_creatorSorter": [
+                        "frysinger, grace e"
+                    ],
+                    "meta_title": [
+                        "Trends affecting extension work"
+                    ],
+                    "page_num": [
+                        22
+                    ],
+                    "sha1_file": "4e71739154e78fb02e6eb3b40b418bc6d55cfe82",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Washington, D.C.?] : Cooperative Extension Work in Agriculture and Home Economics, [U.S. Dept. of Agriculture?]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1933
+                    ],
+                    "updated_on": "2022-04-06 06:23:41",
+                    "meta_collection": [
+                        "usda-extensionservicecircular",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_creator": [
+                        "Frysinger, Grace E"
+                    ],
+                    "meta_date": [
+                        "1933-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and x\"estrictive imm.igration latvs are {{{making it increasingly}}} domiinated by its northern Suroj.oan ra:ial"
+                    ]
+                },
+                "_score": 10.288744,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33221465M",
+                    "url": "/books/OL33221465M/Trends_affecting_extension_work",
+                    "title": "Trends affecting extension work",
+                    "ocaid": "trendsaffectinge19frys",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9397543A",
+                            "name": "Grace E. Frysinger"
+                        }
+                    ],
+                    "work_key": "/works/OL24991645W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11933706-M.jpg",
+                    "read_url": "/books/OL33221465M/Trends_affecting_extension_work/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "trendsaffectinge19frys",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24991645W",
+                    "openlibrary_edition": "OL33221465M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "securingourfutur0000unse|08a3dff441cd2a4290e5f2f7001a9f3109a9bc36",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1647272522",
+                    "identifier": [
+                        "securingourfutur0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-07T13:11:16Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "securingourfutur0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-14 15:57:39",
+                    "file_basename": "securingourfutur0000unse",
+                    "meta_title": [
+                        "Securing our future : sustainable forest management in British Columbia"
+                    ],
+                    "page_num": [
+                        [
+                            30
+                        ]
+                    ],
+                    "sha1_file": "4d3facd90205a7d8c3bdc5c0be549bd3e6ec608e",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Victoria, B.C. : Ministry of Forests]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1997
+                    ],
+                    "updated_on": "2022-05-25 17:05:09",
+                    "meta_titleSorter": [
+                        "securing our future : sustainable forest management in british columbia"
+                    ],
+                    "meta_subjectSorter": [
+                        "Forest policy -- British Columbia",
+                        "Sustainable forestry -- Government policy -- British Columbia",
+                        "Forest management -- British Columbia"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1997-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "bitter conflict over land and resource use, {{{making it increasingly}}} clear that B.C. needed a comprehensive"
+                    ]
+                },
+                "_score": 10.265666,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL86570M",
+                    "url": "/books/OL86570M/Securing_our_future",
+                    "title": "Securing our future",
+                    "ocaid": "securingourfutur0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL5885157A",
+                            "name": "British Columbia. Ministry of Forests"
+                        }
+                    ],
+                    "work_key": "/works/OL23718724W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12673292-M.jpg",
+                    "borrow_url": "/books/OL86570M/Securing_our_future/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "securingourfutur0000unse",
+                    "isbn": "0772630984",
+                    "oclc": null,
+                    "openlibrary_work": "OL23718724W",
+                    "openlibrary_edition": "OL86570M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "englishincommon60000unse|e7d0e5882076f23d6b73e78cff0191a88e72fc44",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1645051698",
+                    "identifier": [
+                        "englishincommon60000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2022-02-10T13:22:39Z"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "englishincommon60000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-02-17 00:45:50",
+                    "file_basename": "englishincommon60000unse",
+                    "meta_title": [
+                        "English in common. 6"
+                    ],
+                    "page_num": [
+                        [
+                            102
+                        ]
+                    ],
+                    "sha1_file": "55a57706be6015498cdca0a513becab67826684d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "White Plains, N.Y. : Pearson"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2012
+                    ],
+                    "updated_on": "2022-04-07 13:30:13",
+                    "meta_titleSorter": [
+                        "english in common. 6"
+                    ],
+                    "meta_subjectSorter": [
+                        "English language -- Study and teaching -- Foreign speakers",
+                        "English language -- Study and teaching -- Foreign speakers -- Activity programs",
+                        "English language -- Textbooks for foreign speakers",
+                        "English language -- Computer-assisted instruction for foreign speakers",
+                        "English language -- Sound recordings for foreign speakers",
+                        "English language -- Grammar",
+                        "English language -- Spoken English",
+                        "English language"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "2012-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "words in parentheses.\nEx: Inflation is {{{making it increasingly}}} difficult for\nyoung people to buy a home",
+                        "home. (own) Inflation is {{{making it increasingly}}} difficult for young people to buy their own home.\n1. It"
+                    ]
+                },
+                "_score": 10.255788,
+                "_type": "_doc"
+            },
+            {
+                "_id": "membersforumonim00unit|9671c06cb53abc8a767c53d72183e1a1e3fb6f63",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1217481175",
+                    "identifier": [
+                        "membersforumonim00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-07-29T17:08:44Z"
+                    ],
+                    "meta_titleSorter": [
+                        "members' forum on immigration : hearing before the subcommittee on immigration and claims of the committee on the judiciary, house of representatives, one hundred fourth congress, first session, may 24, 1995"
+                    ],
+                    "meta_downloads": [
+                        627
+                    ],
+                    "filename": [
+                        "membersforumonim00unit_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 11:43:11",
+                    "file_basename": "membersforumonim00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on the judiciary. subcommittee on immigration and claims"
+                    ],
+                    "meta_title": [
+                        "Members' forum on immigration : hearing before the Subcommittee on Immigration and Claims of the Committee on the Judiciary, House of Representatives, One Hundred Fourth Congress, first session, May 24, 1995"
+                    ],
+                    "page_num": [
+                        100
+                    ],
+                    "sha1_file": "d7fe02777544f56bae23df704ba5eb88efeb2d91",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1996
+                    ],
+                    "updated_on": "2022-04-04 11:14:57",
+                    "meta_collection": [
+                        "USGovernmentDocuments",
+                        "bostonpubliclibrary",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Illegal aliens -- United States",
+                        "United States -- Emigration and immigration Government policy"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on the Judiciary. Subcommittee on Immigration and Claims"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "has overwhelmed our local governments, {{{making it increasingly}}} difficult for them to provide quality social",
+                        "has overwhelmed our local governments, {{{making it increasingly}}} difficult for them to provide quality social"
+                    ]
+                },
+                "_score": 10.254898,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL567072M",
+                    "url": "/books/OL567072M/Members'_forum_on_immigration",
+                    "title": "Members' forum on immigration",
+                    "ocaid": "membersforumonim00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL48888A",
+                            "name": "United States. Congress. House. Committee on the Judiciary. Subcommittee on Immigration and Claims."
+                        }
+                    ],
+                    "work_key": "/works/OL635028W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4592163-M.jpg",
+                    "read_url": "/books/OL567072M/Members'_forum_on_immigration/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "membersforumonim00unit",
+                    "isbn": "0160524962",
+                    "oclc": null,
+                    "openlibrary_work": "OL635028W",
+                    "openlibrary_edition": "OL567072M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "bankruptcycorpor0000maul|1f4a8db90f0e3404235554be4278794ee59733a9",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1564009187",
+                    "identifier": [
+                        "bankruptcycorpor0000maul"
+                    ],
+                    "meta_publicdate": [
+                        "2019-07-23T00:38:54Z"
+                    ],
+                    "meta_titleSorter": [
+                        "bankruptcy, corporate governance and competition : some important links"
+                    ],
+                    "meta_downloads": [
+                        7
+                    ],
+                    "filename": [
+                        "bankruptcycorpor0000maul_abbyy.gz"
+                    ],
+                    "created_on": "2019-07-25 14:03:44",
+                    "file_basename": "bankruptcycorpor0000maul",
+                    "meta_creatorSorter": [
+                        "maule, christopher j., 1934-"
+                    ],
+                    "meta_title": [
+                        "Bankruptcy, corporate governance and competition : some important links"
+                    ],
+                    "page_num": [
+                        34
+                    ],
+                    "sha1_file": "5b9c22d0b2e070cd678aeeea53fdedbf4edc135d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Kingston, Ont.] : Queen's University, John Deutsch Institute for the Study of Economic Policy"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2000
+                    ],
+                    "updated_on": "2022-05-08 06:03:16",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Bankruptcy",
+                        "Competition",
+                        "Corporate governance"
+                    ],
+                    "meta_creator": [
+                        "Maule, Christopher J., 1934-"
+                    ],
+                    "meta_date": [
+                        "2000-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "voting power of the acquiror\u2019s position and {{{making it increasingly}}} expensive for the outsider to gain control"
+                    ]
+                },
+                "_score": 10.250817,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL26623624M",
+                    "url": "/books/OL26623624M/Bankruptcy_corporate_governance_and_competition",
+                    "title": "Bankruptcy, corporate governance and competition",
+                    "ocaid": "bankruptcycorpor0000maul",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1050361A",
+                            "name": "Christopher J. Maule"
+                        }
+                    ],
+                    "work_key": "/works/OL18142613W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9420878-M.jpg",
+                    "borrow_url": "/books/OL26623624M/Bankruptcy_corporate_governance_and_competition/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "bankruptcycorpor0000maul",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL18142613W",
+                    "openlibrary_edition": "OL26623624M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "sylvanaceitlevel0000stec|1e62ffe459c9926fcae14c36f73cae2cf4719dee",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1652251660",
+                    "identifier": [
+                        "sylvanaceitlevel0000stec"
+                    ],
+                    "meta_publicdate": [
+                        "2022-05-10T19:40:06Z"
+                    ],
+                    "meta_titleSorter": [
+                        "sylvan ace-it leveled readers anthology grade 8"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "sylvanaceitlevel0000stec_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-05-11 07:14:15",
+                    "file_basename": "sylvanaceitlevel0000stec",
+                    "meta_creatorSorter": [
+                        "steck-vaughn"
+                    ],
+                    "meta_title": [
+                        "Sylvan ace-it leveled readers anthology grade 8"
+                    ],
+                    "page_num": [
+                        [
+                            46
+                        ]
+                    ],
+                    "sha1_file": "516df250d3c9aea5060e946d1f7357e400c0a4ba",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Place of publication not identified] : Steck-Vaughn Co"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2005
+                    ],
+                    "updated_on": "2022-06-09 22:23:27",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_creator": [
+                        "Steck-Vaughn"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "that causes the body's muscles to weaken, {{{making it increasingly}}} difficult to speak or move. Fortunately"
+                    ]
+                },
+                "_score": 10.246558,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL37866893M",
+                    "url": "/books/OL37866893M/Sylvan_ace-it_leveled_readers_anthology_grade_8.",
+                    "title": "Sylvan ace-it leveled readers anthology grade 8.",
+                    "ocaid": "sylvanaceitlevel0000stec",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7241973A",
+                            "name": "Steck-Vaughn"
+                        }
+                    ],
+                    "work_key": "/works/OL27737786W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12739210-M.jpg",
+                    "borrow_url": "/books/OL37866893M/Sylvan_ace-it_leveled_readers_anthology_grade_8./borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "sylvanaceitlevel0000stec",
+                    "isbn": "1419026658",
+                    "oclc": null,
+                    "openlibrary_work": "OL27737786W",
+                    "openlibrary_edition": "OL37866893M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "asianmammals0000leig|eaf052c7c8d6bac26b0f0c990bf10d46d6c1c545",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614619849",
+                    "identifier": [
+                        "asianmammals0000leig"
+                    ],
+                    "meta_publicdate": [
+                        "2020-12-30T05:34:58Z"
+                    ],
+                    "meta_titleSorter": [
+                        "asian mammals"
+                    ],
+                    "meta_downloads": [
+                        11
+                    ],
+                    "filename": [
+                        "asianmammals0000leig_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-01 17:40:25",
+                    "file_basename": "asianmammals0000leig",
+                    "meta_creatorSorter": [
+                        "leigh-pemberton, john, 1911-1997"
+                    ],
+                    "meta_title": [
+                        "Asian mammals"
+                    ],
+                    "page_num": [
+                        [
+                            58
+                        ]
+                    ],
+                    "sha1_file": "173b5499288781cfc2948526e7ab14efa2a77e38",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Loughborough : Wills and Hepworth"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1971
+                    ],
+                    "updated_on": "2021-04-01 19:48:16",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Mammals -- Asia -- Juvenile literature",
+                        "Mammals",
+                        "Asia",
+                        "Mammals Asia. Juvenile literature"
+                    ],
+                    "meta_creator": [
+                        "Leigh-Pemberton, John, 1911-1997"
+                    ],
+                    "meta_date": [
+                        "1971-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "various pressures of human development are {{{making it increasingly}}} difficult for them to survive, and the"
+                    ]
+                },
+                "_score": 10.22869,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL10535191M",
+                    "url": "/books/OL10535191M/Asian_Mammals",
+                    "title": "Asian Mammals",
+                    "ocaid": "asianmammals0000leig",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2276867A",
+                            "name": "Leigh-Pemberton, John"
+                        }
+                    ],
+                    "work_key": "/works/OL7492874W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11591097-M.jpg",
+                    "borrow_url": "/books/OL10535191M/Asian_Mammals/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "asianmammals0000leig",
+                    "isbn": "0721402909",
+                    "oclc": null,
+                    "openlibrary_work": "OL7492874W",
+                    "openlibrary_edition": "OL10535191M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "modocindianwar0000spro|4faf599385cea92d5ddb6ba60526d7ae54bacd98",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1587358193",
+                    "identifier": [
+                        "modocindianwar0000spro"
+                    ],
+                    "meta_publicdate": [
+                        "2020-04-13T05:04:57Z"
+                    ],
+                    "meta_titleSorter": [
+                        "modoc indian war"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "modocindianwar0000spro_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-29 23:44:47",
+                    "file_basename": "modocindianwar0000spro",
+                    "meta_creatorSorter": [
+                        "sproull, harry v"
+                    ],
+                    "meta_title": [
+                        "Modoc Indian War"
+                    ],
+                    "page_num": [
+                        54
+                    ],
+                    "sha1_file": "d8eb7fed0c44847fc18dc357a1c8b9e473b9de94",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Klamath Falls, Or. : Printed by Craft Printers]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1969
+                    ],
+                    "updated_on": "2022-05-09 03:40:53",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Modoc War, 1872-1873"
+                    ],
+                    "meta_creator": [
+                        "Sproull, Harry V"
+                    ],
+                    "meta_date": [
+                        "1969-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "he doubled the security along Tule Lake, {{{making it increasingly}}} dif\u00ac ficult for the Indians to get water"
+                    ]
+                },
+                "_score": 10.160986,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4884375M",
+                    "url": "/books/OL4884375M/Modoc_Indian_War",
+                    "title": "Modoc Indian War",
+                    "ocaid": "modocindianwar0000spro",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1910688A",
+                            "name": "Harry V. Sproull"
+                        }
+                    ],
+                    "work_key": "/works/OL6905903W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9330319-M.jpg",
+                    "borrow_url": "/books/OL4884375M/Modoc_Indian_War/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "modocindianwar0000spro",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL6905903W",
+                    "openlibrary_edition": "OL4884375M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "economicsgovernm0000roll|1fc9aa3a4512101943d288da7c3310da9cdf5688",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1638425390",
+                    "identifier": [
+                        "economicsgovernm0000roll"
+                    ],
+                    "meta_publicdate": [
+                        "2021-11-26T04:45:46Z"
+                    ],
+                    "meta_titleSorter": [
+                        "economics, government and business"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "economicsgovernm0000roll_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-12-02 06:38:35",
+                    "file_basename": "economicsgovernm0000roll",
+                    "meta_creatorSorter": [
+                        "roll of ipsden, eric roll, baron, 1907-2005"
+                    ],
+                    "meta_title": [
+                        "Economics, government and business"
+                    ],
+                    "page_num": [
+                        [
+                            38
+                        ]
+                    ],
+                    "sha1_file": "03112f9d6dd22e2ff329712cfbd200a2f9d509f4",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Athlone Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1976
+                    ],
+                    "updated_on": "2022-04-13 09:49:39",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Economics",
+                        "Industrial policy"
+                    ],
+                    "meta_creator": [
+                        "Roll of Ipsden, Eric Roll, Baron, 1907-2005"
+                    ],
+                    "meta_date": [
+                        "1976-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "working of the international monetary system, {{{making it increasingly}}} difficult to achieve equilibrium in international"
+                    ]
+                },
+                "_score": 10.159695,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4600307M",
+                    "url": "/books/OL4600307M/Economics_government_and_business",
+                    "title": "Economics, government and business",
+                    "ocaid": "economicsgovernm0000roll",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL487191A",
+                            "name": "Roll of Ipsden, Eric Roll Baron"
+                        }
+                    ],
+                    "work_key": "/works/OL3104096W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4424907-M.jpg",
+                    "borrow_url": "/books/OL4600307M/Economics_government_and_business/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "economicsgovernm0000roll",
+                    "isbn": "0485164310",
+                    "oclc": null,
+                    "openlibrary_work": "OL3104096W",
+                    "openlibrary_edition": "OL4600307M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "CAT31349399|9c02330186f1ea81e6161271e3c27117fdf0665b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1469453768",
+                    "identifier": [
+                        "CAT31349399"
+                    ],
+                    "meta_publicdate": [
+                        "2016-07-20T12:00:27Z"
+                    ],
+                    "meta_titleSorter": [
+                        "developmental consequences of unrestricted trade"
+                    ],
+                    "meta_downloads": [
+                        37
+                    ],
+                    "filename": [
+                        "CAT31349399_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 23:44:04",
+                    "file_basename": "CAT31349399",
+                    "meta_creatorSorter": [
+                        "vollrath, thomas l"
+                    ],
+                    "meta_title": [
+                        "Developmental consequences of unrestricted trade"
+                    ],
+                    "page_num": [
+                        24
+                    ],
+                    "sha1_file": "f5d86a4c693d591b047d70162d8ff0b3b414b3ea",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : U.S. Dept. of Agriculture, Economic Research Service : [Copies from Supt. of Docs., U.S. G.P.O.]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1985
+                    ],
+                    "updated_on": "2022-04-05 03:19:55",
+                    "meta_collection": [
+                        "usda-foreignagriculturaleconomicreport",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Free trade",
+                        "Economic development",
+                        "Comparative advantage (International trade)"
+                    ],
+                    "meta_creator": [
+                        "Vollrath, Thomas L",
+                        "United States. Department of Agriculture. Economic Research Service"
+                    ],
+                    "meta_date": [
+                        "1985-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "raised tariffs protecting domestic industry, {{{making it increasingly}}} difficult for other nations to export commodities"
+                    ]
+                },
+                "_score": 10.137881,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2664574M",
+                    "url": "/books/OL2664574M/Developmental_consequences_of_unrestricted_trade",
+                    "title": "Developmental consequences of unrestricted trade",
+                    "ocaid": "CAT31349399",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1170734A",
+                            "name": "Thomas L. Vollrath"
+                        }
+                    ],
+                    "work_key": "/works/OL5221667W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7435609-M.jpg",
+                    "read_url": "/books/OL2664574M/Developmental_consequences_of_unrestricted_trade/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "CAT31349399",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL5221667W",
+                    "openlibrary_edition": "OL2664574M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "developmentcrisi0000lang|4f1b8d4662cfb60db3b27aef4e50758df003e156",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1602328603",
+                    "identifier": [
+                        "developmentcrisi0000lang"
+                    ],
+                    "meta_publicdate": [
+                        "2020-10-08T06:14:34Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the development crisis : blueprint for change"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "developmentcrisi0000lang_abbyy.gz"
+                    ],
+                    "created_on": "2020-10-10 11:58:23",
+                    "file_basename": "developmentcrisi0000lang",
+                    "meta_creatorSorter": [
+                        "langoni, carlos geraldo"
+                    ],
+                    "meta_title": [
+                        "The development crisis : blueprint for change"
+                    ],
+                    "page_num": [
+                        184
+                    ],
+                    "sha1_file": "239ac8d67563b008c78c43ccbc65695f29a78d63",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "San Francisco, CA : International Center for Economic Growth"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1987
+                    ],
+                    "updated_on": "2021-05-04 00:02:58",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "International Monetary Fund",
+                        "Fonds mone\u0301taire international",
+                        "Monetary policy -- Brazil",
+                        "Debts, External -- Brazil",
+                        "Debt relief -- Brazil",
+                        "Monetary policy -- Developing countries",
+                        "Debts, External -- Developing countries",
+                        "Debt relief -- Developing countries",
+                        "Politique mone\u0301taire -- Bre\u0301sil",
+                        "Dettes exte\u0301rieures -- Bre\u0301sil",
+                        "Dettes -- Alle\u0300gement -- Bre\u0301sil",
+                        "Politique mone\u0301taire -- Pays en voie de de\u0301veloppement",
+                        "Dettes exte\u0301rieures -- Pays en voie de de\u0301veloppement",
+                        "Dettes -- Alle\u0300gement -- Pays en voie de de\u0301veloppement",
+                        "Debt relief",
+                        "Debts, External",
+                        "Monetary policy",
+                        "Auslandsschulden",
+                        "Planejamento Economico",
+                        "Deuda exterior -- Brasil",
+                        "Brazil",
+                        "Developing countries",
+                        "Entwicklungsla\u0308nder",
+                        "Pai\u0301ses subdesarrollados -- Deuda exterior",
+                        "Debt relief Brazil",
+                        "Debt relief Developing countries",
+                        "Debts, External Brazil",
+                        "Debts, External Developing countries",
+                        "Monetary policy Brazil",
+                        "Monetary policy Developing countries"
+                    ],
+                    "meta_creator": [
+                        "Langoni, Carlos Geraldo"
+                    ],
+                    "meta_date": [
+                        "1987-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "time.\nSocial and political constraints are {{{making it increasingly}}} difficult to sustain the present system",
+                        "direct effect on the pub\u00ac lic debt service, {{{making it increasingly}}} difficult to control current spend\u00ac ing"
+                    ]
+                },
+                "_score": 10.133089,
+                "_type": "_doc"
+            },
+            {
+                "_id": "moraltraininginp00leon|1a4c2e1b2daa94dbc6e970a2cc10ab71fb6c82dc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1280186598",
+                    "identifier": [
+                        "moraltraininginp00leon"
+                    ],
+                    "meta_publicdate": [
+                        "2010-07-16T15:10:23Z"
+                    ],
+                    "meta_titleSorter": [
+                        "moral training in public schools"
+                    ],
+                    "meta_downloads": [
+                        209
+                    ],
+                    "filename": [
+                        "moraltraininginp00leon_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 00:48:42",
+                    "file_basename": "moraltraininginp00leon",
+                    "meta_creatorSorter": [
+                        "leonard, mary hall, 1847-1921"
+                    ],
+                    "meta_title": [
+                        "Moral training in public schools"
+                    ],
+                    "page_num": [
+                        42
+                    ],
+                    "sha1_file": "526bfc6a392503e79b275903b537aa0ef7459c72",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Boston, The Palmer co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1908
+                    ],
+                    "updated_on": "2022-04-06 00:44:14",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Moral education"
+                    ],
+                    "meta_creator": [
+                        "Leonard, Mary Hall, 1847-1921"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "conceptions of God in modern thought are {{{making it increasingly}}} difficult to exclude the God-idea from"
+                    ]
+                },
+                "_score": 10.123759,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24342830M",
+                    "url": "/books/OL24342830M/Moral_training_in_public_schools",
+                    "title": "Moral training in public schools",
+                    "ocaid": "moraltraininginp00leon",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2313767A",
+                            "name": "Mary Hall Leonard"
+                        }
+                    ],
+                    "work_key": "/works/OL15356409W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6541297-M.jpg",
+                    "read_url": "/books/OL24342830M/Moral_training_in_public_schools/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "moraltraininginp00leon",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15356409W",
+                    "openlibrary_edition": "OL24342830M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "behavioralperspe00coop|3191cf881b741e81238f298ddc96206953336b80",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1222473886",
+                    "identifier": [
+                        "behavioralperspe00coop"
+                    ],
+                    "meta_publicdate": [
+                        "2008-09-25T13:47:09Z"
+                    ],
+                    "meta_titleSorter": [
+                        "behavioral perspectives on the impacts of technology on i/s prototyping"
+                    ],
+                    "meta_downloads": [
+                        502
+                    ],
+                    "filename": [
+                        "behavioralperspe00coop_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 08:20:10",
+                    "file_basename": "behavioralperspe00coop",
+                    "meta_creatorSorter": [
+                        "cooprider, jay g"
+                    ],
+                    "meta_title": [
+                        "Behavioral perspectives on the impacts of technology on I/S prototyping"
+                    ],
+                    "page_num": [
+                        62
+                    ],
+                    "sha1_file": "24afd9f742a2f8d979287fc7c0f929e3f8dbfcdc",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge, Mass. : Center for Information Systems Research, Sloan School of Management, Massachusetts Institute of Technology"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1989
+                    ],
+                    "updated_on": "2022-03-26 01:15:36",
+                    "meta_collection": [
+                        "mitlibraries",
+                        "blc",
+                        "americana"
+                    ],
+                    "meta_creator": [
+                        "Cooprider, Jay G",
+                        "Sloan School of Management. Center for Information Systems Research",
+                        "Henderson, John C"
+                    ],
+                    "meta_date": [
+                        "1989-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "evolving technology base. These factors are {{{making it increasingly}}} difficult for today's I/S builder to meet"
+                    ]
+                },
+                "_score": 10.121542,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL17940434M",
+                    "url": "/books/OL17940434M/Behavioral_perspectives_on_the_impacts_of_technology_on_I_S_prototyping",
+                    "title": "Behavioral perspectives on the impacts of technology on I/S prototyping",
+                    "ocaid": "behavioralperspe00coop",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL5374164A",
+                            "name": "Jay G. Cooprider"
+                        }
+                    ],
+                    "work_key": "/works/OL12286195W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5977963-M.jpg",
+                    "read_url": "/books/OL17940434M/Behavioral_perspectives_on_the_impacts_of_technology_on_I_S_prototyping/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "behavioralperspe00coop",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL12286195W",
+                    "openlibrary_edition": "OL17940434M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "northcarolinasgu00unse_1|fa192d8579e230e2f602f7cb37a877cbe8c88992",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1625464808",
+                    "identifier": [
+                        "northcarolinasgu00unse_1"
+                    ],
+                    "meta_publicdate": [
+                        "2021-06-25T19:17:14Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "northcarolinasgu00unse_1_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-07-05 06:12:07",
+                    "file_basename": "northcarolinasgu00unse_1",
+                    "meta_title": [
+                        "North Carolina's guide to better eating"
+                    ],
+                    "page_num": [
+                        [
+                            42
+                        ]
+                    ],
+                    "sha1_file": "c3dfbf6ecac89be72cb1d9698d673acf1a98c4ab",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Raleigh, N.C. : North Carolina Association of Quality Restaurants]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1955
+                    ],
+                    "updated_on": "2021-07-08 19:34:56",
+                    "meta_titleSorter": [
+                        "north carolina's guide to better eating"
+                    ],
+                    "meta_subjectSorter": [
+                        "Restaurants -- North Carolina",
+                        "Restaurants -- North Carolina -- Directories",
+                        "Cooking -- North Carolina"
+                    ],
+                    "meta_collection": [
+                        "ncgen",
+                        "unclibraries",
+                        "americana"
+                    ],
+                    "meta_date": [
+                        "1955-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the members of your organization, you are {{{making it increasingly}}} necessary for all restaurants to improve"
+                    ]
+                },
+                "_score": 10.118127,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32742453M",
+                    "url": "/books/OL32742453M/North_Carolina's_guide_to_better_eating",
+                    "title": "North Carolina's guide to better eating",
+                    "ocaid": "northcarolinasgu00unse_1",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9295417A",
+                            "name": "North Carolina Association of Quality Restaurants"
+                        }
+                    ],
+                    "work_key": "/works/OL24656309W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11348751-M.jpg",
+                    "read_url": "/books/OL32742453M/North_Carolina's_guide_to_better_eating/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "northcarolinasgu00unse_1",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24656309W",
+                    "openlibrary_edition": "OL32742453M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "northcarolinasgu00unse|973c9004987fc2896df2f36d4b93343f63f1a27b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1625225899",
+                    "identifier": [
+                        "northcarolinasgu00unse"
+                    ],
+                    "meta_publicdate": [
+                        "2021-06-25T19:16:18Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "northcarolinasgu00unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-07-02 11:51:42",
+                    "file_basename": "northcarolinasgu00unse",
+                    "meta_title": [
+                        "North Carolina's guide to better eating"
+                    ],
+                    "page_num": [
+                        [
+                            42
+                        ]
+                    ],
+                    "sha1_file": "62f9f3ce35f09acdb59efafa61138048180e25e0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Raleigh, N.C. : North Carolina Association of Quality Restaurants]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1954
+                    ],
+                    "updated_on": "2021-07-08 19:34:54",
+                    "meta_titleSorter": [
+                        "north carolina's guide to better eating"
+                    ],
+                    "meta_subjectSorter": [
+                        "Restaurants -- North Carolina",
+                        "Restaurants -- North Carolina -- Directories",
+                        "Cooking -- North Carolina"
+                    ],
+                    "meta_collection": [
+                        "ncgen",
+                        "unclibraries",
+                        "americana"
+                    ],
+                    "meta_date": [
+                        "1954-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the members of your organization, you are {{{making it increasingly}}} necessary for all restaurants to improve"
+                    ]
+                },
+                "_score": 10.114632,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32721838M",
+                    "url": "/books/OL32721838M/North_Carolina's_guide_to_better_eating",
+                    "title": "North Carolina's guide to better eating",
+                    "ocaid": "northcarolinasgu00unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9295417A",
+                            "name": "North Carolina Association of Quality Restaurants"
+                        }
+                    ],
+                    "work_key": "/works/OL24656309W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11348751-M.jpg",
+                    "read_url": "/books/OL32721838M/North_Carolina's_guide_to_better_eating/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "northcarolinasgu00unse",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24656309W",
+                    "openlibrary_edition": "OL32721838M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

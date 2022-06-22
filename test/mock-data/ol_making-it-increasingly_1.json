@@ -1,0 +1,2697 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 919,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.074379,
+        "hits": [
+            {
+                "_id": "pillessentialgui0000john|66f4e733d9b1ebcb0c233581c495baebc673670e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1598354271",
+                    "identifier": [
+                        "pillessentialgui0000john"
+                    ],
+                    "meta_publicdate": [
+                        "2020-08-17T11:15:25Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the pill : an essential guide"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "pillessentialgui0000john_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-29 11:31:43",
+                    "file_basename": "pillessentialgui0000john",
+                    "meta_creatorSorter": [
+                        "johnson, jo"
+                    ],
+                    "meta_title": [
+                        "The pill : an essential guide"
+                    ],
+                    "page_num": [
+                        112
+                    ],
+                    "sha1_file": "e736e3877c0a6e25a6c29139393a5958f1444ada",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Woodston : Need-2-Know"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2008"
+                    ],
+                    "updated_on": "2020-10-21 23:00:03",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Oral contraceptives -- Popular works",
+                        "Oral contraceptives"
+                    ],
+                    "meta_creator": [
+                        "Johnson, Jo"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "to have more of an effect on ovulation, {{{making it increasingly}}} reliable.\u2019\nNewer versions of the mini pill",
+                        "to have more of an effect on ovulation, {{{making it increasingly}}} reliable.\nWho is it prescribed to?\nThe"
+                    ]
+                },
+                "_score": 11.074379,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL29477086M",
+                    "url": "/books/OL29477086M/The_pill",
+                    "title": "The pill",
+                    "ocaid": "pillessentialgui0000john",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2659630A",
+                            "name": "Jo Johnson"
+                        }
+                    ],
+                    "work_key": "/works/OL21671761W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10392012-M.jpg",
+                    "borrow_url": "/books/OL29477086M/The_pill/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "pillessentialgui0000john",
+                    "isbn": "9781861440587",
+                    "oclc": null,
+                    "openlibrary_work": "OL21671761W",
+                    "openlibrary_edition": "OL29477086M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "trusteeshipfutur0000mott|8932080b8262db85d8c6c4b7e5a0d4eff257821c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1622262556",
+                    "identifier": [
+                        "trusteeshipfutur0000mott"
+                    ],
+                    "meta_publicdate": [
+                        "2021-05-27T03:21:53Z"
+                    ],
+                    "meta_titleSorter": [
+                        "trusteeship and the future of community hospitals"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "trusteeshipfutur0000mott_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-05-29 04:48:35",
+                    "file_basename": "trusteeshipfutur0000mott",
+                    "meta_creatorSorter": [
+                        "mott, basil j. f"
+                    ],
+                    "meta_title": [
+                        "Trusteeship and the future of community hospitals"
+                    ],
+                    "page_num": [
+                        [
+                            78
+                        ]
+                    ],
+                    "sha1_file": "3f7e88014bfcbcfb270509249b772817271307e6",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Chicago, Ill. : American Hospital Pub."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1984
+                    ],
+                    "updated_on": "2021-06-22 17:57:09",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Hospitals -- Administration",
+                        "Hospital trustees",
+                        "Voluntary hospitals -- United States",
+                        "Hospital and community -- United States",
+                        "Hospitals, Community -- Organization and administrations -- United States",
+                        "Governing board",
+                        "Hospitals, Community -- Trends -- United States"
+                    ],
+                    "meta_creator": [
+                        "Mott, Basil J. F"
+                    ],
+                    "meta_date": [
+                        "1984-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "financial problems being faced by hospitals are {{{making it increasingly}}} difficult for them to respond to community",
+                        "advent of prospective pricing is, however, {{{making it increasingly}}} important for physicians and hospi- tals"
+                    ]
+                },
+                "_score": 11.015883,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3182963M",
+                    "url": "/books/OL3182963M/Trusteeship_and_the_future_of_community_hospitals",
+                    "title": "Trusteeship and the future of community hospitals",
+                    "ocaid": "trusteeshipfutur0000mott",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1350478A",
+                            "name": "Basil J. F. Mott"
+                        }
+                    ],
+                    "work_key": "/works/OL5606594W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11733152-M.jpg",
+                    "borrow_url": "/books/OL3182963M/Trusteeship_and_the_future_of_community_hospitals/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "trusteeshipfutur0000mott",
+                    "isbn": "0939450046",
+                    "oclc": null,
+                    "openlibrary_work": "OL5606594W",
+                    "openlibrary_edition": "OL3182963M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "analysisofdeterm0000leig|00f175f6cd1612063836ae1834422193da5455c3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1570521366",
+                    "identifier": [
+                        "analysisofdeterm0000leig"
+                    ],
+                    "meta_publicdate": [
+                        "2019-10-02T10:07:36Z"
+                    ],
+                    "meta_titleSorter": [
+                        "an analysis of the determinants of occupational upgrading"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "analysisofdeterm0000leig_abbyy.gz"
+                    ],
+                    "created_on": "2019-10-09 00:15:34",
+                    "file_basename": "analysisofdeterm0000leig",
+                    "meta_creatorSorter": [
+                        "leigh, duane e"
+                    ],
+                    "meta_title": [
+                        "An analysis of the determinants of occupational upgrading"
+                    ],
+                    "page_num": [
+                        218
+                    ],
+                    "sha1_file": "2f5d4d330a18bb47dc12d43d1e82d48adbf1e740",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Academic Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1978
+                    ],
+                    "updated_on": "2021-04-29 15:35:28",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "binghamton-ol",
+                        "cuny-ol",
+                        "dartmouthlibrary-ol",
+                        "howard-ol",
+                        "mitlibraries-ol",
+                        "riceuniversity-ol",
+                        "rochester-ol",
+                        "tamu-evanslibrary-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofoklahoma-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Occupational training",
+                        "Occupational mobility",
+                        "Berufsbildung",
+                        "Arbeitsmobilita\u0308t",
+                        "United States",
+                        "Mobilita\u0308t",
+                        "USA",
+                        "Occupational training -- United States",
+                        "Occupational mobility -- United States",
+                        "African Americans -- Employment",
+                        "Education -- Economic aspects -- United States",
+                        "Formation professionnelle -- E\u0301tats-Unis",
+                        "Mobilite\u0301 professionnelle -- E\u0301tats-Unis",
+                        "Noirs ame\u0301ricains -- Travail",
+                        "E\u0301ducation -- Aspect e\u0301conomique -- E\u0301tats-Unis",
+                        "Education -- Economic aspects",
+                        "Mobilite professionnelle -- Etats-Unis",
+                        "Formation professionnelle -- Etats-Unis",
+                        "Education -- Aspect economique -- Etats-Unis",
+                        "Noirs americains -- Travail",
+                        "Arbeitsmobilita\u0098t",
+                        "Mobilita\u0098t"
+                    ],
+                    "meta_creator": [
+                        "Leigh, Duane E"
+                    ],
+                    "meta_date": [
+                        "1978-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "street-corner lifestyle in black neighborhoods, {{{making it increasingly}}} unlikely that adult blacks in secondary",
+                        "patterns established at an ear\u00ac lier age {{{making it increasingly}}} unlikely that a worker will be able to",
+                        "patterns established at an earlier age, {{{making it increasingly}}} unlikely as a worker grows older that he"
+                    ]
+                },
+                "_score": 10.933571,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4716768M",
+                    "url": "/books/OL4716768M/An_analysis_of_the_determinants_of_occupational_upgrading",
+                    "title": "An analysis of the determinants of occupational upgrading",
+                    "ocaid": "analysisofdeterm0000leig",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL446293A",
+                            "name": "Duane E. Leigh"
+                        }
+                    ],
+                    "work_key": "/works/OL2928062W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9885168-M.jpg",
+                    "borrow_url": "/books/OL4716768M/An_analysis_of_the_determinants_of_occupational_upgrading/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "analysisofdeterm0000leig",
+                    "isbn": "0124428509",
+                    "oclc": null,
+                    "openlibrary_work": "OL2928062W",
+                    "openlibrary_edition": "OL4716768M",
+                    "last_loan_date": "2020-04-03T03:31:56Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "maliciousmicrobe0000dund|21dbff19d7998e0086b8901f54d51af3ec08a90e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1646880270",
+                    "identifier": [
+                        "maliciousmicrobe0000dund"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-01T22:32:34Z"
+                    ],
+                    "meta_titleSorter": [
+                        "malicious microbes : bacterial infections explained"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "maliciousmicrobe0000dund_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-10 03:15:55",
+                    "file_basename": "maliciousmicrobe0000dund",
+                    "meta_creatorSorter": [
+                        "dundon, william"
+                    ],
+                    "meta_title": [
+                        "Malicious microbes : bacterial infections explained"
+                    ],
+                    "page_num": [
+                        [
+                            158
+                        ]
+                    ],
+                    "sha1_file": "b7fb334370d7cc34f871f1fd714404f8abb6a16f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Bedfordshire, England : AuthorsOnLine Ltd."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2022-04-15 15:36:54",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Bacteria",
+                        "Internal medicine",
+                        "Respiratory infections",
+                        "Diarrhea",
+                        "Endocarditis",
+                        "Meningitis",
+                        "Pneumonia",
+                        "Septicemia"
+                    ],
+                    "meta_creator": [
+                        "Dundon, William"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "significant bacterial pathogens has developed, {{{making it increasingly}}} difficult to treat them. Examples include",
+                        "developed resistance to several antibiotics {{{making it increasingly}}} difficult to treat infection by this bacterium"
+                    ]
+                },
+                "_score": 10.822802,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL10854503M",
+                    "url": "/books/OL10854503M/Malicious_Microbes",
+                    "title": "Malicious Microbes",
+                    "ocaid": "maliciousmicrobe0000dund",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3505816A",
+                            "name": "William Dundon"
+                        }
+                    ],
+                    "work_key": "/works/OL9491946W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2598402-M.jpg",
+                    "borrow_url": "/books/OL10854503M/Malicious_Microbes/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "maliciousmicrobe0000dund",
+                    "isbn": "0755210522",
+                    "oclc": null,
+                    "openlibrary_work": "OL9491946W",
+                    "openlibrary_edition": "OL10854503M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cultura1982ande|7a5ddaf724bb6afd2613bc3af17de3330e2e751a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1300744786",
+                    "identifier": [
+                        "cultura1982ande"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-18T16:42:40Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource inventory and evaluation : the millard mine for the montana department of state lands"
+                    ],
+                    "meta_downloads": [
+                        221
+                    ],
+                    "filename": [
+                        "cultura1982ande_abbyy.gz"
+                    ],
+                    "created_on": "2017-07-10 21:45:05",
+                    "file_basename": "cultura1982ande",
+                    "meta_creatorSorter": [
+                        "anderson, paul, 1938-"
+                    ],
+                    "meta_title": [
+                        "Cultural Resource inventory and evaluation : the Millard Mine for the Montana Department of State Lands"
+                    ],
+                    "page_num": [
+                        36
+                    ],
+                    "sha1_file": "c6e60942f85de6e2f548621bc9d5f3feca3e8876",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, Mineral Research Center, Montana Tech Foundation"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1982"
+                    ],
+                    "updated_on": "2020-12-23 22:33:49",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Anderson, Paul, 1938-",
+                        "Mineral Research Center (Butte, Mont.). Cultural Resources Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} more expensive to mine. More important"
+                    ]
+                },
+                "_score": 10.592957,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24621759M",
+                    "url": "/books/OL24621759M/Cultural_Resource_inventory_and_evaluation",
+                    "title": "Cultural Resource inventory and evaluation",
+                    "ocaid": "cultura1982ande",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6888817A",
+                            "name": "Paul Anderson"
+                        }
+                    ],
+                    "work_key": "/works/OL15695695W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6985243-M.jpg",
+                    "read_url": "/books/OL24621759M/Cultural_Resource_inventory_and_evaluation/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "cultura1982ande",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15695695W",
+                    "openlibrary_edition": "OL24621759M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "b30036665|732e084783b24af8658e97224084f2828160c237",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1518632425",
+                    "identifier": [
+                        "b30036665"
+                    ],
+                    "meta_publicdate": [
+                        "2018-01-10T16:23:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "[report 1953]"
+                    ],
+                    "file_basename": "b30036665",
+                    "filename": [
+                        "b30036665_abbyy.gz"
+                    ],
+                    "created_on": "2018-02-14 18:23:54",
+                    "meta_creatorSorter": [
+                        "ripponden (england) urban district council"
+                    ],
+                    "meta_subjectSorter": [
+                        "Disease Outbreaks",
+                        "Public Health",
+                        "Sanitation",
+                        "Water Supply"
+                    ],
+                    "meta_title": [
+                        "[Report 1953]"
+                    ],
+                    "page_num": [
+                        22
+                    ],
+                    "sha1_file": "9728b84b105a4b611dbe184fb57781350d157574",
+                    "meta_downloads": [
+                        44
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1953
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "medicalofficerofhealthreports",
+                        "wellcomelibrary",
+                        "ukmhl",
+                        "medicalheritagelibrary",
+                        "europeanlibraries"
+                    ],
+                    "updated_on": "2022-03-25 23:21:00",
+                    "meta_creator": [
+                        "Ripponden (England) Urban District Council"
+                    ],
+                    "meta_date": [
+                        "1953-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "The continued absence of diphtheria is {{{making it increasingly}}} difficult to persuade mothers to have their"
+                    ]
+                },
+                "_score": 10.555433,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL26427356M",
+                    "url": "/books/OL26427356M/Report_1953",
+                    "title": "[Report 1953]",
+                    "ocaid": "b30036665",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7408747A",
+                            "name": "Ripponden (England) Urban District Council"
+                        }
+                    ],
+                    "work_key": "/works/OL17840880W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8136735-M.jpg",
+                    "read_url": "/books/OL26427356M/Report_1953/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "b30036665",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17840880W",
+                    "openlibrary_edition": "OL26427356M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reportbywlmacke00labogoog|eccc939341425c2125786d1171c5fd3b1ebcb29a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1242002170",
+                    "identifier": [
+                        "reportbywlmacke00labogoog"
+                    ],
+                    "meta_publicdate": [
+                        "2009-05-11T00:40:58Z"
+                    ],
+                    "meta_titleSorter": [
+                        "report by w.l. mackenzie king, c.m.g., deputy minister of labour, on the need for the suppression of the opium traffic in canada. printed by order of parliament"
+                    ],
+                    "meta_downloads": [
+                        635
+                    ],
+                    "filename": [
+                        "reportbywlmacke00labogoog_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 02:36:56",
+                    "file_basename": "reportbywlmacke00labogoog",
+                    "meta_creatorSorter": [
+                        "canada. dept. of labour"
+                    ],
+                    "meta_title": [
+                        "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour, on the need for the suppression of the opium traffic in Canada. Printed by order of Parliament"
+                    ],
+                    "page_num": [
+                        21
+                    ],
+                    "sha1_file": "32b041ec7ceac83009bb677e85bbeb6a04128ebc",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa : Printed by S.E. Dawson, printer to the King"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1908"
+                    ],
+                    "updated_on": "2020-09-18 19:14:15",
+                    "meta_collection": [
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Opium trade"
+                    ],
+                    "meta_creator": [
+                        "Canada. Dept. of Labour",
+                        "King, William Lyon Mackenzie, 1874-1950"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "a foothold, and that as other countries {{{making it increasingly}}} difficult for the drug to be obtained in"
+                    ]
+                },
+                "_score": 10.551778,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7001674M",
+                    "url": "/books/OL7001674M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th",
+                    "title": "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour, on the need for the suppression of the opium traffic in Canada.",
+                    "ocaid": "reportbywlmacke00labogoog",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL171606A",
+                            "name": "Canada. Dept. of Labour."
+                        }
+                    ],
+                    "work_key": "/works/OL1586889W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5777513-M.jpg",
+                    "read_url": "/books/OL7001674M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reportbywlmacke00labogoog",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL1586889W",
+                    "openlibrary_edition": "OL7001674M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "internationaltra0000noye|8d209439e2513307cd1fc6da21d6ed6c136f3e20",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1601633578",
+                    "identifier": [
+                        "internationaltra0000noye"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-29T13:32:06Z"
+                    ],
+                    "meta_titleSorter": [
+                        "international trade in business services : accounting, advertising, law, and management consulting"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "internationaltra0000noye_abbyy.gz"
+                    ],
+                    "created_on": "2020-10-02 10:39:34",
+                    "file_basename": "internationaltra0000noye",
+                    "meta_creatorSorter": [
+                        "noyelle, thierry j"
+                    ],
+                    "meta_title": [
+                        "International trade in business services : accounting, advertising, law, and management consulting"
+                    ],
+                    "page_num": [
+                        170
+                    ],
+                    "sha1_file": "7784c32a3cae6d015b3fe6728c327a891f18cffa",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge, Mass. : Ballinger Pub. Co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1988
+                    ],
+                    "updated_on": "2022-01-26 00:32:29",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "americanuniversity-ol",
+                        "binghamton-ol",
+                        "georgetown-university-law-library-ol",
+                        "gwulibraries-ol",
+                        "johnshopkins-ol",
+                        "the-claremont-colleges-ol",
+                        "udc-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "wilsoncollege-ol",
+                        "wrlc-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Business consultants",
+                        "Lawyers",
+                        "Accountants",
+                        "Advertising",
+                        "Service industries",
+                        "International trade",
+                        "Conseillers de gestion",
+                        "Avocats",
+                        "Comptables",
+                        "Publicite\u0301",
+                        "Services (Industrie)",
+                        "Commerce international",
+                        "Secteur tertiaire",
+                        "Au\u00dfenhandel",
+                        "Dienstleistung",
+                        "Dienstleistungssektor",
+                        "Services (activite\u0301s tertiaires)",
+                        "Aufsatzsammlung"
+                    ],
+                    "meta_creator": [
+                        "Noyelle, Thierry J"
+                    ],
+                    "meta_date": [
+                        "1988-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "recognize that computerized technology is {{{making it increasingly}}} possible to \"can\" the process of service",
+                        "computerization and communications technologies are {{{making it increasingly}}} feasible to design service production procedures"
+                    ]
+                },
+                "_score": 10.529541,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2400659M",
+                    "url": "/books/OL2400659M/International_trade_in_business_services",
+                    "title": "International trade in business services",
+                    "ocaid": "internationaltra0000noye",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1076633A",
+                            "name": "Thierry J. Noyelle"
+                        }
+                    ],
+                    "work_key": "/works/OL4981488W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4125706-M.jpg",
+                    "borrow_url": "/books/OL2400659M/International_trade_in_business_services/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "internationaltra0000noye",
+                    "isbn": "0887302378",
+                    "oclc": null,
+                    "openlibrary_work": "OL4981488W",
+                    "openlibrary_edition": "OL2400659M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "immigrationpolic00alan|d4cb3a33881e4df63c61a375df65e3ca49ca86f4",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1481137742",
+                    "identifier": [
+                        "immigrationpolic00alan"
+                    ],
+                    "meta_publicdate": [
+                        "2014-02-14T18:34:35Z"
+                    ],
+                    "meta_titleSorter": [
+                        "immigration policy"
+                    ],
+                    "meta_downloads": [
+                        9
+                    ],
+                    "filename": [
+                        "immigrationpolic00alan_abbyy.gz"
+                    ],
+                    "created_on": "2016-12-07 19:22:30",
+                    "file_basename": "immigrationpolic00alan",
+                    "meta_creatorSorter": [
+                        "allport, alan, 1970-"
+                    ],
+                    "meta_title": [
+                        "Immigration policy"
+                    ],
+                    "page_num": [
+                        134
+                    ],
+                    "sha1_file": "0c2af87c15a0b0225e22fd05821d3bf8a574bf8c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Philadelphia : Chelsea House"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2005"
+                    ],
+                    "updated_on": "2020-08-30 23:19:05",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "cuny-ol",
+                        "holdings-test"
+                    ],
+                    "meta_subjectSorter": [
+                        "Immigration & emigration",
+                        "Social issues",
+                        "Social Problems (General) (Young Adult)",
+                        "Juvenile Nonfiction",
+                        "Children's Books/Young Adult Misc. Nonfiction",
+                        "Children: Young Adult (Gr. 10-12)",
+                        "Social Issues - Emigration & Immigration",
+                        "Social Science - Politics & Government",
+                        "Emigration and immigration",
+                        "English language",
+                        "English-only movement",
+                        "Government policy",
+                        "Juvenile literature",
+                        "Language policy",
+                        "Political aspects",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "Allport, Alan, 1970-"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Congress responded with a series ot laws {{{making it increasingly}}} difficult to enter the United States legally",
+                        "changes to the country\u2019s immigration law, {{{making it increasingly}}} difficult to understand, even for professionals"
+                    ]
+                },
+                "_score": 10.517233,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11149099M",
+                    "url": "/books/OL11149099M/Immigration_Policy_(Point_Counterpoint)",
+                    "title": "Immigration Policy (Point/Counterpoint)",
+                    "ocaid": "immigrationpolic00alan",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1476240A",
+                            "name": "Alan Allport"
+                        }
+                    ],
+                    "work_key": "/works/OL5952310W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2633228-M.jpg",
+                    "borrow_url": "/books/OL11149099M/Immigration_Policy_(Point_Counterpoint)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "immigrationpolic00alan",
+                    "isbn": "0791079236",
+                    "oclc": null,
+                    "openlibrary_work": "OL5952310W",
+                    "openlibrary_edition": "OL11149099M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "culturalre1982ande|ba8e308cd756eb740413315428e368b8c8b71c00",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1301317385",
+                    "identifier": [
+                        "culturalre1982ande"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-25T11:04:43Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource inventory and evaluation : number five coulee mouth for montana department of state lands, helena, montana"
+                    ],
+                    "meta_downloads": [
+                        175
+                    ],
+                    "filename": [
+                        "culturalre1982ande_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 14:21:57",
+                    "file_basename": "culturalre1982ande",
+                    "meta_creatorSorter": [
+                        "anderson, paul, 1938-"
+                    ],
+                    "meta_title": [
+                        "Cultural resource inventory and evaluation : Number Five Coulee Mouth for Montana Department of State Lands, Helena, Montana"
+                    ],
+                    "page_num": [
+                        52
+                    ],
+                    "sha1_file": "f3d03c69303f8f23fd7a8d3a97f4b9648c9c66a2",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, Mineral Research Center"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1982"
+                    ],
+                    "updated_on": "2020-12-23 22:33:52",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Anderson, Paul, 1938-",
+                        "Mineral Research Center (Butte, Mont.). Cultural Resources Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} more expensive to mine. More important"
+                    ]
+                },
+                "_score": 10.515284,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24776616M",
+                    "url": "/books/OL24776616M/Cultural_resource_inventory_and_evaluation",
+                    "title": "Cultural resource inventory and evaluation",
+                    "ocaid": "culturalre1982ande",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6888817A",
+                            "name": "Paul Anderson"
+                        }
+                    ],
+                    "work_key": "/works/OL15697488W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6830572-M.jpg",
+                    "read_url": "/books/OL24776616M/Cultural_resource_inventory_and_evaluation/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "culturalre1982ande",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15697488W",
+                    "openlibrary_edition": "OL24776616M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reportonneedfors00king|c1a5044fbe3b3c606a67a6f51c72031265d487a9",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1371152042",
+                    "identifier": [
+                        "reportonneedfors00king"
+                    ],
+                    "meta_publicdate": [
+                        "2013-06-10T17:57:22Z"
+                    ],
+                    "meta_titleSorter": [
+                        "report on the need for the suppression of the opium traffic in canada"
+                    ],
+                    "meta_downloads": [
+                        228
+                    ],
+                    "filename": [
+                        "reportonneedfors00king_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 07:34:14",
+                    "file_basename": "reportonneedfors00king",
+                    "meta_creatorSorter": [
+                        "king, william lyon mackenzie, 1874-1950"
+                    ],
+                    "meta_title": [
+                        "Report on the need for the suppression of the opium traffic in Canada"
+                    ],
+                    "page_num": [
+                        22
+                    ],
+                    "sha1_file": "e5d981ed49ecf4beb6f30243f84c5f99d0138830",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa, S.E. Dawson"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1908
+                    ],
+                    "updated_on": "2022-04-06 00:50:35",
+                    "meta_collection": [
+                        "queens_university",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Opium"
+                    ],
+                    "meta_creator": [
+                        "King, William Lyon Mackenzie, 1874-1950"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "foothold, and that as other countries are {{{making it increasingly}}} difficult for the drug to be obtained in"
+                    ]
+                },
+                "_score": 10.498364,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33207578M",
+                    "url": "/books/OL33207578M/Report_on_the_need_for_the_suppression_of_the_opium_traffic_in_Canada",
+                    "title": "Report on the need for the suppression of the opium traffic in Canada",
+                    "ocaid": "reportonneedfors00king",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL119002A",
+                            "name": "William Lyon Mackenzie King"
+                        }
+                    ],
+                    "work_key": "/works/OL24980550W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11917512-M.jpg",
+                    "read_url": "/books/OL33207578M/Report_on_the_need_for_the_suppression_of_the_opium_traffic_in_Canada/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reportonneedfors00king",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24980550W",
+                    "openlibrary_edition": "OL33207578M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "culturalres1982ande|4b3758d6668bf73bc6b40e7fb4da0348e521fe93",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1300746233",
+                    "identifier": [
+                        "culturalres1982ande"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-18T16:36:06Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource and inventory evaluation : guistis mine"
+                    ],
+                    "meta_downloads": [
+                        339
+                    ],
+                    "filename": [
+                        "culturalres1982ande_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 18:30:16",
+                    "file_basename": "culturalres1982ande",
+                    "meta_creatorSorter": [
+                        "anderson, paul, 1938-"
+                    ],
+                    "meta_title": [
+                        "Cultural resource and inventory evaluation : Guistis Mine"
+                    ],
+                    "page_num": [
+                        28
+                    ],
+                    "sha1_file": "d1596217284965c46017d0ae738731fbc2479382",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, Mineral Research Center"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1982"
+                    ],
+                    "updated_on": "2020-12-23 22:33:53",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Anderson, Paul, 1938-",
+                        "Mineral Research Center (Butte, Mont.). Cultural Resources Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} more expensive to mine. More important"
+                    ]
+                },
+                "_score": 10.487578,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24621765M",
+                    "url": "/books/OL24621765M/Cultural_resource_and_inventory_evaluation",
+                    "title": "Cultural resource and inventory evaluation",
+                    "ocaid": "culturalres1982ande",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6888817A",
+                            "name": "Paul Anderson"
+                        }
+                    ],
+                    "work_key": "/works/OL15695703W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6985302-M.jpg",
+                    "read_url": "/books/OL24621765M/Cultural_resource_and_inventory_evaluation/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "culturalres1982ande",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15695703W",
+                    "openlibrary_edition": "OL24621765M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "culturalresour1982ande|27c3591aabb660708afea1f71534f67166f102e8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1300813898",
+                    "identifier": [
+                        "culturalresour1982ande"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-18T16:34:20Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource inventory and evaluation, centerville complex mines for the montana department of state lands, helena, montana"
+                    ],
+                    "meta_downloads": [
+                        186
+                    ],
+                    "filename": [
+                        "culturalresour1982ande_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 09:51:36",
+                    "file_basename": "culturalresour1982ande",
+                    "meta_creatorSorter": [
+                        "anderson, paul, 1938-"
+                    ],
+                    "meta_title": [
+                        "Cultural resource inventory and evaluation, Centerville Complex Mines for the Montana Department of State Lands, Helena, Montana"
+                    ],
+                    "page_num": [
+                        36
+                    ],
+                    "sha1_file": "e601345bb85512a4c5a7586804cf405b6636b682",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, Mineral Research Center"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1982"
+                    ],
+                    "updated_on": "2020-12-23 22:33:53",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Anderson, Paul, 1938-",
+                        "Mineral Research Center (Butte, Mont.). Cultural Resources Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} more expensive to mine. More important"
+                    ]
+                },
+                "_score": 10.470946,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24621879M",
+                    "url": "/books/OL24621879M/Cultural_resource_inventory_and_evaluation_Centerville_Complex_Mines_for_the_Montana_Department_of_S",
+                    "title": "Cultural resource inventory and evaluation, Centerville Complex Mines for the Montana Department of State Lands, Helena, Montana",
+                    "ocaid": "culturalresour1982ande",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6888817A",
+                            "name": "Paul Anderson"
+                        }
+                    ],
+                    "work_key": "/works/OL15695834W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6985276-M.jpg",
+                    "read_url": "/books/OL24621879M/Cultural_resource_inventory_and_evaluation_Centerville_Complex_Mines_for_the_Montana_Department_of_S/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "culturalresour1982ande",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15695834W",
+                    "openlibrary_edition": "OL24621879M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "culturalresource1982ande|32ab3ff491db55324ba794c24aef4580ea1e429e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1300736606",
+                    "identifier": [
+                        "culturalresource1982ande"
+                    ],
+                    "meta_publicdate": [
+                        "2011-03-18T16:33:11Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cultural resource inventory and evaluation : the lewis mine for the montana department of state lands"
+                    ],
+                    "meta_downloads": [
+                        282
+                    ],
+                    "filename": [
+                        "culturalresource1982ande_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 21:27:54",
+                    "file_basename": "culturalresource1982ande",
+                    "meta_creatorSorter": [
+                        "anderson, paul, 1938-"
+                    ],
+                    "meta_title": [
+                        "Cultural resource inventory and evaluation : the Lewis Mine for the Montana Department of State Lands"
+                    ],
+                    "page_num": [
+                        32
+                    ],
+                    "sha1_file": "28a26bfc9c8ecc2acc640d802a83e3035b2f84d0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Butte, Mont. : Cultural Resource Division, Mineral Research Center, Montana Tech Foundation"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1982"
+                    ],
+                    "updated_on": "2020-12-23 22:33:53",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Coal mines and mining",
+                        "Abandoned coal mines"
+                    ],
+                    "meta_creator": [
+                        "Anderson, Paul, 1938-",
+                        "Mineral Research Center (Butte, Mont.). Cultural Resources Division",
+                        "Montana. Dept. of State Lands"
+                    ],
+                    "meta_date": [
+                        "1982-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "shallow with a greater percentage of rock, {{{making it increasingly}}} more expensive to mine. More important"
+                    ]
+                },
+                "_score": 10.469104,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24621471M",
+                    "url": "/books/OL24621471M/Cultural_resource_inventory_and_evaluation",
+                    "title": "Cultural resource inventory and evaluation",
+                    "ocaid": "culturalresource1982ande",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6888817A",
+                            "name": "Paul Anderson"
+                        }
+                    ],
+                    "work_key": "/works/OL15693522W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6985233-M.jpg",
+                    "read_url": "/books/OL24621471M/Cultural_resource_inventory_and_evaluation/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "culturalresource1982ande",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL15693522W",
+                    "openlibrary_edition": "OL24621471M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "coordinatedmarke33rust|409b9bc6b49cf19623577de1bc6a5cb1a2db5e9b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1372766628",
+                    "identifier": [
+                        "coordinatedmarke33rust"
+                    ],
+                    "meta_publicdate": [
+                        "2013-06-24T10:50:35Z"
+                    ],
+                    "meta_titleSorter": [
+                        "coordinated marketing : would it help cooperative fruit and vegetable processors?"
+                    ],
+                    "meta_downloads": [
+                        245
+                    ],
+                    "filename": [
+                        "coordinatedmarke33rust_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 02:16:41",
+                    "file_basename": "coordinatedmarke33rust",
+                    "meta_creatorSorter": [
+                        "rust, irwin w. (irwin walter), 1909-"
+                    ],
+                    "meta_title": [
+                        "Coordinated marketing : would it help cooperative fruit and vegetable processors?"
+                    ],
+                    "page_num": [
+                        24
+                    ],
+                    "sha1_file": "51035257a7ae771d47284751421d343416d0c10f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : Farmer Cooperative Service, U.S. Dept. of Agriculture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1957
+                    ],
+                    "updated_on": "2022-04-19 00:02:16",
+                    "meta_collection": [
+                        "usda-generalreport",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana",
+                        "biodiversity"
+                    ],
+                    "meta_subjectSorter": [
+                        "Fruit Cooperative marketing",
+                        "Vegetables Cooperative marketing",
+                        "Food processing plants"
+                    ],
+                    "meta_creator": [
+                        "Rust, Irwin W. (Irwin Walter), 1909-"
+                    ],
+                    "meta_date": [
+                        "1957-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Rising costs of production and marketing are {{{making it increasingly}}} important for processors to pack and sell"
+                    ]
+                },
+                "_score": 10.457654,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33149942M",
+                    "url": "/books/OL33149942M/Coordinated_marketing",
+                    "title": "Coordinated marketing",
+                    "ocaid": "coordinatedmarke33rust",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7217357A",
+                            "name": "Irwin W. Rust"
+                        }
+                    ],
+                    "work_key": "/works/OL24938933W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11854832-M.jpg",
+                    "read_url": "/books/OL33149942M/Coordinated_marketing/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "coordinatedmarke33rust",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24938933W",
+                    "openlibrary_edition": "OL33149942M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "workforcestrateg00albe_6|157950bf30f8d552fb1d588d86752145f1314a02",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1455118029",
+                    "identifier": [
+                        "workforcestrateg00albe_6"
+                    ],
+                    "meta_publicdate": [
+                        "2016-01-14T20:26:24Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a workforce strategy for alberta's manufacturing industry"
+                    ],
+                    "meta_downloads": [
+                        60
+                    ],
+                    "filename": [
+                        "workforcestrateg00albe_6_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 04:04:17",
+                    "file_basename": "workforcestrateg00albe_6",
+                    "meta_creatorSorter": [
+                        "alberta. alberta employment, immigration and industry"
+                    ],
+                    "meta_title": [
+                        "A Workforce strategy for Alberta's manufacturing industry"
+                    ],
+                    "page_num": [
+                        22
+                    ],
+                    "sha1_file": "a830b1f3a77674b9180fc1aedb8427638a249a0c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Edmonton : Alberta Employment, Immigration and Industry"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2007"
+                    ],
+                    "updated_on": "2020-09-24 06:53:28",
+                    "meta_collection": [
+                        "albertagovernmentpublications",
+                        "university_of_alberta_libraries",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Manufacturing industries",
+                        "Skilled labor",
+                        "Labor supply"
+                    ],
+                    "meta_creator": [
+                        "Alberta. Alberta Employment, Immigration and Industry"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "workers. The strong demand for labour is {{{making it increasingly}}} difficult for Alberta manufacturing firms"
+                    ]
+                },
+                "_score": 10.450342,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25901448M",
+                    "url": "/books/OL25901448M/A_Workforce_strategy_for_Alberta's_manufacturing_industry",
+                    "title": "A Workforce strategy for Alberta's manufacturing industry",
+                    "ocaid": "workforcestrateg00albe_6",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7204085A",
+                            "name": "Alberta. Alberta Employment, Immigration and Industry"
+                        }
+                    ],
+                    "work_key": "/works/OL17325367W",
+                    "cover_url": "https://archive.org/services/img/workforcestrateg00albe_6",
+                    "read_url": "/books/OL25901448M/A_Workforce_strategy_for_Alberta's_manufacturing_industry/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "workforcestrateg00albe_6",
+                    "isbn": "9780778568155",
+                    "oclc": null,
+                    "openlibrary_work": "OL17325367W",
+                    "openlibrary_edition": "OL25901448M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reportbywlmacken00canarich|3309fa90c11e187f0b5f7009816bbaea36d12a1d",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1208233581",
+                    "identifier": [
+                        "reportbywlmacken00canarich"
+                    ],
+                    "meta_publicdate": [
+                        "2008-04-14T19:27:26Z"
+                    ],
+                    "meta_titleSorter": [
+                        "report by w.l. mackenzie king, c.m.g., deputy minister of labour, on the need for the suppression of the opium traffic in canada. printed by order of parliament"
+                    ],
+                    "meta_downloads": [
+                        992
+                    ],
+                    "filename": [
+                        "reportbywlmacken00canarich_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 14:16:48",
+                    "file_basename": "reportbywlmacken00canarich",
+                    "meta_creatorSorter": [
+                        "canada. dept. of labour"
+                    ],
+                    "meta_title": [
+                        "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour, on the need for the suppression of the opium traffic in Canada. Printed by order of Parliament"
+                    ],
+                    "page_num": [
+                        26
+                    ],
+                    "sha1_file": "7b3999b7df8c94b2f8538aa4d2d1d29168bb4385",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa : Printed by S.E. Dawson, printer to the King"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1908
+                    ],
+                    "updated_on": "2022-04-06 00:31:22",
+                    "meta_collection": [
+                        "cdl",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Opium trade -- Canada"
+                    ],
+                    "meta_creator": [
+                        "Canada. Dept. of Labour",
+                        "King, William Lyon Mackenzie, 1874-1950"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "foothold, and that as other countries are {{{making it increasingly}}} difficult for the drug to be obtained in"
+                    ]
+                },
+                "_score": 10.439943,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL13518805M",
+                    "url": "/books/OL13518805M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th",
+                    "title": "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour, on the need for the suppression of the opium traffic in Canada.",
+                    "ocaid": "reportbywlmacken00canarich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL171606A",
+                            "name": "Canada. Dept. of Labour."
+                        }
+                    ],
+                    "work_key": "/works/OL1586889W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5777513-M.jpg",
+                    "read_url": "/books/OL13518805M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reportbywlmacken00canarich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL1586889W",
+                    "openlibrary_edition": "OL13518805M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reportbywlmacken00cana|33f7b36f5e9ef5da3cf2d53beef0633651e21a35",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1371236348",
+                    "identifier": [
+                        "reportbywlmacken00cana"
+                    ],
+                    "meta_publicdate": [
+                        "2013-06-10T17:56:52Z"
+                    ],
+                    "meta_titleSorter": [
+                        "report by w.l. mackenzie king, c.m.g., deputy minister of labour on the need for the suppression of the opium traffic in canada"
+                    ],
+                    "meta_downloads": [
+                        204
+                    ],
+                    "filename": [
+                        "reportbywlmacken00cana_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 07:34:00",
+                    "file_basename": "reportbywlmacken00cana",
+                    "meta_creatorSorter": [
+                        "canada. dept. of labour"
+                    ],
+                    "meta_title": [
+                        "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour on the need for the suppression of the opium traffic in Canada"
+                    ],
+                    "page_num": [
+                        22
+                    ],
+                    "sha1_file": "d01f7b3fec0d2016cf34672be1bae4da57d4df07",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa : S.E. Dawson"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1908
+                    ],
+                    "updated_on": "2022-04-06 00:31:20",
+                    "meta_collection": [
+                        "queens_university",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Opium trade"
+                    ],
+                    "meta_creator": [
+                        "Canada. Dept. of Labour",
+                        "King, William Lyon Mackenzie, 1874-1950",
+                        "Canada. Parliament, 1907-1908"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "foothold, and that as other countries are {{{making it increasingly}}} difficult for the drug to be obtained in"
+                    ]
+                },
+                "_score": 10.437845,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33207050M",
+                    "url": "/books/OL33207050M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th",
+                    "title": "Report by W.L. Mackenzie King, C.M.G., deputy minister of labour on the need for the suppression of the opium traffic in Canada",
+                    "ocaid": "reportbywlmacken00cana",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL4582980A",
+                            "name": "Canada. Dept. of Labour"
+                        }
+                    ],
+                    "work_key": "/works/OL24980147W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11916947-M.jpg",
+                    "read_url": "/books/OL33207050M/Report_by_W.L._Mackenzie_King_C.M.G._deputy_minister_of_labour_on_the_need_for_the_suppression_of_th/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reportbywlmacken00cana",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24980147W",
+                    "openlibrary_edition": "OL33207050M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "economicsurveyof00butt|ecee912897c689daa3b21d5d8c117cf112b1a7ef",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1361821419",
+                    "identifier": [
+                        "economicsurveyof00butt"
+                    ],
+                    "meta_publicdate": [
+                        "2013-02-13T20:07:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "an economic survey of the massachusetts film & video production industry, 1990 and 1991 : prepared for the massachusetts film office"
+                    ],
+                    "meta_downloads": [
+                        159
+                    ],
+                    "filename": [
+                        "economicsurveyof00butt_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 07:36:04",
+                    "file_basename": "economicsurveyof00butt",
+                    "meta_creatorSorter": [
+                        "butterfield communications group"
+                    ],
+                    "meta_title": [
+                        "An Economic survey of the Massachusetts film & video production industry, 1990 and 1991 : prepared for the Massachusetts Film Office"
+                    ],
+                    "page_num": [
+                        58
+                    ],
+                    "sha1_file": "14ddcbe5ee663cfa3bec422e4a51ae87d953da35",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge, Mass. : Butterfield Communications Group"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1992
+                    ],
+                    "updated_on": "2022-04-01 04:41:08",
+                    "meta_collection": [
+                        "umass_amherst_libraries",
+                        "blc",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Motion picture industry",
+                        "Video recordings",
+                        "Motion picture industry",
+                        "Video recordings"
+                    ],
+                    "meta_creator": [
+                        "Butterfield Communications Group",
+                        "Massachusetts Film Office"
+                    ],
+                    "meta_date": [
+                        "1992-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "best-known, most skilled and most senior people, {{{making it increasingly}}} difficult for the less-experienced to support"
+                    ]
+                },
+                "_score": 10.414322,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25456342M",
+                    "url": "/books/OL25456342M/An_Economic_survey_of_the_Massachusetts_film_video_production_industry_1990_and_1991",
+                    "title": "An Economic survey of the Massachusetts film & video production industry, 1990 and 1991",
+                    "ocaid": "economicsurveyof00butt",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7178288A",
+                            "name": "Butterfield Communications Group"
+                        }
+                    ],
+                    "work_key": "/works/OL16829891W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9467734-M.jpg",
+                    "read_url": "/books/OL25456342M/An_Economic_survey_of_the_Massachusetts_film_video_production_industry_1990_and_1991/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "economicsurveyof00butt",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16829891W",
+                    "openlibrary_edition": "OL25456342M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "dogs0000saye|32eedbd48964897fa158561278d72e6ec0cf908c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1580092531",
+                    "identifier": [
+                        "dogs0000saye"
+                    ],
+                    "meta_publicdate": [
+                        "2020-01-21T05:27:01Z"
+                    ],
+                    "meta_titleSorter": [
+                        "dogs"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "dogs0000saye_abbyy.gz"
+                    ],
+                    "created_on": "2020-02-23 01:07:10",
+                    "file_basename": "dogs0000saye",
+                    "meta_creatorSorter": [
+                        "sayer, angela"
+                    ],
+                    "meta_title": [
+                        "Dogs"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "3a2ef34db8ad9207422eccfee98a7f570ea6ba12",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Gallery Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1984"
+                    ],
+                    "updated_on": "2020-11-30 01:52:40",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Dogs"
+                    ],
+                    "meta_creator": [
+                        "Sayer, Angela"
+                    ],
+                    "meta_date": [
+                        "1984-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "cornered, he baits and taunts the dog, {{{making it increasingly}}} angry. When a real-life criminal is faced"
+                    ]
+                },
+                "_score": 10.364359,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11467662M",
+                    "url": "/books/OL11467662M/Dogs",
+                    "title": "Dogs",
+                    "ocaid": "dogs0000saye",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2727279A",
+                            "name": "Angela Sayer"
+                        }
+                    ],
+                    "work_key": "/works/OL8194071W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11621413-M.jpg",
+                    "borrow_url": "/books/OL11467662M/Dogs/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "dogs0000saye",
+                    "isbn": "0831723998",
+                    "oclc": null,
+                    "openlibrary_work": "OL8194071W",
+                    "openlibrary_edition": "OL11467662M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

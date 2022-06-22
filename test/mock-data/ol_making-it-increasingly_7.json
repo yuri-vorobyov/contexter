@@ -1,0 +1,2663 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1355,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.073952,
+        "hits": [
+            {
+                "_id": "internet0000morg|2c490ba4e3845f551517e74a5dba046cbd8851a1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1623026604",
+                    "identifier": [
+                        "internet0000morg"
+                    ],
+                    "meta_publicdate": [
+                        "2021-06-03T05:26:17Z"
+                    ],
+                    "meta_titleSorter": [
+                        "internet"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "internet0000morg_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-06-07 00:56:04",
+                    "file_basename": "internet0000morg",
+                    "meta_creatorSorter": [
+                        "morgan, sally, 1957-"
+                    ],
+                    "meta_title": [
+                        "Internet"
+                    ],
+                    "page_num": [
+                        [
+                            58
+                        ]
+                    ],
+                    "sha1_file": "f58756e023adc5fa402093ac02276e286679bc2d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Chicago, Ill. : Heinemann Library"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2001
+                    ],
+                    "updated_on": "2021-07-08 16:16:22",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Internet -- Juvenile literature",
+                        "World Wide Web",
+                        "Internet"
+                    ],
+                    "meta_creator": [
+                        "Morgan, Sally, 1957-"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "with its emphasis on visual content, is {{{making it increasingly}}} difficult for the visually impaired to"
+                    ]
+                },
+                "_score": 9.599437,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8826646M",
+                    "url": "/books/OL8826646M/Internet_(Behind_Media)",
+                    "title": "Internet (Behind Media)",
+                    "ocaid": "internet0000morg",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL62939A",
+                            "name": "Sally Morgan"
+                        }
+                    ],
+                    "work_key": "/works/OL765134W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4854019-M.jpg",
+                    "borrow_url": "/books/OL8826646M/Internet_(Behind_Media)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "internet0000morg",
+                    "isbn": "1588100324",
+                    "oclc": null,
+                    "openlibrary_work": "OL765134W",
+                    "openlibrary_edition": "OL8826646M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "china0000brow_q9z8|c2eb230ee948166308ceba9a3b69d0a531864d0b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614696146",
+                    "identifier": [
+                        "china0000brow_q9z8"
+                    ],
+                    "meta_publicdate": [
+                        "2020-11-23T21:11:00Z"
+                    ],
+                    "meta_titleSorter": [
+                        "china"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "china0000brow_q9z8_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-02 14:56:56",
+                    "file_basename": "china0000brow_q9z8",
+                    "meta_creatorSorter": [
+                        "brownlie bojang, ali, 1949-"
+                    ],
+                    "meta_title": [
+                        "China"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "d950275c167db11a7b5f7a31690757f7d3b96a65",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Wayland"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2009
+                    ],
+                    "updated_on": "2021-04-03 20:00:16",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "China -- Juvenile literature",
+                        "China"
+                    ],
+                    "meta_creator": [
+                        "Brownlie Bojang, Ali, 1949-"
+                    ],
+                    "meta_date": [
+                        "2009-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "turns to a more open, market economy are\n{{{making it increasingly}}} difficult for its government\nto control"
+                    ]
+                },
+                "_score": 9.586563,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32085289M",
+                    "url": "/books/OL32085289M/China",
+                    "title": "China",
+                    "ocaid": "china0000brow_q9z8",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL20367A",
+                            "name": "Ali Brownlie Bojang"
+                        }
+                    ],
+                    "work_key": "/works/OL17004980W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4260876-M.jpg",
+                    "borrow_url": "/books/OL32085289M/China/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "china0000brow_q9z8",
+                    "isbn": "9780750247023",
+                    "oclc": null,
+                    "openlibrary_work": "OL17004980W",
+                    "openlibrary_edition": "OL32085289M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "arabisraeliconfl0000minn_v5j3|2185d39c069bebb231f0c25e799c6eb4b993bfe2",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1591878925",
+                    "identifier": [
+                        "arabisraeliconfl0000minn_v5j3"
+                    ],
+                    "meta_publicdate": [
+                        "2020-06-09T05:12:44Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the arab-israeli conflict"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "arabisraeliconfl0000minn_v5j3_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-27 20:46:02",
+                    "file_basename": "arabisraeliconfl0000minn_v5j3",
+                    "meta_creatorSorter": [
+                        "minnis, ivan"
+                    ],
+                    "meta_title": [
+                        "The Arab-Israeli conflict"
+                    ],
+                    "page_num": [
+                        70
+                    ],
+                    "sha1_file": "76c3a7024e9ca562a3138f964f458bcb1747eaaa",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Oxford : Heinemann Library"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2001"
+                    ],
+                    "updated_on": "2020-08-27 20:46:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Arab-Israeli conflict -- Juvenile literature",
+                        "Arab-Israeli conflict"
+                    ],
+                    "meta_creator": [
+                        "Minnis, Ivan"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "up its new headquarters in the Lebanon, {{{making it increasingly}}} difficult for the Lebanese army to limit"
+                    ]
+                },
+                "_score": 9.58494,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL9583440M",
+                    "url": "/books/OL9583440M/Arab-Israeli_Conflict_(Troubled_World)",
+                    "title": "Arab-Israeli Conflict (Troubled World)",
+                    "ocaid": "arabisraeliconfl0000minn_v5j3",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1478847A",
+                            "name": "Ivan Minnis"
+                        }
+                    ],
+                    "work_key": "/works/OL5959839W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1226297-M.jpg",
+                    "borrow_url": "/books/OL9583440M/Arab-Israeli_Conflict_(Troubled_World)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "arabisraeliconfl0000minn_v5j3",
+                    "isbn": "0431118612",
+                    "oclc": null,
+                    "openlibrary_work": "OL5959839W",
+                    "openlibrary_edition": "OL9583440M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reasonablelifebe00bennuoft|2f57704a491f7fd2f1d0f937d4962e860f516da0",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1159321162",
+                    "identifier": [
+                        "reasonablelifebe00bennuoft"
+                    ],
+                    "meta_publicdate": [
+                        "2006-09-26T11:46:11Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the reasonable life : being hints for men and women"
+                    ],
+                    "meta_downloads": [
+                        918
+                    ],
+                    "filename": [
+                        "reasonablelifebe00bennuoft_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 16:23:44",
+                    "file_basename": "reasonablelifebe00bennuoft",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "The reasonable life : being hints for men and women"
+                    ],
+                    "page_num": [
+                        72
+                    ],
+                    "sha1_file": "73f729627c52e5cadb4095c80801874f9fa4aad1",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : A.C. Fifield"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1907
+                    ],
+                    "updated_on": "2022-04-05 23:50:47",
+                    "meta_collection": [
+                        "kellylibrary",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1907-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one element. Science is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.584406,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7089855M",
+                    "url": "/books/OL7089855M/The_reasonable_life",
+                    "title": "The reasonable life",
+                    "ocaid": "reasonablelifebe00bennuoft",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109150W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5610631-M.jpg",
+                    "read_url": "/books/OL7089855M/The_reasonable_life/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reasonablelifebe00bennuoft",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL109150W",
+                    "openlibrary_edition": "OL7089855M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "americaninvestme00reme|2fbe3531c0bb2c6a00eb2dc9427bd28aac8ada49",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1494019015",
+                    "identifier": [
+                        "americaninvestme00reme"
+                    ],
+                    "meta_publicdate": [
+                        "2017-03-27T18:25:28Z"
+                    ],
+                    "meta_titleSorter": [
+                        "american investments in china"
+                    ],
+                    "meta_downloads": [
+                        126
+                    ],
+                    "filename": [
+                        "americaninvestme00reme_abbyy.gz"
+                    ],
+                    "created_on": "2017-05-16 22:57:31",
+                    "file_basename": "americaninvestme00reme",
+                    "meta_creatorSorter": [
+                        "remer, c. f. (charles frederick), 1889-1972"
+                    ],
+                    "meta_title": [
+                        "American investments in China"
+                    ],
+                    "page_num": [
+                        44
+                    ],
+                    "sha1_file": "24d2bb6fcac07c7ba5ef842b45598282c65e211b",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Honolulu, The Institute of Pacific Relations"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1929
+                    ],
+                    "updated_on": "2022-04-05 03:49:43",
+                    "meta_collection": [
+                        "columbiamrlpamphlets",
+                        "ColumbiaUniversityLibraries",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Investments",
+                        "Investments",
+                        "Investments, American"
+                    ],
+                    "meta_creator": [
+                        "Remer, C. F. (Charles Frederick), 1889-1972"
+                    ],
+                    "meta_date": [
+                        "1929-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the opinion that the silver standard was {{{making it increasingly}}} difficult for capitalists in gold-standard"
+                    ]
+                },
+                "_score": 9.583672,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL6748068M",
+                    "url": "/books/OL6748068M/American_investments_in_China",
+                    "title": "American investments in China",
+                    "ocaid": "americaninvestme00reme",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1858508A",
+                            "name": "C. F. Remer"
+                        }
+                    ],
+                    "work_key": "/works/OL6797670W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11760149-M.jpg",
+                    "read_url": "/books/OL6748068M/American_investments_in_China/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "americaninvestme00reme",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL6797670W",
+                    "openlibrary_edition": "OL6748068M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "postagemeterfrau00unit|b9e89e9e7f01f7f1623dedf17f864690b7f2f9d3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1211505499",
+                    "identifier": [
+                        "postagemeterfrau00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-05-21T14:44:48Z"
+                    ],
+                    "meta_titleSorter": [
+                        "postage meter fraud : hearing before the subcommittee on postal operations and services of the committee on post office and civil service, house of representatives, one hundred third congress, first session, november 10, 1993"
+                    ],
+                    "meta_downloads": [
+                        958
+                    ],
+                    "filename": [
+                        "postagemeterfrau00unit_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-18 16:23:15",
+                    "file_basename": "postagemeterfrau00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on post office and civil service. subcommittee on postal operations and services"
+                    ],
+                    "meta_title": [
+                        "Postage meter fraud : hearing before the Subcommittee on Postal Operations and Services of the Committee on Post Office and Civil Service, House of Representatives, One Hundred Third Congress, first session, November 10, 1993"
+                    ],
+                    "page_num": [
+                        44
+                    ],
+                    "sha1_file": "213370ea488c34ad68b93f9f0b4a84ac5141df37",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1994
+                    ],
+                    "updated_on": "2022-04-05 08:30:01",
+                    "meta_collection": [
+                        "bostonpubliclibrary",
+                        "USGovernmentDocuments",
+                        "americana",
+                        "additional_collections",
+                        "fav-pere432"
+                    ],
+                    "meta_subjectSorter": [
+                        "United States Postal Service",
+                        "Postal service -- Metered mail",
+                        "Fraud -- United States"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on Post Office and Civil Service. Subcommittee on Postal Operations and Services"
+                    ],
+                    "meta_date": [
+                        "1994-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "actively pursued by our technologists are {{{making it increasingly}}} difficult for a criminal to successfully"
+                    ]
+                },
+                "_score": 9.569626,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL846858M",
+                    "url": "/books/OL846858M/Postage_meter_fraud",
+                    "title": "Postage meter fraud",
+                    "ocaid": "postagemeterfrau00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL463950A",
+                            "name": "United States. Congress. House. Committee on Post Office and Civil Service. Subcommittee on Postal Operations and Services."
+                        }
+                    ],
+                    "work_key": "/works/OL3016557W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4586082-M.jpg",
+                    "read_url": "/books/OL846858M/Postage_meter_fraud/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "postagemeterfrau00unit",
+                    "isbn": "0160439663",
+                    "oclc": null,
+                    "openlibrary_work": "OL3016557W",
+                    "openlibrary_edition": "OL846858M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "weightcontrol0015cott|d30c3a2fcb1f90623985b3f4ed65085a5420b4cd",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1613590867",
+                    "identifier": [
+                        "weightcontrol0015cott"
+                    ],
+                    "meta_publicdate": [
+                        "2021-02-13T04:05:18Z"
+                    ],
+                    "meta_titleSorter": [
+                        "weight control"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "weightcontrol0015cott_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-02-17 21:09:17",
+                    "file_basename": "weightcontrol0015cott",
+                    "meta_creatorSorter": [
+                        "cottrell, randall r"
+                    ],
+                    "meta_title": [
+                        "Weight control"
+                    ],
+                    "page_num": [
+                        [
+                            186
+                        ]
+                    ],
+                    "sha1_file": "d881429d24410e1e4f1fbe695f1919a73584e739",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Sluice Dock, CT : Dushkin Pub. Group"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1992
+                    ],
+                    "updated_on": "2021-04-14 23:00:38",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Weight loss"
+                    ],
+                    "meta_creator": [
+                        "Cottrell, Randall R"
+                    ],
+                    "meta_date": [
+                        "1992-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "metabolic rate of the dieter over time, {{{making it increasingly}}} difficult to lose weight and keep it off",
+                        "\nmetabolic rate of'a dieter over time, {{{making it increasingly}}} more difficult to lose weight and keep"
+                    ]
+                },
+                "_score": 9.565956,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL1574370M",
+                    "url": "/books/OL1574370M/Weight_control",
+                    "title": "Weight control",
+                    "ocaid": "weightcontrol0015cott",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL234799A",
+                            "name": "Randall R. Cottrell"
+                        }
+                    ],
+                    "work_key": "/works/OL1956920W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10646636-M.jpg",
+                    "borrow_url": "/books/OL1574370M/Weight_control/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "weightcontrol0015cott",
+                    "isbn": "087967878X",
+                    "oclc": null,
+                    "openlibrary_work": "OL1956920W",
+                    "openlibrary_edition": "OL1574370M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "spiescodebreaker0000scot|0d4f34fb6a17cde641af9b46a599bacc7a2387ef",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1530945515",
+                    "identifier": [
+                        "spiescodebreaker0000scot"
+                    ],
+                    "meta_publicdate": [
+                        "2018-07-05T03:00:08Z"
+                    ],
+                    "meta_titleSorter": [
+                        "spies and code breakers : a primary source history"
+                    ],
+                    "meta_downloads": [
+                        37
+                    ],
+                    "filename": [
+                        "spiescodebreaker0000scot_abbyy.gz"
+                    ],
+                    "created_on": "2018-07-11 06:07:57",
+                    "file_basename": "spiescodebreaker0000scot",
+                    "meta_creatorSorter": [
+                        "scott, carey"
+                    ],
+                    "meta_title": [
+                        "Spies and code breakers : a primary source history"
+                    ],
+                    "page_num": [
+                        58
+                    ],
+                    "sha1_file": "43c0d8263fa46eaaa5c0fe39b3e350844c85b204",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Pleasantville, NY : Gareth Stevens Pub."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2009"
+                    ],
+                    "updated_on": "2020-08-30 05:03:37",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "fav-bookreadet"
+                    ],
+                    "meta_subjectSorter": [
+                        "Spies -- History -- 20th century -- Juvenile literature",
+                        "Espionage -- History -- 20th century -- Juvenile literature",
+                        "World War, 1939-1945 -- Secret service -- Juvenile literature",
+                        "Spies -- History -- 20th century -- Sources -- Juvenile literature",
+                        "Espionage -- History -- 20th century -- Sources -- Juvenile literature",
+                        "World War, 1939-1945 -- Secret service -- Sources -- Juvenile literature"
+                    ],
+                    "meta_creator": [
+                        "Scott, Carey"
+                    ],
+                    "meta_date": [
+                        "2009-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "military modified Enigma several times, {{{making it increasingly}}} more complicated. By the start of the war"
+                    ]
+                },
+                "_score": 9.564206,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22659389M",
+                    "url": "/books/OL22659389M/Spies_and_code_breakers",
+                    "title": "Spies and code breakers",
+                    "ocaid": "spiescodebreaker0000scot",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL388315A",
+                            "name": "Carey Scott"
+                        }
+                    ],
+                    "work_key": "/works/OL2662301W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8202931-M.jpg",
+                    "borrow_url": "/books/OL22659389M/Spies_and_code_breakers/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "spiescodebreaker0000scot",
+                    "isbn": "9781433900495",
+                    "oclc": null,
+                    "openlibrary_work": "OL2662301W",
+                    "openlibrary_edition": "OL22659389M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "impactmtsttrails00montrich|3daeab83c23c520e454cc65629acef272a53acc8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1232583604",
+                    "identifier": [
+                        "impactmtsttrails00montrich"
+                    ],
+                    "meta_publicdate": [
+                        "2009-01-06T23:57:02Z"
+                    ],
+                    "meta_titleSorter": [
+                        "montana state trails plan and programmatic environmental impact statement (peis) : workbook for public review and comment : draft trails plan and peis issues, goals, strategies, and alternatives"
+                    ],
+                    "meta_downloads": [
+                        287
+                    ],
+                    "filename": [
+                        "impactmtsttrails00montrich_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 18:34:24",
+                    "file_basename": "impactmtsttrails00montrich",
+                    "meta_creatorSorter": [
+                        "montana. parks division"
+                    ],
+                    "meta_title": [
+                        "Montana state trails plan and programmatic environmental impact statement (PEIS) : workbook for public review and comment : draft trails plan and PEIS issues, goals, strategies, and alternatives"
+                    ],
+                    "page_num": [
+                        92
+                    ],
+                    "sha1_file": "9872ec57e11a57f487e730c8ddd167974b8c524a",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Helena, MT] : The Division"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1996"
+                    ],
+                    "updated_on": "2020-12-31 23:34:23",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana",
+                        "fav-paul_nguyen_1"
+                    ],
+                    "meta_subjectSorter": [
+                        "Outdoor recreation",
+                        "Trails",
+                        "Trails"
+                    ],
+                    "meta_creator": [
+                        "Montana. Parks Division"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        ":\nF) Current federal budget trends are {{{making it increasingly}}} difficult to meet maintenance needs for"
+                    ]
+                },
+                "_score": 9.563908,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL23306070M",
+                    "url": "/books/OL23306070M/Montana_state_trails_plan_and_programmatic_environmental_impact_statement_(PEIS)",
+                    "title": "Montana state trails plan and programmatic environmental impact statement (PEIS)",
+                    "ocaid": "impactmtsttrails00montrich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL868911A",
+                            "name": "Montana. Parks Division."
+                        }
+                    ],
+                    "work_key": "/works/OL4401835W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6243954-M.jpg",
+                    "read_url": "/books/OL23306070M/Montana_state_trails_plan_and_programmatic_environmental_impact_statement_(PEIS)/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "impactmtsttrails00montrich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL4401835W",
+                    "openlibrary_edition": "OL23306070M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reauthorizationof1993unit|7db216e301d2d55422c40503baebc00e964d88f7",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1210362103",
+                    "identifier": [
+                        "reauthorizationof1993unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-04-30T15:07:46Z"
+                    ],
+                    "meta_titleSorter": [
+                        "reauthorization of disability-related programs : hearing before the subcommittee on disability policy of the committee on labor and human resources, united states senate, one hundred third congress, first session ... june 29, 1993"
+                    ],
+                    "meta_downloads": [
+                        1445
+                    ],
+                    "filename": [
+                        "reauthorizationof1993unit_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 18:43:48",
+                    "file_basename": "reauthorizationof1993unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. senate. committee on labor and human resources. subcommittee on disability policy"
+                    ],
+                    "meta_title": [
+                        "Reauthorization of disability-related programs : hearing before the Subcommittee on Disability Policy of the Committee on Labor and Human Resources, United States Senate, One Hundred Third Congress, first session ... June 29, 1993"
+                    ],
+                    "page_num": [
+                        128
+                    ],
+                    "sha1_file": "b5c12b87d50fb775fd4e245a822883948194a1d5",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1993
+                    ],
+                    "updated_on": "2022-04-05 23:50:55",
+                    "meta_collection": [
+                        "bostonpubliclibrary",
+                        "USGovernmentDocuments",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Developmentally disabled -- Services for United States Finance",
+                        "People with disabilities -- Services for United States Finance",
+                        "Federal aid to services for people with disabilities -- United States"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. Senate. Committee on Labor and Human Resources. Subcommittee on Disability Policy"
+                    ],
+                    "meta_date": [
+                        "1993-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and, specific to today's proceedings, for {{{making it increasingly}}} possible for them to obtain assistive technology",
+                        "thanking this subcommittee for its foresi^t in {{{making it increasingly}}} possible for persons with disabilities"
+                    ]
+                },
+                "_score": 9.5585,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL23328704M",
+                    "url": "/books/OL23328704M/Reauthorization_of_disability-related_programs",
+                    "title": "Reauthorization of disability-related programs",
+                    "ocaid": "reauthorizationof1993unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL463704A",
+                            "name": "United States. Congress. Senate. Committee on Labor and Human Resources. Subcommittee on Disability Policy."
+                        }
+                    ],
+                    "work_key": "/works/OL3014661W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6053317-M.jpg",
+                    "read_url": "/books/OL23328704M/Reauthorization_of_disability-related_programs/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "reauthorizationof1993unit",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL3014661W",
+                    "openlibrary_edition": "OL23328704M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "powderriverconse00unitrich|8d78b83813e739db3017024f8c6722855f0e1126",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1219699049",
+                    "identifier": [
+                        "powderriverconse00unitrich"
+                    ],
+                    "meta_publicdate": [
+                        "2008-08-20T16:17:56Z"
+                    ],
+                    "meta_titleSorter": [
+                        "powder river conservation district, montana : long range program of resource conservation for the future"
+                    ],
+                    "meta_downloads": [
+                        661
+                    ],
+                    "filename": [
+                        "powderriverconse00unitrich_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-18 17:51:05",
+                    "file_basename": "powderriverconse00unitrich",
+                    "meta_creatorSorter": [
+                        "united states. soil conservation service"
+                    ],
+                    "meta_title": [
+                        "Powder River Conservation District, Montana : long range program of resource conservation for the future"
+                    ],
+                    "page_num": [
+                        158
+                    ],
+                    "sha1_file": "a3f6973a9fa89516eb43996a835d615f4a113b0a",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portland, Or. : The Service"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1976"
+                    ],
+                    "updated_on": "2021-01-01 01:40:19",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Water conservation",
+                        "Land use",
+                        "Conservation of natural resources",
+                        "Soil conservation"
+                    ],
+                    "meta_creator": [
+                        "United States. Soil Conservation Service",
+                        "Powder River Conservation District"
+                    ],
+                    "meta_date": [
+                        "1976-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and services along with land value are {{{making it increasingly}}} difficult for existing operators to expand"
+                    ]
+                },
+                "_score": 9.539126,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL14035230M",
+                    "url": "/books/OL14035230M/Powder_River_Conservation_District_Montana",
+                    "title": "Powder River Conservation District, Montana",
+                    "ocaid": "powderriverconse00unitrich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16775636W",
+                    "cover_url": "//covers.openlibrary.org/b/id/5962133-M.jpg",
+                    "read_url": "/books/OL14035230M/Powder_River_Conservation_District_Montana/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "powderriverconse00unitrich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16775636W",
+                    "openlibrary_edition": "OL14035230M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "storringtonpaper00eden|e67f11c67882d318dba60c35a54bb05736be57aa",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1264513610",
+                    "identifier": [
+                        "storringtonpaper00eden"
+                    ],
+                    "meta_publicdate": [
+                        "2010-01-25T14:29:29Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the storrington papers"
+                    ],
+                    "meta_downloads": [
+                        153
+                    ],
+                    "filename": [
+                        "storringtonpaper00eden_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 20:29:24",
+                    "file_basename": "storringtonpaper00eden",
+                    "meta_creatorSorter": [
+                        "eden, dorothy, 1912-1982"
+                    ],
+                    "meta_title": [
+                        "The Storrington papers"
+                    ],
+                    "page_num": [
+                        278
+                    ],
+                    "sha1_file": "1ffae8eac1a7a05de6dd01e31285813530da3333",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Coward, McCann & Geoghegan"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1978"
+                    ],
+                    "updated_on": "2020-12-26 08:55:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "americana",
+                        "fav-floating_orchid",
+                        "fav-cherchezlafemme",
+                        "dartmouthlibrary-ol",
+                        "kalamazoocollege-ol",
+                        "riceuniversity-ol",
+                        "tamu-evanslibrary-ol",
+                        "universityofoklahoma-ol",
+                        "wrlc-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Family"
+                    ],
+                    "meta_creator": [
+                        "Eden, Dorothy, 1912-1982"
+                    ],
+                    "meta_date": [
+                        "1978-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "she thought wryly. Cissie's diaries were {{{making it increasingly}}} apparent that meek and quiet little Hannah",
+                        "she thought wryly. Cissie's diaries were {{{making it increasingly}}} apparent that meek and quiet little Hannah"
+                    ]
+                },
+                "_score": 9.537628,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4724177M",
+                    "url": "/books/OL4724177M/The_Storrington_papers",
+                    "title": "The Storrington papers",
+                    "ocaid": "storringtonpaper00eden",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL28773A",
+                            "name": "Dorothy Eden"
+                        }
+                    ],
+                    "work_key": "/works/OL67664W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6566013-M.jpg",
+                    "borrow_url": "/books/OL4724177M/The_Storrington_papers/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "storringtonpaper00eden",
+                    "isbn": "0698109627",
+                    "oclc": null,
+                    "openlibrary_work": "OL67664W",
+                    "openlibrary_edition": "OL4724177M",
+                    "last_loan_date": "2020-08-05T17:38:34Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": "2019-09-16T15:07:02Z",
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "failsafeleadersh0000mart|6c419360f31ea37c64d1232a7b9f44c88fd3816b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1516797291",
+                    "identifier": [
+                        "failsafeleadersh0000mart"
+                    ],
+                    "meta_publicdate": [
+                        "2018-01-23T21:45:53Z"
+                    ],
+                    "meta_titleSorter": [
+                        "fail-safe leadership : straight talk about correcting the leadership challenges in your organization"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "failsafeleadersh0000mart_abbyy.gz"
+                    ],
+                    "created_on": "2018-01-24 12:51:49",
+                    "file_basename": "failsafeleadersh0000mart",
+                    "meta_creatorSorter": [
+                        "martin, linda l"
+                    ],
+                    "meta_title": [
+                        "Fail-safe leadership : straight talk about correcting the leadership challenges in your organization"
+                    ],
+                    "page_num": [
+                        172
+                    ],
+                    "sha1_file": "1072fce9a8195d4f3fde4034a547c988369d0e81",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Mohnton, Penn. : Delta Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2006"
+                    ],
+                    "updated_on": "2020-08-30 19:17:53",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Leadership",
+                        "Organizational change",
+                        "Leadership",
+                        "Organizational change"
+                    ],
+                    "meta_creator": [
+                        "Martin, Linda L"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "\"hardened\" against all attempts at improvement, {{{making it increasingly}}} dif\u00ac ficult to effect the changes necessary"
+                    ]
+                },
+                "_score": 9.534181,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11781735M",
+                    "url": "/books/OL11781735M/Fail_-_Safe_Leadership",
+                    "title": "Fail - Safe Leadership",
+                    "ocaid": "failsafeleadersh0000mart",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL17832386W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8125660-M.jpg",
+                    "borrow_url": "/books/OL11781735M/Fail_-_Safe_Leadership/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "failsafeleadersh0000mart",
+                    "isbn": "9780971573215",
+                    "oclc": null,
+                    "openlibrary_work": "OL17832386W",
+                    "openlibrary_edition": "OL11781735M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "fieryglowindarkn0000grun|f498051a1a0aa391104c3ef1a80dd7d3902bd3f1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1642762682",
+                    "identifier": [
+                        "fieryglowindarkn0000grun"
+                    ],
+                    "meta_publicdate": [
+                        "2022-01-18T05:18:45Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a fiery glow in the darkness : woodbine willie, padre\u0301 & poet"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "fieryglowindarkn0000grun_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-01-21 11:11:50",
+                    "file_basename": "fieryglowindarkn0000grun",
+                    "meta_creatorSorter": [
+                        "grundy, michael"
+                    ],
+                    "meta_title": [
+                        "A fiery glow in the darkness : Woodbine Willie, padre\u0301 & poet"
+                    ],
+                    "page_num": [
+                        [
+                            102
+                        ]
+                    ],
+                    "sha1_file": "bc4cd7ad4e4352c58750fc020b973c1392a4cf6c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "St Johns, Worcester : Osborne Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1997
+                    ],
+                    "updated_on": "2022-03-06 00:38:27",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Studdert Kennedy, Geoffrey Anketell, 1883-1929",
+                        "Church of England -- Clergy -- Biography"
+                    ],
+                    "meta_creator": [
+                        "Grundy, Michael"
+                    ],
+                    "meta_date": [
+                        "1997-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "calls from all around the country were {{{making it increasingly}}} difficult, if not impossible for Studdert"
+                    ]
+                },
+                "_score": 9.53093,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL311581M",
+                    "url": "/books/OL311581M/A_fiery_glow_in_the_darkness",
+                    "title": "A fiery glow in the darkness",
+                    "ocaid": "fieryglowindarkn0000grun",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL199880A",
+                            "name": "Michael Grundy"
+                        }
+                    ],
+                    "work_key": "/works/OL1734133W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2073221-M.jpg",
+                    "borrow_url": "/books/OL311581M/A_fiery_glow_in_the_darkness/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "fieryglowindarkn0000grun",
+                    "isbn": "1872962513",
+                    "oclc": null,
+                    "openlibrary_work": "OL1734133W",
+                    "openlibrary_edition": "OL311581M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "necessaryfamilyh0000debu|eb3d6e4c5fdf15c39f7e2f61fde2de7e9311791e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1643029754",
+                    "identifier": [
+                        "necessaryfamilyh0000debu"
+                    ],
+                    "meta_publicdate": [
+                        "2022-01-21T06:43:36Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the necessary family and how to support it"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "necessaryfamilyh0000debu_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-01-24 13:17:54",
+                    "file_basename": "necessaryfamilyh0000debu",
+                    "meta_creatorSorter": [
+                        "de burgh, hugo"
+                    ],
+                    "meta_title": [
+                        "The necessary family and how to support it"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "9995f6ad4a867736f29636501b0b71b64eb827a3",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Oxford : Published for Family and Youth Concern by Family Publications"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1996
+                    ],
+                    "updated_on": "2022-03-08 00:31:25",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Families -- Economic aspects -- Great Britain",
+                        "Families -- Great Britain",
+                        "Families -- Taxation -- Great Britain",
+                        "Family allowances -- Great Britain",
+                        "Family policy -- Great Britain",
+                        "Families",
+                        "Families -- Economic aspects",
+                        "Families -- Taxation",
+                        "Family allowances",
+                        "Family policy",
+                        "Great Britain",
+                        "Families Economic conditions"
+                    ],
+                    "meta_creator": [
+                        "De Burgh, Hugo"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "provides incentives to mothers to work and is {{{making it increasingly}}} difficult for them not to. One way to enable"
+                    ]
+                },
+                "_score": 9.53093,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL19397786M",
+                    "url": "/books/OL19397786M/The_necessary_family_and_how_to_support_it",
+                    "title": "The necessary family and how to support it",
+                    "ocaid": "necessaryfamilyh0000debu",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1513949A",
+                            "name": "Hugo de Burgh"
+                        }
+                    ],
+                    "work_key": "/works/OL6026929W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12586310-M.jpg",
+                    "borrow_url": "/books/OL19397786M/The_necessary_family_and_how_to_support_it/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "necessaryfamilyh0000debu",
+                    "isbn": "0906229138",
+                    "oclc": null,
+                    "openlibrary_work": "OL6026929W",
+                    "openlibrary_edition": "OL19397786M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "focusonchina0000brow|b46015b0617bef572d8353e354e94bf55be5a401",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1569343460",
+                    "identifier": [
+                        "focusonchina0000brow"
+                    ],
+                    "meta_publicdate": [
+                        "2019-09-19T21:16:19Z"
+                    ],
+                    "meta_titleSorter": [
+                        "focus on china"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "focusonchina0000brow_abbyy.gz"
+                    ],
+                    "created_on": "2019-09-25 07:29:54",
+                    "file_basename": "focusonchina0000brow",
+                    "meta_creatorSorter": [
+                        "brownlie bojang, ali, 1949-"
+                    ],
+                    "meta_title": [
+                        "Focus on China"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "b7115ba26f968bf9baac3609c86bce9a8f5da59b",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Milwaukee, Wis. : World Almanac Library"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2006"
+                    ],
+                    "updated_on": "2020-09-15 21:04:34",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Global Studies China",
+                        "Food Immigrants",
+                        "China -- Textbooks",
+                        "China"
+                    ],
+                    "meta_creator": [
+                        "Brownlie Bojang, Ali, 1949-"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "more open, market economy, however, are {{{making it increasingly}}} difficult for its government to control"
+                    ]
+                },
+                "_score": 9.530907,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3429269M",
+                    "url": "/books/OL3429269M/Focus_on_China",
+                    "title": "Focus on China",
+                    "ocaid": "focusonchina0000brow",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL20367A",
+                            "name": "Ali Brownlie Bojang"
+                        }
+                    ],
+                    "work_key": "/works/OL19167461W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1581050-M.jpg",
+                    "borrow_url": "/books/OL3429269M/Focus_on_China/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "focusonchina0000brow",
+                    "isbn": "0836862163",
+                    "oclc": null,
+                    "openlibrary_work": "OL19167461W",
+                    "openlibrary_edition": "OL3429269M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "salonsjoyofconve0000sand|081a750187b054ec5e37bb56476b00830971b81a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1636674960",
+                    "identifier": [
+                        "salonsjoyofconve0000sand"
+                    ],
+                    "meta_publicdate": [
+                        "2021-11-08T02:51:09Z"
+                    ],
+                    "meta_titleSorter": [
+                        "salons : the joy of conversation"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "salonsjoyofconve0000sand_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-11-12 00:46:32",
+                    "file_basename": "salonsjoyofconve0000sand",
+                    "meta_creatorSorter": [
+                        "sandra, jaida n'ha"
+                    ],
+                    "meta_title": [
+                        "Salons : the joy of conversation"
+                    ],
+                    "page_num": [
+                        [
+                            246
+                        ]
+                    ],
+                    "sha1_file": "e8a5e6ba15913f5d006eec5e1a8fbe2b22b65686",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Gabriola Island, B.C. : New Society Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2001
+                    ],
+                    "updated_on": "2021-12-05 06:19:07",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Salons",
+                        "Conversation",
+                        "Salons litte\u0301raires"
+                    ],
+                    "meta_creator": [
+                        "Sandra, Jaida n'ha"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "French salons supported social change by {{{making it increasingly}}} accept- able for women to receive an education",
+                        "French salons supported social change by {{{making it increasingly}}} acceptable for women to receive\nan education"
+                    ]
+                },
+                "_score": 9.524176,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8326567M",
+                    "url": "/books/OL8326567M/Salons",
+                    "title": "Salons",
+                    "ocaid": "salonsjoyofconve0000sand",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2930845A",
+                            "name": "Jaida N'Ha Sandra"
+                        },
+                        {
+                            "key": "/authors/OL2779709A",
+                            "name": "Jon Spayde"
+                        }
+                    ],
+                    "work_key": "/works/OL26434972W",
+                    "cover_url": "//covers.openlibrary.org/w/id/656846-M.jpg",
+                    "borrow_url": "/books/OL8326567M/Salons/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "salonsjoyofconve0000sand",
+                    "isbn": "0865714444",
+                    "oclc": null,
+                    "openlibrary_work": null,
+                    "openlibrary_edition": "OL8326567M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "womeninworldwari0000asse|0315218af1a89cf21428f03fa5c234ba8d8d2d20",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1647853857",
+                    "identifier": [
+                        "womeninworldwari0000asse"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-15T11:39:28Z"
+                    ],
+                    "meta_titleSorter": [
+                        "women in world war i"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "womeninworldwari0000asse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-21 09:28:24",
+                    "file_basename": "womeninworldwari0000asse",
+                    "meta_creatorSorter": [
+                        "asselin, kristine carlson, author"
+                    ],
+                    "meta_title": [
+                        "Women in World War I"
+                    ],
+                    "page_num": [
+                        [
+                            122
+                        ]
+                    ],
+                    "sha1_file": "30e7e5f3eb116e7268097f4469e3dd0198e06dba",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Minneapolis, Minnesota : Essential Library, An Imprint of Abdo Publishing"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2016
+                    ],
+                    "updated_on": "2022-05-25 23:03:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "World War, 1914-1918 -- Women -- Biography -- Juvenile literature",
+                        "World War, 1914-1918 -- War work -- Women -- Juvenile literature",
+                        "World War, 1914-1918 -- Women",
+                        "World War, 1914-1918 -- War work -- Women",
+                        "JUVENILE NONFICTION -- Europe -- History",
+                        "JUVENILE NONFICTION -- People & Places -- Europe",
+                        "War work",
+                        "Women"
+                    ],
+                    "meta_creator": [
+                        "Asselin, Kristine Carlson, author"
+                    ],
+                    "meta_date": [
+                        "2016-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "men who worked the farms were drafted, {{{making it increasingly}}} difficult for farms to meet the demand"
+                    ]
+                },
+                "_score": 9.509847,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32733646M",
+                    "url": "/books/OL32733646M/Women_in_World_War_I",
+                    "title": "Women in World War I",
+                    "ocaid": "womeninworldwari0000asse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6714043A",
+                            "name": "Kristine Carlson Asselin"
+                        }
+                    ],
+                    "work_key": "/works/OL24664015W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11360182-M.jpg",
+                    "borrow_url": "/books/OL32733646M/Women_in_World_War_I/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "womeninworldwari0000asse",
+                    "isbn": "9781680770193",
+                    "oclc": null,
+                    "openlibrary_work": "OL24664015W",
+                    "openlibrary_edition": "OL32733646M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "tronuprisingrene0000beat|8c501478ac1aa919f4e09419e5aa377de0523dee",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1573915682",
+                    "identifier": [
+                        "tronuprisingrene0000beat"
+                    ],
+                    "meta_publicdate": [
+                        "2019-11-14T00:59:40Z"
+                    ],
+                    "meta_titleSorter": [
+                        "tron, uprising. the renegade"
+                    ],
+                    "meta_downloads": [
+                        37
+                    ],
+                    "filename": [
+                        "tronuprisingrene0000beat_abbyy.gz"
+                    ],
+                    "created_on": "2019-11-19 04:51:42",
+                    "file_basename": "tronuprisingrene0000beat",
+                    "meta_creatorSorter": [
+                        "beatty, scott, 1969-"
+                    ],
+                    "meta_title": [
+                        "Tron, uprising. The renegade"
+                    ],
+                    "page_num": [
+                        142
+                    ],
+                    "sha1_file": "187ac1cff389f382737f430a933e80f9e7990834",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Disney Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2012"
+                    ],
+                    "updated_on": "2020-11-06 10:15:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-sonicid",
+                        "holdings-test",
+                        "miltonpubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Virtual reality -- Juvenile fiction",
+                        "Good and evil -- Juvenile fiction",
+                        "Good and evil",
+                        "Virtual reality"
+                    ],
+                    "meta_creator": [
+                        "Beatty, Scott, 1969-"
+                    ],
+                    "meta_date": [
+                        "2012-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "wobble from each of the pursuer\u2019s knocks was {{{making it increasingly}}} hard to keep the cycle balanced on the"
+                    ]
+                },
+                "_score": 9.507625,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25998350M",
+                    "url": "/books/OL25998350M/Tron_Uprising",
+                    "title": "Tron Uprising",
+                    "ocaid": "tronuprisingrene0000beat",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7307754A",
+                            "name": "Edward Kitsis"
+                        }
+                    ],
+                    "work_key": "/works/OL17416258W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7535123-M.jpg",
+                    "borrow_url": "/books/OL25998350M/Tron_Uprising/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "tronuprisingrene0000beat",
+                    "isbn": "9781423154174",
+                    "oclc": null,
+                    "openlibrary_work": "OL17416258W",
+                    "openlibrary_edition": "OL25998350M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "pearsoncanadasup0000stew|1496bc3ddb597ebeb30259e4bf3b113487cab8fe",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1600648787",
+                    "identifier": [
+                        "pearsoncanadasup0000stew"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-16T04:17:12Z"
+                    ],
+                    "meta_titleSorter": [
+                        "pearson canada supplemental cases in marketing"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "pearsoncanadasup0000stew_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-21 00:56:30",
+                    "file_basename": "pearsoncanadasup0000stew",
+                    "meta_creatorSorter": [
+                        "stewart, cindy"
+                    ],
+                    "meta_title": [
+                        "Pearson Canada supplemental cases in marketing"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "dcf151244913513c40d91bbb3988524f7e431cc5",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Toronto : Pearson Prentice Hall"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2021-05-03 23:49:45",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Olympic Winter Games (21st : 2010 : Vancouver, B.C.) -- Economic aspects",
+                        "Jeux olympiques d'hiver (21es : 2010 : Vancouver, C.-B.) -- Aspect e\u0301conomique",
+                        "Olympic Winter Games",
+                        "Sports -- British Columbia -- Vancouver -- Marketing -- Case studies",
+                        "Sports sponsorship -- British Columbia -- Vancouver",
+                        "Sports -- Colombie-Britannique -- Vancouver -- Marketing -- Cas, E\u0301tudes de",
+                        "Parrainage sportif -- Colombie-Britannique -- Vancouver",
+                        "Economics",
+                        "Sports -- Marketing",
+                        "Sports sponsorship",
+                        "British Columbia -- Vancouver"
+                    ],
+                    "meta_creator": [
+                        "Stewart, Cindy"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Business in Vancouver, 2004.\nPaul Cubbon\n{{{making it increasingly}}} important for brand value to differentiate"
+                    ]
+                },
+                "_score": 9.507625,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28178881M",
+                    "url": "/books/OL28178881M/Pearson_Canada_Supplemental_Cases_in_Marketing_2007_Edition",
+                    "title": "Pearson Canada Supplemental Cases in Marketing, 2007 Edition",
+                    "ocaid": "pearsoncanadasup0000stew",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7945642A",
+                            "name": "Cindy Stewart"
+                        }
+                    ],
+                    "work_key": "/works/OL20814799W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11693346-M.jpg",
+                    "borrow_url": "/books/OL28178881M/Pearson_Canada_Supplemental_Cases_in_Marketing_2007_Edition/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "pearsoncanadasup0000stew",
+                    "isbn": "9780132061025",
+                    "oclc": null,
+                    "openlibrary_work": "OL20814799W",
+                    "openlibrary_edition": "OL28178881M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

@@ -1,0 +1,2691 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1220,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.074379,
+        "hits": [
+            {
+                "_id": "televisionradio0000conn|58957b8de0219b9e953a771cf9674a1e47c5378c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1548315704",
+                    "identifier": [
+                        "televisionradio0000conn"
+                    ],
+                    "meta_publicdate": [
+                        "2019-01-21T12:21:13Z"
+                    ],
+                    "meta_titleSorter": [
+                        "television and radio"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "televisionradio0000conn_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-24 09:27:46",
+                    "file_basename": "televisionradio0000conn",
+                    "meta_creatorSorter": [
+                        "connolly, sean, 1956-"
+                    ],
+                    "meta_title": [
+                        "Television and radio"
+                    ],
+                    "page_num": [
+                        58
+                    ],
+                    "sha1_file": "5fc6764c9e9e47e60b7ccf0b2370b0502bfaf2cb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Mankato, MN : Smart Apple Media"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2010"
+                    ],
+                    "updated_on": "2020-08-30 06:03:55",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-cathoderachem_gmail_com",
+                        "cnusd-ol",
+                        "holdings-test"
+                    ],
+                    "meta_subjectSorter": [
+                        "Television broadcasting -- Social aspects -- United States -- Juvenile literature",
+                        "Radio broadcasting -- Social aspects -- United States -- Juvenile literature",
+                        "Television broadcasting -- Social aspects -- United States",
+                        "Radio broadcasting -- Social aspects -- United States",
+                        "Radio broadcasting -- Social aspects",
+                        "Television broadcasting -- Social aspects",
+                        "Television broadcasting -- Social aspects -- Juvenile literature",
+                        "Radio broadcasting -- Social aspects -- Juvenile literature",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "Connolly, Sean, 1956-"
+                    ],
+                    "meta_date": [
+                        "2010-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "nervous system that damages the brain cells, {{{making it increasingly}}} hard to remember even simple things, to"
+                    ]
+                },
+                "_score": 10.101667,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22853502M",
+                    "url": "/books/OL22853502M/Getting_the_message",
+                    "title": "Getting the message",
+                    "ocaid": "televisionradio0000conn",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL18857A",
+                            "name": "Connolly, Sean"
+                        }
+                    ],
+                    "work_key": "/works/OL443525W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9797136-M.jpg",
+                    "borrow_url": "/books/OL22853502M/Getting_the_message/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": true,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "televisionradio0000conn",
+                    "isbn": "9781599203508",
+                    "oclc": null,
+                    "openlibrary_work": "OL443525W",
+                    "openlibrary_edition": "OL22853502M",
+                    "last_loan_date": "2020-06-06T16:33:10Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "subsidizedhousin00bost|1e1aa5931cb28cc8dbc27865e852b944d8263b99",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1265271586",
+                    "identifier": [
+                        "subsidizedhousin00bost"
+                    ],
+                    "meta_publicdate": [
+                        "2010-01-27T15:55:41Z"
+                    ],
+                    "meta_titleSorter": [
+                        "subsidized housing in the south end"
+                    ],
+                    "file_basename": "subsidizedhousin00bost",
+                    "filename": [
+                        "subsidizedhousin00bost_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-18 23:35:57",
+                    "meta_creatorSorter": [
+                        "boston redevelopment authority"
+                    ],
+                    "meta_subjectSorter": [
+                        "Housing",
+                        "Urban renewal"
+                    ],
+                    "meta_title": [
+                        "Subsidized housing in the south end"
+                    ],
+                    "page_num": [
+                        84
+                    ],
+                    "sha1_file": "f8a9954a4fe70842ee0c9e193bc90d14ab7be420",
+                    "meta_downloads": [
+                        535
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1978
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "USGovernmentDocuments",
+                        "bostonpubliclibrary",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "updated_on": "2022-04-06 04:53:01",
+                    "meta_creator": [
+                        "Boston Redevelopment Authority"
+                    ],
+                    "meta_date": [
+                        "1978-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "necessary, and are therefore inflationary, {{{making it increasingly}}} more difficult to build new multi-family"
+                    ]
+                },
+                "_score": 10.086796,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24162104M",
+                    "url": "/books/OL24162104M/Subsidized_housing_in_the_south_end.",
+                    "title": "Subsidized housing in the south end.",
+                    "ocaid": "subsidizedhousin00bost",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16783461W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6340358-M.jpg",
+                    "read_url": "/books/OL24162104M/Subsidized_housing_in_the_south_end./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "subsidizedhousin00bost",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16783461W",
+                    "openlibrary_edition": "OL24162104M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "agriculturaldeve00werg|cc8795209f6aa277a8371181ddafd2c0e1cc9ca3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1263410745",
+                    "identifier": [
+                        "agriculturaldeve00werg"
+                    ],
+                    "meta_publicdate": [
+                        "2009-12-21T12:33:26Z"
+                    ],
+                    "meta_titleSorter": [
+                        "agricultural development in clear creek : adaptive strategies and economic roles in a dominican settlement"
+                    ],
+                    "file_basename": "agriculturaldeve00werg",
+                    "filename": [
+                        "agriculturaldeve00werg_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 15:30:45",
+                    "meta_creatorSorter": [
+                        "werge, robert wendell, 1944-"
+                    ],
+                    "meta_subjectSorter": [
+                        "Agriculture"
+                    ],
+                    "meta_title": [
+                        "Agricultural development in Clear Creek : adaptive strategies and economic roles in a Dominican settlement"
+                    ],
+                    "page_num": [
+                        226
+                    ],
+                    "sha1_file": "f7b0cc5382ff7885f3fba7725abae52979c06df7",
+                    "meta_downloads": [
+                        789
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1975
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "UFRDS",
+                        "univ_florida_smathers",
+                        "americana"
+                    ],
+                    "updated_on": "2022-03-24 23:50:39",
+                    "meta_creator": [
+                        "Werge, Robert Wendell, 1944-"
+                    ],
+                    "meta_date": [
+                        "1975-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "be shown that these same constraints are {{{making it increasingly}}} difficult for fai^mers to utilize the traditional",
+                        "natural environment of Clear Creek, are {{{making it increasingly}}} difficult for farmers to continue small"
+                    ]
+                },
+                "_score": 10.0673685,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24190968M",
+                    "url": "/books/OL24190968M/Agricultural_development_in_Clear_Creek",
+                    "title": "Agricultural development in Clear Creek",
+                    "ocaid": "agriculturaldeve00werg",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16732377W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6465289-M.jpg",
+                    "read_url": "/books/OL24190968M/Agricultural_development_in_Clear_Creek/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "agriculturaldeve00werg",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16732377W",
+                    "openlibrary_edition": "OL24190968M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "watersupply0000spil|8a05469dcd881e89ca54e5a1775e88c8a0a6241a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1598660135",
+                    "identifier": [
+                        "watersupply0000spil"
+                    ],
+                    "meta_publicdate": [
+                        "2020-08-23T06:48:56Z"
+                    ],
+                    "meta_titleSorter": [
+                        "water supply"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "watersupply0000spil_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-29 19:56:30",
+                    "file_basename": "watersupply0000spil",
+                    "meta_creatorSorter": [
+                        "spilsbury, louise"
+                    ],
+                    "meta_title": [
+                        "Water supply"
+                    ],
+                    "page_num": [
+                        58
+                    ],
+                    "sha1_file": "94fff03ba82d2d88eb9e71c8d05e9902190723cb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Wayland"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2008"
+                    ],
+                    "updated_on": "2020-10-22 13:54:04",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Water-supply -- Juvenile literature",
+                        "Water conservation -- Juvenile fiction",
+                        "Human ecology -- Juvenile literature",
+                        "Human ecology",
+                        "Water conservation",
+                        "Water-supply"
+                    ],
+                    "meta_creator": [
+                        "Spilsbury, Louise"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "groundwater has flowed into the river, {{{making it increasingly}}} unsuitable for agriculture. The river water"
+                    ]
+                },
+                "_score": 10.055695,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL29706825M",
+                    "url": "/books/OL29706825M/Water_supply",
+                    "title": "Water supply",
+                    "ocaid": "watersupply0000spil",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1394428A",
+                            "name": "Louise Spilsbury"
+                        }
+                    ],
+                    "work_key": "/works/OL21807678W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10407078-M.jpg",
+                    "borrow_url": "/books/OL29706825M/Water_supply/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "watersupply0000spil",
+                    "isbn": "9780750254410",
+                    "oclc": null,
+                    "openlibrary_work": "OL21807678W",
+                    "openlibrary_edition": "OL29706825M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "developmentcrisi0000lang_g6w2|f1e786446598a63c274cac06e58fc0aac610187e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1603117356",
+                    "identifier": [
+                        "developmentcrisi0000lang_g6w2"
+                    ],
+                    "meta_publicdate": [
+                        "2020-10-16T02:46:58Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the development crisis : blueprint for change"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "developmentcrisi0000lang_g6w2_abbyy.gz"
+                    ],
+                    "created_on": "2020-10-19 14:54:31",
+                    "file_basename": "developmentcrisi0000lang_g6w2",
+                    "meta_creatorSorter": [
+                        "langoni, carlos geraldo"
+                    ],
+                    "meta_title": [
+                        "The development crisis : blueprint for change"
+                    ],
+                    "page_num": [
+                        186
+                    ],
+                    "sha1_file": "6164a586fdd3e38eb094cc02723898ae1775b6d7",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "San Francisco, CA : International Center for Economic Growth"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1987"
+                    ],
+                    "updated_on": "2020-12-28 09:17:06",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "marymount-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "International Monetary Fund",
+                        "Fonds mone\u0301taire international",
+                        "Monetary policy -- Brazil",
+                        "Debts, External -- Brazil",
+                        "Debt relief -- Brazil",
+                        "Monetary policy -- Developing countries",
+                        "Debts, External -- Developing countries",
+                        "Debt relief -- Developing countries",
+                        "Politique mone\u0301taire -- Bre\u0301sil",
+                        "Dettes exte\u0301rieures -- Bre\u0301sil",
+                        "Dettes -- Alle\u0300gement -- Bre\u0301sil",
+                        "Politique mone\u0301taire -- Pays en voie de de\u0301veloppement",
+                        "Dettes exte\u0301rieures -- Pays en voie de de\u0301veloppement",
+                        "Dettes -- Alle\u0300gement -- Pays en voie de de\u0301veloppement",
+                        "Debt relief",
+                        "Debts, External",
+                        "Monetary policy",
+                        "Auslandsschulden",
+                        "Planejamento Economico",
+                        "Deuda exterior -- Brasil",
+                        "Brazil",
+                        "Developing countries",
+                        "Entwicklungsla\u0308nder",
+                        "Pai\u0301ses subdesarrollados -- Deuda exterior",
+                        "Debt relief Brazil",
+                        "Debt relief Developing countries",
+                        "Debts, External Brazil",
+                        "Debts, External Developing countries",
+                        "Monetary policy Brazil",
+                        "Monetary policy Developing countries"
+                    ],
+                    "meta_creator": [
+                        "Langoni, Carlos Geraldo"
+                    ],
+                    "meta_date": [
+                        "1987-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "time.\nSocial and political constraints are {{{making it increasingly}}} difficult to sustain the present system",
+                        "direct effect on the pub\u00ac lic debt service, {{{making it increasingly}}} difficult to control current spend\u00ac ing"
+                    ]
+                },
+                "_score": 10.036448,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2399334M",
+                    "url": "/books/OL2399334M/The_development_crisis",
+                    "title": "The development crisis",
+                    "ocaid": "developmentcrisi0000lang_g6w2",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL648109A",
+                            "name": "Carlos Geraldo Langoni"
+                        }
+                    ],
+                    "work_key": "/works/OL3721786W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4790041-M.jpg",
+                    "borrow_url": "/books/OL2399334M/The_development_crisis/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "developmentcrisi0000lang_g6w2",
+                    "isbn": "0917616952",
+                    "oclc": null,
+                    "openlibrary_work": "OL3721786W",
+                    "openlibrary_edition": "OL2399334M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "awfultruth0000conw|fc806d452e38204bbb57cbbabe4e877daca7ebfa",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1637141432",
+                    "identifier": [
+                        "awfultruth0000conw"
+                    ],
+                    "meta_publicdate": [
+                        "2021-11-15T15:46:41Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the awful truth"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "awfultruth0000conw_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-11-17 10:23:01",
+                    "file_basename": "awfultruth0000conw",
+                    "meta_creatorSorter": [
+                        "conway, patrick j"
+                    ],
+                    "meta_title": [
+                        "The awful truth"
+                    ],
+                    "page_num": [
+                        [
+                            304
+                        ]
+                    ],
+                    "sha1_file": "fd70a951f8e564ba57deed80969cafa401f8471d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Bellerose, N.Y. : Pragmatic Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2000
+                    ],
+                    "updated_on": "2022-03-10 21:20:38",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Apocalyptic literature",
+                        "End of the world",
+                        "Millennialism"
+                    ],
+                    "meta_creator": [
+                        "Conway, Patrick J"
+                    ],
+                    "meta_date": [
+                        "2000-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "in the ancient writings have been found, {{{making it increasingly}}} difficult for scientists to deny the universal",
+                        "expanding means of travel and communication are {{{making it increasingly}}} difficult to ignore the contradictory philosophical",
+                        "Cer eG) HOT DoE\nAs an aggressive media is {{{making it increasingly}}} difficult for the members of the monarchy"
+                    ]
+                },
+                "_score": 10.017545,
+                "_type": "_doc"
+            },
+            {
+                "_id": "allergycontrolma0000rect|3d032ec497a17dae083cef520ce814cfd65f8cc3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1639129008",
+                    "identifier": [
+                        "allergycontrolma0000rect"
+                    ],
+                    "meta_publicdate": [
+                        "2021-12-06T08:57:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "allergy control & management : fighting asthma with herbal therapy"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "allergycontrolma0000rect_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-12-10 09:50:14",
+                    "file_basename": "allergycontrolma0000rect",
+                    "meta_creatorSorter": [
+                        "rector-page, linda g"
+                    ],
+                    "meta_title": [
+                        "Allergy control & management : fighting asthma with herbal therapy"
+                    ],
+                    "page_num": [
+                        [
+                            38
+                        ]
+                    ],
+                    "sha1_file": "b28771c512d63ce5da6b15b0c63f278301f68007",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Sonora, CA : Healthy Healing Publications"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1995
+                    ],
+                    "updated_on": "2022-04-13 09:28:56",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-info2know74"
+                    ],
+                    "meta_subjectSorter": [
+                        "Allergy",
+                        "Asthma",
+                        "Asthma -- Treatment",
+                        "Herbs -- Therapeutic use"
+                    ],
+                    "meta_creator": [
+                        "Rector-Page, Linda G"
+                    ],
+                    "meta_date": [
+                        "1995-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "responsibility and ac-\ncountability are {{{making it increasingly}}} clear that we must all pay more attention"
+                    ]
+                },
+                "_score": 10.015166,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL12153215M",
+                    "url": "/books/OL12153215M/Allergy_control_management",
+                    "title": "Allergy control & management",
+                    "ocaid": "allergycontrolma0000rect",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3830860A",
+                            "name": "Linda G Rector-Page"
+                        }
+                    ],
+                    "work_key": "/works/OL9846976W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12487539-M.jpg",
+                    "borrow_url": "/books/OL12153215M/Allergy_control_management/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "allergycontrolma0000rect",
+                    "isbn": "1884334091",
+                    "oclc": null,
+                    "openlibrary_work": "OL9846976W",
+                    "openlibrary_edition": "OL12153215M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "threatstoourwate0000spil|b1baec7f1c2d78dc7e55c04623a3404ae67d9fd8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1543042234",
+                    "identifier": [
+                        "threatstoourwate0000spil"
+                    ],
+                    "meta_publicdate": [
+                        "2018-11-18T07:42:01Z"
+                    ],
+                    "meta_titleSorter": [
+                        "threats to our water supply"
+                    ],
+                    "meta_downloads": [
+                        13
+                    ],
+                    "filename": [
+                        "threatstoourwate0000spil_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-11 21:44:34",
+                    "file_basename": "threatstoourwate0000spil",
+                    "meta_creatorSorter": [
+                        "spilsbury, louise"
+                    ],
+                    "meta_title": [
+                        "Threats to our water supply"
+                    ],
+                    "page_num": [
+                        56
+                    ],
+                    "sha1_file": "53a1fc570a8ed9bd1117ceea3be8a37faa5aec0f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, NY : Rosen Pub. Group"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2010"
+                    ],
+                    "updated_on": "2020-08-30 00:21:58",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "miltonpubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Water-supply -- Juvenile literature",
+                        "Droughts -- Juvenile literature",
+                        "Water -- Pollution -- Juvenile literature",
+                        "Water -- Pollution",
+                        "Water supply",
+                        "Droughts",
+                        "Droughts",
+                        "Water -- Pollution",
+                        "Water-supply",
+                        "Water pollution",
+                        "Droughts",
+                        "Water supply"
+                    ],
+                    "meta_creator": [
+                        "Spilsbury, Louise"
+                    ],
+                    "meta_date": [
+                        "2010-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "groundwater has flowed into the river, {{{making it increasingly}}} unsuitable for agriculture. The river water"
+                    ]
+                },
+                "_score": 10.0110035,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22796207M",
+                    "url": "/books/OL22796207M/Threats_to_our_water_supply",
+                    "title": "Threats to our water supply",
+                    "ocaid": "threatstoourwate0000spil",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1394428A",
+                            "name": "Louise Spilsbury"
+                        }
+                    ],
+                    "work_key": "/works/OL5735754W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8280699-M.jpg",
+                    "borrow_url": "/books/OL22796207M/Threats_to_our_water_supply/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "threatstoourwate0000spil",
+                    "isbn": "9781435853522",
+                    "oclc": null,
+                    "openlibrary_work": "OL5735754W",
+                    "openlibrary_edition": "OL22796207M",
+                    "last_loan_date": "2020-05-21T23:00:29Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "someaspectsofpla99limi|e7c7575a4d7f2ba107d7ecd1cef57a0ece5d41a6",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1404213155",
+                    "identifier": [
+                        "someaspectsofpla99limi"
+                    ],
+                    "meta_publicdate": [
+                        "2014-06-27T13:34:59Z"
+                    ],
+                    "meta_titleSorter": [
+                        "some aspects of the plant disease eradication and control work of the bureau of entomology and plant quarantine : papers"
+                    ],
+                    "meta_downloads": [
+                        374
+                    ],
+                    "filename": [
+                        "someaspectsofpla99limi_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 13:18:19",
+                    "file_basename": "someaspectsofpla99limi",
+                    "meta_creatorSorter": [
+                        "liming, o. n"
+                    ],
+                    "meta_title": [
+                        "Some aspects of the plant disease eradication and control work of the Bureau of Entomology and Plant Quarantine : papers"
+                    ],
+                    "page_num": [
+                        36
+                    ],
+                    "sha1_file": "84d49eb05f61ff653413ac693feadfbd531e8fce",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Washington, D.C.] : Division of Mycology and Disease Survey, Bureau of Plant Industry, United States Department of Agriculture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1937
+                    ],
+                    "updated_on": "2022-04-18 16:50:10",
+                    "meta_collection": [
+                        "usda-plantdiseasereportersupplement",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana",
+                        "biodiversity"
+                    ],
+                    "meta_subjectSorter": [
+                        "Trees Diseases and pests United States",
+                        "Fruit Diseases and pests United States",
+                        "Dutch elm disease United States",
+                        "Blister rust United States",
+                        "Phony peach disease United States",
+                        "Citrus canker United States",
+                        "Peach mosaic disease United States"
+                    ],
+                    "meta_creator": [
+                        "Liming, O. N",
+                        "Fracker, Stanley Black, 1889-",
+                        "Geddis, B. M",
+                        "United States. Bureau of Entomology and Plant Quarantine",
+                        "United States. Division of Mycology and Disease Survey"
+                    ],
+                    "meta_date": [
+                        "1937-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "resistant to all the various races of rust, are {{{making it increasingly}}} apparent that the extermination of the"
+                    ]
+                },
+                "_score": 10.003637,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25612152M",
+                    "url": "/books/OL25612152M/Some_aspects_of_the_plant_disease_eradication_and_control_work_of_the_Bureau_of_Entomology_and_Plant",
+                    "title": "Some aspects of the plant disease eradication and control work of the Bureau of Entomology and Plant Quarantine",
+                    "ocaid": "someaspectsofpla99limi",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7224712A",
+                            "name": "O. N. Liming"
+                        }
+                    ],
+                    "work_key": "/works/OL17042847W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9857466-M.jpg",
+                    "read_url": "/books/OL25612152M/Some_aspects_of_the_plant_disease_eradication_and_control_work_of_the_Bureau_of_Entomology_and_Plant/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "someaspectsofpla99limi",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17042847W",
+                    "openlibrary_edition": "OL25612152M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "mentalhealthrepo0000unse|c99b3ff04bb9c1d66988fd1045c11ef169f61ea2",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1587973208",
+                    "identifier": [
+                        "mentalhealthrepo0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2020-04-17T05:12:24Z"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "mentalhealthrepo0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-31 10:38:19",
+                    "file_basename": "mentalhealthrepo0000unse",
+                    "meta_title": [
+                        "Mental health : a report of the Surgeon General : executive summary"
+                    ],
+                    "page_num": [
+                        30
+                    ],
+                    "sha1_file": "1c7637f99a8f85f28ee703f2dfcbe64f3d4f85cb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Rockville, MD : Dept. of Health and Human Services, U.S. Public Health Service ; Pittsburgh, PA : For sale by the Supt. of Docs."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1999
+                    ],
+                    "updated_on": "2022-05-07 04:48:47",
+                    "meta_titleSorter": [
+                        "mental health : a report of the surgeon general : executive summary"
+                    ],
+                    "meta_subjectSorter": [
+                        "Mental health -- United States",
+                        "Mental health services -- United States",
+                        "Mental illness -- United States",
+                        "Mental Health",
+                        "Mental Disorders",
+                        "Mental Health Services",
+                        "Mental health",
+                        "Mental health services",
+                        "Mental illness",
+                        "United States",
+                        "Mental Health United States",
+                        "Mental Health Services United States",
+                        "Mental Illness United States"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1999-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Indeed, new and emerging technologies are {{{making it increasingly}}} possible for researchers to demonstrate"
+                    ]
+                },
+                "_score": 9.997509,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL14505875M",
+                    "url": "/books/OL14505875M/Mental_health",
+                    "title": "Mental health",
+                    "ocaid": "mentalhealthrepo0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL4617654A",
+                            "name": "United States. Public Health Service. Office of the Surgeon General"
+                        }
+                    ],
+                    "work_key": "/works/OL18444643W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9398230-M.jpg",
+                    "borrow_url": "/books/OL14505875M/Mental_health/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "mentalhealthrepo0000unse",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL18444643W",
+                    "openlibrary_edition": "OL14505875M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "eagleborntoflyfi0000matt|c33864491fe80e75f69380ac34cf01c97fb7c33c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1623239210",
+                    "identifier": [
+                        "eagleborntoflyfi0000matt"
+                    ],
+                    "meta_publicdate": [
+                        "2021-06-08T13:03:10Z"
+                    ],
+                    "meta_titleSorter": [
+                        "eagle born to fly : finding life beyond depression"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "eagleborntoflyfi0000matt_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-06-09 12:05:13",
+                    "file_basename": "eagleborntoflyfi0000matt",
+                    "meta_creatorSorter": [
+                        "matthies, sharon c., 1955-"
+                    ],
+                    "meta_title": [
+                        "Eagle born to fly : finding life beyond depression"
+                    ],
+                    "page_num": [
+                        [
+                            174
+                        ]
+                    ],
+                    "sha1_file": "732de0932a706b7274828ffdf68a2d6b1b13f9b2",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Ottawa : Book Coach Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2003
+                    ],
+                    "updated_on": "2021-11-02 10:04:52",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Matthies, Sharon C., 1955- -- Mental health",
+                        "Matthies, Sharon C., 1955- -- Sante\u0301 mentale",
+                        "Depressed persons -- Canada -- Biography",
+                        "De\u0301pressifs -- Canada -- Biographies",
+                        "Depressed persons",
+                        "Mental health",
+                        "Canada"
+                    ],
+                    "meta_creator": [
+                        "Matthies, Sharon C., 1955-"
+                    ],
+                    "meta_date": [
+                        "2003-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "fenced-in yard became enshrouded in thick fog, {{{making it increasingly}}} difficult to determine the exact boundaries",
+                        "to the fire of my own disillusionment, {{{making it increasingly}}} difficult to hang on to the blind trust"
+                    ]
+                },
+                "_score": 9.968948,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11766808M",
+                    "url": "/books/OL11766808M/Eagle_Born_to_Fly",
+                    "title": "Eagle Born to Fly",
+                    "ocaid": "eagleborntoflyfi0000matt",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3733447A",
+                            "name": "Sharon C. Matthies"
+                        }
+                    ],
+                    "work_key": "/works/OL9742392W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2708403-M.jpg",
+                    "borrow_url": "/books/OL11766808M/Eagle_Born_to_Fly/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "eagleborntoflyfi0000matt",
+                    "isbn": "0968034799",
+                    "oclc": null,
+                    "openlibrary_work": "OL9742392W",
+                    "openlibrary_edition": "OL11766808M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "newworldofworkde0000unse|e550d3d0e7b246d4190764a287548e31ec85cfb3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1631273241",
+                    "identifier": [
+                        "newworldofworkde0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2021-09-06T11:44:50Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "newworldofworkde0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-09-10 11:43:36",
+                    "file_basename": "newworldofworkde0000unse",
+                    "meta_title": [
+                        "A new world of work : the Development Program"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "cac7c1ddf71386e76a4b9170c1aa2fb9ec0c8098",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Stockholm : Arbetsmiljo\u0308fonden"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1988
+                    ],
+                    "updated_on": "2021-11-04 01:59:29",
+                    "meta_titleSorter": [
+                        "a new world of work : the development program"
+                    ],
+                    "meta_subjectSorter": [
+                        "Labor supply -- Effect of technological innovations on -- Sweden",
+                        "Personnel management -- Sweden",
+                        "Development Programme for New Technology, Working Life and Management",
+                        "Labor supply -- Effect of technological innovations on",
+                        "Personnel management",
+                        "Sweden"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1988-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "ness for change.\nThe transformation is {{{making it increasingly}}} difficult to maintain the job definitions"
+                    ]
+                },
+                "_score": 9.96878,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL35325725M",
+                    "url": "/books/OL35325725M/A_new_world_of_work",
+                    "title": "A new world of work",
+                    "ocaid": "newworldofworkde0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL26176339W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12141639-M.jpg",
+                    "borrow_url": "/books/OL35325725M/A_new_world_of_work/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "newworldofworkde0000unse",
+                    "isbn": "9187460106",
+                    "oclc": null,
+                    "openlibrary_work": "OL26176339W",
+                    "openlibrary_edition": "OL35325725M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "artofrobertbruce0000hugh|6e2bbcab02f42ae15cd66742b6599de24c5717aa",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1570170853",
+                    "identifier": [
+                        "artofrobertbruce0000hugh"
+                    ],
+                    "meta_publicdate": [
+                        "2019-10-03T08:27:52Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the art of robert bruce"
+                    ],
+                    "meta_downloads": [
+                        9
+                    ],
+                    "filename": [
+                        "artofrobertbruce0000hugh_abbyy.gz"
+                    ],
+                    "created_on": "2019-10-05 02:44:25",
+                    "file_basename": "artofrobertbruce0000hugh",
+                    "meta_creatorSorter": [
+                        "hughes, mary jo"
+                    ],
+                    "meta_title": [
+                        "The art of Robert Bruce"
+                    ],
+                    "page_num": [
+                        118
+                    ],
+                    "sha1_file": "715aa98161081c14ad9d97d61654e58057525fb3",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Winnipeg : Winnipeg Art Gallery"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2004"
+                    ],
+                    "updated_on": "2020-11-12 15:19:32",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-essie_yesterday"
+                    ],
+                    "meta_subjectSorter": [
+                        "Bruce, Robert, 1911-1980 -- Exhibitions",
+                        "Bruce, Robert, 1911-1980 -- Expositions",
+                        "Bruce, Robert, 1911-1980"
+                    ],
+                    "meta_creator": [
+                        "Hughes, Mary Jo"
+                    ],
+                    "meta_date": [
+                        "2004-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "in his mid- sixties, and arthritis was {{{making it increasingly}}} difficult for him to paint, and especially"
+                    ]
+                },
+                "_score": 9.95889,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3463988M",
+                    "url": "/books/OL3463988M/The_art_of_Robert_Bruce",
+                    "title": "The art of Robert Bruce",
+                    "ocaid": "artofrobertbruce0000hugh",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL59308A",
+                            "name": "Mary Jo Hughes"
+                        },
+                        {
+                            "key": "/authors/OL2894803A",
+                            "name": "Mary Jo Hughs"
+                        },
+                        {
+                            "key": "/authors/OL2894804A",
+                            "name": "Donald Degrow"
+                        }
+                    ],
+                    "work_key": "/works/OL732917W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4755153-M.jpg",
+                    "borrow_url": "/books/OL3463988M/The_art_of_Robert_Bruce/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "artofrobertbruce0000hugh",
+                    "isbn": "0889152268",
+                    "oclc": null,
+                    "openlibrary_work": "OL732917W",
+                    "openlibrary_edition": "OL3463988M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "foodethicaldebat0000kerr|20841f0edb6f4b479b398aacc7988b7fbcfe7f2e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1536983088",
+                    "identifier": [
+                        "foodethicaldebat0000kerr"
+                    ],
+                    "meta_publicdate": [
+                        "2018-09-10T07:52:35Z"
+                    ],
+                    "meta_titleSorter": [
+                        "food : ethical debates on what we eat"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "foodethicaldebat0000kerr_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-12 00:07:46",
+                    "file_basename": "foodethicaldebat0000kerr",
+                    "meta_creatorSorter": [
+                        "kerr, jim"
+                    ],
+                    "meta_title": [
+                        "Food : ethical debates on what we eat"
+                    ],
+                    "page_num": [
+                        50
+                    ],
+                    "sha1_file": "0ae3a915767366cf02d6efffd8979f950765406f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Mankato, Minn. : Smart Apple Media"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2009"
+                    ],
+                    "updated_on": "2020-08-31 07:21:32",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "fav-unavailable001",
+                        "cnusd-ol",
+                        "holdings-test",
+                        "miltonpubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Food supply -- Juvenile literature",
+                        "Agricultural productivity -- Juvenile literature",
+                        "Food industry and trade -- Juvenile literature",
+                        "Genetic engineering -- Juvenile literature",
+                        "Food supply",
+                        "Agricultural productivity",
+                        "Food industry and trade",
+                        "Genetic engineering",
+                        "Agricultural productivity",
+                        "Food industry and trade",
+                        "Food supply",
+                        "Genetic engineering",
+                        "debate issues",
+                        "world hunger - debates",
+                        "organic farming -- debates",
+                        "genetically modified food -- debates",
+                        "farming, high-tech -- debates"
+                    ],
+                    "meta_creator": [
+                        "Kerr, Jim"
+                    ],
+                    "meta_date": [
+                        "2009-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "The huge advances in technology today are {{{making it increasingly}}} easy to modify food to the farmer's best"
+                    ]
+                },
+                "_score": 9.9445,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24057947M",
+                    "url": "/books/OL24057947M/Food",
+                    "title": "Food",
+                    "ocaid": "foodethicaldebat0000kerr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL890755A",
+                            "name": "Jim Kerr"
+                        }
+                    ],
+                    "work_key": "/works/OL17921694W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8247382-M.jpg",
+                    "borrow_url": "/books/OL24057947M/Food/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "foodethicaldebat0000kerr",
+                    "isbn": "9781599200941",
+                    "oclc": null,
+                    "openlibrary_work": "OL17921694W",
+                    "openlibrary_edition": "OL24057947M",
+                    "last_loan_date": "2020-04-03T03:05:46Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "payingmanagedcar00habe|fde9abd95947402a7dad7a674d79c59ce4ddb039",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1385413624",
+                    "identifier": [
+                        "payingmanagedcar00habe"
+                    ],
+                    "meta_publicdate": [
+                        "2013-11-04T16:55:09Z"
+                    ],
+                    "meta_titleSorter": [
+                        "paying managed care plans in a capitated medicaid program : lessons from the oregon health plan"
+                    ],
+                    "meta_downloads": [
+                        205
+                    ],
+                    "filename": [
+                        "payingmanagedcar00habe_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 00:49:40",
+                    "file_basename": "payingmanagedcar00habe",
+                    "meta_creatorSorter": [
+                        "haber, susan g"
+                    ],
+                    "meta_title": [
+                        "Paying managed care plans in a capitated Medicaid program : lessons from the Oregon Health Plan"
+                    ],
+                    "page_num": [
+                        43
+                    ],
+                    "sha1_file": "975d35293f9ed53756a2ae8eedbe839343ab78f8",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Waltham, MA : Health Economics Research, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2001
+                    ],
+                    "updated_on": "2022-04-05 07:26:59",
+                    "meta_collection": [
+                        "cms-reports",
+                        "cmslibrary",
+                        "fedlink",
+                        "medicalheritagelibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Managed care plans (Medical care)",
+                        "Medical care, Cost of",
+                        "Medical care",
+                        "Managed care plans (Medical care) -- Oregon -- Costs",
+                        "Medical care, Cost of -- Oregon",
+                        "Medical care -- Oregon -- Decision making"
+                    ],
+                    "meta_creator": [
+                        "Haber, Susan G"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "care period become more and more dated, {{{making it increasingly}}} difficult to use them for current period"
+                    ]
+                },
+                "_score": 9.926654,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25575172M",
+                    "url": "/books/OL25575172M/Paying_managed_care_plans_in_a_capitated_Medicaid_program",
+                    "title": "Paying managed care plans in a capitated Medicaid program",
+                    "ocaid": "payingmanagedcar00habe",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7216045A",
+                            "name": "Susan G. Haber"
+                        }
+                    ],
+                    "work_key": "/works/OL17001107W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9856790-M.jpg",
+                    "read_url": "/books/OL25575172M/Paying_managed_care_plans_in_a_capitated_Medicaid_program/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "payingmanagedcar00habe",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17001107W",
+                    "openlibrary_edition": "OL25575172M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "foodethicaldebat0000kerr_g6x3|c0acf95e84db3396aa6b27e34aa3eba2155e00d6",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1598501778",
+                    "identifier": [
+                        "foodethicaldebat0000kerr_g6x3"
+                    ],
+                    "meta_publicdate": [
+                        "2020-08-24T02:39:46Z"
+                    ],
+                    "meta_titleSorter": [
+                        "food : ethical debates in what we eat"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "foodethicaldebat0000kerr_g6x3_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-28 23:04:10",
+                    "file_basename": "foodethicaldebat0000kerr_g6x3",
+                    "meta_creatorSorter": [
+                        "kerr, j. b., 1946-"
+                    ],
+                    "meta_title": [
+                        "Food : ethical debates in what we eat"
+                    ],
+                    "page_num": [
+                        50
+                    ],
+                    "sha1_file": "52d17b06ccaab9aaa48e5fdb211f86599652ac7e",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Evans Brothers Limited"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2008"
+                    ],
+                    "updated_on": "2020-10-21 01:39:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Nutrition -- Moral and ethical aspects -- Juvenile literature",
+                        "Food supply -- Moral and ethical aspects -- Juvenile literature",
+                        "Nutrition -- Moral and ethical aspects",
+                        "Food supply -- Moral and ethical aspects",
+                        "Ethics"
+                    ],
+                    "meta_creator": [
+                        "Kerr, J. B., 1946-"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the huge advances in technology today are {{{making it increasingly}}} easy to modify food to the farmer's best"
+                    ]
+                },
+                "_score": 9.925287,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL29574978M",
+                    "url": "/books/OL29574978M/Food",
+                    "title": "Food",
+                    "ocaid": "foodethicaldebat0000kerr_g6x3",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL8314045A",
+                            "name": "J. B. Kerr"
+                        }
+                    ],
+                    "work_key": "/works/OL21733064W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10400838-M.jpg",
+                    "borrow_url": "/books/OL29574978M/Food/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "foodethicaldebat0000kerr_g6x3",
+                    "isbn": "9780237533670",
+                    "oclc": null,
+                    "openlibrary_work": "OL21733064W",
+                    "openlibrary_edition": "OL29574978M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "criminalincayman0000berr|edf12e08a893d02087c544115fbb6b91855b7adf",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1572068430",
+                    "identifier": [
+                        "criminalincayman0000berr"
+                    ],
+                    "meta_publicdate": [
+                        "2019-10-22T23:04:17Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the criminal in the caymans"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "criminalincayman0000berr_abbyy.gz"
+                    ],
+                    "created_on": "2019-10-31 19:02:55",
+                    "file_basename": "criminalincayman0000berr",
+                    "meta_creatorSorter": [
+                        "berry, connie lee"
+                    ],
+                    "meta_title": [
+                        "The criminal in the Caymans"
+                    ],
+                    "page_num": [
+                        104
+                    ],
+                    "sha1_file": "b4cd054667163178aa077784a9a0446b81064b7d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[United States] : Kid's Fun Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2006"
+                    ],
+                    "updated_on": "2020-11-07 22:05:32",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Mystery and detective stories",
+                        "Adventure fiction. -- Juvenile fiction",
+                        "Mystery and detective stories. -- Jr. fiction",
+                        "Cayman Islands -- Fiction",
+                        "Cayman Islands"
+                    ],
+                    "meta_creator": [
+                        "Berry, Connie Lee"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "chlorine over\u00ac powered the tiny space, {{{making it increasingly}}} hard not to choke on the vapors that lingered"
+                    ]
+                },
+                "_score": 9.914097,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8590495M",
+                    "url": "/books/OL8590495M/The_Criminal_in_the_Caymans_(Incredible_Journey_Books_)",
+                    "title": "The Criminal in the Caymans (Incredible Journey Books )",
+                    "ocaid": "criminalincayman0000berr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3033571A",
+                            "name": "Connie Lee Berry"
+                        }
+                    ],
+                    "work_key": "/works/OL8846783W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1722404-M.jpg",
+                    "borrow_url": "/books/OL8590495M/The_Criminal_in_the_Caymans_(Incredible_Journey_Books_)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "criminalincayman0000berr",
+                    "isbn": "0977284808",
+                    "oclc": null,
+                    "openlibrary_work": "OL8846783W",
+                    "openlibrary_edition": "OL8590495M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "spiritguidesacce00samu|1613661a8433d4c6e10e09541a25e53f19afb296",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1490955878",
+                    "identifier": [
+                        "spiritguidesacce00samu"
+                    ],
+                    "meta_publicdate": [
+                        "2014-07-14T17:07:43Z"
+                    ],
+                    "meta_titleSorter": [
+                        "spirit guides: access to inner worlds"
+                    ],
+                    "meta_downloads": [
+                        91
+                    ],
+                    "filename": [
+                        "spiritguidesacce00samu_abbyy.gz"
+                    ],
+                    "created_on": "2018-06-21 11:02:11",
+                    "file_basename": "spiritguidesacce00samu",
+                    "meta_creatorSorter": [
+                        "samuels, mike. cn"
+                    ],
+                    "meta_title": [
+                        "Spirit guides: access to inner worlds"
+                    ],
+                    "page_num": [
+                        70
+                    ],
+                    "sha1_file": "f2ed469caa50a43e4c8ac0b181e2e79adbc2d7d9",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[New York, Random House]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1974
+                    ],
+                    "updated_on": "2022-03-26 19:32:29",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "fav-mlovew",
+                        "fav-lunar_rs",
+                        "fav-jonmdg123",
+                        "fav-breeadams27",
+                        "fav-ennis_bird",
+                        "fav-love2grow",
+                        "fav-vrklempt",
+                        "fav-jay_lazlo",
+                        "ithacacollege-ol",
+                        "rochester-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Mental health",
+                        "Personality"
+                    ],
+                    "meta_creator": [
+                        "Samuels, Mike. cn",
+                        "Bennett, Hal Zina, 1936- , cn"
+                    ],
+                    "meta_date": [
+                        "1974-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "learned to visually express his inner world, {{{making it increasingly}}} more real to himself. Other people shared"
+                    ]
+                },
+                "_score": 9.909008,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5426077M",
+                    "url": "/books/OL5426077M/Spirit_guides_access_to_inner_worlds",
+                    "title": "Spirit guides: access to inner worlds",
+                    "ocaid": "spiritguidesacce00samu",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL403449A",
+                            "name": "Mike Samuels"
+                        },
+                        {
+                            "key": "/authors/OL243705A",
+                            "name": "Hal Zina Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL2749775W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7975585-M.jpg",
+                    "borrow_url": "/books/OL5426077M/Spirit_guides_access_to_inner_worlds/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "spiritguidesacce00samu",
+                    "isbn": "0394491947",
+                    "oclc": null,
+                    "openlibrary_work": "OL2749775W",
+                    "openlibrary_edition": "OL5426077M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "wibauxconservati1974wiba|390679f4c84ba316e2fdf1349ebabfaaf5bba7a8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1459440278",
+                    "identifier": [
+                        "wibauxconservati1974wiba"
+                    ],
+                    "meta_publicdate": [
+                        "2016-03-21T20:43:40Z"
+                    ],
+                    "meta_titleSorter": [
+                        "wibaux conservation district long range program for total resource conservation"
+                    ],
+                    "meta_downloads": [
+                        72
+                    ],
+                    "filename": [
+                        "wibauxconservati1974wiba_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 00:37:25",
+                    "file_basename": "wibauxconservati1974wiba",
+                    "meta_creatorSorter": [
+                        "wibaux conservation district (mont.). board of supervisors"
+                    ],
+                    "meta_title": [
+                        "Wibaux Conservation District long range program for total resource conservation"
+                    ],
+                    "page_num": [
+                        100
+                    ],
+                    "sha1_file": "1380bc472ec98351106e054e286c60833a574b99",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portland, Or. : USDA-SCS"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1974
+                    ],
+                    "updated_on": "2021-09-09 01:20:56",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "USGovernmentDocuments",
+                        "additional_collections",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conservation of natural resources",
+                        "Land use",
+                        "Soil conservation",
+                        "Water conservation"
+                    ],
+                    "meta_creator": [
+                        "Wibaux Conservation District (Mont.). Board of Supervisors",
+                        "United States. Soil Conservation Service"
+                    ],
+                    "meta_date": [
+                        "1974-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and services along with land values are {{{making it increasingly}}} difficult for existing operators to expand"
+                    ]
+                },
+                "_score": 9.880054,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33226488M",
+                    "url": "/books/OL33226488M/Wibaux_Conservation_District_long_range_program_for_total_resource_conservation",
+                    "title": "Wibaux Conservation District long range program for total resource conservation",
+                    "ocaid": "wibauxconservati1974wiba",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9416807A",
+                            "name": "Wibaux Conservation District (Mont.). Board of Supervisors"
+                        }
+                    ],
+                    "work_key": "/works/OL24995721W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11939345-M.jpg",
+                    "read_url": "/books/OL33226488M/Wibaux_Conservation_District_long_range_program_for_total_resource_conservation/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "wibauxconservati1974wiba",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24995721W",
+                    "openlibrary_edition": "OL33226488M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "danielscountycon1976dani|ccbaad11c7b6fcb6a9c46a0fd01c0af705fabb64",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1458840103",
+                    "identifier": [
+                        "danielscountycon1976dani"
+                    ],
+                    "meta_publicdate": [
+                        "2016-03-21T20:43:32Z"
+                    ],
+                    "meta_titleSorter": [
+                        "daniels county conservation district long range program, montana"
+                    ],
+                    "meta_downloads": [
+                        76
+                    ],
+                    "filename": [
+                        "danielscountycon1976dani_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 22:15:59",
+                    "file_basename": "danielscountycon1976dani",
+                    "meta_creatorSorter": [
+                        "daniels county conservation district (mont.)"
+                    ],
+                    "meta_title": [
+                        "Daniels County Conservation District long range program, Montana"
+                    ],
+                    "page_num": [
+                        100
+                    ],
+                    "sha1_file": "32ca4059a7718e8ba20adb49e3556af391879638",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portland, Or. : USDA-SCS"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1976
+                    ],
+                    "updated_on": "2021-08-30 01:36:30",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "USGovernmentDocuments",
+                        "additional_collections",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conservation of natural resources",
+                        "Land use",
+                        "Soil conservation",
+                        "Water conservation"
+                    ],
+                    "meta_creator": [
+                        "Daniels County Conservation District (Mont.)",
+                        "United States. Soil Conservation Service"
+                    ],
+                    "meta_date": [
+                        "1976-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and services along with land values are {{{making it increasingly}}} difficult for existing operators to expand"
+                    ]
+                },
+                "_score": 9.877646,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33151648M",
+                    "url": "/books/OL33151648M/Daniels_County_Conservation_District_long_range_program_Montana",
+                    "title": "Daniels County Conservation District long range program, Montana",
+                    "ocaid": "danielscountycon1976dani",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9400523A",
+                            "name": "Daniels County Conservation District (Mont.)"
+                        }
+                    ],
+                    "work_key": "/works/OL24940144W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11856579-M.jpg",
+                    "read_url": "/books/OL33151648M/Daniels_County_Conservation_District_long_range_program_Montana/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "danielscountycon1976dani",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24940144W",
+                    "openlibrary_edition": "OL33151648M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

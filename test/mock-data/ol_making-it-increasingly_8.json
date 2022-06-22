@@ -1,0 +1,2634 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1637,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.074379,
+        "hits": [
+            {
+                "_id": "tallinsaddlegrea00thom|0a3ce7842fe5f0cfafb93fdf119f8a369ce5c6cc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1483434319",
+                    "identifier": [
+                        "tallinsaddlegrea00thom"
+                    ],
+                    "meta_publicdate": [
+                        "2014-02-05T14:49:51Z"
+                    ],
+                    "meta_titleSorter": [
+                        "tall in the saddle"
+                    ],
+                    "meta_downloads": [
+                        45
+                    ],
+                    "filename": [
+                        "tallinsaddlegrea00thom_abbyy.gz"
+                    ],
+                    "created_on": "2017-01-03 09:22:41",
+                    "file_basename": "tallinsaddlegrea00thom",
+                    "meta_creatorSorter": [
+                        "thompson, peggy"
+                    ],
+                    "meta_title": [
+                        "Tall in the saddle"
+                    ],
+                    "page_num": [
+                        140
+                    ],
+                    "sha1_file": "aa502084157102b5f05a26af361d5aa61285a9c0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Chronicle Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1998"
+                    ],
+                    "updated_on": "2020-09-07 16:47:36",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "denverpubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Western films -- Quotations, maxims, etc."
+                    ],
+                    "meta_creator": [
+                        "Thompson, Peggy"
+                    ],
+                    "meta_date": [
+                        "1998-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "as others, values became more complex, {{{making it increasingly}}} difficult to tell the good guys from the"
+                    ]
+                },
+                "_score": 9.260547,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL682083M",
+                    "url": "/books/OL682083M/Tall_in_the_saddle",
+                    "title": "Tall in the saddle",
+                    "ocaid": "tallinsaddlegrea00thom",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL394343A",
+                            "name": "Thompson, Peggy"
+                        }
+                    ],
+                    "work_key": "/works/OL2698154W",
+                    "cover_url": "//covers.openlibrary.org/w/id/3786952-M.jpg",
+                    "borrow_url": "/books/OL682083M/Tall_in_the_saddle/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "tallinsaddlegrea00thom",
+                    "isbn": "9780811817301",
+                    "oclc": null,
+                    "openlibrary_work": "OL2698154W",
+                    "openlibrary_edition": "OL682083M",
+                    "last_loan_date": "2020-09-02T15:16:26Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "integratingtechn0000rall|cff2788b899e29b2e6d311bb9a1cc1534bc7dd17",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614842544",
+                    "identifier": [
+                        "integratingtechn0000rall"
+                    ],
+                    "meta_publicdate": [
+                        "2020-12-09T12:23:35Z"
+                    ],
+                    "meta_titleSorter": [
+                        "integrating technology with workers in the new american workplace"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "integratingtechn0000rall_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-04 07:26:39",
+                    "file_basename": "integratingtechn0000rall",
+                    "meta_creatorSorter": [
+                        "ralls, scott"
+                    ],
+                    "meta_title": [
+                        "Integrating technology with workers in the new American workplace"
+                    ],
+                    "page_num": [
+                        [
+                            88
+                        ]
+                    ],
+                    "sha1_file": "7f91649437a841816c4a184ce619e50aa89167e2",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, DC : U.S. Dept. of Labor, Office of the American Workplace : For sale by the U.S. G.P.O., Supt. of Docs."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1994
+                    ],
+                    "updated_on": "2021-06-18 02:54:25",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "cuny-ol",
+                        "the-claremont-colleges-ol",
+                        "uni-ol",
+                        "universityofarizona-ol",
+                        "universityofoklahoma-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Employees -- Effect of technological innovations on -- United States",
+                        "Technological innovations -- United States",
+                        "Occupational training -- United States"
+                    ],
+                    "meta_creator": [
+                        "Ralls, Scott"
+                    ],
+                    "meta_date": [
+                        "1994-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "process of computer programming and therefore {{{making it increasingly}}} possible for users to customize and make"
+                    ]
+                },
+                "_score": 9.259069,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL856313M",
+                    "url": "/books/OL856313M/Integrating_technology_with_workers_in_the_new_American_workplace",
+                    "title": "Integrating technology with workers in the new American workplace",
+                    "ocaid": "integratingtechn0000rall",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL477830A",
+                            "name": "Scott Ralls"
+                        }
+                    ],
+                    "work_key": "/works/OL3069315W",
+                    "cover_url": "//covers.openlibrary.org/w/id/3828401-M.jpg",
+                    "borrow_url": "/books/OL856313M/Integrating_technology_with_workers_in_the_new_American_workplace/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "integratingtechn0000rall",
+                    "isbn": "0160454212",
+                    "oclc": null,
+                    "openlibrary_work": "OL3069315W",
+                    "openlibrary_edition": "OL856313M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "churchesinintern0000comm_m7s0|e6d24c4a84c84493901a615c4cb0ba4f95ebe6b0",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614233062",
+                    "identifier": [
+                        "churchesinintern0000comm_m7s0"
+                    ],
+                    "meta_publicdate": [
+                        "2021-02-23T02:17:31Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the churches in international affairs : reports, 1987-1990"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "churchesinintern0000comm_m7s0_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-02-25 07:21:41",
+                    "file_basename": "churchesinintern0000comm_m7s0",
+                    "meta_creatorSorter": [
+                        "commission of the churches on international affairs"
+                    ],
+                    "meta_title": [
+                        "The churches in international affairs : reports, 1987-1990"
+                    ],
+                    "page_num": [
+                        [
+                            226
+                        ]
+                    ],
+                    "sha1_file": "54697d00cb60525ce4a75c9328fc9a495d70bcde",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Geneva : Commission of the Churches on International Affairs of the World Council of Churches"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1990
+                    ],
+                    "updated_on": "2021-04-03 19:12:29",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Church and the world",
+                        "Mission of the church",
+                        "Christianity and international relations -- Congresses",
+                        "Christianity and international relations"
+                    ],
+                    "meta_creator": [
+                        "Commission of the Churches on International Affairs"
+                    ],
+                    "meta_date": [
+                        "1990-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Throughout the world, govern- ments are {{{making it increasingly}}} difficult for people suffering human rights",
+                        "refugee policies in several countries are {{{making it increasingly}}} difficult to apply for asylum. Moreover"
+                    ]
+                },
+                "_score": 9.25474,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL15242410M",
+                    "url": "/books/OL15242410M/The_churches_in_international_affairs.",
+                    "title": "The churches in international affairs.",
+                    "ocaid": "churchesinintern0000comm_m7s0",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL4512544A",
+                            "name": "World Council of Churches. Commission of the Churches on International Affairs."
+                        }
+                    ],
+                    "work_key": "/works/OL10798075W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10661125-M.jpg",
+                    "borrow_url": "/books/OL15242410M/The_churches_in_international_affairs./borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "churchesinintern0000comm_m7s0",
+                    "isbn": "2825410225",
+                    "oclc": null,
+                    "openlibrary_work": "OL10798075W",
+                    "openlibrary_edition": "OL15242410M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "mentalefficiency00bennuoft|d674ac9927eb8cb10bd5437585a2c5211ad461a9",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1159569212",
+                    "identifier": [
+                        "mentalefficiency00bennuoft"
+                    ],
+                    "meta_publicdate": [
+                        "2006-09-29T09:30:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency, and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        674
+                    ],
+                    "filename": [
+                        "mentalefficiency00bennuoft_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 14:45:47",
+                    "file_basename": "mentalefficiency00bennuoft",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency, and other hints to men and women"
+                    ],
+                    "page_num": [
+                        130
+                    ],
+                    "sha1_file": "163d3980e7b956185fe9090e3c62d10581e46517",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Toronto : Musson Book Co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1911
+                    ],
+                    "updated_on": "2022-04-05 02:31:17",
+                    "meta_collection": [
+                        "robarts",
+                        "toronto",
+                        "fav-secretariado"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Mental efficiency"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one ele ment. Science is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.251516,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7204228M",
+                    "url": "/books/OL7204228M/Mental_efficiency_and_other_hints_to_men_and_women.",
+                    "title": "Mental efficiency, and other hints to men and women.",
+                    "ocaid": "mentalefficiency00bennuoft",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109124W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1449670-M.jpg",
+                    "read_url": "/books/OL7204228M/Mental_efficiency_and_other_hints_to_men_and_women./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "mentalefficiency00bennuoft",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL109173W",
+                    "openlibrary_edition": "OL7204228M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "dmarkinconflictb0000emmi|0aa6442f27fa307ff3c743cdd9e4b2ddbcfc6a3c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1562561009",
+                    "identifier": [
+                        "dmarkinconflictb0000emmi"
+                    ],
+                    "meta_publicdate": [
+                        "2019-07-05T11:57:33Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the d-mark in the conflict between internal and external equilibrium, 1948-75"
+                    ],
+                    "meta_downloads": [
+                        9
+                    ],
+                    "filename": [
+                        "dmarkinconflictb0000emmi_abbyy.gz"
+                    ],
+                    "created_on": "2019-07-08 15:04:34",
+                    "file_basename": "dmarkinconflictb0000emmi",
+                    "meta_creatorSorter": [
+                        "emminger, otmar, 1911-"
+                    ],
+                    "meta_title": [
+                        "The D-Mark in the conflict between internal and external equilibrium, 1948-75"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "2888c8789eb9887d9f453458e4b0cc35d5880478",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Princeton, N.J. : International Finance Section, Dept. of Economics, Princeton University"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1977
+                    ],
+                    "updated_on": "2022-05-09 01:30:07",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-panzerking"
+                    ],
+                    "meta_subjectSorter": [
+                        "Balance of payments -- Germany (West)",
+                        "Currency question -- Germany (West)",
+                        "Foreign exchange -- Germany (West)",
+                        "Monetary policy -- Germany (West)"
+                    ],
+                    "meta_creator": [
+                        "Emminger, Otmar, 1911-"
+                    ],
+                    "meta_date": [
+                        "1977-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "money and capital exports from Germany and {{{making it increasingly}}} difficult to maintain the low interest-rate"
+                    ]
+                },
+                "_score": 9.24884,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4537917M",
+                    "url": "/books/OL4537917M/The_D-Mark_in_the_conflict_between_internal_and_external_equilibrium_1948-75",
+                    "title": "The D-Mark in the conflict between internal and external equilibrium, 1948-75",
+                    "ocaid": "dmarkinconflictb0000emmi",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1083424A",
+                            "name": "Otmar Emminger"
+                        }
+                    ],
+                    "work_key": "/works/OL5001388W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9703857-M.jpg",
+                    "borrow_url": "/books/OL4537917M/The_D-Mark_in_the_conflict_between_internal_and_external_equilibrium_1948-75/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "dmarkinconflictb0000emmi",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL5001388W",
+                    "openlibrary_edition": "OL4537917M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "causeeffectfallo0000nard|7493169e7c6a0bfb1c8d0f4c5a592ab2a5995108",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1637130624",
+                    "identifier": [
+                        "causeeffectfallo0000nard"
+                    ],
+                    "meta_publicdate": [
+                        "2021-11-15T13:14:51Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cause & effect : the fall of rome"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "causeeffectfallo0000nard_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-11-17 06:56:32",
+                    "file_basename": "causeeffectfallo0000nard",
+                    "meta_creatorSorter": [
+                        "nardo, don, 1947-"
+                    ],
+                    "meta_title": [
+                        "Cause & effect : the fall of Rome"
+                    ],
+                    "page_num": [
+                        [
+                            90
+                        ]
+                    ],
+                    "sha1_file": "bc39a58663ec9c7029ed6e6173417293b473b089",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "San Diego, CA : ReferencePoint Press, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2015
+                    ],
+                    "updated_on": "2022-03-10 22:09:09",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Rome -- History -- Empire, 284-476 -- Juvenile literature"
+                    ],
+                    "meta_creator": [
+                        "Nardo, Don, 1947-"
+                    ],
+                    "meta_date": [
+                        "2015-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Rome\u2019s old and venerable martial spirit and {{{making it increasingly}}} difficult to raise new military recruits"
+                    ]
+                },
+                "_score": 9.2442665,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL30391224M",
+                    "url": "/books/OL30391224M/Cause_effect",
+                    "title": "Cause & effect",
+                    "ocaid": "causeeffectfallo0000nard",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL19822A",
+                            "name": "Don Nardo"
+                        }
+                    ],
+                    "work_key": "/works/OL22313612W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12461065-M.jpg",
+                    "borrow_url": "/books/OL30391224M/Cause_effect/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "causeeffectfallo0000nard",
+                    "isbn": "9781601527950",
+                    "oclc": null,
+                    "openlibrary_work": "OL22313612W",
+                    "openlibrary_edition": "OL30391224M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "teachingpoetryha00geda|c9c529120a8afdb54ab1f3de9cf5775f6db09c89",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1331062118",
+                    "identifier": [
+                        "teachingpoetryha00geda"
+                    ],
+                    "meta_publicdate": [
+                        "2011-12-13T19:03:48Z"
+                    ],
+                    "meta_titleSorter": [
+                        "teaching poetry"
+                    ],
+                    "meta_downloads": [
+                        61
+                    ],
+                    "filename": [
+                        "teachingpoetryha00geda_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 21:22:03",
+                    "file_basename": "teachingpoetryha00geda",
+                    "meta_creatorSorter": [
+                        "allan j. gedalof"
+                    ],
+                    "meta_title": [
+                        "Teaching poetry"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "a3cc31ba58d6293bba0ec5fc7c2a2b24512144bf",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "W.W. Norton"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2005
+                    ],
+                    "updated_on": "2021-02-25 20:15:03",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Poetry -- Study and teaching."
+                    ],
+                    "meta_creator": [
+                        "Allan J. Gedalof"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "different ways in which men and women learn are {{{making it increasingly}}} clear that if we don't need to revamp wholesale"
+                    ]
+                },
+                "_score": 9.23896,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7458416M",
+                    "url": "/books/OL7458416M/Teaching_Poetry",
+                    "title": "Teaching Poetry",
+                    "ocaid": "teachingpoetryha00geda",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1393660A",
+                            "name": "Allan J. Gedalof"
+                        }
+                    ],
+                    "work_key": "/works/OL5732189W",
+                    "cover_url": "//covers.openlibrary.org/w/id/252026-M.jpg",
+                    "borrow_url": "/books/OL7458416M/Teaching_Poetry/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "teachingpoetryha00geda",
+                    "isbn": "9780393925821",
+                    "oclc": null,
+                    "openlibrary_work": "OL5732189W",
+                    "openlibrary_edition": "OL7458416M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "steamsteeltorped0000lyon|03b5105321ecc33ce3ff520bad1c93047a777122",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1617533531",
+                    "identifier": [
+                        "steamsteeltorped0000lyon"
+                    ],
+                    "meta_publicdate": [
+                        "2020-06-15T06:22:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "steam, steel, and torpedoes : the warship in the 19th century"
+                    ],
+                    "meta_downloads": [
+                        16
+                    ],
+                    "filename": [
+                        "steamsteeltorped0000lyon_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-04-04 11:05:58",
+                    "file_basename": "steamsteeltorped0000lyon",
+                    "meta_creatorSorter": [
+                        "lyon, david, 1942-"
+                    ],
+                    "meta_title": [
+                        "Steam, steel, and torpedoes : the warship in the 19th century"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "1eac5a88e811910dc5d99d23f9263a966885bde6",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : H.M. Stationery Off."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1980
+                    ],
+                    "updated_on": "2021-10-04 23:19:50",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-drdmplattedd",
+                        "fav-vitoballs",
+                        "fav-leonardo662020",
+                        "universityofcoloradoboulder-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Warships",
+                        "Navires de guerre -- Histoire -- 19e sie\u0300cle",
+                        "Histoire navale moderne"
+                    ],
+                    "meta_creator": [
+                        "Lyon, David, 1942-"
+                    ],
+                    "meta_date": [
+                        "1980-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "  New  technology  and weapons  were  {{{making  it  increasingly}}}  difficult  to  draw the  old,  fairly"
+                    ]
+                },
+                "_score": 9.238323,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4216639M",
+                    "url": "/books/OL4216639M/Steam_steel_and_torpedoes",
+                    "title": "Steam, steel, and torpedoes",
+                    "ocaid": "steamsteeltorped0000lyon",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL546875A",
+                            "name": "David Lyon"
+                        }
+                    ],
+                    "work_key": "/works/OL3363666W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10204264-M.jpg",
+                    "borrow_url": "/books/OL4216639M/Steam_steel_and_torpedoes/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "steamsteeltorped0000lyon",
+                    "isbn": "0112903185",
+                    "oclc": null,
+                    "openlibrary_work": "OL3363666W",
+                    "openlibrary_edition": "OL4216639M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "clintonadministr00unit|5140ac63f5a4630371f0ec1f023335109b0b3c1f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1211585927",
+                    "identifier": [
+                        "clintonadministr00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-05-21T18:11:08Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the clinton administration's technology policy and the role of small business : hearing before the committee on small business, house of representatives, one hundred third congress, first session, washington, dc, may 13, 1993"
+                    ],
+                    "meta_downloads": [
+                        351
+                    ],
+                    "filename": [
+                        "clintonadministr00unit_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 14:41:52",
+                    "file_basename": "clintonadministr00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on small business"
+                    ],
+                    "meta_title": [
+                        "The Clinton administration's technology policy and the role of small business : hearing before the Committee on Small Business, House of Representatives, One Hundred Third Congress, first session, Washington, DC, May 13, 1993"
+                    ],
+                    "page_num": [
+                        72
+                    ],
+                    "sha1_file": "160008fcacad533ff76639ce9aa61ef9d071f77f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1993
+                    ],
+                    "updated_on": "2022-03-26 04:34:48",
+                    "meta_collection": [
+                        "bostonpubliclibrary",
+                        "USGovernmentDocuments",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Small business -- Technological innovations United States",
+                        "Technology and state -- United States",
+                        "Technology transfer -- United States"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on Small Business"
+                    ],
+                    "meta_date": [
+                        "1993-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "high tax and regulatory environment is {{{making it increasingly}}} difficult for the technology-driven companies"
+                    ]
+                },
+                "_score": 9.231464,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL13515274M",
+                    "url": "/books/OL13515274M/The_Clinton_administration's_technology_policy_and_the_role_of_small_business",
+                    "title": "The Clinton administration's technology policy and the role of small business",
+                    "ocaid": "clintonadministr00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL47361A",
+                            "name": "United States. Congress. House. Committee on Small Business."
+                        }
+                    ],
+                    "work_key": "/works/OL613113W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5286323-M.jpg",
+                    "read_url": "/books/OL13515274M/The_Clinton_administration's_technology_policy_and_the_role_of_small_business/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "clintonadministr00unit",
+                    "isbn": "0160415675",
+                    "oclc": null,
+                    "openlibrary_work": "OL613113W",
+                    "openlibrary_edition": "OL13515274M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "mentalefficienc00benngoog|b736639ac4bb6dbd34997b34e368b94690dc3d1d",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1222628846",
+                    "identifier": [
+                        "mentalefficienc00benngoog"
+                    ],
+                    "meta_publicdate": [
+                        "2008-09-28T19:09:54Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency, and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        686
+                    ],
+                    "filename": [
+                        "mentalefficienc00benngoog_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 18:21:55",
+                    "file_basename": "mentalefficienc00benngoog",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency, and other hints to men and women"
+                    ],
+                    "page_num": [
+                        129
+                    ],
+                    "sha1_file": "79d6a53afc762d98e78dc4bebbcc7c673b462511",
+                    "meta_publisher": [
+                        "New York, George H. Doran Company"
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1911"
+                    ],
+                    "updated_on": "2020-09-18 10:56:26",
+                    "meta_collection": [
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Mental efficiency"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one element. Science is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.230358,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL14577222M",
+                    "url": "/books/OL14577222M/Mental_efficiency_and_other_hints_to_men_and_women",
+                    "title": "Mental efficiency, and other hints to men and women",
+                    "ocaid": "mentalefficienc00benngoog",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109124W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1449670-M.jpg",
+                    "read_url": "/books/OL14577222M/Mental_efficiency_and_other_hints_to_men_and_women/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "mentalefficienc00benngoog",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL109173W",
+                    "openlibrary_edition": "OL14577222M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "mentalefficienc00benn|5724590cd2af82dac48e475037cd8587c9ad2d7c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1276939089",
+                    "identifier": [
+                        "mentalefficienc00benn"
+                    ],
+                    "meta_publicdate": [
+                        "2010-06-17T16:10:36Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency, and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        801
+                    ],
+                    "filename": [
+                        "mentalefficienc00benn_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 18:49:09",
+                    "file_basename": "mentalefficienc00benn",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency, and other hints to men and women"
+                    ],
+                    "page_num": [
+                        176
+                    ],
+                    "sha1_file": "d2187cb831c2c1cf05b23e21d8fb0b97fb9d173f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Hodder and Stoughton"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1911
+                    ],
+                    "updated_on": "2022-04-05 02:31:18",
+                    "meta_collection": [
+                        "ubclibrary",
+                        "toronto",
+                        "fav-pablodavid99",
+                        "fav-poorneema",
+                        "fav-townsfolk",
+                        "fav-elizabeth_march"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Mental efficiency",
+                        "Stupidity"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one element. Science is {{{making it increasingly}}} difficult to   conceive   jnattej:   apart"
+                    ]
+                },
+                "_score": 9.230003,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24279699M",
+                    "url": "/books/OL24279699M/Mental_efficiency_and_other_hints_to_men_and_women.",
+                    "title": "Mental efficiency, and other hints to men and women.",
+                    "ocaid": "mentalefficienc00benn",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16763349W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6360434-M.jpg",
+                    "read_url": "/books/OL24279699M/Mental_efficiency_and_other_hints_to_men_and_women./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "mentalefficienc00benn",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16763349W",
+                    "openlibrary_edition": "OL24279699M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "guidelinestoenvi0000ahma|112e0ea2ec1764e09dd0d1a2573f75b944ba2575",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1601421920",
+                    "identifier": [
+                        "guidelinestoenvi0000ahma"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-29T01:38:49Z"
+                    ],
+                    "meta_titleSorter": [
+                        "guidelines to environmental impact assessment, in developing countries"
+                    ],
+                    "meta_downloads": [
+                        12
+                    ],
+                    "filename": [
+                        "guidelinestoenvi0000ahma_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-29 23:36:16",
+                    "file_basename": "guidelinestoenvi0000ahma",
+                    "meta_creatorSorter": [
+                        "ahmad, yusuf j"
+                    ],
+                    "meta_title": [
+                        "Guidelines to environmental impact assessment, in developing countries"
+                    ],
+                    "page_num": [
+                        70
+                    ],
+                    "sha1_file": "1e0aa688e47757de5fdc8fdf8e9451cb9ae8c765",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Hodder and Stoughton"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1985
+                    ],
+                    "updated_on": "2021-05-03 23:27:23",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "binghamton-ol",
+                        "georgetown-university-law-library-ol",
+                        "gwulibraries-ol",
+                        "riceuniversity-ol",
+                        "universityofoklahoma-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Environmental impact analysis -- Developing countries",
+                        "Environmental impact statements -- Developing countries",
+                        "Pays en de\u0301veloppement",
+                        "Evaluation de l'environnement",
+                        "Gestion de l'environnement",
+                        "Environmental impact analysis",
+                        "Environmental impact statements",
+                        "ENVIRONMENTAL IMPACT ASSESSMENT",
+                        "COST-BENEFIT ANALYSIS",
+                        "ENVIRONMENTAL MANAGEMENT",
+                        "DEVELOPING COUNTRIES",
+                        "INSTITUTIONAL MACHINERY",
+                        "Developing countries",
+                        "Developing countries Environmental impact analysis"
+                    ],
+                    "meta_creator": [
+                        "Ahmad, Yusuf J"
+                    ],
+                    "meta_date": [
+                        "1985-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Scientific and technological advances are {{{making it increasingly}}} possible to take a long-term and systematic"
+                    ]
+                },
+                "_score": 9.2240925,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2332876M",
+                    "url": "/books/OL2332876M/Guidelines_to_environmental_impact_assessment_in_developing_countries",
+                    "title": "Guidelines to environmental impact assessment, in developing countries",
+                    "ocaid": "guidelinestoenvi0000ahma",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1054544A",
+                            "name": "Yusuf J. Ahmad"
+                        }
+                    ],
+                    "work_key": "/works/OL4916148W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8406182-M.jpg",
+                    "borrow_url": "/books/OL2332876M/Guidelines_to_environmental_impact_assessment_in_developing_countries/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "guidelinestoenvi0000ahma",
+                    "isbn": "0340380357",
+                    "oclc": null,
+                    "openlibrary_work": "OL4916148W",
+                    "openlibrary_edition": "OL2332876M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "clownfishesseaan0000tull|7b305ccdcf4cf9e165ca0a72bd4ada4c24724198",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1601910465",
+                    "identifier": [
+                        "clownfishesseaan0000tull"
+                    ],
+                    "meta_publicdate": [
+                        "2020-10-01T05:05:36Z"
+                    ],
+                    "meta_titleSorter": [
+                        "clownfishes and sea anemones : everything about purchase, care, nutrition, maintenance, and setting up an aquarium"
+                    ],
+                    "meta_downloads": [
+                        11
+                    ],
+                    "filename": [
+                        "clownfishesseaan0000tull_abbyy.gz"
+                    ],
+                    "created_on": "2020-10-05 15:25:54",
+                    "file_basename": "clownfishesseaan0000tull",
+                    "meta_creatorSorter": [
+                        "tullock, john, 1951-"
+                    ],
+                    "meta_title": [
+                        "Clownfishes and sea anemones : everything about purchase, care, nutrition, maintenance, and setting up an aquarium"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "43009ceb917a0a1e16315f916a9db8a5f1f7d549",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Hauppauge, NY : Barron's"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1998
+                    ],
+                    "updated_on": "2021-10-05 00:06:26",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-yinzadi",
+                        "fav-abdulhakeem765"
+                    ],
+                    "meta_subjectSorter": [
+                        "Anemonefishes",
+                        "Sea anemones"
+                    ],
+                    "meta_creator": [
+                        "Tullock, John, 1951-"
+                    ],
+                    "meta_date": [
+                        "1998-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "alkalinity falls, carbon dioxide can accumulate, {{{making it increasingly}}} difficult for the fish to elim\u00ac inate this"
+                    ]
+                },
+                "_score": 9.21538,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL358202M",
+                    "url": "/books/OL358202M/Clownfishes_and_sea_anemones",
+                    "title": "Clownfishes and sea anemones",
+                    "ocaid": "clownfishesseaan0000tull",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL224596A",
+                            "name": "Tullock, John H."
+                        }
+                    ],
+                    "work_key": "/works/OL1875711W",
+                    "cover_url": "//covers.openlibrary.org/w/id/517250-M.jpg",
+                    "borrow_url": "/books/OL358202M/Clownfishes_and_sea_anemones/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "clownfishesseaan0000tull",
+                    "isbn": "0764105116",
+                    "oclc": null,
+                    "openlibrary_work": "OL1875711W",
+                    "openlibrary_edition": "OL358202M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "eradicationofpar433boyd|c86feb5ebb76024a67a2ac842b5fa338ed8d2b26",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1370372734",
+                    "identifier": [
+                        "eradicationofpar433boyd"
+                    ],
+                    "meta_publicdate": [
+                        "2013-05-30T14:43:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "eradication of the parlatoria date scale in the united states"
+                    ],
+                    "meta_downloads": [
+                        149
+                    ],
+                    "filename": [
+                        "eradicationofpar433boyd_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 04:24:41",
+                    "file_basename": "eradicationofpar433boyd",
+                    "meta_creatorSorter": [
+                        "boyden, b. l. (boyd lester), 1885-"
+                    ],
+                    "meta_title": [
+                        "Eradication of the Parlatoria date scale in the United States"
+                    ],
+                    "page_num": [
+                        68
+                    ],
+                    "sha1_file": "8f7476d52e4adcb8097f2eee0ff5398c9d7f3733",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : U.S. Dept. of Agriculture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1941
+                    ],
+                    "updated_on": "2022-04-01 05:28:35",
+                    "meta_collection": [
+                        "usda-miscellaneouspublication",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Date palm",
+                        "Parlatoria"
+                    ],
+                    "meta_creator": [
+                        "Boyden, B. L. (Boyd Lester), 1885-"
+                    ],
+                    "meta_date": [
+                        "1941-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "mature palm seem to harden rapidly, however, {{{making it increasingly}}}\ndifficult for the crawlers to settle. This"
+                    ]
+                },
+                "_score": 9.214523,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22994803M",
+                    "url": "/books/OL22994803M/Eradication_of_the_Parlatoria_date_scale_in_the_United_States",
+                    "title": "Eradication of the Parlatoria date scale in the United States",
+                    "ocaid": "eradicationofpar433boyd",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6571243A",
+                            "name": "B. L. Boyden"
+                        }
+                    ],
+                    "work_key": "/works/OL13725293W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11867622-M.jpg",
+                    "read_url": "/books/OL22994803M/Eradication_of_the_Parlatoria_date_scale_in_the_United_States/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "eradicationofpar433boyd",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL13725293W",
+                    "openlibrary_edition": "OL22994803M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "americanindianen0000unse|9db965983bb42af3daca475c65868a91d4c2e5c0",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1546056803",
+                    "identifier": [
+                        "americanindianen0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2018-12-27T01:24:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "american indian energy resources and development"
+                    ],
+                    "meta_downloads": [
+                        8
+                    ],
+                    "filename": [
+                        "americanindianen0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-15 08:58:34",
+                    "file_basename": "americanindianen0000unse",
+                    "meta_creatorSorter": [
+                        "none"
+                    ],
+                    "meta_title": [
+                        "American Indian energy resources and development"
+                    ],
+                    "page_num": [
+                        86
+                    ],
+                    "sha1_file": "2a7e7d063937f97792ad36c8f8d75d741e379766",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Albuquerque : Institute for Native American Development, Native American Studies, University of New Mexico"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1980"
+                    ],
+                    "updated_on": "2020-08-30 18:09:48",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "cuny-ol",
+                        "tamu-evanslibrary-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "{u'1': u'Energy development -- United States', u'0': u'Power resources -- United States', u'3': u'Energy development', u'2': u'Indians of North America -- Economic conditions', u'5': u'Power resources', u'6': u'United States'}",
+                        "Power resources -- United States",
+                        "Energy development -- United States",
+                        "Indians of North America -- Economic conditions",
+                        "Energy development",
+                        "Power resources",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "None"
+                    ],
+                    "meta_date": [
+                        "1980-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "anti-interventionist mood in the American public, {{{making it increasingly}}} difficult for the United States government"
+                    ]
+                },
+                "_score": 9.207925,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11497561M",
+                    "url": "/books/OL11497561M/American_Indian_Energy_Resources_and_Development",
+                    "title": "American Indian Energy Resources and Development",
+                    "ocaid": "americanindianen0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL387216A",
+                            "name": "Roxanne Dunbar Ortiz"
+                        }
+                    ],
+                    "work_key": "/works/OL18146542W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9500843-M.jpg",
+                    "borrow_url": "/books/OL11497561M/American_Indian_Energy_Resources_and_Development/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "americanindianen0000unse",
+                    "isbn": "0934090025",
+                    "oclc": null,
+                    "openlibrary_work": "OL18146542W",
+                    "openlibrary_edition": "OL11497561M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "norway194045resi0000rist|a311645b78bb76a7cbb925c567ab0411695efe44",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1597240256",
+                    "identifier": [
+                        "norway194045resi0000rist"
+                    ],
+                    "meta_publicdate": [
+                        "2020-08-05T03:06:11Z"
+                    ],
+                    "meta_titleSorter": [
+                        "norway 1940-45 : the resistance movement"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "norway194045resi0000rist_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-29 10:44:29",
+                    "file_basename": "norway194045resi0000rist",
+                    "meta_creatorSorter": [
+                        "riste, olav"
+                    ],
+                    "meta_title": [
+                        "Norway 1940-45 : the resistance movement"
+                    ],
+                    "page_num": [
+                        106
+                    ],
+                    "sha1_file": "cafa20d039c99f891a74ae00631931963a527e01",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Oslo : Aschehoug"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1994"
+                    ],
+                    "updated_on": "2020-10-21 19:04:40",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-sergiomargarido"
+                    ],
+                    "meta_subjectSorter": [
+                        "German Occupation of Norway (1940-1945)",
+                        "World War, 1939-1945 -- Underground movements -- Norway",
+                        "Underground movements, War",
+                        "Widerstand",
+                        "Aufsatzsammlung",
+                        "Norway -- History -- German occupation, 1940-1945",
+                        "Norway",
+                        "Norwegen"
+                    ],
+                    "meta_creator": [
+                        "Riste, Olav"
+                    ],
+                    "meta_date": [
+                        "1994-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "dictates from above -^vere soon replaced, {{{making it increasingly}}} diffi\u00ac cult for those \"svlio remained to"
+                    ]
+                },
+                "_score": 9.204876,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28718333M",
+                    "url": "/books/OL28718333M/Norway_1940-45",
+                    "title": "Norway 1940-45",
+                    "ocaid": "norway194045resi0000rist",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL255952A",
+                            "name": "Olav Riste"
+                        }
+                    ],
+                    "work_key": "/works/OL2083479W",
+                    "cover_url": "//covers.openlibrary.org/b/id/10351122-M.jpg",
+                    "borrow_url": "/books/OL28718333M/Norway_1940-45/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "norway194045resi0000rist",
+                    "isbn": "8203220878",
+                    "oclc": null,
+                    "openlibrary_work": "OL2083479W",
+                    "openlibrary_edition": "OL28718333M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "superfoods50best0000unse|2616fdeef07a159792498ef6c0ae58ff667b32b5",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1547546674",
+                    "identifier": [
+                        "superfoods50best0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2019-01-12T14:25:31Z"
+                    ],
+                    "meta_titleSorter": [
+                        "superfoods : the 50 best foods for you!"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "superfoods50best0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-21 22:35:22",
+                    "file_basename": "superfoods50best0000unse",
+                    "meta_creatorSorter": [
+                        "none"
+                    ],
+                    "meta_title": [
+                        "Superfoods : the 50 best foods for you!"
+                    ],
+                    "page_num": [
+                        118
+                    ],
+                    "sha1_file": "ab0bf27f3f5f74904b9235f9b8bf73592bd567cd",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Bath, UK : Love Food/Parragon Books, Ltd."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2012"
+                    ],
+                    "updated_on": "2020-08-31 11:12:07",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "holdings-test"
+                    ],
+                    "meta_subjectSorter": [
+                        "Functional foods",
+                        "Diet",
+                        "Nutrition"
+                    ],
+                    "meta_creator": [
+                        "None"
+                    ],
+                    "meta_date": [
+                        "2012-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "rejuvenating, immune-enhancing properties are {{{making it increasingly}}} popular.\nMAJOR NUTRIENTS PER %cw/3% flu"
+                    ]
+                },
+                "_score": 9.203459,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL26653848M",
+                    "url": "/books/OL26653848M/Superfoods",
+                    "title": "Superfoods",
+                    "ocaid": "superfoods50best0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2624356A",
+                            "name": "Clive Streeter"
+                        },
+                        {
+                            "key": "/authors/OL239712A",
+                            "name": "Judith Wills"
+                        }
+                    ],
+                    "work_key": "/works/OL18185100W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8346150-M.jpg",
+                    "borrow_url": "/books/OL26653848M/Superfoods/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "superfoods50best0000unse",
+                    "isbn": "1445495066",
+                    "oclc": null,
+                    "openlibrary_work": "OL18185100W",
+                    "openlibrary_edition": "OL26653848M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "ingramsparkguide0000clar|0173a35684c158eeb68e8bfb6e49ca67665ffb59",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1647455340",
+                    "identifier": [
+                        "ingramsparkguide0000clar"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-09T21:11:50Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the ingramspark guide to independent publishing"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "ingramsparkguide0000clar_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-16 18:55:43",
+                    "file_basename": "ingramsparkguide0000clar",
+                    "meta_creatorSorter": [
+                        "clark, brendan"
+                    ],
+                    "meta_title": [
+                        "The IngramSpark Guide to Independent Publishing"
+                    ],
+                    "page_num": [
+                        [
+                            110
+                        ]
+                    ],
+                    "sha1_file": "13520be6a07474542b309d43c1901f2d15616d16",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Place of publication not identified] : Lightning Source Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2015
+                    ],
+                    "updated_on": "2022-04-15 13:47:54",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Self-publishing",
+                        "LANGUAGE ARTS & DISCIPLINES / Journalism"
+                    ],
+                    "meta_creator": [
+                        "Clark, Brendan"
+                    ],
+                    "meta_date": [
+                        "2015-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "printing has sharply dropped in recent years, {{{making it increasingly}}} viable for independent publishers. This"
+                    ]
+                },
+                "_score": 9.202014,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL34027525M",
+                    "url": "/books/OL34027525M/Ingramspark_Guide_to_Independent_Publishing",
+                    "title": "Ingramspark Guide to Independent Publishing",
+                    "ocaid": "ingramsparkguide0000clar",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL8181257A",
+                            "name": "Brendan Clark"
+                        }
+                    ],
+                    "work_key": "/works/OL25381675W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12674403-M.jpg",
+                    "borrow_url": "/books/OL34027525M/Ingramspark_Guide_to_Independent_Publishing/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "ingramsparkguide0000clar",
+                    "isbn": "9781943328451",
+                    "oclc": null,
+                    "openlibrary_work": "OL25381675W",
+                    "openlibrary_edition": "OL34027525M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "norway194045resi0000rist_d5s6|621bf8e600bd8c292a2ac3d144f30827b3ee66b1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1634060234",
+                    "identifier": [
+                        "norway194045resi0000rist_d5s6"
+                    ],
+                    "meta_publicdate": [
+                        "2021-10-11T02:15:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "norway 1940-45: the resistance movement"
+                    ],
+                    "meta_downloads": [
+                        7
+                    ],
+                    "filename": [
+                        "norway194045resi0000rist_d5s6_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-10-12 18:02:54",
+                    "file_basename": "norway194045resi0000rist_d5s6",
+                    "meta_creatorSorter": [
+                        "riste, olav"
+                    ],
+                    "meta_title": [
+                        "Norway 1940-45: The resistance movement"
+                    ],
+                    "page_num": [
+                        [
+                            102
+                        ]
+                    ],
+                    "sha1_file": "145df532c8be35daca42cf952e83b4fc8345ec94",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Oslo, Tanum"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1970
+                    ],
+                    "updated_on": "2021-12-22 22:36:07",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "riceuniversity-ol",
+                        "the-claremont-colleges-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "World War, 1939-1945 -- Underground movements -- Norway",
+                        "Underground movements, War",
+                        "Norway -- History -- German occupation, 1940-1945",
+                        "Norway",
+                        "Norway History German occupation, 1940-1945",
+                        "World War, 1939-1945 Underground movements Norway"
+                    ],
+                    "meta_creator": [
+                        "Riste, Olav"
+                    ],
+                    "meta_date": [
+                        "1970-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "dictates from above were soon replaced, {{{making it increasingly}}} diffi- cult for those who remained to justify"
+                    ]
+                },
+                "_score": 9.201753,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL13182532M",
+                    "url": "/books/OL13182532M/Norway_1940_to_1945",
+                    "title": "Norway 1940 to 1945",
+                    "ocaid": "norway194045resi0000rist_d5s6",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL255952A",
+                            "name": "Olav Riste"
+                        }
+                    ],
+                    "work_key": "/works/OL14994180W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5256339-M.jpg",
+                    "borrow_url": "/books/OL13182532M/Norway_1940_to_1945/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "norway194045resi0000rist_d5s6",
+                    "isbn": "8251801648",
+                    "oclc": null,
+                    "openlibrary_work": "OL14994180W",
+                    "openlibrary_edition": "OL13182532M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "mentalefficiency0000benn|ab04530c2f6e3a66c03a8d7852b0dbd1b30eb0d6",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1551930875",
+                    "identifier": [
+                        "mentalefficiency0000benn"
+                    ],
+                    "meta_publicdate": [
+                        "2019-03-04T06:17:22Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency, and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        45
+                    ],
+                    "filename": [
+                        "mentalefficiency0000benn_abbyy.gz"
+                    ],
+                    "created_on": "2019-03-26 01:50:11",
+                    "file_basename": "mentalefficiency0000benn",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency, and other hints to men and women"
+                    ],
+                    "page_num": [
+                        130
+                    ],
+                    "sha1_file": "1ba3875359455f8e85ced33f11766773fd4c2ded",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, George H. Doran company"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1911
+                    ],
+                    "updated_on": "2022-04-06 00:31:21",
+                    "meta_collection": [
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-jerambam",
+                        "fav-aru13"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Mental efficiency"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one ele\u00ac ment. Science is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.189131,
+                "_type": "_doc"
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

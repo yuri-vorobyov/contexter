@@ -1,0 +1,2594 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1393,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.073952,
+        "hits": [
+            {
+                "_id": "isbn_9780880114417|fdb0e3726e4c23d73f8217c32abcb9869a97ddaa",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1491049250",
+                    "identifier": [
+                        "isbn_9780880114417"
+                    ],
+                    "meta_publicdate": [
+                        "2015-03-16T17:34:21Z"
+                    ],
+                    "meta_titleSorter": [
+                        "major violation : the unbalanced priorities in athletics and academics"
+                    ],
+                    "meta_downloads": [
+                        21
+                    ],
+                    "filename": [
+                        "isbn_9780880114417_abbyy.gz"
+                    ],
+                    "created_on": "2017-10-25 04:21:45",
+                    "file_basename": "isbn_9780880114417",
+                    "meta_creatorSorter": [
+                        "funk, gary d., 1958-"
+                    ],
+                    "meta_title": [
+                        "Major violation : the unbalanced priorities in athletics and academics"
+                    ],
+                    "page_num": [
+                        202
+                    ],
+                    "sha1_file": "1d17f2655584ebd90551f0348f2b0992cbe8f468",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Champaign, IL : Leisure Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1991"
+                    ],
+                    "updated_on": "2020-08-30 19:14:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "cuny-ol",
+                        "dartmouthlibrary-ol",
+                        "drakeuniversity-ol",
+                        "randolph-macon-college-ol",
+                        "riceuniversity-ol",
+                        "tamu-evanslibrary-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "National Collegiate Athletic Association",
+                        "College sports",
+                        "College sports",
+                        "Athletes",
+                        "African American athletes"
+                    ],
+                    "meta_creator": [
+                        "Funk, Gary D., 1958-"
+                    ],
+                    "meta_date": [
+                        "1991-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "upgrading its academic requirements and {{{making it increasingly}}} difficult for marginal students to advance",
+                        "after state has passed tax reform laws {{{making it increasingly}}} difficult to systematically raise much-needed"
+                    ]
+                },
+                "_score": 9.506343,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL1862917M",
+                    "url": "/books/OL1862917M/Major_violation",
+                    "title": "Major violation",
+                    "ocaid": "isbn_9780880114417",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL587831A",
+                            "name": "Gary D. Funk"
+                        }
+                    ],
+                    "work_key": "/works/OL3513282W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4027525-M.jpg",
+                    "borrow_url": "/books/OL1862917M/Major_violation/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "isbn_9780880114417",
+                    "isbn": "088011441X",
+                    "oclc": null,
+                    "openlibrary_work": "OL3513282W",
+                    "openlibrary_edition": "OL1862917M",
+                    "last_loan_date": "2019-03-18T01:31:08Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cityoffear0000davi|e18dbf09a5e7fdce9fc24185347b079fef670108",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1576473830",
+                    "identifier": [
+                        "cityoffear0000davi"
+                    ],
+                    "meta_publicdate": [
+                        "2019-12-13T21:52:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "city of fear"
+                    ],
+                    "meta_downloads": [
+                        18
+                    ],
+                    "filename": [
+                        "cityoffear0000davi_abbyy.gz"
+                    ],
+                    "created_on": "2019-12-16 19:42:10",
+                    "file_basename": "cityoffear0000davi",
+                    "meta_creatorSorter": [
+                        "david, robin"
+                    ],
+                    "meta_title": [
+                        "City of fear"
+                    ],
+                    "page_num": [
+                        270
+                    ],
+                    "sha1_file": "9799436494c3f383d6516f0837121eeeff56ae38",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New Delhi : Penguin Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2022-01-27 18:40:27",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-v_palenyy"
+                    ],
+                    "meta_subjectSorter": [
+                        "India -- Gujarat",
+                        "India -- Ahmada\u0304ba\u0304d",
+                        "David, Robin",
+                        "Gujarat Riots (India : 2002)",
+                        "Gujarat Earthquake (India : 2001)",
+                        "Gujarat Riots, India, 2002",
+                        "Gujarat Earthquake, India, 2001",
+                        "Ahmada\u0304ba\u0304d (India) -- Biography",
+                        "Social conditions",
+                        "India",
+                        "Ahmada\u0304ba\u0304d (India) -- Social conditions -- 21st century",
+                        "Ahmadabad (India) -- Biography",
+                        "Ahmadabad (India) -- Social conditions -- 21st century",
+                        "India -- Ahmadabad"
+                    ],
+                    "meta_creator": [
+                        "David, Robin"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "their own vehicles on the western side, {{{making it increasingly}}} difficult to feed large families. I knew",
+                        "garden wove every day until sunset was {{{making it increasingly}}} difficult for mother to move to a new home"
+                    ]
+                },
+                "_score": 9.504024,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL16304720M",
+                    "url": "/books/OL16304720M/City_of_fear",
+                    "title": "City of fear",
+                    "ocaid": "cityoffear0000davi",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL4981111A",
+                            "name": "Robin David"
+                        }
+                    ],
+                    "work_key": "/works/OL11730113W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9764963-M.jpg",
+                    "borrow_url": "/books/OL16304720M/City_of_fear/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "cityoffear0000davi",
+                    "isbn": "0143101374",
+                    "oclc": null,
+                    "openlibrary_work": "OL11730113W",
+                    "openlibrary_edition": "OL16304720M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "porcupineskisses00doby|a7ad14c352349561f845f43c0dc38635ea1e4905",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1452147217",
+                    "identifier": [
+                        "porcupineskisses00doby"
+                    ],
+                    "meta_publicdate": [
+                        "2014-09-03T12:57:41Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the porcupine's kisses"
+                    ],
+                    "meta_downloads": [
+                        11
+                    ],
+                    "filename": [
+                        "porcupineskisses00doby_abbyy.gz"
+                    ],
+                    "created_on": "2017-07-05 10:24:21",
+                    "file_basename": "porcupineskisses00doby",
+                    "meta_creatorSorter": [
+                        "stephen dobyns"
+                    ],
+                    "meta_title": [
+                        "The porcupine's kisses"
+                    ],
+                    "page_num": [
+                        198
+                    ],
+                    "sha1_file": "549cd26b6a60a4ea72689b4202f18439cc77b790",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Penguin Poets"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2002"
+                    ],
+                    "updated_on": "2020-08-30 18:44:47",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "universityofarizona-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_creator": [
+                        "Stephen Dobyns"
+                    ],
+                    "meta_date": [
+                        "2002-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "interrogative that he repeated and refined, {{{making it increasingly}}} concise, almost, at his conclusion, producing"
+                    ]
+                },
+                "_score": 9.490049,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL3561514M",
+                    "url": "/books/OL3561514M/The_porcupine's_kisses",
+                    "title": "The porcupine's kisses",
+                    "ocaid": "porcupineskisses00doby",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL21892A",
+                            "name": "Stephen Dobyns"
+                        }
+                    ],
+                    "work_key": "/works/OL15091694W",
+                    "cover_url": "//covers.openlibrary.org/w/id/109492-M.jpg",
+                    "borrow_url": "/books/OL3561514M/The_porcupine's_kisses/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "porcupineskisses00doby",
+                    "isbn": "9780142002445",
+                    "oclc": null,
+                    "openlibrary_work": "OL15091694W",
+                    "openlibrary_edition": "OL3561514M",
+                    "last_loan_date": "2020-01-03T04:11:56Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "regeneration50ph0000unse|588ff84fe10a1f3255a59d8547aaebf5b0843104",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1597202917",
+                    "identifier": [
+                        "regeneration50ph0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2020-07-27T01:53:03Z"
+                    ],
+                    "meta_downloads": [
+                        21
+                    ],
+                    "filename": [
+                        "regeneration50ph0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-29 12:36:04",
+                    "file_basename": "regeneration50ph0000unse",
+                    "meta_title": [
+                        "reGeneration : 50 photographers of tomorrow, 2005-2025"
+                    ],
+                    "page_num": [
+                        230
+                    ],
+                    "sha1_file": "70bb7c41c0950c689c810c0fbe06fcbd93ac8817",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, N.Y. : Aperture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2005
+                    ],
+                    "updated_on": "2021-10-04 23:36:03",
+                    "meta_titleSorter": [
+                        "regeneration : 50 photographers of tomorrow, 2005-2025"
+                    ],
+                    "meta_subjectSorter": [
+                        "Photography, Artistic -- Exhibitions",
+                        "Documentary photography -- Exhibitions",
+                        "Portrait photography -- Exhibitions"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-dubhg",
+                        "fav-guesdon_arma",
+                        "fav-nafnoid",
+                        "fav-barry_o_apos_neill",
+                        "fav-k_albadrani",
+                        "barryuniversity-ol",
+                        "belmont-ol",
+                        "dartmouthlibrary-ol",
+                        "gwulibraries-ol",
+                        "ithacacollege-ol",
+                        "pma-ol",
+                        "riceuniversity-ol",
+                        "rochester-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol"
+                    ],
+                    "meta_date": [
+                        "2005-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "of objects have become common currency, {{{making it increasingly}}} hard to tell the difference between true"
+                    ]
+                },
+                "_score": 9.48918,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL15584929M",
+                    "url": "/books/OL15584929M/reGeneration",
+                    "title": "reGeneration",
+                    "ocaid": "regeneration50ph0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL405057A",
+                            "name": "William A. Ewing"
+                        }
+                    ],
+                    "work_key": "/works/OL18407397W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10350601-M.jpg",
+                    "borrow_url": "/books/OL15584929M/reGeneration/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "regeneration50ph0000unse",
+                    "isbn": "1931788987",
+                    "oclc": null,
+                    "openlibrary_work": "OL18407397W",
+                    "openlibrary_edition": "OL15584929M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "reviewcouncilofo0000coun|140eba9437ee233eb765c348334e13ff041e7522",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1562556572",
+                    "identifier": [
+                        "reviewcouncilofo0000coun"
+                    ],
+                    "meta_publicdate": [
+                        "2019-07-05T03:37:27Z"
+                    ],
+                    "meta_titleSorter": [
+                        "review - council of ontario universities"
+                    ],
+                    "meta_downloads": [
+                        7
+                    ],
+                    "filename": [
+                        "reviewcouncilofo0000coun_abbyy.gz"
+                    ],
+                    "created_on": "2019-07-08 16:52:14",
+                    "file_basename": "reviewcouncilofo0000coun",
+                    "meta_creatorSorter": [
+                        "council of ontario universities"
+                    ],
+                    "meta_title": [
+                        "Review - Council of Ontario Universities"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "3a5a7987690b49ad24f4d4233245c8ec5b88133c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Toronto [Council of Ontario Universities]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1975
+                    ],
+                    "updated_on": "2022-05-09 05:10:16",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Universities and colleges -- Ontario -- Periodicals"
+                    ],
+                    "meta_creator": [
+                        "Council of Ontario Universities"
+                    ],
+                    "meta_date": [
+                        "1975-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "matched adjustments in other professions, {{{making it increasingly}}} difficult to attract and retain talented"
+                    ]
+                },
+                "_score": 9.476791,
+                "_type": "_doc"
+            },
+            {
+                "_id": "doctorministerdi0000unse|4439efe3de5aad07033a80f3f99c41e02e42d7dc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1616589716",
+                    "identifier": [
+                        "doctorministerdi0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-17T05:28:50Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "doctorministerdi0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-24 13:08:48",
+                    "file_basename": "doctorministerdi0000unse",
+                    "meta_title": [
+                        "The doctor and the minister : a discussion of medical-clerical co-operation for the good of the sick"
+                    ],
+                    "page_num": [
+                        [
+                            50
+                        ]
+                    ],
+                    "sha1_file": "894fd4aaa1740f01ede3a92bf9f6f5dc4d018cef",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Sydney : Australian Council of Churches"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1960
+                    ],
+                    "updated_on": "2022-05-08 06:44:12",
+                    "meta_titleSorter": [
+                        "the doctor and the minister : a discussion of medical-clerical co-operation for the good of the sick"
+                    ],
+                    "meta_subjectSorter": [
+                        "Pastoral medicine",
+                        "Medicine -- Religious aspects"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1960-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "medicine, and other branches of enquiry are {{{making it increasingly}}} plain that the connections between the"
+                    ]
+                },
+                "_score": 9.470753,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28401281M",
+                    "url": "/books/OL28401281M/The_doctor_and_the_minister",
+                    "title": "The doctor and the minister",
+                    "ocaid": "doctorministerdi0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6962509A",
+                            "name": "Australian Council of Churches"
+                        }
+                    ],
+                    "work_key": "/works/OL20965753W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10998813-M.jpg",
+                    "borrow_url": "/books/OL28401281M/The_doctor_and_the_minister/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "doctorministerdi0000unse",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL20965753W",
+                    "openlibrary_edition": "OL28401281M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "foodallergieshea0000step|e797ceb1cf14f903189109d475edc2687006461f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1530360516",
+                    "identifier": [
+                        "foodallergieshea0000step"
+                    ],
+                    "meta_publicdate": [
+                        "2018-06-28T04:20:28Z"
+                    ],
+                    "meta_titleSorter": [
+                        "food allergies : health and healing"
+                    ],
+                    "meta_downloads": [
+                        10
+                    ],
+                    "filename": [
+                        "foodallergieshea0000step_abbyy.gz"
+                    ],
+                    "created_on": "2018-07-11 07:19:29",
+                    "file_basename": "foodallergieshea0000step",
+                    "meta_creatorSorter": [
+                        "stepaniak, joanne, 1954-"
+                    ],
+                    "meta_title": [
+                        "Food allergies : health and healing"
+                    ],
+                    "page_num": [
+                        70
+                    ],
+                    "sha1_file": "aed23336dc2a05e541735f06c4c3a148b4883d79",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Summertown, Tenn. : Books Alive"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2010"
+                    ],
+                    "updated_on": "2020-08-30 19:30:26",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Food allergy -- Popular works",
+                        "Food allergy -- Diet therapy -- Popular works",
+                        "Food allergy",
+                        "Food allergy -- Diet therapy",
+                        "Food allergy",
+                        "Food allergy -- Diet therapy"
+                    ],
+                    "meta_creator": [
+                        "Stepaniak, Joanne, 1954-"
+                    ],
+                    "meta_date": [
+                        "2010-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "leaving you feeling sluggish and fatigued and {{{making it increasingly}}} difficult to pinpoint the original source"
+                    ]
+                },
+                "_score": 9.461092,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25986090M",
+                    "url": "/books/OL25986090M/Food_Allergies_Health_And_Healing",
+                    "title": "Food Allergies Health And Healing",
+                    "ocaid": "foodallergieshea0000step",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3066507A",
+                            "name": "Jo Stepaniak"
+                        }
+                    ],
+                    "work_key": "/works/OL17404831W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7512508-M.jpg",
+                    "borrow_url": "/books/OL25986090M/Food_Allergies_Health_And_Healing/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "foodallergieshea0000step",
+                    "isbn": "9781553120469",
+                    "oclc": null,
+                    "openlibrary_work": "OL17404831W",
+                    "openlibrary_edition": "OL25986090M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "failsafeleadersh0000mart_e6h5|1a23ae4dcc340a277869430c5f7707b39533767f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1627970792",
+                    "identifier": [
+                        "failsafeleadersh0000mart_e6h5"
+                    ],
+                    "meta_publicdate": [
+                        "2021-07-31T04:46:17Z"
+                    ],
+                    "meta_titleSorter": [
+                        "fail-safe leadership : straight talk about correcting the leadership challenges in your organization"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "failsafeleadersh0000mart_e6h5_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-08-03 06:17:22",
+                    "file_basename": "failsafeleadersh0000mart_e6h5",
+                    "meta_creatorSorter": [
+                        "martin, linda l"
+                    ],
+                    "meta_title": [
+                        "Fail-safe leadership : straight talk about correcting the leadership challenges in your organization"
+                    ],
+                    "page_num": [
+                        [
+                            174
+                        ]
+                    ],
+                    "sha1_file": "b3d66e2b88bf14f3c30b13a88c763a5c5d2e18d0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Orlando, Fla. : Delta Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2001
+                    ],
+                    "updated_on": "2021-11-02 15:42:41",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Leadership",
+                        "Organizational change"
+                    ],
+                    "meta_creator": [
+                        "Martin, Linda L"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "\u201chardened\u201d against a// attempts at improvement, {{{making it increasingly}}} dif- ficult to effect the changes necessary"
+                    ]
+                },
+                "_score": 9.455557,
+                "_type": "_doc"
+            },
+            {
+                "_id": "CAT10252364|05b1c7ca6e26314ff0881f4587df607943bafbf8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1640264558",
+                    "identifier": [
+                        "CAT10252364"
+                    ],
+                    "meta_publicdate": [
+                        "2021-12-09T19:17:19Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a national program of research for rural development and family living"
+                    ],
+                    "meta_downloads": [
+                        13
+                    ],
+                    "filename": [
+                        "CAT10252364_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-12-23 13:20:37",
+                    "file_basename": "CAT10252364",
+                    "meta_creatorSorter": [
+                        "joint task force of the u.s. dept. of agriculture and the state universities and land grant colleges"
+                    ],
+                    "meta_title": [
+                        "A national program of research for rural development and family living"
+                    ],
+                    "page_num": [
+                        [
+                            68
+                        ]
+                    ],
+                    "sha1_file": "0819e4c0603e1f1b0ae200269a4a8a65a2dd99bf",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Washington]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1968
+                    ],
+                    "updated_on": "2022-05-12 13:14:46",
+                    "meta_collection": [
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Rural development United States Research",
+                        "Families Research"
+                    ],
+                    "meta_creator": [
+                        "Joint Task Force of the U.S. Dept. of Agriculture and the State Universities and Land Grant Colleges"
+                    ],
+                    "meta_date": [
+                        "1968-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "expansion and specialization of knowledge, {{{making it increasingly}}} difficult for rural people to locate the"
+                    ]
+                },
+                "_score": 9.450361,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL36618927M",
+                    "url": "/books/OL36618927M/A_national_program_of_research_for_rural_development_and_family_living",
+                    "title": "A national program of research for rural development and family living",
+                    "ocaid": "CAT10252364",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7414874A",
+                            "name": "Joint Task Force of the U.S. Dept. of Agriculture and the State Universities and Land Grant Colleges"
+                        }
+                    ],
+                    "work_key": "/works/OL27013495W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12510881-M.jpg",
+                    "read_url": "/books/OL36618927M/A_national_program_of_research_for_rural_development_and_family_living/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "CAT10252364",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL27013495W",
+                    "openlibrary_edition": "OL36618927M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "amanualxraytech01chrigoog|6ef32b0bf11db6fd4b672a3ea9c802842e41205e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1207940152",
+                    "identifier": [
+                        "amanualxraytech01chrigoog"
+                    ],
+                    "meta_publicdate": [
+                        "2008-04-11T18:59:59Z"
+                    ],
+                    "meta_titleSorter": [
+                        "a manual of x-ray technic"
+                    ],
+                    "meta_downloads": [
+                        473
+                    ],
+                    "filename": [
+                        "amanualxraytech01chrigoog_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 22:40:27",
+                    "file_basename": "amanualxraytech01chrigoog",
+                    "meta_creatorSorter": [
+                        "arthur carlisle christie"
+                    ],
+                    "meta_title": [
+                        "A Manual of X-ray Technic"
+                    ],
+                    "page_num": [
+                        133
+                    ],
+                    "sha1_file": "793fcb60cc155c2d5851f8920d2ad329af324e60",
+                    "meta_publisher": [
+                        "J. B. Lippincott company"
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1913"
+                    ],
+                    "updated_on": "2020-09-17 05:26:19",
+                    "meta_collection": [
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "tube",
+                        "current",
+                        "technic",
+                        "plate",
+                        "radiography",
+                        "apparatus",
+                        "manual",
+                        "radiograms",
+                        "cathode",
+                        "bismuth",
+                        "alternating current",
+                        "stereoscopic radiograms",
+                        "public domain",
+                        "foreign bodies",
+                        "direct current",
+                        "barium sulphate",
+                        "sulphuric acid",
+                        "high vacuum",
+                        "vacuum tubes",
+                        "sodium sulphite"
+                    ],
+                    "meta_creator": [
+                        "Arthur Carlisle Christie"
+                    ],
+                    "meta_date": [
+                        "1913-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the X-ray tube to increase in resistance, {{{making it increasingly}}} difficult for the current to pass through"
+                    ]
+                },
+                "_score": 9.399828,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL6562970M",
+                    "url": "/books/OL6562970M/A_manual_of_X-ray_technic",
+                    "title": "A manual of X-ray technic",
+                    "ocaid": "amanualxraytech01chrigoog",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2398084A",
+                            "name": "Christie, Arthur Carlisle"
+                        }
+                    ],
+                    "work_key": "/works/OL7732765W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5828549-M.jpg",
+                    "read_url": "/books/OL6562970M/A_manual_of_X-ray_technic/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "amanualxraytech01chrigoog",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7732765W",
+                    "openlibrary_edition": "OL6562970M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "sanfranciscogene2007sanf|6fc22b3dcdfac491c0e06e3ccb971f2b220c5e4f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1271891368",
+                    "identifier": [
+                        "sanfranciscogene2007sanf"
+                    ],
+                    "meta_publicdate": [
+                        "2010-04-21T17:43:07Z"
+                    ],
+                    "meta_titleSorter": [
+                        "san francisco general hospital medical center institutional master plan : update"
+                    ],
+                    "meta_downloads": [
+                        930
+                    ],
+                    "filename": [
+                        "sanfranciscogene2007sanf_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 00:06:16",
+                    "file_basename": "sanfranciscogene2007sanf",
+                    "meta_creatorSorter": [
+                        "san francisco general hospital (calif.)"
+                    ],
+                    "meta_title": [
+                        "San Francisco General Hospital Medical Center institutional master plan : update"
+                    ],
+                    "page_num": [
+                        194
+                    ],
+                    "sha1_file": "26d9580e75ff2036a6281b50b6d442cdc50e7703",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "San Francisco : Dept. of Public Health"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2007
+                    ],
+                    "updated_on": "2022-04-06 01:48:04",
+                    "meta_collection": [
+                        "sanfranciscopubliclibrary",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "San Francisco General Hospital (Calif.)",
+                        "Hospitals",
+                        "Medical care",
+                        "Hospitals"
+                    ],
+                    "meta_creator": [
+                        "San Francisco General Hospital (Calif.)",
+                        "San Francisco (Calif.). Dept. of Public Health",
+                        "Fong & Chan Architects"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "San Francisco's less affluent population, {{{making it increasingly}}} more difficult for this segment of the"
+                    ]
+                },
+                "_score": 9.391058,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24195056M",
+                    "url": "/books/OL24195056M/San_Francisco_General_Hospital_Medical_Center_institutional_master_plan",
+                    "title": "San Francisco General Hospital Medical Center institutional master plan",
+                    "ocaid": "sanfranciscogene2007sanf",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16779718W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6373846-M.jpg",
+                    "read_url": "/books/OL24195056M/San_Francisco_General_Hospital_Medical_Center_institutional_master_plan/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "sanfranciscogene2007sanf",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16779718W",
+                    "openlibrary_edition": "OL24195056M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "effectofretireme00nich|1e9894536f220778c9e352d6a5882d3af0ae42a6",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1467726585",
+                    "identifier": [
+                        "effectofretireme00nich"
+                    ],
+                    "meta_publicdate": [
+                        "2016-06-20T16:10:52Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the effect of retirement on relative consumer decision-making power in elderly dyadic families"
+                    ],
+                    "file_basename": "effectofretireme00nich",
+                    "filename": [
+                        "effectofretireme00nich_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 12:01:44",
+                    "meta_creatorSorter": [
+                        "nicholas, nicholas louis"
+                    ],
+                    "meta_subjectSorter": [
+                        "Retirement",
+                        "Older consumers",
+                        "Older people",
+                        "Husband and wife"
+                    ],
+                    "meta_title": [
+                        "The effect of retirement on relative consumer decision-making power in elderly dyadic families"
+                    ],
+                    "page_num": [
+                        114
+                    ],
+                    "sha1_file": "4614be645a83eb08d9c399e9ef144de88c1e8196",
+                    "meta_downloads": [
+                        63
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1977
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "UFRDS",
+                        "univ_florida_smathers",
+                        "americana"
+                    ],
+                    "updated_on": "2022-04-01 04:42:30",
+                    "meta_creator": [
+                        "Nicholas, Nicholas Louis"
+                    ],
+                    "meta_date": [
+                        "1977-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "difficult to conduct, the passage of time {{{making it increasingly}}} difficult to maintain contact with subjects"
+                    ]
+                },
+                "_score": 9.384026,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25930684M",
+                    "url": "/books/OL25930684M/The_effect_of_retirement_on_relative_consumer_decision-making_power_in_elderly_dyadic_families",
+                    "title": "The effect of retirement on relative consumer decision-making power in elderly dyadic families",
+                    "ocaid": "effectofretireme00nich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7289117A",
+                            "name": "Nicholas Louis Nicholas"
+                        }
+                    ],
+                    "work_key": "/works/OL17352920W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7430818-M.jpg",
+                    "read_url": "/books/OL25930684M/The_effect_of_retirement_on_relative_consumer_decision-making_power_in_elderly_dyadic_families/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "effectofretireme00nich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17352920W",
+                    "openlibrary_edition": "OL25930684M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "soyproteinwhatyo0000mcma|6ee57f0466097c41e810a96ad1368e2c1874dbad",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1574422454",
+                    "identifier": [
+                        "soyproteinwhatyo0000mcma"
+                    ],
+                    "meta_publicdate": [
+                        "2019-11-21T13:20:28Z"
+                    ],
+                    "meta_titleSorter": [
+                        "soy protein : what you need to know"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "soyproteinwhatyo0000mcma_abbyy.gz"
+                    ],
+                    "created_on": "2019-11-23 04:13:02",
+                    "file_basename": "soyproteinwhatyo0000mcma",
+                    "meta_creatorSorter": [
+                        "mcmann, mary"
+                    ],
+                    "meta_title": [
+                        "Soy protein : what you need to know"
+                    ],
+                    "page_num": [
+                        70
+                    ],
+                    "sha1_file": "030b7f6ce87d2c0962f9a752fe3e983e31f3c62d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, NY : Avery"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2000"
+                    ],
+                    "updated_on": "2020-09-03 05:26:15",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Soy proteins -- Health aspects",
+                        "Soyfoods -- Health aspects",
+                        "Cooking (Soybeans)",
+                        "Cancer -- Prevention",
+                        "Osteoporosis -- Prevention"
+                    ],
+                    "meta_creator": [
+                        "McMann, Mary"
+                    ],
+                    "meta_date": [
+                        "2000-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "of additional soy protein-based foods, {{{making it increasingly}}} easier for individuals to achieve the minimum"
+                    ]
+                },
+                "_score": 9.382479,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8251055M",
+                    "url": "/books/OL8251055M/Soy_Protein",
+                    "title": "Soy Protein",
+                    "ocaid": "soyproteinwhatyo0000mcma",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2905858A",
+                            "name": "Mary Carole McMann"
+                        },
+                        {
+                            "key": "/authors/OL2905859A",
+                            "name": "Mary Carol McMann"
+                        }
+                    ],
+                    "work_key": "/works/OL20489941W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1654424-M.jpg",
+                    "borrow_url": "/books/OL8251055M/Soy_Protein/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "soyproteinwhatyo0000mcma",
+                    "isbn": "0895299887",
+                    "oclc": null,
+                    "openlibrary_work": "OL20489941W",
+                    "openlibrary_edition": "OL8251055M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "landdevelopmentp1981lets|e059448725e822464341d293158a455bf9804a6d",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1467220154",
+                    "identifier": [
+                        "landdevelopmentp1981lets"
+                    ],
+                    "meta_publicdate": [
+                        "2016-06-22T15:42:09Z"
+                    ],
+                    "meta_titleSorter": [
+                        "land development plan, franklin county, north carolina / prepared for franklin county board of commissioners"
+                    ],
+                    "meta_downloads": [
+                        138
+                    ],
+                    "filename": [
+                        "landdevelopmentp1981lets_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 04:11:51",
+                    "file_basename": "landdevelopmentp1981lets",
+                    "meta_creatorSorter": [
+                        "letsinger, philip s."
+                    ],
+                    "meta_title": [
+                        "Land development plan, Franklin County, North Carolina / prepared for Franklin County Board of Commissioners"
+                    ],
+                    "page_num": [
+                        172
+                    ],
+                    "sha1_file": "903f7beb4f6a9f8fcfe85f273ddb3bb15d4de8cb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Louisburg, N.C. : The Board, 1981."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1981
+                    ],
+                    "updated_on": "2022-04-04 06:23:34",
+                    "meta_collection": [
+                        "statelibrarynorthcarolina",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Real estate development--North Carolina--Franklin County. Community development, Urban--North Carolina--Franklin County."
+                    ],
+                    "meta_creator": [
+                        "Letsinger, Philip S.",
+                        "Letsinger, Philip S. Architect/Planner, Raleigh, N.C. org",
+                        "Franklin County Leadership Committee",
+                        "Franklin County Board of Commissioners",
+                        "North Carolina. Division of Community Assistance"
+                    ],
+                    "meta_date": [
+                        "1981-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "residential tax base did not increase, {{{making it increasingly}}} difficult for the county to meet the financial"
+                    ]
+                },
+                "_score": 9.38027,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25929481M",
+                    "url": "/books/OL25929481M/Land_development_plan_Franklin_County_North_Carolina",
+                    "title": "Land development plan, Franklin County, North Carolina",
+                    "ocaid": "landdevelopmentp1981lets",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7288839A",
+                            "name": "Philip S. Letsinger"
+                        }
+                    ],
+                    "work_key": "/works/OL17351873W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7429936-M.jpg",
+                    "read_url": "/books/OL25929481M/Land_development_plan_Franklin_County_North_Carolina/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "landdevelopmentp1981lets",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17351873W",
+                    "openlibrary_edition": "OL25929481M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "lifeofharriettub0000schr_i7f8|94bcc618fd26e4a947856d6e28914389cf82c9cd",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1644937062",
+                    "identifier": [
+                        "lifeofharriettub0000schr_i7f8"
+                    ],
+                    "meta_publicdate": [
+                        "2022-02-03T12:04:09Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the life of harriet tubman : moses of the underground railroad"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "lifeofharriettub0000schr_i7f8_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-02-15 15:28:42",
+                    "file_basename": "lifeofharriettub0000schr_i7f8",
+                    "meta_creatorSorter": [
+                        "schraff, anne e"
+                    ],
+                    "meta_title": [
+                        "The life of Harriet Tubman : Moses of the Underground Railroad"
+                    ],
+                    "page_num": [
+                        [
+                            106
+                        ]
+                    ],
+                    "sha1_file": "9c63ea4caa62240d9b006d34cdaa1cd453733efd",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Berkeley Heights, NJ : Enslow Publishers, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2014
+                    ],
+                    "updated_on": "2022-03-07 23:43:07",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Tubman, Harriet, 1820?-1913 -- Juvenile literature",
+                        "Slaves -- United States -- Biography -- Juvenile literature",
+                        "African American women -- Biography -- Juvenile literature",
+                        "African Americans -- Biography -- Juvenile literature",
+                        "Underground Railroad -- Juvenile literature"
+                    ],
+                    "meta_creator": [
+                        "Schraff, Anne E"
+                    ],
+                    "meta_date": [
+                        "2014-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "grown furrowed, and her rheumatism was {{{making it increasingly}}} difficult for her to get around. Her mind"
+                    ]
+                },
+                "_score": 9.372694,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL30692535M",
+                    "url": "/books/OL30692535M/The_Life_of_Harriet_Tubman",
+                    "title": "The Life of Harriet Tubman",
+                    "ocaid": "lifeofharriettub0000schr_i7f8",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7684096A",
+                            "name": "MS Anne Schraff"
+                        }
+                    ],
+                    "work_key": "/works/OL22706605W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10489513-M.jpg",
+                    "borrow_url": "/books/OL30692535M/The_Life_of_Harriet_Tubman/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "lifeofharriettub0000schr_i7f8",
+                    "isbn": "9780766061378",
+                    "oclc": null,
+                    "openlibrary_work": "OL22706605W",
+                    "openlibrary_edition": "OL30692535M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cocuofficialrepo0000cons_i5x5|efb8e0ae3c9d91df00e5800b0496add95c21a486",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1616827319",
+                    "identifier": [
+                        "cocuofficialrepo0000cons_i5x5"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-19T08:35:01Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cocu, the official reports of the four meetings of the consultation"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "cocuofficialrepo0000cons_i5x5_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-27 07:16:10",
+                    "file_basename": "cocuofficialrepo0000cons_i5x5",
+                    "meta_creatorSorter": [
+                        "consultation on church union"
+                    ],
+                    "meta_title": [
+                        "COCU, the official reports of the four meetings of the Consultation"
+                    ],
+                    "page_num": [
+                        [
+                            104
+                        ]
+                    ],
+                    "sha1_file": "0b346636c891eeb456143caa4a774e6756cd55a7",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Cincinnati], [Forward Movement Publications]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1966
+                    ],
+                    "updated_on": "2022-05-08 06:24:12",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-viv_chong"
+                    ],
+                    "meta_subjectSorter": [
+                        "Christian union"
+                    ],
+                    "meta_creator": [
+                        "Consultation on Church Union"
+                    ],
+                    "meta_date": [
+                        "1966-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "dimensions. A new understanding of Tradition is {{{making it increasingly}}} clear that Tradition cannot simply be equated"
+                    ]
+                },
+                "_score": 9.352419,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28368861M",
+                    "url": "/books/OL28368861M/COCU_the_official_reports_of_the_four_meetings_of_the_Consultation",
+                    "title": "COCU, the official reports of the four meetings of the Consultation",
+                    "ocaid": "cocuofficialrepo0000cons_i5x5",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL8014934A",
+                            "name": "Consultation on Church Union"
+                        }
+                    ],
+                    "work_key": "/works/OL20938847W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10993815-M.jpg",
+                    "borrow_url": "/books/OL28368861M/COCU_the_official_reports_of_the_four_meetings_of_the_Consultation/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "cocuofficialrepo0000cons_i5x5",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL20938847W",
+                    "openlibrary_edition": "OL28368861M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "whoneedsphdcases0000repo|c2cf5f866b0bef5f3a3ada220922866372a377eb",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1567043728",
+                    "identifier": [
+                        "whoneedsphdcases0000repo"
+                    ],
+                    "meta_publicdate": [
+                        "2019-08-22T22:42:43Z"
+                    ],
+                    "meta_titleSorter": [
+                        "who needs the phd? : a case study of 190 phd level job seekers at university of toronto"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "whoneedsphdcases0000repo_abbyy.gz"
+                    ],
+                    "created_on": "2019-09-16 22:58:50",
+                    "file_basename": "whoneedsphdcases0000repo",
+                    "meta_creatorSorter": [
+                        "repo, marjaleena"
+                    ],
+                    "meta_title": [
+                        "Who needs the PhD? : a case study of 190 PhD level job seekers at University of Toronto"
+                    ],
+                    "page_num": [
+                        98
+                    ],
+                    "sha1_file": "c37fc5594a9923345ee9df30de331804851e3673",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Toronto] : University of Toronto, Graduate Students' Union"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1970
+                    ],
+                    "updated_on": "2022-05-09 06:04:26",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "College graduates -- Employment -- Canada",
+                        "Doctor of phiosophy degree -- Canada"
+                    ],
+                    "meta_creator": [
+                        "Repo, Marjaleena"
+                    ],
+                    "meta_date": [
+                        "1970-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "of U.S. citizens teaching in Canada is {{{making it increasingly}}} difficult for Canadians who are excel lently"
+                    ]
+                },
+                "_score": 9.348259,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5241514M",
+                    "url": "/books/OL5241514M/Who_needs_the_PhD",
+                    "title": "Who needs the PhD?",
+                    "ocaid": "whoneedsphdcases0000repo",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2016459A",
+                            "name": "Marjaleena Repo"
+                        }
+                    ],
+                    "work_key": "/works/OL7111275W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9623718-M.jpg",
+                    "borrow_url": "/books/OL5241514M/Who_needs_the_PhD/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "whoneedsphdcases0000repo",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7111275W",
+                    "openlibrary_edition": "OL5241514M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "governmentbusine0000unse|8374f1f5cd7074b8829f366bddcb41f50e8d0a2c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1567161480",
+                    "identifier": [
+                        "governmentbusine0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2019-08-28T02:46:38Z"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "governmentbusine0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2019-09-03 17:33:33",
+                    "file_basename": "governmentbusine0000unse",
+                    "meta_title": [
+                        "Government, business and labour in European capitalism : papers presented at the January 1977 conference of the University Association for Contemporary European Studies"
+                    ],
+                    "page_num": [
+                        242
+                    ],
+                    "sha1_file": "b4206a8efdbf97d70c9e6ae4c3e939abf0a00d44",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Europotentials Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1977
+                    ],
+                    "updated_on": "2022-01-27 19:47:44",
+                    "meta_titleSorter": [
+                        "government, business and labour in european capitalism : papers presented at the january 1977 conference of the university association for contemporary european studies"
+                    ],
+                    "meta_subjectSorter": [
+                        "Europe -- Economic conditions -- 1945- -- Congresses",
+                        "Europe -- Economic policy -- Congresses"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-dimitriospap",
+                        "dartmouthlibrary-ol",
+                        "gwulibraries-ol",
+                        "riceuniversity-ol",
+                        "uni-ol",
+                        "universityofarizona-ol",
+                        "wrlc-ol"
+                    ],
+                    "meta_date": [
+                        "1977-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "the changing socio-political structure is {{{making it increasingly}}} difficult for the government to rediscover",
+                        "development policy in the emigration country, {{{making it increasingly}}} dependent on the advanced capitalist economies"
+                    ]
+                },
+                "_score": 9.34816,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22147444M",
+                    "url": "/books/OL22147444M/Government_business_and_labour_in_European_capitalism",
+                    "title": "Government, business and labour in European capitalism",
+                    "ocaid": "governmentbusine0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6406653A",
+                            "name": "University Association for Contemporary European Studies. Annual Conference"
+                        }
+                    ],
+                    "work_key": "/works/OL13540890W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4425503-M.jpg",
+                    "borrow_url": "/books/OL22147444M/Government_business_and_labour_in_European_capitalism/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "governmentbusine0000unse",
+                    "isbn": "0906039002",
+                    "oclc": null,
+                    "openlibrary_work": "OL13540890W",
+                    "openlibrary_edition": "OL22147444M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "vulnerableyoungm0000furl|a3acfda4e3128c7c7700dbf853d95a86e5bf124a",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1578312604",
+                    "identifier": [
+                        "vulnerableyoungm0000furl"
+                    ],
+                    "meta_publicdate": [
+                        "2019-12-28T00:43:15Z"
+                    ],
+                    "meta_titleSorter": [
+                        "vulnerable young men in fragile labour markets : employment, unemployment and the search for long-term security"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "vulnerableyoungm0000furl_abbyy.gz"
+                    ],
+                    "created_on": "2020-01-09 23:33:05",
+                    "file_basename": "vulnerableyoungm0000furl",
+                    "meta_creatorSorter": [
+                        "furlong, andy"
+                    ],
+                    "meta_title": [
+                        "Vulnerable young men in fragile labour markets : employment, unemployment and the search for long-term security"
+                    ],
+                    "page_num": [
+                        54
+                    ],
+                    "sha1_file": "50dfab57394673eeffae735f916ed535bc7e938e",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "York : Joseph Rowntree Foundation"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2004
+                    ],
+                    "updated_on": "2021-03-28 08:05:24",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Unemployed youth -- Scotland",
+                        "Hard-core unemployed -- Scotland",
+                        "Unemployed youth -- Services for -- Scotland",
+                        "Hard-core unemployed",
+                        "Unemployed youth",
+                        "Scotland"
+                    ],
+                    "meta_creator": [
+                        "Furlong, Andy"
+                    ],
+                    "meta_date": [
+                        "2004-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "casualisation has eroded opportunities and is {{{making it increasingly}}} difficult for people to enter stable employment"
+                    ]
+                },
+                "_score": 9.346685,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL32152673M",
+                    "url": "/books/OL32152673M/Vulnerable_young_men_in_fragile_labour_markets",
+                    "title": "Vulnerable young men in fragile labour markets",
+                    "ocaid": "vulnerableyoungm0000furl",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL542853A",
+                            "name": "Andy Furlong"
+                        }
+                    ],
+                    "work_key": "/works/OL24307008W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10820759-M.jpg",
+                    "borrow_url": "/books/OL32152673M/Vulnerable_young_men_in_fragile_labour_markets/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "vulnerableyoungm0000furl",
+                    "isbn": "1859351794",
+                    "oclc": null,
+                    "openlibrary_work": "OL24307008W",
+                    "openlibrary_edition": "OL32152673M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cu31924029112187|f443152505a545b32e74019410cbe01f535ca273",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1258209334",
+                    "identifier": [
+                        "cu31924029112187"
+                    ],
+                    "meta_publicdate": [
+                        "2009-11-14T14:47:04Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency, and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        490
+                    ],
+                    "filename": [
+                        "cu31924029112187_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 03:28:06",
+                    "file_basename": "cu31924029112187",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency, and other hints to men and women"
+                    ],
+                    "page_num": [
+                        168
+                    ],
+                    "sha1_file": "9faa7e5f56b3bbd7bbd606c216475d6cfbc76e00",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "London : Hodder and Stoughton"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1911
+                    ],
+                    "updated_on": "2022-05-17 02:48:03",
+                    "meta_collection": [
+                        "cornell",
+                        "americana",
+                        "fav-biks90"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Mental efficiency",
+                        "Stupidity"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one element. Science is {{{making it increasingly}}} difficult to  conceive   matter  apart"
+                    ]
+                },
+                "_score": 9.3416,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24182156M",
+                    "url": "/books/OL24182156M/Mental_efficiency_and_other_hints_to_men_and_women",
+                    "title": "Mental efficiency, and other hints to men and women",
+                    "ocaid": "cu31924029112187",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL16763349W",
+                    "cover_url": "//covers.openlibrary.org/b/id/6360434-M.jpg",
+                    "read_url": "/books/OL24182156M/Mental_efficiency_and_other_hints_to_men_and_women/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "cu31924029112187",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16763349W",
+                    "openlibrary_edition": "OL24182156M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

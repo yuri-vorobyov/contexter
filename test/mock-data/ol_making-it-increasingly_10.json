@@ -1,0 +1,2643 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1323,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.073967,
+        "hits": [
+            {
+                "_id": "appraisalofexecu00stan|1171e40a184d95da3a00e5b0500524ae8d215256",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1316846079",
+                    "identifier": [
+                        "appraisalofexecu00stan"
+                    ],
+                    "meta_publicdate": [
+                        "2011-09-23T04:56:42Z"
+                    ],
+                    "meta_titleSorter": [
+                        "an appraisal of executive development training as applicable to naval field activities."
+                    ],
+                    "meta_downloads": [
+                        478
+                    ],
+                    "filename": [
+                        "appraisalofexecu00stan_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 20:23:33",
+                    "file_basename": "appraisalofexecu00stan",
+                    "meta_creatorSorter": [
+                        "stansell, herman jennings"
+                    ],
+                    "meta_title": [
+                        "An appraisal of executive development training as applicable to naval field activities."
+                    ],
+                    "page_num": [
+                        234
+                    ],
+                    "sha1_file": "889bf950ce961253cfc52f64dc684ce33a2be3bb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Purdue University"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1954
+                    ],
+                    "updated_on": "2022-03-25 02:47:36",
+                    "meta_collection": [
+                        "navalpostgraduateschoollibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Management"
+                    ],
+                    "meta_creator": [
+                        "Stansell, Herman Jennings"
+                    ],
+                    "meta_date": [
+                        "1954-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and that the tightening labor market was {{{making it increasingly}}} difficult to employ ready-made raaniigerial"
+                    ]
+                },
+                "_score": 9.095305,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24992651M",
+                    "url": "/books/OL24992651M/Precipitation_noise_measurements_on_jet_type_aircraft",
+                    "title": "Precipitation noise measurements on jet type aircraft",
+                    "ocaid": "appraisalofexecu00stan",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6978533A",
+                            "name": "Robert Walter Slezak"
+                        }
+                    ],
+                    "work_key": "/works/OL16096888W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6929305-M.jpg",
+                    "read_url": "/books/OL24992651M/Precipitation_noise_measurements_on_jet_type_aircraft/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "appraisalofexecu00stan",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16096888W",
+                    "openlibrary_edition": "OL24992651M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "whispersinwindco0000aure|d195baffa21c2d4463ebf182ab175152a7834d7d",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1647285298",
+                    "identifier": [
+                        "whispersinwindco0000aure"
+                    ],
+                    "meta_publicdate": [
+                        "2022-03-08T01:44:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "whispers in the wind : communications from an ascended master"
+                    ],
+                    "meta_downloads": [
+                        8
+                    ],
+                    "filename": [
+                        "whispersinwindco0000aure_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-03-14 19:37:19",
+                    "file_basename": "whispersinwindco0000aure",
+                    "meta_creatorSorter": [
+                        "aureal (spirit)"
+                    ],
+                    "meta_title": [
+                        "Whispers in the wind : communications from an ascended master"
+                    ],
+                    "page_num": [
+                        [
+                            326
+                        ]
+                    ],
+                    "sha1_file": "49d43a3f5cc3ea950fd73838d1acec555b2b80f0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "El Cajon, Calif. : Sun Valley Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1999
+                    ],
+                    "updated_on": "2022-06-19 13:04:09",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-jyoung1001"
+                    ],
+                    "meta_subjectSorter": [
+                        "Spirit writings"
+                    ],
+                    "meta_creator": [
+                        "Aureal (Spirit)"
+                    ],
+                    "meta_date": [
+                        "1999-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "ment. Then the sun lights up your world, {{{making it increasingly}}} more visible to your perceptive senses",
+                        "environment. Then the sun lights up your world, {{{making it increasingly}}} more visible to your perceptive SENSES"
+                    ]
+                },
+                "_score": 9.095062,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11746720M",
+                    "url": "/books/OL11746720M/Whispers_In_The_Wind",
+                    "title": "Whispers In The Wind",
+                    "ocaid": "whispersinwindco0000aure",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3728603A",
+                            "name": "Laura Peterson"
+                        }
+                    ],
+                    "work_key": "/works/OL9737329W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12672536-M.jpg",
+                    "borrow_url": "/books/OL11746720M/Whispers_In_The_Wind/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "whispersinwindco0000aure",
+                    "isbn": "096718150X",
+                    "oclc": null,
+                    "openlibrary_work": "OL9737329W",
+                    "openlibrary_edition": "OL11746720M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "submissionfaithb0000lumb|a2876fc9cf118a6da7fd45f1ebdfc8c6a36b0358",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1615280995",
+                    "identifier": [
+                        "submissionfaithb0000lumb"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-02T07:37:27Z"
+                    ],
+                    "meta_downloads": [
+                        29
+                    ],
+                    "created_on": "2021-03-09 10:08:51",
+                    "meta_creatorSorter": [
+                        "lumbard, joseph e. b., 1969-"
+                    ],
+                    "meta_reviewdate": [
+                        "2022-06-04T18:17:55Z"
+                    ],
+                    "updated_on": "2022-06-04 18:21:14",
+                    "filename": [
+                        "submissionfaithb0000lumb_hocr_searchtext.txt.gz"
+                    ],
+                    "meta_creator": [
+                        "Lumbard, Joseph E. B., 1969-"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ],
+                    "file_basename": "submissionfaithb0000lumb",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-hforharis",
+                        "dartmouthlibrary-ol",
+                        "occidentalcollegelibrary-ol"
+                    ],
+                    "meta_title": [
+                        "Submission, faith and beauty : the religion of Islam"
+                    ],
+                    "page_num": [
+                        [
+                            110
+                        ]
+                    ],
+                    "sha1_file": "a020a0598207711efd678d728e74c42c8b411225",
+                    "meta_publisher": [
+                        "Berkeley, Calif. : Zaytuna Institute"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2008
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_titleSorter": [
+                        "submission, faith and beauty : the religion of islam"
+                    ],
+                    "meta_subjectSorter": [
+                        "Islam -- Doctrines -- History",
+                        "Islam -- Doctrines"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "bodies, it brings about moral decay, thus {{{making it increasingly}}} difficult to tell wrong from right. Just"
+                    ]
+                },
+                "_score": 9.094553,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28384840M",
+                    "url": "/books/OL28384840M/Submission_faith_and_beauty",
+                    "title": "Submission, faith and beauty",
+                    "ocaid": "submissionfaithb0000lumb",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7605244A",
+                            "name": "Joseph E. B. Lumbard"
+                        }
+                    ],
+                    "work_key": "/works/OL20951545W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10693968-M.jpg",
+                    "borrow_url": "/books/OL28384840M/Submission_faith_and_beauty/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "submissionfaithb0000lumb",
+                    "isbn": "9780970284303",
+                    "oclc": null,
+                    "openlibrary_work": "OL20951545W",
+                    "openlibrary_edition": "OL28384840M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cladisticspracti0000skel|f30affa44ce1caca267de32bf140db140423d294",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1592903642",
+                    "identifier": [
+                        "cladisticspracti0000skel"
+                    ],
+                    "meta_publicdate": [
+                        "2020-06-06T07:06:25Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cladistics : a practical primer on cd-rom"
+                    ],
+                    "meta_downloads": [
+                        8
+                    ],
+                    "filename": [
+                        "cladisticspracti0000skel_abbyy.gz"
+                    ],
+                    "created_on": "2020-08-27 23:06:09",
+                    "file_basename": "cladisticspracti0000skel",
+                    "meta_creatorSorter": [
+                        "skelton, p. w"
+                    ],
+                    "meta_title": [
+                        "Cladistics : a practical primer on CD-ROM"
+                    ],
+                    "page_num": [
+                        106
+                    ],
+                    "sha1_file": "612aaf2bdd147dd25dd4653eaefc0684f0016e07",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge, UK : Cambridge University Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2002
+                    ],
+                    "updated_on": "2021-04-09 17:35:37",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-harpia_85",
+                        "gwulibraries-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Cladistic analysis"
+                    ],
+                    "meta_creator": [
+                        "Skelton, P. W"
+                    ],
+                    "meta_date": [
+                        "2002-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "discovered fossils of feathered dinosaurs are {{{making it increasingly}}} clear that birds and what we call reptiles"
+                    ]
+                },
+                "_score": 9.08856,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7744320M",
+                    "url": "/books/OL7744320M/Cladistics",
+                    "title": "Cladistics",
+                    "ocaid": "cladisticspracti0000skel",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1980270A",
+                            "name": "Peter Skelton"
+                        },
+                        {
+                            "key": "/authors/OL2323044A",
+                            "name": "Andrew Smith"
+                        },
+                        {
+                            "key": "/authors/OL2766478A",
+                            "name": "Neale Monks"
+                        }
+                    ],
+                    "work_key": "/works/OL20883987W",
+                    "cover_url": "//covers.openlibrary.org/w/id/343338-M.jpg",
+                    "borrow_url": "/books/OL7744320M/Cladistics/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "cladisticspracti0000skel",
+                    "isbn": "0521523419",
+                    "oclc": null,
+                    "openlibrary_work": "OL20883987W",
+                    "openlibrary_edition": "OL7744320M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "dynamicofmanhood00guli|673a7a83e862769da1f298201f9834cdc4d9c2d1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1323362204",
+                    "identifier": [
+                        "dynamicofmanhood00guli"
+                    ],
+                    "meta_publicdate": [
+                        "2011-12-06T15:04:13Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the dynamic of manhood"
+                    ],
+                    "meta_downloads": [
+                        555
+                    ],
+                    "filename": [
+                        "dynamicofmanhood00guli_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 23:43:58",
+                    "file_basename": "dynamicofmanhood00guli",
+                    "meta_creatorSorter": [
+                        "gulick, luther halsey, 1865-1918"
+                    ],
+                    "meta_title": [
+                        "The dynamic of manhood"
+                    ],
+                    "page_num": [
+                        182
+                    ],
+                    "sha1_file": "39e73d4333e08b75973e5ab62565676a3b4ad356",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, Association press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1917
+                    ],
+                    "updated_on": "2022-04-05 06:26:18",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana",
+                        "fav-tlhomphano",
+                        "fav-eye_of_providence251",
+                        "fav-mavenconrad"
+                    ],
+                    "meta_subjectSorter": [
+                        "Sexual ethics",
+                        "Love",
+                        "Conduct of life"
+                    ],
+                    "meta_creator": [
+                        "Gulick, Luther Halsey, 1865-1918"
+                    ],
+                    "meta_date": [
+                        "1917-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Society is curbing unbridled passion\u2014^is {{{making it increasingly}}} hard for the man who measures his sex life"
+                    ]
+                },
+                "_score": 9.085452,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25119402M",
+                    "url": "/books/OL25119402M/The_dynamic_of_manhood",
+                    "title": "The dynamic of manhood",
+                    "ocaid": "dynamicofmanhood00guli",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL162579A",
+                            "name": "Gulick, Luther Halsey"
+                        }
+                    ],
+                    "work_key": "/works/OL16312495W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6988098-M.jpg",
+                    "read_url": "/books/OL25119402M/The_dynamic_of_manhood/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "dynamicofmanhood00guli",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16312495W",
+                    "openlibrary_edition": "OL25119402M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "teensenseaguidet00eden|142cb8856c0ad3401162a7a9a2cf0cd053d71427",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1343088893",
+                    "identifier": [
+                        "teensenseaguidet00eden"
+                    ],
+                    "meta_publicdate": [
+                        "2012-04-10T20:21:26Z"
+                    ],
+                    "meta_titleSorter": [
+                        "teen sense (a guide to the turbulent teens)"
+                    ],
+                    "meta_downloads": [
+                        26
+                    ],
+                    "filename": [
+                        "teensenseaguidet00eden_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 20:22:05",
+                    "file_basename": "teensenseaguidet00eden",
+                    "meta_creatorSorter": [
+                        "edens, david, 1926-"
+                    ],
+                    "meta_title": [
+                        "Teen sense (A guide to the turbulent teens)"
+                    ],
+                    "page_num": [
+                        120
+                    ],
+                    "sha1_file": "6f1aa84f7188d9bbc4d080df908d4bc3f7fa6ea4",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Anderson, Ind., Warner Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1971"
+                    ],
+                    "updated_on": "2020-08-30 18:59:17",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Adolescence"
+                    ],
+                    "meta_creator": [
+                        "Edens, David, 1926-"
+                    ],
+                    "meta_date": [
+                        "1971-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Are the changing times in which we live {{{making it increasingly}}} difficult for us to understand this ancient"
+                    ]
+                },
+                "_score": 9.076336,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5087094M",
+                    "url": "/books/OL5087094M/Teen_sense",
+                    "title": "Teen sense",
+                    "ocaid": "teensenseaguidet00eden",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1708996A",
+                            "name": "David Edens"
+                        }
+                    ],
+                    "work_key": "/works/OL6444980W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7164756-M.jpg",
+                    "borrow_url": "/books/OL5087094M/Teen_sense/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "teensenseaguidet00eden",
+                    "isbn": "0871621223",
+                    "oclc": null,
+                    "openlibrary_work": "OL6444980W",
+                    "openlibrary_edition": "OL5087094M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "beyondpaycheckto0000rubi_s8t3|3da9334bb9fb305b03e47f1b46d8f7cb8f312b8f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1655717852",
+                    "identifier": [
+                        "beyondpaycheckto0000rubi_s8t3"
+                    ],
+                    "meta_publicdate": [
+                        "2022-06-18T03:30:16Z"
+                    ],
+                    "meta_titleSorter": [
+                        "beyond paycheck to paycheck : a conversation about income, wealth, and the steps in between"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "beyondpaycheckto0000rubi_s8t3_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-06-20 10:01:34",
+                    "file_basename": "beyondpaycheckto0000rubi_s8t3",
+                    "meta_creatorSorter": [
+                        "rubin, michael b"
+                    ],
+                    "meta_title": [
+                        "Beyond paycheck to paycheck : a conversation about income, wealth, and the steps in between"
+                    ],
+                    "page_num": [
+                        [
+                            294
+                        ]
+                    ],
+                    "sha1_file": "099f5fc3b631a9e33c809cdd4db5b4c8f6863a33",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portsmouth, N.H. : Wachtel & Martin"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2010
+                    ],
+                    "updated_on": "2022-06-21 04:36:18",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Finance, Personal",
+                        "Income",
+                        "Wealth"
+                    ],
+                    "meta_creator": [
+                        "Rubin, Michael B"
+                    ],
+                    "meta_date": [
+                        "2010-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "additional fees and interest can be charged, {{{making it increasingly}}} difficult for you to get out of debt.\nBeyond",
+                        "Paycheck to Paycheck\ncompounding as well, {{{making it increasingly}}} difficult to pay back your debt. This is"
+                    ]
+                },
+                "_score": 9.073175,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL38564103M",
+                    "url": "/books/OL38564103M/Beyond_paycheck_to_paycheck",
+                    "title": "Beyond paycheck to paycheck",
+                    "ocaid": "beyondpaycheckto0000rubi_s8t3",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3762897A",
+                            "name": "Michael B. Rubin"
+                        }
+                    ],
+                    "work_key": "/works/OL9774096W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2730076-M.jpg",
+                    "borrow_url": "/books/OL38564103M/Beyond_paycheck_to_paycheck/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "beyondpaycheckto0000rubi_s8t3",
+                    "isbn": "0978792793",
+                    "oclc": null,
+                    "openlibrary_work": "OL9774096W",
+                    "openlibrary_edition": "OL38564103M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "stevensgenealogy00stev|19ccdb350e04540b671d76f68b592e23c30991e5",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1208294985",
+                    "identifier": [
+                        "stevensgenealogy00stev"
+                    ],
+                    "meta_publicdate": [
+                        "2008-03-27T13:59:18Z"
+                    ],
+                    "meta_titleSorter": [
+                        "stevens genealogy. some descendants of the fitz stephen family in england and new england"
+                    ],
+                    "meta_downloads": [
+                        10733
+                    ],
+                    "filename": [
+                        "stevensgenealogy00stev_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 07:12:50",
+                    "file_basename": "stevensgenealogy00stev",
+                    "meta_creatorSorter": [
+                        "stevens, charles ellis, 1853-1906. [from old catalog]"
+                    ],
+                    "meta_title": [
+                        "Stevens genealogy. Some descendants of the Fitz Stephen family in England and New England"
+                    ],
+                    "page_num": [
+                        144
+                    ],
+                    "sha1_file": "bda9d71ecb24a21a1526bb36709f88ebda4998c0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, Priv. print."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1905
+                    ],
+                    "updated_on": "2022-04-06 04:26:27",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana",
+                        "fav-seedybeecdb",
+                        "fav-treasures548",
+                        "fav-tracy_hartnett",
+                        "fav-jhtwin2",
+                        "fav-bill_miles"
+                    ],
+                    "meta_subjectSorter": [
+                        "Stevens family",
+                        "Stevens family (John Stephens, d 1670) [from old catalog]"
+                    ],
+                    "meta_creator": [
+                        "Stevens, Charles Ellis, 1853-1906. [from old catalog]"
+                    ],
+                    "meta_date": [
+                        "1905-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and a sense of honor in these things, is {{{making it increasingly}}} difficult to take for onesself in heraldry"
+                    ]
+                },
+                "_score": 9.073011,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22894377M",
+                    "url": "/books/OL22894377M/Stevens_genealogy.",
+                    "title": "Stevens genealogy.",
+                    "ocaid": "stevensgenealogy00stev",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2619415A",
+                            "name": "Charles Ellis Stevens"
+                        }
+                    ],
+                    "work_key": "/works/OL7907640W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6058376-M.jpg",
+                    "read_url": "/books/OL22894377M/Stevens_genealogy./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "stevensgenealogy00stev",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7907640W",
+                    "openlibrary_edition": "OL22894377M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "studiesinwarpeac0000howa_q8k9|1d95e4015bba78d0c701043d65e8f5ab7d97d3f5",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1573917597",
+                    "identifier": [
+                        "studiesinwarpeac0000howa_q8k9"
+                    ],
+                    "meta_publicdate": [
+                        "2019-11-14T04:17:59Z"
+                    ],
+                    "meta_titleSorter": [
+                        "studies in war and peace"
+                    ],
+                    "meta_downloads": [
+                        43
+                    ],
+                    "filename": [
+                        "studiesinwarpeac0000howa_q8k9_abbyy.gz"
+                    ],
+                    "created_on": "2019-11-19 04:00:11",
+                    "file_basename": "studiesinwarpeac0000howa_q8k9",
+                    "meta_creatorSorter": [
+                        "howard, michael, 1922-"
+                    ],
+                    "meta_title": [
+                        "Studies in war and peace"
+                    ],
+                    "page_num": [
+                        274
+                    ],
+                    "sha1_file": "390dad66f9d78694d9fc9af84aeae88f5691f827",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, Viking Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1971"
+                    ],
+                    "updated_on": "2020-09-28 15:34:16",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-sergiomargarido",
+                        "fav-joe_crab_t",
+                        "binghamton-ol",
+                        "cuny-ol",
+                        "dartmouthlibrary-ol",
+                        "johnshopkins-ol",
+                        "mitlibraries-ol",
+                        "tamu-evanslibrary-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Military history, Modern -- 19th century",
+                        "Military history, Modern -- 20th century",
+                        "Disarmament"
+                    ],
+                    "meta_creator": [
+                        "Howard, Michael, 1922-"
+                    ],
+                    "meta_date": [
+                        "1971-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "urbanisation and social mobility has been {{{making it increasingly}}} difficult for such social units to survive",
+                        "political and social development had been {{{making it increasingly}}} difficult to achieve this kind of \u2018decision\u2019"
+                    ]
+                },
+                "_score": 9.069949,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24876315M",
+                    "url": "/books/OL24876315M/Studies_in_war_and_peace",
+                    "title": "Studies in war and peace",
+                    "ocaid": "studiesinwarpeac0000howa_q8k9",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL830541A",
+                            "name": "Michael Howard"
+                        }
+                    ],
+                    "work_key": "/works/OL15970595W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9417603-M.jpg",
+                    "borrow_url": "/books/OL24876315M/Studies_in_war_and_peace/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "studiesinwarpeac0000howa_q8k9",
+                    "isbn": "0670679747",
+                    "oclc": null,
+                    "openlibrary_work": "OL15970595W",
+                    "openlibrary_edition": "OL24876315M",
+                    "last_loan_date": "2020-09-05T14:54:51Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": "2020-08-28T19:03:31Z",
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "scienceofsitting0000carb|1ac8a05e48c267c0af007c204b0989665a8eba4b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1579179872",
+                    "identifier": [
+                        "scienceofsitting0000carb"
+                    ],
+                    "meta_publicdate": [
+                        "2020-01-13T22:27:24Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the science of sitting made simple : how to look and feel better with good posture in ten easy steps"
+                    ],
+                    "meta_downloads": [
+                        23
+                    ],
+                    "filename": [
+                        "scienceofsitting0000carb_abbyy.gz"
+                    ],
+                    "created_on": "2020-01-17 10:34:31",
+                    "file_basename": "scienceofsitting0000carb",
+                    "meta_creatorSorter": [
+                        "carb, gregg j"
+                    ],
+                    "meta_title": [
+                        "The science of sitting made simple : how to look and feel better with good posture in ten easy steps"
+                    ],
+                    "page_num": [
+                        184
+                    ],
+                    "sha1_file": "9cfcb01ff3dc6f8fb6d559be2847d8fe391a009c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "San Francisco, Calif. : Posture Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2008"
+                    ],
+                    "updated_on": "2020-11-11 23:02:34",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "fav-barry_o_apos_neill",
+                        "fav-sdrumm09671"
+                    ],
+                    "meta_subjectSorter": [
+                        "Posture",
+                        "Sitting position",
+                        "Back -- Care and hygiene"
+                    ],
+                    "meta_creator": [
+                        "Carb, Gregg J"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "bend the spine out of its normal shape, {{{making it increasingly}}} difficult to stand or sit up straight."
+                    ]
+                },
+                "_score": 9.067501,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL23106913M",
+                    "url": "/books/OL23106913M/The_science_of_sitting_made_simple",
+                    "title": "The science of sitting made simple",
+                    "ocaid": "scienceofsitting0000carb",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3301609A",
+                            "name": "Gregg J. Carb"
+                        }
+                    ],
+                    "work_key": "/works/OL9244379W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9251255-M.jpg",
+                    "borrow_url": "/books/OL23106913M/The_science_of_sitting_made_simple/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "scienceofsitting0000carb",
+                    "isbn": "9780971602052",
+                    "oclc": null,
+                    "openlibrary_work": "OL9244379W",
+                    "openlibrary_edition": "OL23106913M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "economicglobaliz0000raja|1d58ea088ea575530d7c017edf2aa29ca199ff47",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1617123272",
+                    "identifier": [
+                        "economicglobaliz0000raja"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-26T04:10:00Z"
+                    ],
+                    "meta_titleSorter": [
+                        "economic globalization and asia : essays on finance, trade, and taxation"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "economicglobaliz0000raja_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-30 18:51:39",
+                    "file_basename": "economicglobaliz0000raja",
+                    "meta_creatorSorter": [
+                        "rajan, ramkishen s"
+                    ],
+                    "meta_title": [
+                        "Economic globalization and Asia : essays on finance, trade, and taxation"
+                    ],
+                    "page_num": [
+                        [
+                            282
+                        ]
+                    ],
+                    "sha1_file": "002f7407161ed4b349c8379e3f3c4b7957ce7c97",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Singapore ; New Jersey : World Scientific"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2003
+                    ],
+                    "updated_on": "2021-06-15 14:35:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "americanuniversity-ol",
+                        "gwulibraries-ol",
+                        "johnshopkins-ol",
+                        "riceuniversity-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "International finance",
+                        "International trade",
+                        "Taxation -- Southeast Asia",
+                        "East Asia -- Commerce"
+                    ],
+                    "meta_creator": [
+                        "Rajan, Ramkishen S"
+                    ],
+                    "meta_date": [
+                        "2003-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "developing countries, particularly in terms of {{{making it increasingly}}} difficult for them to collect even existing",
+                        "ongoing process of economic globalization is {{{making it increasingly}}} difficult for countries to attain \u201cfiscal"
+                    ]
+                },
+                "_score": 9.063395,
+                "_type": "_doc"
+            },
+            {
+                "_id": "warfareinancient00brew|46bc94202eb3b4beb6a9a87f9df866c37bba7f74",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1405311924",
+                    "identifier": [
+                        "warfareinancient00brew"
+                    ],
+                    "meta_publicdate": [
+                        "2012-10-01T14:07:34Z"
+                    ],
+                    "meta_titleSorter": [
+                        "warfare in the ancient world"
+                    ],
+                    "meta_downloads": [
+                        84
+                    ],
+                    "filename": [
+                        "warfareinancient00brew_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 05:32:03",
+                    "file_basename": "warfareinancient00brew",
+                    "meta_creatorSorter": [
+                        "brewer, paul."
+                    ],
+                    "meta_title": [
+                        "Warfare in the ancient world"
+                    ],
+                    "page_num": [
+                        90
+                    ],
+                    "sha1_file": "59a8f23f64c39dcdd9d352315d0f03417b6e3763",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Raintree Steck-Vaughn"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1999"
+                    ],
+                    "updated_on": "2020-08-30 03:20:31",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "fav-romulus187",
+                        "fav-giorgi_tchigladze",
+                        "fav-az_grizzly",
+                        "fav-classicalstudent",
+                        "fav-sgulick1",
+                        "fav-eva_deng",
+                        "bpljordan-ol",
+                        "cnusd-ol",
+                        "spokanepubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Military history, Ancient -- Juvenile literature.",
+                        "Military art and science -- History -- Juvenile literature.",
+                        "Military history, Ancient."
+                    ],
+                    "meta_creator": [
+                        "Brewer, Paul."
+                    ],
+                    "meta_date": [
+                        "1999-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "undermined by these internal squabbles, {{{making it increasingly}}} less able to deal with threats to its security"
+                    ]
+                },
+                "_score": 9.062376,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL345689M",
+                    "url": "/books/OL345689M/Warfare_in_the_ancient_world",
+                    "title": "Warfare in the ancient world",
+                    "ocaid": "warfareinancient00brew",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL217342A",
+                            "name": "Brewer, Paul."
+                        }
+                    ],
+                    "work_key": "/works/OL1811887W",
+                    "cover_url": "//covers.openlibrary.org/w/id/3726360-M.jpg",
+                    "borrow_url": "/books/OL345689M/Warfare_in_the_ancient_world/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "warfareinancient00brew",
+                    "isbn": "9780817254421",
+                    "oclc": null,
+                    "openlibrary_work": "OL1811887W",
+                    "openlibrary_edition": "OL345689M",
+                    "last_loan_date": "2020-07-30T16:39:26Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": "2018-05-19T00:02:40Z",
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "strategicchoices0000prim|801c8ffa7e7b79072677e210861fda6a3c31a471",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1574871789",
+                    "identifier": [
+                        "strategicchoices0000prim"
+                    ],
+                    "meta_publicdate": [
+                        "2019-11-25T03:38:57Z"
+                    ],
+                    "meta_titleSorter": [
+                        "strategic choices : supremacy, survival, or sayonara"
+                    ],
+                    "meta_downloads": [
+                        7
+                    ],
+                    "filename": [
+                        "strategicchoices0000prim_abbyy.gz"
+                    ],
+                    "created_on": "2019-11-27 23:50:33",
+                    "file_basename": "strategicchoices0000prim",
+                    "meta_creatorSorter": [
+                        "primozic, kenneth i"
+                    ],
+                    "meta_title": [
+                        "Strategic choices : supremacy, survival, or sayonara"
+                    ],
+                    "page_num": [
+                        298
+                    ],
+                    "sha1_file": "9d43744cf5c06c6655e7233b4bab7b03bedd718d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : McGraw-Hill"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1991"
+                    ],
+                    "updated_on": "2020-10-06 05:57:54",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "cuny-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Strategic planning",
+                        "Administracao de empresas"
+                    ],
+                    "meta_creator": [
+                        "Primozic, Kenneth I"
+                    ],
+                    "meta_date": [
+                        "1991-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "American business is experienc\u00ac ing is {{{making it increasingly}}} difficult for organizations to effectively",
+                        "In the future American Airlines will be {{{making it increasingly}}} easy for the consumer to deal with American"
+                    ]
+                },
+                "_score": 9.050913,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL16690418M",
+                    "url": "/books/OL16690418M/Strategic_choices",
+                    "title": "Strategic choices",
+                    "ocaid": "strategicchoices0000prim",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL890997A",
+                            "name": "Kenneth I. Primozic"
+                        }
+                    ],
+                    "work_key": "/works/OL11889269W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10010754-M.jpg",
+                    "borrow_url": "/books/OL16690418M/Strategic_choices/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "strategicchoices0000prim",
+                    "isbn": "0070510369",
+                    "oclc": null,
+                    "openlibrary_work": "OL11889269W",
+                    "openlibrary_edition": "OL16690418M",
+                    "last_loan_date": "2019-12-22T01:20:40Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "activeyearsforyo0000hers|51aeb1639c84d9441da36fbf8224a7fffc09904b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1542106755",
+                    "identifier": [
+                        "activeyearsforyo0000hers"
+                    ],
+                    "meta_publicdate": [
+                        "2018-11-06T17:11:54Z"
+                    ],
+                    "meta_titleSorter": [
+                        "active years for your aging dog"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "activeyearsforyo0000hers_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-15 01:41:50",
+                    "file_basename": "activeyearsforyo0000hers",
+                    "meta_creatorSorter": [
+                        "hershhorn, bernard s"
+                    ],
+                    "meta_title": [
+                        "Active years for your aging dog"
+                    ],
+                    "page_num": [
+                        296
+                    ],
+                    "sha1_file": "ba9b4229d34176305374b35c8da8ade855444f0f",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Hawthorn Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1978"
+                    ],
+                    "updated_on": "2020-08-30 21:26:37",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Dogs -- Diseases",
+                        "Dogs -- Aging",
+                        "Veterinary geriatrics",
+                        "Chiens -- Maladies",
+                        "Vieillissement",
+                        "Dogs -- Aging",
+                        "Dogs -- Diseases",
+                        "Veterinary geriatrics"
+                    ],
+                    "meta_creator": [
+                        "Hershhorn, Bernard S"
+                    ],
+                    "meta_date": [
+                        "1978-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "secretion can become viscous or pasty, {{{making it increasingly}}} difficult for the sacs to be emptied. The",
+                        "conditions greatly reduce lung function, {{{making it increasingly}}} difficult for the dog to breathe.\nHeat"
+                    ]
+                },
+                "_score": 9.042707,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4741461M",
+                    "url": "/books/OL4741461M/Active_years_for_your_aging_dog",
+                    "title": "Active years for your aging dog",
+                    "ocaid": "activeyearsforyo0000hers",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1864016A",
+                            "name": "Bernard S. Hershhorn"
+                        }
+                    ],
+                    "work_key": "/works/OL6811929W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8273170-M.jpg",
+                    "borrow_url": "/books/OL4741461M/Active_years_for_your_aging_dog/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "activeyearsforyo0000hers",
+                    "isbn": "0801545994",
+                    "oclc": null,
+                    "openlibrary_work": "OL6811929W",
+                    "openlibrary_edition": "OL4741461M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "physicaleducatio00gulirich|2d507230d10c1fcd2698c29745b55e4ae077ea5c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1184373716",
+                    "identifier": [
+                        "physicaleducatio00gulirich"
+                    ],
+                    "meta_publicdate": [
+                        "2007-07-11T18:51:15Z"
+                    ],
+                    "meta_titleSorter": [
+                        "physical education by muscular exercise"
+                    ],
+                    "meta_downloads": [
+                        799
+                    ],
+                    "filename": [
+                        "physicaleducatio00gulirich_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 17:11:34",
+                    "file_basename": "physicaleducatio00gulirich",
+                    "meta_creatorSorter": [
+                        "gulick, luther halsey, 1865-1918"
+                    ],
+                    "meta_title": [
+                        "Physical education by muscular exercise"
+                    ],
+                    "page_num": [
+                        90
+                    ],
+                    "sha1_file": "135f4009761d840ff6ea77370266363219d84c46",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Philadelphia : P. Blakiston's son & co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1904
+                    ],
+                    "updated_on": "2022-04-05 07:43:39",
+                    "meta_collection": [
+                        "cdl",
+                        "americana",
+                        "fav-sgulick1"
+                    ],
+                    "meta_subjectSorter": [
+                        "Physical education and training"
+                    ],
+                    "meta_creator": [
+                        "Gulick, Luther Halsey, 1865-1918"
+                    ],
+                    "meta_date": [
+                        "1904-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "will enrich the physical training program, {{{making it increasingly}}} effective and at the same time increasingly"
+                    ]
+                },
+                "_score": 9.041354,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7063692M",
+                    "url": "/books/OL7063692M/Physical_education_by_muscular_exercise",
+                    "title": "Physical education by muscular exercise",
+                    "ocaid": "physicaleducatio00gulirich",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL162579A",
+                            "name": "Gulick, Luther Halsey"
+                        }
+                    ],
+                    "work_key": "/works/OL1532667W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5588349-M.jpg",
+                    "read_url": "/books/OL7063692M/Physical_education_by_muscular_exercise/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "physicaleducatio00gulirich",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL1532667W",
+                    "openlibrary_edition": "OL7063692M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "excusemepleastha00stil|ff59ae96e15c291961dbc5eb1e97d59ff6c6c344",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1317761233",
+                    "identifier": [
+                        "excusemepleastha00stil"
+                    ],
+                    "meta_publicdate": [
+                        "2011-10-03T16:06:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "\"excuse me!\" the pleas that ruin you;"
+                    ],
+                    "meta_downloads": [
+                        428
+                    ],
+                    "filename": [
+                        "excusemepleastha00stil_abbyy.gz"
+                    ],
+                    "created_on": "2017-12-21 23:55:44",
+                    "file_basename": "excusemepleastha00stil",
+                    "meta_creatorSorter": [
+                        "stiles, william curtis, 1851-1911. [from old catalog]"
+                    ],
+                    "meta_title": [
+                        "\"Excuse me!\" the pleas that ruin you;"
+                    ],
+                    "page_num": [
+                        154
+                    ],
+                    "sha1_file": "c5f35901b80bb8c937bbffe4225bf30e6d8985cc",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Philadelphia, Rice & Hirst"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1898
+                    ],
+                    "updated_on": "2022-04-05 06:43:10",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conversion"
+                    ],
+                    "meta_creator": [
+                        "Stiles, William Curtis, 1851-1911. [from old catalog]"
+                    ],
+                    "meta_date": [
+                        "1898-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "skepticism of mere worldly education is {{{making it increasingly}}} difficult for you to believe with any positiveness"
+                    ]
+                },
+                "_score": 9.038399,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL24995507M",
+                    "url": "/books/OL24995507M/Excuse_me!_the_pleas_that_ruin_you",
+                    "title": "\"Excuse me!\" the pleas that ruin you",
+                    "ocaid": "excusemepleastha00stil",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2564619A",
+                            "name": "William Curtis Stiles"
+                        }
+                    ],
+                    "work_key": "/works/OL16099969W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6939084-M.jpg",
+                    "read_url": "/books/OL24995507M/Excuse_me!_the_pleas_that_ruin_you/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "excusemepleastha00stil",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16099969W",
+                    "openlibrary_edition": "OL24995507M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "tabithastrials0000holm|711d5310531327963b10279a0682e12ac735b091",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1532080040",
+                    "identifier": [
+                        "tabithastrials0000holm"
+                    ],
+                    "meta_publicdate": [
+                        "2018-07-20T01:55:49Z"
+                    ],
+                    "meta_titleSorter": [
+                        "tabitha's trials"
+                    ],
+                    "meta_downloads": [
+                        12
+                    ],
+                    "filename": [
+                        "tabithastrials0000holm_abbyy.gz"
+                    ],
+                    "created_on": "2018-07-20 10:03:14",
+                    "file_basename": "tabithastrials0000holm",
+                    "meta_creatorSorter": [
+                        "holmes, valerie"
+                    ],
+                    "meta_title": [
+                        "Tabitha's trials"
+                    ],
+                    "page_num": [
+                        182
+                    ],
+                    "sha1_file": "6a0cc47803e91194cbca3d52dc7ff6dc9cf25472",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Leicester : Linford"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2009"
+                    ],
+                    "updated_on": "2020-08-31 07:10:30",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Large type books",
+                        "Large type books"
+                    ],
+                    "meta_creator": [
+                        "Holmes, Valerie"
+                    ],
+                    "meta_date": [
+                        "2009-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "fears., her mouth was becoming very dry {{{making it increasingly}}} difficult to swallow. She hung on tightly"
+                    ]
+                },
+                "_score": 9.034959,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL26473695M",
+                    "url": "/books/OL26473695M/Tabitha's_trials",
+                    "title": "Tabitha's trials",
+                    "ocaid": "tabithastrials0000holm",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3147617A",
+                            "name": "Valerie Holmes"
+                        }
+                    ],
+                    "work_key": "/works/OL17896397W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8210674-M.jpg",
+                    "borrow_url": "/books/OL26473695M/Tabitha's_trials/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "tabithastrials0000holm",
+                    "isbn": "9781847826770",
+                    "oclc": null,
+                    "openlibrary_work": "OL17896397W",
+                    "openlibrary_edition": "OL26473695M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "increasinguseofc0000unse|cabbffb1c3d522797f4d6ee48ec89b9b07c32657",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1643250489",
+                    "identifier": [
+                        "increasinguseofc0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2022-01-19T07:50:53Z"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "increasinguseofc0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-01-27 09:19:52",
+                    "file_basename": "increasinguseofc0000unse",
+                    "meta_title": [
+                        "Increasing the use of cereals in livestock feeding : proceedings of a symposium on \"Increasing the use of cereals in livestock feeding\""
+                    ],
+                    "page_num": [
+                        [
+                            110
+                        ]
+                    ],
+                    "sha1_file": "472c0e535d4823dfd164188ef6b67c8be1b804ec",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Luxembourg : Commission of the European Communities"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1987
+                    ],
+                    "updated_on": "2022-03-07 17:51:42",
+                    "meta_titleSorter": [
+                        "increasing the use of cereals in livestock feeding : proceedings of a symposium on \"increasing the use of cereals in livestock feeding\""
+                    ],
+                    "meta_subjectSorter": [
+                        "Livestock -- Feeding and feeds",
+                        "Grain as feed",
+                        "Animaux -- Alimentation -- Congre\u0300s",
+                        "Ce\u0301re\u0301ales fourrage\u0300res -- Congre\u0300s",
+                        "graansoorten",
+                        "cereals",
+                        "landen van de europese unie",
+                        "european union countries",
+                        "Cereals",
+                        "Animal Nutrition and Feeding (General)",
+                        "Graansoorten",
+                        "Diervoeding en voedering (algemeen)"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1987-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "market has stabilized, or even contracted, {{{making it increasingly}}} difficult for the Community to find\noutlets"
+                    ]
+                },
+                "_score": 9.033295,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL12907293M",
+                    "url": "/books/OL12907293M/Increasing_the_Use_of_Cereals_in_Livestock_Feeding_(Agriculture)",
+                    "title": "Increasing the Use of Cereals in Livestock Feeding (Agriculture)",
+                    "ocaid": "increasinguseofc0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL4111305A",
+                            "name": "W.F. Raymond"
+                        }
+                    ],
+                    "work_key": "/works/OL10122340W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12593726-M.jpg",
+                    "borrow_url": "/books/OL12907293M/Increasing_the_Use_of_Cereals_in_Livestock_Feeding_(Agriculture)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "increasinguseofc0000unse",
+                    "isbn": "9282576019",
+                    "oclc": null,
+                    "openlibrary_work": "OL10122340W",
+                    "openlibrary_edition": "OL12907293M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "successfuljobhun00leon|7d69788448de947ee55412c3ed7ec3eb37203ae1",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1386805718",
+                    "identifier": [
+                        "successfuljobhun00leon"
+                    ],
+                    "meta_publicdate": [
+                        "2013-01-22T21:15:17Z"
+                    ],
+                    "meta_titleSorter": [
+                        "successful job hunting : the inside scoop on finding the best jobs"
+                    ],
+                    "meta_downloads": [
+                        14
+                    ],
+                    "filename": [
+                        "successfuljobhun00leon_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 16:54:17",
+                    "file_basename": "successfuljobhun00leon",
+                    "meta_creatorSorter": [
+                        "corwen, leonard"
+                    ],
+                    "meta_title": [
+                        "Successful job hunting : the inside scoop on finding the best jobs"
+                    ],
+                    "page_num": [
+                        114
+                    ],
+                    "sha1_file": "d9aa141f775943d643d14535bb2e08b4460ee11e",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Charleston, WV : Cambridge Educational"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1995"
+                    ],
+                    "updated_on": "2020-08-30 03:49:04",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "americana",
+                        "fav-thewithsx3",
+                        "fav-thewadenatorx"
+                    ],
+                    "meta_subjectSorter": [
+                        "Employment interviewing",
+                        "Job hunting",
+                        "Careers / Job Opportunities"
+                    ],
+                    "meta_creator": [
+                        "Corwen, Leonard"
+                    ],
+                    "meta_date": [
+                        "1995-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "provide references on former employees, {{{making it increasingly}}} difficult for hiring managers to get critical"
+                    ]
+                },
+                "_score": 9.032215,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL12156234M",
+                    "url": "/books/OL12156234M/Successful_Job_Hunting",
+                    "title": "Successful Job Hunting",
+                    "ocaid": "successfuljobhun00leon",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL444100A",
+                            "name": "Leonard Corwen"
+                        }
+                    ],
+                    "work_key": "/works/OL2915718W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9429626-M.jpg",
+                    "borrow_url": "/books/OL12156234M/Successful_Job_Hunting/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "successfuljobhun00leon",
+                    "isbn": "1564502201",
+                    "oclc": null,
+                    "openlibrary_work": "OL2915718W",
+                    "openlibrary_edition": "OL12156234M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "storiesofmetis0000unse|32a086ab325c2d61c0b3bce731e62859fdeb70a8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1552010455",
+                    "identifier": [
+                        "storiesofmetis0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2019-03-05T09:15:01Z"
+                    ],
+                    "meta_downloads": [
+                        25
+                    ],
+                    "filename": [
+                        "storiesofmetis0000unse_abbyy.gz"
+                    ],
+                    "created_on": "2019-03-26 03:00:02",
+                    "file_basename": "storiesofmetis0000unse",
+                    "meta_title": [
+                        "Stories of the Me\u0301tis"
+                    ],
+                    "page_num": [
+                        166
+                    ],
+                    "sha1_file": "0f771f2b45fb04ef7d053969a5a8a99878bcfb02",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Winnipeg : Manitoba Metis Federation"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1973
+                    ],
+                    "updated_on": "2022-05-06 15:31:38",
+                    "meta_titleSorter": [
+                        "stories of the me\u0301tis"
+                    ],
+                    "meta_subjectSorter": [
+                        "Indians of North America -- Mixed descent",
+                        "Indians of North America -- Manitoba"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-dcabbo"
+                    ],
+                    "meta_date": [
+                        "1973-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "further and further away. The signs were {{{making it increasingly}}} obvious that the buffalo were being pushed"
+                    ]
+                },
+                "_score": 9.022811,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL21782141M",
+                    "url": "/books/OL21782141M/Stories_of_the_M\u00e9tis",
+                    "title": "Stories of the M\u00e9tis",
+                    "ocaid": "storiesofmetis0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL5572095A",
+                            "name": "Donald Bruce Sealey"
+                        }
+                    ],
+                    "work_key": "/works/OL17993829W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9486446-M.jpg",
+                    "borrow_url": "/books/OL21782141M/Stories_of_the_M\u00e9tis/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "storiesofmetis0000unse",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17993829W",
+                    "openlibrary_edition": "OL21782141M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

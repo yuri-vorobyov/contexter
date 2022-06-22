@@ -1,0 +1,2641 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1707,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.073967,
+        "hits": [
+            {
+                "_id": "marketsofonecrea00gilm|69da2788be3efe881ecd67df8e2cc4a780f5060e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1403774581",
+                    "identifier": [
+                        "marketsofonecrea00gilm"
+                    ],
+                    "meta_publicdate": [
+                        "2014-06-16T16:01:31Z"
+                    ],
+                    "meta_titleSorter": [
+                        "markets of one : creating customer-unique value through mass customization"
+                    ],
+                    "meta_downloads": [
+                        59
+                    ],
+                    "filename": [
+                        "marketsofonecrea00gilm_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 06:06:54",
+                    "file_basename": "marketsofonecrea00gilm",
+                    "meta_creatorSorter": [
+                        "gilmore, james h., 1959-"
+                    ],
+                    "meta_title": [
+                        "Markets of one : creating customer-unique value through mass customization"
+                    ],
+                    "page_num": [
+                        248
+                    ],
+                    "sha1_file": "fb3cbef8b2b29efa3072742e229d7e9533e448d7",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Boston, Mass. : Harvard Business School Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2000
+                    ],
+                    "updated_on": "2022-03-21 14:40:20",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "toronto",
+                        "fav-marbella_alexei_beer_vilansky",
+                        "fav-sergiy_muzyka",
+                        "denverpubliclibrary-ol",
+                        "johnshopkins-ol",
+                        "universityofarizona-ol",
+                        "wrlc-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Flexible manufacturing systems",
+                        "Product management",
+                        "Relationship marketing"
+                    ],
+                    "meta_creator": [
+                        "Gilmore, James H., 1959-",
+                        "Pine, B. Joseph",
+                        "NetLibrary, Inc"
+                    ],
+                    "meta_date": [
+                        "2000-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "vice versa. And advances in technology are {{{making it increasingly}}} easy for one member of the value chain",
+                        "marketing is basically oriented around {{{making it increasingly}}} convenient for a customer to buy, which"
+                    ]
+                },
+                "_score": 9.340677,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL15474536M",
+                    "url": "/books/OL15474536M/Markets_of_one",
+                    "title": "Markets of one",
+                    "ocaid": "marketsofonecrea00gilm",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2860404A",
+                            "name": "James H. Gilmore"
+                        },
+                        {
+                            "key": "/authors/OL3246261A",
+                            "name": "B. Joseph, II Pine"
+                        }
+                    ],
+                    "work_key": "/works/OL17036438W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5309674-M.jpg",
+                    "borrow_url": "/books/OL15474536M/Markets_of_one/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "marketsofonecrea00gilm",
+                    "isbn": "9781578512386",
+                    "oclc": null,
+                    "openlibrary_work": "OL17036438W",
+                    "openlibrary_edition": "OL15474536M",
+                    "last_loan_date": "2020-08-14T12:36:48Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "prohibitionprogr0000timb|8cf0784e83473f8c46cd216674bc1ab2f651fb9e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1616182638",
+                    "identifier": [
+                        "prohibitionprogr0000timb"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-13T11:24:56Z"
+                    ],
+                    "meta_titleSorter": [
+                        "prohibition and the progressive movement, 1900-1920"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "prohibitionprogr0000timb_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-19 20:41:07",
+                    "file_basename": "prohibitionprogr0000timb",
+                    "meta_creatorSorter": [
+                        "timberlake, james h., author"
+                    ],
+                    "meta_title": [
+                        "Prohibition and the progressive movement, 1900-1920"
+                    ],
+                    "page_num": [
+                        [
+                            264
+                        ]
+                    ],
+                    "sha1_file": "513560c32e719a27b7814bb6962bbd4b983fe54d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge, Massachusetts : Harvard University Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1963
+                    ],
+                    "updated_on": "2021-04-14 19:15:46",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Prohibition -- United States",
+                        "Progressivism (United States politics)",
+                        "Prohibition -- \u00c9tats-Unis",
+                        "Progressisme -- \u00c9tats-Unis",
+                        "Prohibition",
+                        "United States",
+                        "Prohibition United States"
+                    ],
+                    "meta_creator": [
+                        "Timberlake, James H., author"
+                    ],
+                    "meta_date": [
+                        "1963-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "for drinking and the liquor traffic were {{{making it increasingly}}} dificult to win men to Christ. Indeed,",
+                        "civilization. Industrialism, moreover, was {{{making it increasingly}}} dangerous for Americans to drink, for,"
+                    ]
+                },
+                "_score": 9.337084,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5879036M",
+                    "url": "/books/OL5879036M/Prohibition_and_the_progressive_movement_1900-1920",
+                    "title": "Prohibition and the progressive movement, 1900-1920",
+                    "ocaid": "prohibitionprogr0000timb",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2196262A",
+                            "name": "James H. Timberlake"
+                        }
+                    ],
+                    "work_key": "/works/OL142139W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9017117-M.jpg",
+                    "borrow_url": "/books/OL5879036M/Prohibition_and_the_progressive_movement_1900-1920/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "prohibitionprogr0000timb",
+                    "isbn": "9780674865495",
+                    "oclc": null,
+                    "openlibrary_work": "OL142139W",
+                    "openlibrary_edition": "OL5879036M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "statelocalgovern0000unse_z7q7|9dca5298a72f6201b5e2e7f7752c16216862c55b",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1643450629",
+                    "identifier": [
+                        "statelocalgovern0000unse_z7q7"
+                    ],
+                    "meta_publicdate": [
+                        "2022-01-26T08:51:39Z"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "statelocalgovern0000unse_z7q7_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-01-29 10:26:23",
+                    "file_basename": "statelocalgovern0000unse_z7q7",
+                    "meta_title": [
+                        "State and local government 2016-2017"
+                    ],
+                    "page_num": [
+                        [
+                            190
+                        ]
+                    ],
+                    "sha1_file": "fd296716b367a9186ef1aea0727b35a39c1b2311",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Place of publication not identified] : Cq Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2016
+                    ],
+                    "updated_on": "2022-03-09 14:07:19",
+                    "meta_titleSorter": [
+                        "state and local government 2016-2017"
+                    ],
+                    "meta_subjectSorter": [
+                        "State governments -- United States",
+                        "Local governments -- United States",
+                        "Politics and government",
+                        "State governments",
+                        "United States -- Politics and government -- 2009-2017",
+                        "United States"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "2016-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "presidential level, where demographic patterns are {{{making it increasingly}}} challenging for the Republican Party to",
+                        "the same token, structural factors are {{{making it increasingly}}} difficult for the Democrats to take control"
+                    ]
+                },
+                "_score": 9.337084,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL28622868M",
+                    "url": "/books/OL28622868M/State_and_Local_Government_2016-2017",
+                    "title": "State and Local Government,2016-2017",
+                    "ocaid": "statelocalgovern0000unse_z7q7",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7698685A",
+                            "name": "Kevin B. Smith"
+                        }
+                    ],
+                    "work_key": "/works/OL21143714W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12596681-M.jpg",
+                    "borrow_url": "/books/OL28622868M/State_and_Local_Government_2016-2017/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "statelocalgovern0000unse_z7q7",
+                    "isbn": "1506358209",
+                    "oclc": null,
+                    "openlibrary_work": "OL21143714W",
+                    "openlibrary_edition": "OL28622868M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "caseforghosts00jall|3c52a0d34610189e20367bdefeffebc6da775ea3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1333466974",
+                    "identifier": [
+                        "caseforghosts00jall"
+                    ],
+                    "meta_publicdate": [
+                        "2011-10-25T16:54:42Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the case for ghosts : an objective look at the paranormal"
+                    ],
+                    "meta_downloads": [
+                        77
+                    ],
+                    "filename": [
+                        "caseforghosts00jall_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 13:25:14",
+                    "file_basename": "caseforghosts00jall",
+                    "meta_creatorSorter": [
+                        "danelek, j. allan, 1958-"
+                    ],
+                    "meta_title": [
+                        "The case for ghosts : an objective look at the paranormal"
+                    ],
+                    "page_num": [
+                        246
+                    ],
+                    "sha1_file": "debe07097b673fd126e019118bf1092065e26d65",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Woodbury, Minn. : Llewellyn Publications"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2006"
+                    ],
+                    "updated_on": "2020-08-30 00:39:32",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "delawarecountydistrictlibrary",
+                        "china",
+                        "americana",
+                        "fav-bouncetiger",
+                        "fav-violetmckenzie",
+                        "delawarecountydistrictlibrary-ol",
+                        "denverpubliclibrary-ol",
+                        "hamiltonpubliclibrary-ol",
+                        "library_of_atlantis"
+                    ],
+                    "meta_subjectSorter": [
+                        "Parapsychology, psychic powers, ESP",
+                        "Unexplained Phenomena",
+                        "New Age Movement",
+                        "Body, Mind & Spirit",
+                        "New Age / Body, Mind & Spirit",
+                        "New Age",
+                        "Supernatural",
+                        "Body, Mind & Spirit / Parapsychology",
+                        "Ghosts"
+                    ],
+                    "meta_creator": [
+                        "Danelek, J. Allan, 1958-"
+                    ],
+                    "meta_date": [
+                        "2006-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "each generation and vary among cultures, {{{making it increasingly}}} difficult to define \"sin\" at all. Whereas",
+                        "with how easily it can be done)17 thus {{{making it increasingly}}} difficult for a hoaxer to fool the competent"
+                    ]
+                },
+                "_score": 9.330219,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7911563M",
+                    "url": "/books/OL7911563M/Case_for_Ghosts",
+                    "title": "Case for Ghosts",
+                    "ocaid": "caseforghosts00jall",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2811040A",
+                            "name": "J. Allan Danelek"
+                        }
+                    ],
+                    "work_key": "/works/OL8420649W",
+                    "cover_url": "//covers.openlibrary.org/w/id/466920-M.jpg",
+                    "borrow_url": "/books/OL7911563M/Case_for_Ghosts/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "caseforghosts00jall",
+                    "isbn": "0738708658",
+                    "oclc": null,
+                    "openlibrary_work": "OL8420649W",
+                    "openlibrary_edition": "OL7911563M",
+                    "last_loan_date": "2020-06-13T08:16:03Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "cocuofficialrepo0000cons|57ae89c92ae335643aa220ea32ad9667d57355bb",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1616944548",
+                    "identifier": [
+                        "cocuofficialrepo0000cons"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-19T08:30:17Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cocu, the official reports of the four meetings of the consultation"
+                    ],
+                    "meta_downloads": [
+                        2
+                    ],
+                    "filename": [
+                        "cocuofficialrepo0000cons_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-28 15:41:34",
+                    "file_basename": "cocuofficialrepo0000cons",
+                    "meta_creatorSorter": [
+                        "consultation on church union"
+                    ],
+                    "meta_title": [
+                        "COCU, the official reports of the four meetings of the Consultation"
+                    ],
+                    "page_num": [
+                        [
+                            106
+                        ]
+                    ],
+                    "sha1_file": "3cc5c8f4021b648dd537b1f0d8a952dc99222d7a",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Cincinnati], [Forward Movement Publications]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1966
+                    ],
+                    "updated_on": "2022-05-08 06:24:09",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Christian union"
+                    ],
+                    "meta_creator": [
+                        "Consultation on Church Union"
+                    ],
+                    "meta_date": [
+                        "1966-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "dimensions. A new understanding of Tradition is {{{making it increasingly}}} clear that Tradition cannot simply be equated"
+                    ]
+                },
+                "_score": 9.326068,
+                "_type": "_doc"
+            },
+            {
+                "_id": "cihm_73515|55f98a6386b90852d7ad80daa197cac5597f78b7",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1356519881",
+                    "identifier": [
+                        "cihm_73515"
+                    ],
+                    "meta_publicdate": [
+                        "2012-11-08T19:02:13Z"
+                    ],
+                    "meta_titleSorter": [
+                        "mental efficiency [microform] : and other hints to men and women"
+                    ],
+                    "meta_downloads": [
+                        220
+                    ],
+                    "filename": [
+                        "cihm_73515_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 10:39:52",
+                    "file_basename": "cihm_73515",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "Mental efficiency [microform] : and other hints to men and women"
+                    ],
+                    "page_num": [
+                        129
+                    ],
+                    "sha1_file": "c4b023cc49009074bd71ce0cadc57cdcbb4d4eaf",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Toronto : Musson"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1911"
+                    ],
+                    "updated_on": "2020-09-23 22:39:14",
+                    "meta_collection": [
+                        "university_of_alberta_libraries_microfilm",
+                        "university_of_alberta_libraries",
+                        "toronto",
+                        "microfilm",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conduct of life",
+                        "Morale pratique",
+                        "Efficience (Psychologie)",
+                        "Mental efficiency"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_date": [
+                        "1911-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "all elements to one ele- ment. Science is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.324821,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL17482670M",
+                    "url": "/books/OL17482670M/Mental_efficiency",
+                    "title": "Mental efficiency",
+                    "ocaid": "cihm_73515",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109124W",
+                    "cover_url": "//covers.openlibrary.org/w/id/1449670-M.jpg",
+                    "read_url": "/books/OL17482670M/Mental_efficiency/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "cihm_73515",
+                    "isbn": "0665735154",
+                    "oclc": null,
+                    "openlibrary_work": "OL109124W",
+                    "openlibrary_edition": "OL17482670M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "survivingenjoyin0000barr|4e9eb8ccff8eefbe9830966522b64c5771b8d724",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1599331005",
+                    "identifier": [
+                        "survivingenjoyin0000barr"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-01T04:25:29Z"
+                    ],
+                    "meta_titleSorter": [
+                        "surviving and enjoying your adolescent"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "survivingenjoyin0000barr_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-05 18:58:58",
+                    "file_basename": "survivingenjoyin0000barr",
+                    "meta_creatorSorter": [
+                        "barrish, i. j., 1945-"
+                    ],
+                    "meta_title": [
+                        "Surviving and enjoying your adolescent"
+                    ],
+                    "page_num": [
+                        102
+                    ],
+                    "sha1_file": "6fd9e00516bbffc76390da0d58ee52b27c2d7c75",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Kansas City, Mo. : Westport Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1989"
+                    ],
+                    "updated_on": "2020-10-22 05:49:23",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Adolescence",
+                        "Adolescent psychology",
+                        "Parent and teenager"
+                    ],
+                    "meta_creator": [
+                        "Barrish, I. J., 1945-"
+                    ],
+                    "meta_date": [
+                        "1989-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "multitude of alternative lifestyles, thereby {{{making it increasingly}}} tough for adolescents to know who they"
+                    ]
+                },
+                "_score": 9.322294,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2215290M",
+                    "url": "/books/OL2215290M/Surviving_and_enjoying_your_adolescent",
+                    "title": "Surviving and enjoying your adolescent",
+                    "ocaid": "survivingenjoyin0000barr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1010427A",
+                            "name": "I. J. Barrish"
+                        }
+                    ],
+                    "work_key": "/works/OL4801105W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8468873-M.jpg",
+                    "borrow_url": "/books/OL2215290M/Surviving_and_enjoying_your_adolescent/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "survivingenjoyin0000barr",
+                    "isbn": "093370142X",
+                    "oclc": null,
+                    "openlibrary_work": "OL4801105W",
+                    "openlibrary_edition": "OL2215290M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "networkwiretappi00unit|f4c295d74e3198530baadb24c98c7a94ca6244d4",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1206673614",
+                    "identifier": [
+                        "networkwiretappi00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-03-21T18:40:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "network wiretapping capabilities : hearing before the subcommittee on telecommunications and finance of the committee on energy and commerce, house of representatives, one hundred third congress, second session, september 13, 1994"
+                    ],
+                    "meta_downloads": [
+                        1936
+                    ],
+                    "filename": [
+                        "networkwiretappi00unit_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 23:31:59",
+                    "file_basename": "networkwiretappi00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on energy and commerce. subcommittee on telecommunications and finance"
+                    ],
+                    "meta_title": [
+                        "Network wiretapping capabilities : hearing before the Subcommittee on Telecommunications and Finance of the Committee on Energy and Commerce, House of Representatives, One Hundred Third Congress, second session, September 13, 1994"
+                    ],
+                    "page_num": [
+                        200
+                    ],
+                    "sha1_file": "2ca0a6e530cfd87aaecffa23c9626f8a4bccdbe7",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1995
+                    ],
+                    "updated_on": "2022-04-05 04:06:35",
+                    "meta_collection": [
+                        "USGovernmentDocuments",
+                        "bostonpubliclibrary",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Telecommunication lines -- United States",
+                        "Wiretapping -- United States",
+                        "Privacy, Right of -- United States"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on Energy and Commerce. Subcommittee on Telecommunications and Finance"
+                    ],
+                    "meta_date": [
+                        "1995-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "advancing telephone technology which is {{{making it increasingly}}} difficult, if not impossible, to preserve",
+                        "advancing telephone technology which is {{{making it increasingly}}} difficult, it not impossible, to preserve"
+                    ]
+                },
+                "_score": 9.315635,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL17682911M",
+                    "url": "/books/OL17682911M/Network_wiretapping_capabilities",
+                    "title": "Network wiretapping capabilities",
+                    "ocaid": "networkwiretappi00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL463688A",
+                            "name": "United States. Congress. House. Committee on Energy and Commerce. Subcommittee on Telecommunications and Finance."
+                        }
+                    ],
+                    "work_key": "/works/OL3014492W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5379834-M.jpg",
+                    "read_url": "/books/OL17682911M/Network_wiretapping_capabilities/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "networkwiretappi00unit",
+                    "isbn": "0160468299",
+                    "oclc": null,
+                    "openlibrary_work": "OL3014492W",
+                    "openlibrary_edition": "OL17682911M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "humanitarianreli00unit|236dde2c303b69bc7b7fcba24e98912faddc0048",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1207709806",
+                    "identifier": [
+                        "humanitarianreli00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-04-04T19:09:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "humanitarian relief efforts in haiti : hearing before the subcommittee on the western hemisphere affairs of the committee on foreign affairs, house of representatives, one hundred third congress, second session, february 9, 1994"
+                    ],
+                    "meta_downloads": [
+                        624
+                    ],
+                    "filename": [
+                        "humanitarianreli00unit_abbyy.gz"
+                    ],
+                    "created_on": "2017-05-31 06:57:40",
+                    "file_basename": "humanitarianreli00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on foreign affairs. subcommittee on western hemisphere affairs"
+                    ],
+                    "meta_title": [
+                        "Humanitarian relief efforts in Haiti : hearing before the Subcommittee on the Western Hemisphere Affairs of the Committee on Foreign Affairs, House of Representatives, One Hundred Third Congress, second session, February 9, 1994"
+                    ],
+                    "page_num": [
+                        64
+                    ],
+                    "sha1_file": "9f1a6b322383aeb6ac905617310a7a466aa33355",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1994
+                    ],
+                    "updated_on": "2022-04-04 03:04:29",
+                    "meta_collection": [
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Food relief -- Haiti",
+                        "Political stability -- Haiti",
+                        "Democracy -- Haiti",
+                        "Haiti -- Politics and government 1986-",
+                        "United States -- Foreign relations Haiti",
+                        "Haiti -- Foreign relations United States"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on Foreign Affairs. Subcommittee on Western Hemisphere Affairs"
+                    ],
+                    "meta_date": [
+                        "1994-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "aid groups report that fuel shortages are {{{making it increasingly}}} difficult to carry out feeding programs"
+                    ]
+                },
+                "_score": 9.313086,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL1204847M",
+                    "url": "/books/OL1204847M/Humanitarian_relief_efforts_in_Haiti",
+                    "title": "Humanitarian relief efforts in Haiti",
+                    "ocaid": "humanitarianreli00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL496111A",
+                            "name": "United States. Congress. House. Committee on Foreign Affairs. Subcommittee on Western Hemisphere Affairs."
+                        }
+                    ],
+                    "work_key": "/works/OL3134158W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4584585-M.jpg",
+                    "read_url": "/books/OL1204847M/Humanitarian_relief_efforts_in_Haiti/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "humanitarianreli00unit",
+                    "isbn": "016044568X",
+                    "oclc": null,
+                    "openlibrary_work": "OL3134158W",
+                    "openlibrary_edition": "OL1204847M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "correctinggender00nier|d6886ab196b0e0f9da402a834e8d635c70cde215",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1344257509",
+                    "identifier": [
+                        "correctinggender00nier"
+                    ],
+                    "meta_publicdate": [
+                        "2012-05-01T20:59:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "correcting gender myopia : gender equity, women's welfare, and the environment"
+                    ],
+                    "meta_downloads": [
+                        25
+                    ],
+                    "filename": [
+                        "correctinggender00nier_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 01:57:15",
+                    "file_basename": "correctinggender00nier",
+                    "meta_creatorSorter": [
+                        "nierenberg, danielle"
+                    ],
+                    "meta_title": [
+                        "Correcting gender myopia : gender equity, women's welfare, and the environment"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "ed689e33951099687d127b8908c62e35aa6d5711",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, DC : Worldwatch Institute"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2002
+                    ],
+                    "updated_on": "2022-05-09 01:16:18",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china"
+                    ],
+                    "meta_subjectSorter": [
+                        "Sex discrimination against women",
+                        "Women's rights",
+                        "Women"
+                    ],
+                    "meta_creator": [
+                        "Nierenberg, Danielle",
+                        "Worldwatch Institute",
+                        "Prugh, Thomas"
+                    ],
+                    "meta_date": [
+                        "2002-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "sexual coercion. But the impact of AIDS is {{{making it increasingly}}} difficult to implement even the most basic"
+                    ]
+                },
+                "_score": 9.313086,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL8658852M",
+                    "url": "/books/OL8658852M/Reading_the_Weathervane",
+                    "title": "Reading the Weathervane",
+                    "ocaid": "correctinggender00nier",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1510284A",
+                            "name": "Seth Dunn"
+                        }
+                    ],
+                    "work_key": "/works/OL6017852W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4832450-M.jpg",
+                    "borrow_url": "/books/OL8658852M/Reading_the_Weathervane/borrow"
+                },
+                "availability": {
+                    "status": "private",
+                    "available_to_browse": null,
+                    "available_to_borrow": null,
+                    "available_to_waitlist": null,
+                    "is_printdisabled": null,
+                    "is_readable": null,
+                    "is_lendable": null,
+                    "is_previewable": true,
+                    "identifier": "correctinggender00nier",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL6017852W",
+                    "openlibrary_edition": "OL8658852M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": null,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "lifeofharriettub0000schr|616a7c914d4a98cd7f2780981ba7e09df7a14e32",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1615179347",
+                    "identifier": [
+                        "lifeofharriettub0000schr"
+                    ],
+                    "meta_publicdate": [
+                        "2020-12-27T23:01:42Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the life of harriet tubman : moses of the underground railroad"
+                    ],
+                    "meta_downloads": [
+                        5
+                    ],
+                    "filename": [
+                        "lifeofharriettub0000schr_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-08 05:09:10",
+                    "file_basename": "lifeofharriettub0000schr",
+                    "meta_creatorSorter": [
+                        "schraff, anne e"
+                    ],
+                    "meta_title": [
+                        "The life of Harriet Tubman : Moses of the Underground Railroad"
+                    ],
+                    "page_num": [
+                        [
+                            108
+                        ]
+                    ],
+                    "sha1_file": "f8e4ea723140ed7c7e256237181434a65f4ca991",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Berkeley Heights, NJ : Enslow Publishers, Inc."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2014
+                    ],
+                    "updated_on": "2021-04-09 13:23:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "delawarecountydistrictlibrary-ol",
+                        "worthingtonlibraries-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Tubman, Harriet, 1822-1913 -- Juvenile literature",
+                        "Tubman, Harriet, 1822-1913",
+                        "Slaves -- United States -- Biography -- Juvenile literature",
+                        "African American women -- Biography -- Juvenile literature",
+                        "African Americans -- Biography -- Juvenile literature",
+                        "Underground Railroad -- Juvenile literature",
+                        "JUVENILE NONFICTION -- Biography & Autobiography -- General",
+                        "African American women",
+                        "African Americans",
+                        "Slaves",
+                        "Underground Railroad",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "Schraff, Anne E"
+                    ],
+                    "meta_date": [
+                        "2014-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "grown furrowed, and her rheumatism was {{{making it increasingly}}} difficult for her to get around. Her mind"
+                    ]
+                },
+                "_score": 9.305426,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL27544236M",
+                    "url": "/books/OL27544236M/The_Life_of_Harriet_Tubman",
+                    "title": "The Life of Harriet Tubman",
+                    "ocaid": "lifeofharriettub0000schr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL201279A",
+                            "name": "Anne E. Schraff"
+                        }
+                    ],
+                    "work_key": "/works/OL20336051W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8999869-M.jpg",
+                    "borrow_url": "/books/OL27544236M/The_Life_of_Harriet_Tubman/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "lifeofharriettub0000schr",
+                    "isbn": "9780766061408",
+                    "oclc": null,
+                    "openlibrary_work": "OL20336051W",
+                    "openlibrary_edition": "OL27544236M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "industrialleader00gantuoft|b4fc421029ea595aaf3f8de2eaf7bc2edf9041e7",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1191475490",
+                    "identifier": [
+                        "industrialleader00gantuoft"
+                    ],
+                    "meta_publicdate": [
+                        "2007-10-03T13:21:35Z"
+                    ],
+                    "meta_titleSorter": [
+                        "industrial leadership"
+                    ],
+                    "meta_downloads": [
+                        969
+                    ],
+                    "filename": [
+                        "industrialleader00gantuoft_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 22:42:58",
+                    "file_basename": "industrialleader00gantuoft",
+                    "meta_creatorSorter": [
+                        "gantt, henry laurence, 1861-1919"
+                    ],
+                    "meta_title": [
+                        "Industrial leadership"
+                    ],
+                    "page_num": [
+                        178
+                    ],
+                    "sha1_file": "b372e6e0099e66afcf2e2a26059be288bef3fed0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New Haven, Yale Univ. Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1916
+                    ],
+                    "updated_on": "2022-04-04 03:50:00",
+                    "meta_collection": [
+                        "robarts",
+                        "toronto",
+                        "fav-frangryphon"
+                    ],
+                    "meta_subjectSorter": [
+                        "Efficiency, Industrial"
+                    ],
+                    "meta_creator": [
+                        "Gantt, Henry Laurence, 1861-1919"
+                    ],
+                    "meta_date": [
+                        "1916-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "The great war now devastating Europe is {{{making it increasingly}}} clear that we are living in an industrial"
+                    ]
+                },
+                "_score": 9.300322,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7179174M",
+                    "url": "/books/OL7179174M/Industrial_leadership.",
+                    "title": "Industrial leadership.",
+                    "ocaid": "industrialleader00gantuoft",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2030869A",
+                            "name": "Henry Laurence Gantt"
+                        }
+                    ],
+                    "work_key": "/works/OL7138474W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5658792-M.jpg",
+                    "read_url": "/books/OL7179174M/Industrial_leadership./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "industrialleader00gantuoft",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7138474W",
+                    "openlibrary_edition": "OL7179174M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "unplughowtosurvi0000wied|94677d693c882155fde5f77c0bcdef946e90ac0e",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1644818702",
+                    "identifier": [
+                        "unplughowtosurvi0000wied"
+                    ],
+                    "meta_publicdate": [
+                        "2022-02-09T05:32:32Z"
+                    ],
+                    "meta_titleSorter": [
+                        "unplug : how to survive and thrive in a wi-fi world gone wild"
+                    ],
+                    "meta_downloads": [
+                        4
+                    ],
+                    "filename": [
+                        "unplughowtosurvi0000wied_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-02-14 06:27:15",
+                    "file_basename": "unplughowtosurvi0000wied",
+                    "meta_creatorSorter": [
+                        "wieder, sam, author"
+                    ],
+                    "meta_title": [
+                        "Unplug : how to survive and thrive in a wi-fi world gone wild"
+                    ],
+                    "page_num": [
+                        [
+                            110
+                        ]
+                    ],
+                    "sha1_file": "32ab174e98f9a9442d478ee86de77a884d224be1",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Greenburg, PA : New Energy Dynamics"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2015
+                    ],
+                    "updated_on": "2022-03-09 22:39:40",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Human beings -- Effect of radiation on",
+                        "Electromagnetism -- Health aspects",
+                        "Electromagnetism -- Physiological effect",
+                        "Electromagnetic waves"
+                    ],
+                    "meta_creator": [
+                        "Wieder, Sam, author"
+                    ],
+                    "meta_date": [
+                        "2015-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "noticeably by early afternoon,\n48 Unplug\n{{{making it increasingly}}} difficult for me to focus and accomplish"
+                    ]
+                },
+                "_score": 9.295347,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL27508688M",
+                    "url": "/books/OL27508688M/Unplug",
+                    "title": "Unplug",
+                    "ocaid": "unplughowtosurvi0000wied",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7696186A",
+                            "name": "Sam Wieder"
+                        }
+                    ],
+                    "work_key": "/works/OL20305515W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8965437-M.jpg",
+                    "borrow_url": "/books/OL27508688M/Unplug/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "unplughowtosurvi0000wied",
+                    "isbn": "9781892241030",
+                    "oclc": null,
+                    "openlibrary_work": "OL20305515W",
+                    "openlibrary_edition": "OL27508688M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "beyondpaycheckto0000rubi|43a35da6a5667f62e0c4465a9f50ab5b9121ee52",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1569261951",
+                    "identifier": [
+                        "beyondpaycheckto0000rubi"
+                    ],
+                    "meta_publicdate": [
+                        "2019-09-21T03:40:43Z"
+                    ],
+                    "meta_titleSorter": [
+                        "beyond paycheck to paycheck : a conversation about income, wealth, and the steps in between"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "beyondpaycheckto0000rubi_abbyy.gz"
+                    ],
+                    "created_on": "2019-09-25 08:26:29",
+                    "file_basename": "beyondpaycheckto0000rubi",
+                    "meta_creatorSorter": [
+                        "rubin, michael b"
+                    ],
+                    "meta_title": [
+                        "Beyond paycheck to paycheck : a conversation about income, wealth, and the steps in between"
+                    ],
+                    "page_num": [
+                        294
+                    ],
+                    "sha1_file": "99e96f28c3c62f55dd9f93c583b0e11eeb01f5fc",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portsmouth, N.H. : Wachtel & Martin"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2007"
+                    ],
+                    "updated_on": "2020-09-22 22:50:02",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "holdings-test"
+                    ],
+                    "meta_subjectSorter": [
+                        "Finance, Personal"
+                    ],
+                    "meta_creator": [
+                        "Rubin, Michael B"
+                    ],
+                    "meta_date": [
+                        "2007-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "additional fees and interest can be charged, {{{making it increasingly}}} difficult for you to get out of debt.\nBeyond",
+                        "you owe grow through compounding as well, {{{making it increasingly}}} difficult to pay back your debt. This is"
+                    ]
+                },
+                "_score": 9.294073,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL11837842M",
+                    "url": "/books/OL11837842M/Beyond_Paycheck_to_Paycheck",
+                    "title": "Beyond Paycheck to Paycheck",
+                    "ocaid": "beyondpaycheckto0000rubi",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3762897A",
+                            "name": "Michael B. Rubin"
+                        }
+                    ],
+                    "work_key": "/works/OL9774096W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2730076-M.jpg",
+                    "borrow_url": "/books/OL11837842M/Beyond_Paycheck_to_Paycheck/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "beyondpaycheckto0000rubi",
+                    "isbn": "0978792785",
+                    "oclc": null,
+                    "openlibrary_work": "OL9774096W",
+                    "openlibrary_edition": "OL11837842M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "henryfordmuseum0000unse|307d5310843ed4cb7e85a00c0724d44a5c0cd8f9",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1617689026",
+                    "identifier": [
+                        "henryfordmuseum0000unse"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-25T10:32:08Z"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "henryfordmuseum0000unse_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-04-06 08:08:45",
+                    "file_basename": "henryfordmuseum0000unse",
+                    "meta_title": [
+                        "The Henry Ford Museum"
+                    ],
+                    "page_num": [
+                        [
+                            158
+                        ]
+                    ],
+                    "sha1_file": "8df59f5d2d518e87c51e2a69834049bf09f71894",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : Crown Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1977
+                    ],
+                    "updated_on": "2021-06-16 09:13:23",
+                    "meta_titleSorter": [
+                        "the henry ford museum"
+                    ],
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_date": [
+                        "1977-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "efforts at tilling the American soil and {{{making it increasingly}}} productive; the full story of man\u2019s utilization"
+                    ]
+                },
+                "_score": 9.288425,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL10433772M",
+                    "url": "/books/OL10433772M/Herny_Ford_Museum",
+                    "title": "Herny Ford Museum",
+                    "ocaid": "henryfordmuseum0000unse",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3432827A",
+                            "name": "Henry Ford Museum Staff"
+                        }
+                    ],
+                    "work_key": "/works/OL9396162W",
+                    "cover_url": "//covers.openlibrary.org/w/id/10966995-M.jpg",
+                    "borrow_url": "/books/OL10433772M/Herny_Ford_Museum/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "henryfordmuseum0000unse",
+                    "isbn": "0517506793",
+                    "oclc": null,
+                    "openlibrary_work": "OL9396162W",
+                    "openlibrary_edition": "OL10433772M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "membersdayhearin00unit|b8f47138063287d67d09fc0eb9071128ae72a0c8",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1216682985",
+                    "identifier": [
+                        "membersdayhearin00unit"
+                    ],
+                    "meta_publicdate": [
+                        "2008-07-16T17:17:07Z"
+                    ],
+                    "meta_titleSorter": [
+                        "members' day : hearing before the committee on the budget, house of representatives, one hundred fourth congress, second session, hearing held in washington, dc, march 22, 1996"
+                    ],
+                    "meta_downloads": [
+                        875
+                    ],
+                    "filename": [
+                        "membersdayhearin00unit_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 16:34:50",
+                    "file_basename": "membersdayhearin00unit",
+                    "meta_creatorSorter": [
+                        "united states. congress. house. committee on the budget"
+                    ],
+                    "meta_title": [
+                        "Members' day : hearing before the Committee on the Budget, House of Representatives, One Hundred Fourth Congress, second session, hearing held in Washington, DC, March 22, 1996"
+                    ],
+                    "page_num": [
+                        136
+                    ],
+                    "sha1_file": "5f7b28f7d7f9015e3179e9fbf11e10d6d6be52ef",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1996
+                    ],
+                    "updated_on": "2022-04-04 11:14:57",
+                    "meta_collection": [
+                        "USGovernmentDocuments",
+                        "bostonpubliclibrary",
+                        "americana",
+                        "additional_collections"
+                    ],
+                    "meta_subjectSorter": [
+                        "Budet deficits -- United States",
+                        "Military readiness -- Economic aspects",
+                        "National security -- United States",
+                        "United States -- Appropriations and expenditures, 1996"
+                    ],
+                    "meta_creator": [
+                        "United States. Congress. House. Committee on the Budget"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "about 93 percent of its lands nontaxable, {{{making it increasingly}}} difficult for the school system to raise",
+                        "about 93 percent of its lands nontaxable, {{{making it increasingly}}} difficult for the school system to raise"
+                    ]
+                },
+                "_score": 9.282061,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL619433M",
+                    "url": "/books/OL619433M/Members'_day",
+                    "title": "Members' day",
+                    "ocaid": "membersdayhearin00unit",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL48127A",
+                            "name": "United States. Congress. House. Committee on the Budget."
+                        }
+                    ],
+                    "work_key": "/works/OL626906W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4590288-M.jpg",
+                    "read_url": "/books/OL619433M/Members'_day/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "membersdayhearin00unit",
+                    "isbn": "016053416X",
+                    "oclc": null,
+                    "openlibrary_work": "OL626906W",
+                    "openlibrary_edition": "OL619433M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "industrialleader0000gant|0b2c754088e1c07c50c776bc522c6ee8a0c4ea86",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1556169493",
+                    "identifier": [
+                        "industrialleader0000gant"
+                    ],
+                    "meta_publicdate": [
+                        "2019-04-23T03:04:00Z"
+                    ],
+                    "meta_titleSorter": [
+                        "industrial leadership. --"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "industrialleader0000gant_abbyy.gz"
+                    ],
+                    "created_on": "2019-04-25 18:48:14",
+                    "file_basename": "industrialleader0000gant",
+                    "meta_creatorSorter": [
+                        "gantt, henry laurence, 1861-1919"
+                    ],
+                    "meta_title": [
+                        "Industrial leadership. --"
+                    ],
+                    "page_num": [
+                        170
+                    ],
+                    "sha1_file": "267702ac3c357b49eed501b5bc4d75851be105e2",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Easton [Pa.] : Hive Pub. Co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1974
+                    ],
+                    "updated_on": "2022-01-26 00:14:50",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-vasilich123",
+                        "marymount-ol",
+                        "schroederlibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Industrial management"
+                    ],
+                    "meta_creator": [
+                        "Gantt, Henry Laurence, 1861-1919"
+                    ],
+                    "meta_date": [
+                        "1974-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "The great war now devastating Europe is {{{making it increasingly}}} clear that we are living in an industrial"
+                    ]
+                },
+                "_score": 9.281805,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL5289720M",
+                    "url": "/books/OL5289720M/Industrial_leadership.",
+                    "title": "Industrial leadership.",
+                    "ocaid": "industrialleader0000gant",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2030869A",
+                            "name": "Henry Laurence Gantt"
+                        }
+                    ],
+                    "work_key": "/works/OL7138474W",
+                    "cover_url": "//covers.openlibrary.org/w/id/5658792-M.jpg",
+                    "borrow_url": "/books/OL5289720M/Industrial_leadership./borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "industrialleader0000gant",
+                    "isbn": "0879600446",
+                    "oclc": null,
+                    "openlibrary_work": "OL7138474W",
+                    "openlibrary_edition": "OL5289720M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "fiscalyear1999ou00bake|81507bc49f7899886ef9c96fe1bbfd497d56a623",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1328122890",
+                    "identifier": [
+                        "fiscalyear1999ou00bake"
+                    ],
+                    "meta_publicdate": [
+                        "2012-02-01T04:03:28Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the fiscal year 1999 outlay estimate difference between the department of defense and the congressional budget office"
+                    ],
+                    "meta_downloads": [
+                        433
+                    ],
+                    "filename": [
+                        "fiscalyear1999ou00bake_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 11:14:00",
+                    "file_basename": "fiscalyear1999ou00bake",
+                    "meta_creatorSorter": [
+                        "baker, robert s."
+                    ],
+                    "meta_title": [
+                        "The fiscal year 1999 outlay estimate difference between the Department of Defense and the Congressional Budget Office"
+                    ],
+                    "page_num": [
+                        136
+                    ],
+                    "sha1_file": "e6f759322c013c3dc580f287e3675366a4b44084",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Monterey, California: Naval Postgraduate School;Springfield, Va.: Available from National Technical Information Service"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1999
+                    ],
+                    "updated_on": "2022-04-01 06:31:40",
+                    "meta_collection": [
+                        "navalpostgraduateschoollibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_creator": [
+                        "Baker, Robert S."
+                    ],
+                    "meta_date": [
+                        "1999-06-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "problems and the lure of budget surpluses are {{{making it increasingly}}} difficult for Congress to fund defense"
+                    ]
+                },
+                "_score": 9.2804575,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25183742M",
+                    "url": "/books/OL25183742M/The_fiscal_year_1999_outlay_estimate_difference_between_the_Department_of_Defense_and_the_Congressio",
+                    "title": "The fiscal year 1999 outlay estimate difference between the Department of Defense and the Congressional Budget Office",
+                    "ocaid": "fiscalyear1999ou00bake",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2817206A",
+                            "name": "Robert S. Baker"
+                        }
+                    ],
+                    "work_key": "/works/OL16483079W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7022417-M.jpg",
+                    "read_url": "/books/OL25183742M/The_fiscal_year_1999_outlay_estimate_difference_between_the_Department_of_Defense_and_the_Congressio/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "fiscalyear1999ou00bake",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL16483079W",
+                    "openlibrary_edition": "OL25183742M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "kansaindianshist0000unra|c82572617d12ba250a6fc1b1fe92a1901d018ff4",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1553747536",
+                    "identifier": [
+                        "kansaindianshist0000unra"
+                    ],
+                    "meta_publicdate": [
+                        "2019-03-27T23:07:32Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the kansa indians : a history of the wind people, 1673-1873"
+                    ],
+                    "meta_downloads": [
+                        45
+                    ],
+                    "filename": [
+                        "kansaindianshist0000unra_abbyy.gz"
+                    ],
+                    "created_on": "2019-03-29 18:30:38",
+                    "file_basename": "kansaindianshist0000unra",
+                    "meta_creatorSorter": [
+                        "unrau, william e., 1929-"
+                    ],
+                    "meta_title": [
+                        "The Kansa Indians : a history of the Wind People, 1673-1873"
+                    ],
+                    "page_num": [
+                        290
+                    ],
+                    "sha1_file": "fbcd2eb2519c90f4a1e875794eac8becc65308e9",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Norman : University of Oklahoma Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1971
+                    ],
+                    "updated_on": "2022-01-27 17:18:54",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "trent_university",
+                        "internetarchivebooks",
+                        "fav-boljedor",
+                        "fav-essie_yesterday",
+                        "americanuniversity-ol",
+                        "barryuniversity-ol",
+                        "binghamton-ol",
+                        "dartmouthlibrary-ol",
+                        "drakeuniversity-ol",
+                        "gwulibraries-ol",
+                        "rochester-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "wilsoncollege-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Indians of North America -- Kansas -- History",
+                        "Kansa Indians -- History"
+                    ],
+                    "meta_creator": [
+                        "Unrau, William E., 1929-"
+                    ],
+                    "meta_date": [
+                        "1971-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "from the frontier that the Sioux were \u201c{{{making it increasingly}}} more dangerous for the border Indians to",
+                        "conflict between contending groups was {{{making it increasingly}}} difficult to negotiate a treaty which would"
+                    ]
+                },
+                "_score": 9.277996,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22082430M",
+                    "url": "/books/OL22082430M/The_Kansa_Indians",
+                    "title": "The Kansa Indians",
+                    "ocaid": "kansaindianshist0000unra",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL457083A",
+                            "name": "Unrau, William E."
+                        }
+                    ],
+                    "work_key": "/works/OL2985169W",
+                    "cover_url": "//covers.openlibrary.org/w/id/584227-M.jpg",
+                    "borrow_url": "/books/OL22082430M/The_Kansa_Indians/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "kansaindianshist0000unra",
+                    "isbn": "0806109807",
+                    "oclc": null,
+                    "openlibrary_work": "OL2985169W",
+                    "openlibrary_edition": "OL22082430M",
+                    "last_loan_date": "2020-07-31T10:24:02Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": "2019-05-31T21:55:55Z",
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "tallinsaddlegrea00thom|0a3ce7842fe5f0cfafb93fdf119f8a369ce5c6cc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1483434319",
+                    "identifier": [
+                        "tallinsaddlegrea00thom"
+                    ],
+                    "meta_publicdate": [
+                        "2014-02-05T14:49:51Z"
+                    ],
+                    "meta_titleSorter": [
+                        "tall in the saddle"
+                    ],
+                    "meta_downloads": [
+                        45
+                    ],
+                    "filename": [
+                        "tallinsaddlegrea00thom_abbyy.gz"
+                    ],
+                    "created_on": "2017-01-03 09:22:41",
+                    "file_basename": "tallinsaddlegrea00thom",
+                    "meta_creatorSorter": [
+                        "thompson, peggy"
+                    ],
+                    "meta_title": [
+                        "Tall in the saddle"
+                    ],
+                    "page_num": [
+                        140
+                    ],
+                    "sha1_file": "aa502084157102b5f05a26af361d5aa61285a9c0",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Chronicle Books"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1998"
+                    ],
+                    "updated_on": "2020-09-07 16:47:36",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "denverpubliclibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Western films -- Quotations, maxims, etc."
+                    ],
+                    "meta_creator": [
+                        "Thompson, Peggy"
+                    ],
+                    "meta_date": [
+                        "1998-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "as others, values became more complex, {{{making it increasingly}}} difficult to tell the good guys from the"
+                    ]
+                },
+                "_score": 9.260547,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL682083M",
+                    "url": "/books/OL682083M/Tall_in_the_saddle",
+                    "title": "Tall in the saddle",
+                    "ocaid": "tallinsaddlegrea00thom",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL394343A",
+                            "name": "Thompson, Peggy"
+                        }
+                    ],
+                    "work_key": "/works/OL2698154W",
+                    "cover_url": "//covers.openlibrary.org/w/id/3786952-M.jpg",
+                    "borrow_url": "/books/OL682083M/Tall_in_the_saddle/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "tallinsaddlegrea00thom",
+                    "isbn": "9780811817301",
+                    "oclc": null,
+                    "openlibrary_work": "OL2698154W",
+                    "openlibrary_edition": "OL682083M",
+                    "last_loan_date": "2020-09-02T15:16:26Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}

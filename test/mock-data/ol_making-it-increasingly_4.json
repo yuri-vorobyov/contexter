@@ -1,0 +1,2698 @@
+{
+    "fts-api": {
+        "commit": "master - 0ef53b14",
+        "version": "v3.9.4",
+        "host": "search-text.us.archive.org",
+        "auth": {
+            "email": "",
+            "type": "None",
+            "context_scope": "standard"
+        },
+        "cached": true
+    },
+    "took": 1240,
+    "aggregations": {
+        "top-languages": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8134,
+                    "key": "English"
+                },
+                {
+                    "doc_count": 19,
+                    "key": "undetermined"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Chinese"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "Engger"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "English and French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "French"
+                },
+                {
+                    "doc_count": 3,
+                    "key": "German"
+                },
+                {
+                    "doc_count": 2,
+                    "key": "Japanese"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Ancient Greek"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Dutch"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engspa"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Engund"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "G"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Rng"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "Spanish"
+                },
+                {
+                    "doc_count": 1,
+                    "key": "V0w6"
+                }
+            ]
+        },
+        "top-subject": {
+            "doc_count_error_upper_bound": 120,
+            "sum_other_doc_count": 36912,
+            "buckets": [
+                {
+                    "doc_count": 532,
+                    "key": "United States"
+                },
+                {
+                    "doc_count": 125,
+                    "key": "Great Britain"
+                },
+                {
+                    "doc_count": 101,
+                    "key": "Politics and government"
+                },
+                {
+                    "doc_count": 92,
+                    "key": "USA"
+                },
+                {
+                    "doc_count": 63,
+                    "key": "Aufsatzsammlung"
+                },
+                {
+                    "doc_count": 58,
+                    "key": "Canada"
+                },
+                {
+                    "doc_count": 48,
+                    "key": "Management"
+                },
+                {
+                    "doc_count": 34,
+                    "key": "Sociology"
+                },
+                {
+                    "doc_count": 32,
+                    "key": "Economic history"
+                },
+                {
+                    "doc_count": 27,
+                    "key": "Social conditions"
+                },
+                {
+                    "doc_count": 22,
+                    "key": "Anthropology"
+                },
+                {
+                    "doc_count": 21,
+                    "key": "Strategic planning"
+                },
+                {
+                    "doc_count": 20,
+                    "key": "International relations"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Africa, North"
+                },
+                {
+                    "doc_count": 18,
+                    "key": "Economic policy"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Accounting"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "African Americans"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Catholic Church"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "International economic relations"
+                },
+                {
+                    "doc_count": 17,
+                    "key": "Marketing"
+                }
+            ]
+        },
+        "top-year": {
+            "doc_count_error_upper_bound": 52,
+            "sum_other_doc_count": 3730,
+            "buckets": [
+                {
+                    "doc_count": 266,
+                    "key": 2002
+                },
+                {
+                    "doc_count": 264,
+                    "key": 2001
+                },
+                {
+                    "doc_count": 256,
+                    "key": 1999
+                },
+                {
+                    "doc_count": 253,
+                    "key": 1998
+                },
+                {
+                    "doc_count": 253,
+                    "key": 2000
+                },
+                {
+                    "doc_count": 247,
+                    "key": 2008
+                },
+                {
+                    "doc_count": 239,
+                    "key": 2006
+                },
+                {
+                    "doc_count": 236,
+                    "key": 2004
+                },
+                {
+                    "doc_count": 235,
+                    "key": 2005
+                },
+                {
+                    "doc_count": 234,
+                    "key": 2009
+                },
+                {
+                    "doc_count": 222,
+                    "key": 2007
+                },
+                {
+                    "doc_count": 215,
+                    "key": 2003
+                },
+                {
+                    "doc_count": 212,
+                    "key": 1996
+                },
+                {
+                    "doc_count": 204,
+                    "key": 1995
+                },
+                {
+                    "doc_count": 198,
+                    "key": 1991
+                },
+                {
+                    "doc_count": 196,
+                    "key": 1997
+                },
+                {
+                    "doc_count": 187,
+                    "key": 2012
+                },
+                {
+                    "doc_count": 183,
+                    "key": 2011
+                },
+                {
+                    "doc_count": 177,
+                    "key": 1994
+                },
+                {
+                    "doc_count": 165,
+                    "key": 1990
+                }
+            ]
+        },
+        "top-creator": {
+            "doc_count_error_upper_bound": 118,
+            "sum_other_doc_count": 6345,
+            "buckets": [
+                {
+                    "doc_count": 84,
+                    "key": "none"
+                },
+                {
+                    "doc_count": 12,
+                    "key": "morison, samuel eliot, 1887-1976"
+                },
+                {
+                    "doc_count": 11,
+                    "key": "cornwell, patricia daniels"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "bennett, arnold, 1867-1931"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "brinkley, alan"
+                },
+                {
+                    "doc_count": 9,
+                    "key": "fraser, antonia, 1932-"
+                },
+                {
+                    "doc_count": 7,
+                    "key": "perkins, john, 1945-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester r. (lester russell), 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "brown, lester russell, 1934-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "congressional quarterly, inc"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "conroy, pat"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "coward, noel, 1899-1973"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "goldman, eric frederick, 1915-1989"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "gray, john, 1951-"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "haviland, william a"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "knox, paul l"
+                },
+                {
+                    "doc_count": 6,
+                    "key": "mcdermott, catherine"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "anderson, paul, 1938-"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bosanquet, helen dendy, 1860-1925"
+                },
+                {
+                    "doc_count": 5,
+                    "key": "bova, ben, 1932-"
+                }
+            ]
+        },
+        "top-mediatype": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 8184,
+                    "key": "texts"
+                }
+            ]
+        },
+        "top-collection": {
+            "doc_count_error_upper_bound": 180,
+            "sum_other_doc_count": 16747,
+            "buckets": [
+                {
+                    "doc_count": 7658,
+                    "key": "internetarchivebooks"
+                },
+                {
+                    "doc_count": 7645,
+                    "key": "printdisabled"
+                },
+                {
+                    "doc_count": 7638,
+                    "key": "inlibrary"
+                },
+                {
+                    "doc_count": 1775,
+                    "key": "china"
+                },
+                {
+                    "doc_count": 1503,
+                    "key": "universityofarizona-ol"
+                },
+                {
+                    "doc_count": 1443,
+                    "key": "universityofcoloradoboulder-ol"
+                },
+                {
+                    "doc_count": 1304,
+                    "key": "johnshopkins-ol"
+                },
+                {
+                    "doc_count": 1186,
+                    "key": "universityofoklahoma-ol"
+                },
+                {
+                    "doc_count": 1173,
+                    "key": "dartmouthlibrary-ol"
+                },
+                {
+                    "doc_count": 1101,
+                    "key": "binghamton-ol"
+                },
+                {
+                    "doc_count": 1015,
+                    "key": "cuny-ol"
+                },
+                {
+                    "doc_count": 995,
+                    "key": "the-claremont-colleges-ol"
+                },
+                {
+                    "doc_count": 902,
+                    "key": "americana"
+                },
+                {
+                    "doc_count": 876,
+                    "key": "riceuniversity-ol"
+                },
+                {
+                    "doc_count": 831,
+                    "key": "yaleuniversitylibrary-ol"
+                },
+                {
+                    "doc_count": 824,
+                    "key": "gwulibraries-ol"
+                },
+                {
+                    "doc_count": 753,
+                    "key": "tamu-evanslibrary-ol"
+                },
+                {
+                    "doc_count": 689,
+                    "key": "rochester-ol"
+                },
+                {
+                    "doc_count": 624,
+                    "key": "uni-ol"
+                },
+                {
+                    "doc_count": 612,
+                    "key": "americanuniversity-ol"
+                }
+            ]
+        }
+    },
+    "hits": {
+        "total": 8184,
+        "max_score": 11.073952,
+        "hits": [
+            {
+                "_id": "b30135679|face138ec5f61fe5669e779322dbb2da02f713a6",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1522871611",
+                    "identifier": [
+                        "b30135679"
+                    ],
+                    "meta_publicdate": [
+                        "2018-03-15T11:49:47Z"
+                    ],
+                    "meta_titleSorter": [
+                        "[report 1955]"
+                    ],
+                    "file_basename": "b30135679",
+                    "filename": [
+                        "b30135679_abbyy.gz"
+                    ],
+                    "created_on": "2021-08-26 04:02:47",
+                    "meta_creatorSorter": [
+                        "stanley (west riding of yorkshire, england). urban district council"
+                    ],
+                    "meta_subjectSorter": [
+                        "Disease Outbreaks",
+                        "Public Health",
+                        "Sanitation",
+                        "Water Supply"
+                    ],
+                    "meta_title": [
+                        "[Report 1955]"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "0ba812fa4406f222f171fdbfca95a71c94402972",
+                    "meta_downloads": [
+                        27
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1955
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "medicalofficerofhealthreports",
+                        "wellcomelibrary",
+                        "ukmhl",
+                        "medicalheritagelibrary",
+                        "europeanlibraries"
+                    ],
+                    "updated_on": "2022-03-25 23:37:07",
+                    "meta_creator": [
+                        "Stanley (West Riding of Yorkshire, England). Urban District Council"
+                    ],
+                    "meta_date": [
+                        "1955-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "housing repair work continue to increase {{{making it increasingly}}} difficult to get repairs of any description"
+                    ]
+                },
+                "_score": 9.86261,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33092258M",
+                    "url": "/books/OL33092258M/Report_1955",
+                    "title": "[Report 1955]",
+                    "ocaid": "b30135679",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7410840A",
+                            "name": "Stanley (West Riding of Yorkshire, England). Urban District Council"
+                        }
+                    ],
+                    "work_key": "/works/OL24895902W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11796485-M.jpg",
+                    "read_url": "/books/OL33092258M/Report_1955/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "b30135679",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24895902W",
+                    "openlibrary_edition": "OL33092258M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "CAT31337803|2b9d5af3aaf0fe6e73a9d65b051b8a42944dc4bc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1463758984",
+                    "identifier": [
+                        "CAT31337803"
+                    ],
+                    "meta_publicdate": [
+                        "2016-05-18T15:57:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "1963 fourth pacific coast member relations conference, boise, idaho, march 6, 7, 8"
+                    ],
+                    "meta_downloads": [
+                        84
+                    ],
+                    "filename": [
+                        "CAT31337803_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 17:53:44",
+                    "file_basename": "CAT31337803",
+                    "meta_creatorSorter": [
+                        "rust, irwin w"
+                    ],
+                    "meta_title": [
+                        "1963 fourth Pacific Coast member relations conference, Boise, Idaho, March 6, 7, 8"
+                    ],
+                    "page_num": [
+                        48
+                    ],
+                    "sha1_file": "eceec0a6dc1f6cbad202df0207f50d9e0a04b66e",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : Farmer Cooperative Service, U.S. Dept. of Agriculture"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1963
+                    ],
+                    "updated_on": "2022-03-22 00:56:56",
+                    "meta_collection": [
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Agriculture, Cooperative Pacific States Congresses",
+                        "Agriculture, Cooperative West (U.S.) Congresses"
+                    ],
+                    "meta_creator": [
+                        "Rust, Irwin W",
+                        "American Institute of Cooperation",
+                        "United States. Farmer Cooperative Service"
+                    ],
+                    "meta_date": [
+                        "1963-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "chemicals in agricultural production are {{{making it increasingly}}} difficult to operate within the limitations"
+                    ]
+                },
+                "_score": 9.834072,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25919183M",
+                    "url": "/books/OL25919183M/1963_fourth_Pacific_Coast_member_relations_conference_Boise_Idaho_March_6_7_8",
+                    "title": "1963 fourth Pacific Coast member relations conference, Boise, Idaho, March 6, 7, 8",
+                    "ocaid": "CAT31337803",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7285721A",
+                            "name": "Irwin W. Rust"
+                        }
+                    ],
+                    "work_key": "/works/OL17342308W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7420848-M.jpg",
+                    "read_url": "/books/OL25919183M/1963_fourth_Pacific_Coast_member_relations_conference_Boise_Idaho_March_6_7_8/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "CAT31337803",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17342308W",
+                    "openlibrary_edition": "OL25919183M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "parkinsondisease0000semp|4337f3c2b214ad2909e931008655a6c15f09d908",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1646041042",
+                    "identifier": [
+                        "parkinsondisease0000semp"
+                    ],
+                    "meta_publicdate": [
+                        "2022-02-22T04:45:55Z"
+                    ],
+                    "meta_titleSorter": [
+                        "parkinson disease : a naturopathic approach"
+                    ],
+                    "meta_downloads": [
+                        3
+                    ],
+                    "filename": [
+                        "parkinsondisease0000semp_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-02-28 09:53:40",
+                    "file_basename": "parkinsondisease0000semp",
+                    "meta_creatorSorter": [
+                        "semple, jane"
+                    ],
+                    "meta_title": [
+                        "Parkinson disease : a naturopathic approach"
+                    ],
+                    "page_num": [
+                        [
+                            38
+                        ]
+                    ],
+                    "sha1_file": "476a533aa2b5e66725244dc58aaffa8f289a1973",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Orem, Utah : Woodland Pub."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2008
+                    ],
+                    "updated_on": "2022-03-08 01:02:56",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Parkinson's disease -- Alternative treatment",
+                        "Naturopathy"
+                    ],
+                    "meta_creator": [
+                        "Semple, Jane"
+                    ],
+                    "meta_date": [
+                        "2008-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "at home, and his psychotic episodes were {{{making it increasingly}}} difficult for her. Mrs. H cut her husband\u2019s"
+                    ]
+                },
+                "_score": 9.827826,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL12276840M",
+                    "url": "/books/OL12276840M/Parkinson_Disease",
+                    "title": "Parkinson Disease",
+                    "ocaid": "parkinsondisease0000semp",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL3094114A",
+                            "name": "Jane Semple"
+                        }
+                    ],
+                    "work_key": "/works/OL8941947W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12652578-M.jpg",
+                    "borrow_url": "/books/OL12276840M/Parkinson_Disease/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "parkinsondisease0000semp",
+                    "isbn": "9781580544597",
+                    "oclc": null,
+                    "openlibrary_work": "OL8941947W",
+                    "openlibrary_edition": "OL12276840M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "returnofscarcity0000coom|673207cbf841c2f875df6f341f85b8f31c630742",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1527752984",
+                    "identifier": [
+                        "returnofscarcity0000coom"
+                    ],
+                    "meta_publicdate": [
+                        "2018-05-29T13:13:04Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the return of scarcity : strategies for an economic future"
+                    ],
+                    "meta_downloads": [
+                        16
+                    ],
+                    "filename": [
+                        "returnofscarcity0000coom_abbyy.gz"
+                    ],
+                    "created_on": "2018-06-07 20:34:02",
+                    "file_basename": "returnofscarcity0000coom",
+                    "meta_creatorSorter": [
+                        "coombs, h. c. (herbert cole), 1906-1997"
+                    ],
+                    "meta_title": [
+                        "The return of scarcity : strategies for an economic future"
+                    ],
+                    "page_num": [
+                        190
+                    ],
+                    "sha1_file": "98f8f278753f0d7131a42496d347bd7849df31eb",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Cambridge ; New York : Cambridge University Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1990"
+                    ],
+                    "updated_on": "2020-09-03 23:16:00",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "bostonuniversitylibraries-ol",
+                        "dartmouthlibrary-ol",
+                        "johnshopkins-ol",
+                        "mitlibraries-ol",
+                        "occidentalcollegelibrary-ol",
+                        "riceuniversity-ol",
+                        "tamu-evanslibrary-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Economic development -- Environmental aspects",
+                        "Economic policy",
+                        "Resource allocation",
+                        "Natural resources -- Management",
+                        "Scarcity",
+                        "De\u0301veloppement e\u0301conomique -- Aspect de l'environnement",
+                        "Politique e\u0301conomique",
+                        "Affectation des ressources",
+                        "Ressources naturelles -- Gestion",
+                        "Rarete\u0301 (E\u0301conomie politique)",
+                        "Economic development -- Environmental aspects",
+                        "Economic policy",
+                        "Natural resources -- Management",
+                        "Resource allocation",
+                        "Scarcity",
+                        "Erscho\u0308pfbare Ressourcen",
+                        "Knappheit",
+                        "Rohstoff",
+                        "Rohstoffpolitik",
+                        "Umweltschutz",
+                        "Umwelto\u0308konomie",
+                        "Wirtschaftsentwicklung",
+                        "Recursos Naturais E O Ambiente (Controle)",
+                        "Economia Geral",
+                        "Desenvolvimento Economico",
+                        "Recursos Naturais (Economia)",
+                        "E\u0301conomie politique",
+                        "De\u0301veloppement e\u0301conomique -- Aspect de l'environnement",
+                        "Rarete\u0301 (e\u0301conomie politique)",
+                        "Gestion des ressources naturelles",
+                        "Allocation des ressources",
+                        "Aufsatzsammlung",
+                        "Australien",
+                        "Economic policies Influence of scarcity of natural resources"
+                    ],
+                    "meta_creator": [
+                        "Coombs, H. C. (Herbert Cole), 1906-1997"
+                    ],
+                    "meta_date": [
+                        "1990-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "providers - of services and labour are {{{making it increasingly}}} difficult to meet the reasonable expectations",
+                        "government in the interests of big business is {{{making it increasingly}}} difficult for governments to perform essential"
+                    ]
+                },
+                "_score": 9.827175,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2203364M",
+                    "url": "/books/OL2203364M/The_return_of_scarcity",
+                    "title": "The return of scarcity",
+                    "ocaid": "returnofscarcity0000coom",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL122862A",
+                            "name": "H. C. Coombs"
+                        }
+                    ],
+                    "work_key": "/works/OL1215776W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4089877-M.jpg",
+                    "borrow_url": "/books/OL2203364M/The_return_of_scarcity/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "returnofscarcity0000coom",
+                    "isbn": "052136373X",
+                    "oclc": null,
+                    "openlibrary_work": "OL1215776W",
+                    "openlibrary_edition": "OL2203364M",
+                    "last_loan_date": "2020-09-03T23:00:27Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "nigeria0000walk|233b174cf35b176d434699073aa225d0131a9d77",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1532156847",
+                    "identifier": [
+                        "nigeria0000walk"
+                    ],
+                    "meta_publicdate": [
+                        "2018-07-20T19:42:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "nigeria"
+                    ],
+                    "meta_downloads": [
+                        28
+                    ],
+                    "filename": [
+                        "nigeria0000walk_abbyy.gz"
+                    ],
+                    "created_on": "2018-07-21 07:13:03",
+                    "file_basename": "nigeria0000walk",
+                    "meta_creatorSorter": [
+                        "walker, ida"
+                    ],
+                    "meta_title": [
+                        "Nigeria"
+                    ],
+                    "page_num": [
+                        90
+                    ],
+                    "sha1_file": "c71bf9b77df713d2739c6d8f31bcebf9ba500c58",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Philadelphia : Mason Crest Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2013"
+                    ],
+                    "updated_on": "2020-08-30 21:34:34",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "china",
+                        "cuny-ol",
+                        "holdings-test"
+                    ],
+                    "meta_subjectSorter": [
+                        "Nigeria",
+                        "Nigeria -- Juvenile literature",
+                        "Nigeria",
+                        "Nigeria",
+                        "Nigeria"
+                    ],
+                    "meta_creator": [
+                        "Walker, Ida"
+                    ],
+                    "meta_date": [
+                        "2013-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "tropical rainforests are being destroyed, {{{making it increasingly}}} difficult for the mangabey to find food"
+                    ]
+                },
+                "_score": 9.814335,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25184493M",
+                    "url": "/books/OL25184493M/Nigeria",
+                    "title": "Nigeria",
+                    "ocaid": "nigeria0000walk",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1388619A",
+                            "name": "Ida Walker"
+                        }
+                    ],
+                    "work_key": "/works/OL16484479W",
+                    "cover_url": "//covers.openlibrary.org/w/id/8211248-M.jpg",
+                    "borrow_url": "/books/OL25184493M/Nigeria/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "nigeria0000walk",
+                    "isbn": "9781422222003",
+                    "oclc": null,
+                    "openlibrary_work": "OL16484479W",
+                    "openlibrary_edition": "OL25184493M",
+                    "last_loan_date": null,
+                    "num_waitlist": "1",
+                    "last_waitlist_date": "2020-08-09T23:56:36Z",
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "caborabassastrug0000worl|6d651054822c3255659db12409f7986a5576a218",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1616197784",
+                    "identifier": [
+                        "caborabassastrug0000worl"
+                    ],
+                    "meta_publicdate": [
+                        "2021-03-13T22:11:24Z"
+                    ],
+                    "meta_titleSorter": [
+                        "cabora bassa & the struggle for southern africa"
+                    ],
+                    "meta_downloads": [
+                        7
+                    ],
+                    "filename": [
+                        "caborabassastrug0000worl_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-20 00:21:46",
+                    "file_basename": "caborabassastrug0000worl",
+                    "meta_creatorSorter": [
+                        "world council of churches. programme to combat racism"
+                    ],
+                    "meta_title": [
+                        "Cabora Bassa & the struggle for Southern Africa"
+                    ],
+                    "page_num": [
+                        [
+                            50
+                        ]
+                    ],
+                    "sha1_file": "02297eae15f008c8ace92425e06060bab94937ee",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "[Geneva]"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1971
+                    ],
+                    "updated_on": "2022-05-09 00:55:43",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Cabora Bassadam",
+                        "Frelimo",
+                        "Cahora Bassa Dam (Mozambique)",
+                        "Mozambique -- Cahora Bassa Dam"
+                    ],
+                    "meta_creator": [
+                        "World Council of Churches. Programme to Combat Racism"
+                    ],
+                    "meta_date": [
+                        "1971-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "as the work progresses other factors are {{{making it increasingly}}} unlikely that the scheme will ever be completed"
+                    ]
+                },
+                "_score": 9.802767,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4281995M",
+                    "url": "/books/OL4281995M/Cabora_Bassa_the_struggle_for_Southern_Africa.",
+                    "title": "Cabora Bassa & the struggle for Southern Africa.",
+                    "ocaid": "caborabassastrug0000worl",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1713437A",
+                            "name": "World Council of Churches. Programme to Combat Racism."
+                        }
+                    ],
+                    "work_key": "/works/OL6459282W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11009427-M.jpg",
+                    "borrow_url": "/books/OL4281995M/Cabora_Bassa_the_struggle_for_Southern_Africa./borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "caborabassastrug0000worl",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL6459282W",
+                    "openlibrary_edition": "OL4281995M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "moraltraininginp01leon|a8380841e2ab2704fc809336cc38360993266d9c",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1279941403",
+                    "identifier": [
+                        "moraltraininginp01leon"
+                    ],
+                    "meta_publicdate": [
+                        "2010-07-16T15:47:12Z"
+                    ],
+                    "meta_titleSorter": [
+                        "moral training in public schools; an essay written in competition for a prize"
+                    ],
+                    "meta_downloads": [
+                        284
+                    ],
+                    "filename": [
+                        "moraltraininginp01leon_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 02:53:02",
+                    "file_basename": "moraltraininginp01leon",
+                    "meta_creatorSorter": [
+                        "leonard, mary hall, 1847-1921"
+                    ],
+                    "meta_title": [
+                        "Moral training in public schools; an essay written in competition for a prize"
+                    ],
+                    "page_num": [
+                        58
+                    ],
+                    "sha1_file": "710270ed24df16f9afa44df741bcb9971838fed8",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Boston, D. C.Heath & Co."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1908
+                    ],
+                    "updated_on": "2022-04-06 00:44:15",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Moral education"
+                    ],
+                    "meta_creator": [
+                        "Leonard, Mary Hall, 1847-1921"
+                    ],
+                    "meta_date": [
+                        "1908-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "conceptions of God in modern thought are {{{making it increasingly}}} difficult to exclude the God-idea from"
+                    ]
+                },
+                "_score": 9.801008,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL6995109M",
+                    "url": "/books/OL6995109M/Moral_training_in_public_schools",
+                    "title": "Moral training in public schools",
+                    "ocaid": "moraltraininginp01leon",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2313767A",
+                            "name": "Mary Hall Leonard"
+                        }
+                    ],
+                    "work_key": "/works/OL7559405W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7206583-M.jpg",
+                    "read_url": "/books/OL6995109M/Moral_training_in_public_schools/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "moraltraininginp01leon",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL7559405W",
+                    "openlibrary_edition": "OL6995109M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "littlebeavercons1975litt|89da57ef91b5b1a5445448f16e7cb1e0fc3196fc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1458772578",
+                    "identifier": [
+                        "littlebeavercons1975litt"
+                    ],
+                    "meta_publicdate": [
+                        "2016-03-21T20:43:33Z"
+                    ],
+                    "meta_titleSorter": [
+                        "little beaver conservation district, fallon county, montana long range plan of resource conservation for the future"
+                    ],
+                    "meta_downloads": [
+                        66
+                    ],
+                    "filename": [
+                        "littlebeavercons1975litt_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 21:56:05",
+                    "file_basename": "littlebeavercons1975litt",
+                    "meta_creatorSorter": [
+                        "little beaver conservation district (mont.). board of supervisors"
+                    ],
+                    "meta_title": [
+                        "Little Beaver Conservation District, Fallon County, Montana long range plan of resource conservation for the future"
+                    ],
+                    "page_num": [
+                        96
+                    ],
+                    "sha1_file": "35d842988e5cfb5e30bc2df55d671bb505a25a70",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Portland, Or. : USDA-SCS"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1975
+                    ],
+                    "updated_on": "2021-09-03 15:33:12",
+                    "meta_collection": [
+                        "MontanaStateLibrary",
+                        "USGovernmentDocuments",
+                        "additional_collections",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Conservation of natural resources",
+                        "Land use",
+                        "Soil conservation",
+                        "Water conservation"
+                    ],
+                    "meta_creator": [
+                        "Little Beaver Conservation District (Mont.). Board of Supervisors",
+                        "United States. Soil Conservation Service"
+                    ],
+                    "meta_date": [
+                        "1975-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "and services along with land value are {{{making it increasingly}}} difficult for existing operators to expand"
+                    ]
+                },
+                "_score": 9.793877,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL33187229M",
+                    "url": "/books/OL33187229M/Little_Beaver_Conservation_District_Fallon_County_Montana_long_range_plan_of_resource_conservation_f",
+                    "title": "Little Beaver Conservation District, Fallon County, Montana long range plan of resource conservation for the future",
+                    "ocaid": "littlebeavercons1975litt",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL9407908A",
+                            "name": "Little Beaver Conservation District (Mont.). Board of Supervisors"
+                        }
+                    ],
+                    "work_key": "/works/OL24965298W",
+                    "cover_url": "//covers.openlibrary.org/w/id/11894735-M.jpg",
+                    "read_url": "/books/OL33187229M/Little_Beaver_Conservation_District_Fallon_County_Montana_long_range_plan_of_resource_conservation_f/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "littlebeavercons1975litt",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL24965298W",
+                    "openlibrary_edition": "OL33187229M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "alcoholisminheri00petr|092d7cf9646684023cb151deccf0696540cc1c22",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1463156529",
+                    "identifier": [
+                        "alcoholisminheri00petr"
+                    ],
+                    "meta_publicdate": [
+                        "2016-04-12T17:10:36Z"
+                    ],
+                    "meta_titleSorter": [
+                        "alcoholism: an inherited disease"
+                    ],
+                    "meta_downloads": [
+                        153
+                    ],
+                    "filename": [
+                        "alcoholisminheri00petr_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-07 22:46:21",
+                    "file_basename": "alcoholisminheri00petr",
+                    "meta_creatorSorter": [
+                        "petrakis, peter l"
+                    ],
+                    "meta_title": [
+                        "Alcoholism: an inherited disease"
+                    ],
+                    "page_num": [
+                        54
+                    ],
+                    "sha1_file": "641bf13517857cc40086685f44d8bbb06fb69f4d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Rockville, Md. : U.S. Dept. of Health and Human Services, Public Health Service, Alcohol, Drug Abuse, and Mental Health Administration, National Institute on Alcohol Abuse and Alcoholism ; Washington, D.C. : for sale by the Supt. of Docs., U.S. G.P.O."
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1985
+                    ],
+                    "updated_on": "2022-04-05 03:48:05",
+                    "meta_collection": [
+                        "nihlibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Alcoholism",
+                        "Genetic Markers",
+                        "Risk Factors",
+                        "Alcoholism -- genetics"
+                    ],
+                    "meta_creator": [
+                        "Petrakis, Peter L"
+                    ],
+                    "meta_date": [
+                        "1985-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "37\nviii\nINTRODUCTION\nModern research is {{{making it increasingly}}} evident that heredity is a major contributing"
+                    ]
+                },
+                "_score": 9.793877,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL2665649M",
+                    "url": "/books/OL2665649M/Alcoholism_and_inherited_disease.",
+                    "title": "Alcoholism, and inherited disease.",
+                    "ocaid": "alcoholisminheri00petr",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL1110144A",
+                            "name": "Peter L. Petrakis"
+                        }
+                    ],
+                    "work_key": "/works/OL5067882W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7418950-M.jpg",
+                    "read_url": "/books/OL2665649M/Alcoholism_and_inherited_disease./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "alcoholisminheri00petr",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL5067882W",
+                    "openlibrary_edition": "OL2665649M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "japanstunamarket00sonu|a297069b6f9e1f6717dabac42524dfd5db46f8b9",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1347473009",
+                    "identifier": [
+                        "japanstunamarket00sonu"
+                    ],
+                    "meta_publicdate": [
+                        "2012-09-07T23:16:59Z"
+                    ],
+                    "meta_titleSorter": [
+                        "japan's tuna market / sunee c. sonu"
+                    ],
+                    "meta_downloads": [
+                        391
+                    ],
+                    "filename": [
+                        "japanstunamarket00sonu_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 10:55:47",
+                    "file_basename": "japanstunamarket00sonu",
+                    "meta_creatorSorter": [
+                        "sonu, sunee c"
+                    ],
+                    "meta_title": [
+                        "Japan's tuna market / Sunee C. Sonu"
+                    ],
+                    "page_num": [
+                        78
+                    ],
+                    "sha1_file": "8ec7f9af6e5d754fbc985054ef383defc1a822dd",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Terminal Island, Calif. : U.S. Dept. of Commerce, National Oceanic and Atmospheric Administration, National Marine Fisheries Service, Southwest Region"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1992
+                    ],
+                    "updated_on": "2022-04-04 04:50:36",
+                    "meta_collection": [
+                        "penn_state_univ",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Tuna Japan Marketing."
+                    ],
+                    "meta_creator": [
+                        "Sonu, Sunee C",
+                        "United States. National Marine Fisheries Service. Southwest Region"
+                    ],
+                    "meta_date": [
+                        "1992-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "brakes on further increases in catches, {{{making it increasingly}}} difficult for Japan's distant-water tuna"
+                    ]
+                },
+                "_score": 9.787497,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL17686553M",
+                    "url": "/books/OL17686553M/Japan's_tuna_market",
+                    "title": "Japan's tuna market",
+                    "ocaid": "japanstunamarket00sonu",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL325833A",
+                            "name": "Sunee C. Sonu"
+                        }
+                    ],
+                    "work_key": "/works/OL2385617W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9434869-M.jpg",
+                    "read_url": "/books/OL17686553M/Japan's_tuna_market/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "japanstunamarket00sonu",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL2385617W",
+                    "openlibrary_edition": "OL17686553M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "albertachildreny00albe|429315fd209b5d77c1f925eed2bfb55110c0c1dc",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1463181378",
+                    "identifier": [
+                        "albertachildreny00albe"
+                    ],
+                    "meta_publicdate": [
+                        "2016-05-11T14:15:38Z"
+                    ],
+                    "meta_titleSorter": [
+                        "alberta children and youth : trends and issues 1995"
+                    ],
+                    "meta_downloads": [
+                        56
+                    ],
+                    "filename": [
+                        "albertachildreny00albe_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 01:19:49",
+                    "file_basename": "albertachildreny00albe",
+                    "meta_creatorSorter": [
+                        "alberta. alberta education. policy and planning branch"
+                    ],
+                    "meta_title": [
+                        "Alberta children and youth : trends and issues 1995"
+                    ],
+                    "page_num": [
+                        60
+                    ],
+                    "sha1_file": "08970956ef2ae84420eeba0fbb1d7a2ee0c22cef",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Edmonton, AB : Alberta Education"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1996"
+                    ],
+                    "updated_on": "2020-09-23 21:22:27",
+                    "meta_collection": [
+                        "albertagovernmentpublications",
+                        "university_of_alberta_libraries",
+                        "toronto"
+                    ],
+                    "meta_subjectSorter": [
+                        "Children",
+                        "Youth",
+                        "Children",
+                        "Youth",
+                        "Youth",
+                        "Family demography"
+                    ],
+                    "meta_creator": [
+                        "Alberta. Alberta Education. Policy and Planning Branch"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "changing work requirements will continue, {{{making it increasingly}}} difficult for youth to compete in the job"
+                    ]
+                },
+                "_score": 9.76641,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL486688M",
+                    "url": "/books/OL486688M/Alberta_children_and_youth",
+                    "title": "Alberta children and youth",
+                    "ocaid": "albertachildreny00albe",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [],
+                    "work_key": "/works/OL17340291W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9675454-M.jpg",
+                    "read_url": "/books/OL486688M/Alberta_children_and_youth/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "albertachildreny00albe",
+                    "isbn": "0773217665",
+                    "oclc": null,
+                    "openlibrary_work": "OL17340291W",
+                    "openlibrary_edition": "OL486688M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "b29191002|3a324472d822b759b254e91f435334defd5a7634",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1495017971",
+                    "identifier": [
+                        "b29191002"
+                    ],
+                    "meta_publicdate": [
+                        "2017-05-02T08:55:39Z"
+                    ],
+                    "meta_titleSorter": [
+                        "[report 1968]"
+                    ],
+                    "file_basename": "b29191002",
+                    "filename": [
+                        "b29191002_abbyy.gz"
+                    ],
+                    "created_on": "2017-05-17 10:52:12",
+                    "meta_creatorSorter": [
+                        "ellesmere port (england). borough council"
+                    ],
+                    "meta_subjectSorter": [
+                        "Disease Outbreaks",
+                        "Public Health",
+                        "Sanitation",
+                        "Water Supply"
+                    ],
+                    "meta_title": [
+                        "[Report 1968]"
+                    ],
+                    "page_num": [
+                        54
+                    ],
+                    "sha1_file": "a027deab019b7c8a8d548864b43050edc264737a",
+                    "meta_downloads": [
+                        42
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1968
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_collection": [
+                        "medicalofficerofhealthreports",
+                        "wellcomelibrary",
+                        "ukmhl",
+                        "medicalheritagelibrary",
+                        "europeanlibraries"
+                    ],
+                    "updated_on": "2022-03-25 08:42:16",
+                    "meta_creator": [
+                        "Ellesmere Port (England). Borough Council"
+                    ],
+                    "meta_date": [
+                        "1968-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "attention appears to increase year by year {{{making it increasingly}}} difficult to maintain routine work, so"
+                    ]
+                },
+                "_score": 9.740699,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL26314858M",
+                    "url": "/books/OL26314858M/Report_1968",
+                    "title": "[Report 1968]",
+                    "ocaid": "b29191002",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7387173A",
+                            "name": "Ellesmere Port (England). Borough Council"
+                        }
+                    ],
+                    "work_key": "/works/OL17713439W",
+                    "cover_url": "//covers.openlibrary.org/w/id/7988736-M.jpg",
+                    "read_url": "/books/OL26314858M/Report_1968/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "b29191002",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17713439W",
+                    "openlibrary_edition": "OL26314858M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "farmingnewlandin35mcco|76086efc6c7dfd5acea5d1b43b5197347bdb6cea",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1395316601",
+                    "identifier": [
+                        "farmingnewlandin35mcco"
+                    ],
+                    "meta_publicdate": [
+                        "2014-02-18T12:20:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "farming new land in the yazoo-mississippi delta : problems of small, family-sized farms in the backwater area"
+                    ],
+                    "meta_downloads": [
+                        155
+                    ],
+                    "filename": [
+                        "farmingnewlandin35mcco_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 21:12:32",
+                    "file_basename": "farmingnewlandin35mcco",
+                    "meta_creatorSorter": [
+                        "mccomas, paul s. (paul sinclair)"
+                    ],
+                    "meta_title": [
+                        "Farming new land in the Yazoo-Mississippi Delta : problems of small, family-sized farms in the backwater area"
+                    ],
+                    "page_num": [
+                        60
+                    ],
+                    "sha1_file": "0d323128f3fcd4d2f850bd8a2797a23e08f14370",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : U.S. Dept. of Agriculture, Bureau of Agricultural Economics"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1942
+                    ],
+                    "updated_on": "2022-04-01 06:14:46",
+                    "meta_collection": [
+                        "usda-farmmanagementreports",
+                        "usdanationalagriculturallibrary",
+                        "fedlink",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Agriculture Mississippi Delta (Region)"
+                    ],
+                    "meta_creator": [
+                        "McComas, Paul S. (Paul Sinclair)",
+                        "Mullins, Troy., joint author",
+                        "Langsford, E. L., joint author",
+                        "United States. Bureau of Agricultural Economics"
+                    ],
+                    "meta_date": [
+                        "1942-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "particles pack more closeljr together, {{{making it increasingly}}} difficult for plants to get moisture. "
+                    ]
+                },
+                "_score": 9.730724,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25597547M",
+                    "url": "/books/OL25597547M/Farming_new_land_in_the_Yazoo-Mississippi_Delta",
+                    "title": "Farming new land in the Yazoo-Mississippi Delta",
+                    "ocaid": "farmingnewlandin35mcco",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL7221175A",
+                            "name": "Paul S. McComas"
+                        }
+                    ],
+                    "work_key": "/works/OL17026854W",
+                    "cover_url": "//covers.openlibrary.org/b/id/10010256-M.jpg",
+                    "read_url": "/books/OL25597547M/Farming_new_land_in_the_Yazoo-Mississippi_Delta/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "farmingnewlandin35mcco",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17026854W",
+                    "openlibrary_edition": "OL25597547M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "primariesconvent0000hoop|3ff125a3823e9a870e1613c5636bfb22eddfe2d0",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1576745710",
+                    "identifier": [
+                        "primariesconvent0000hoop"
+                    ],
+                    "meta_publicdate": [
+                        "2019-12-17T12:47:30Z"
+                    ],
+                    "meta_titleSorter": [
+                        "primaries and conventions"
+                    ],
+                    "meta_downloads": [
+                        0
+                    ],
+                    "filename": [
+                        "primariesconvent0000hoop_abbyy.gz"
+                    ],
+                    "created_on": "2019-12-20 01:35:01",
+                    "file_basename": "primariesconvent0000hoop",
+                    "meta_creatorSorter": [
+                        "hoopes, roy, 1922-"
+                    ],
+                    "meta_title": [
+                        "Primaries and conventions"
+                    ],
+                    "page_num": [
+                        106
+                    ],
+                    "sha1_file": "d3edd7babe865283cee7126dac205edc8de2f275",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York : F. Watts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1978"
+                    ],
+                    "updated_on": "2020-10-20 23:36:43",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "bpljordan-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Primaries -- United States -- Juvenile literature",
+                        "Presidents -- United States -- Nomination -- Juvenile literature",
+                        "Presidents -- Election",
+                        "Political conventions -- United States -- Juvenile literature",
+                        "Politics, Practical",
+                        "Political conventions",
+                        "Presidents -- Nomination",
+                        "United States",
+                        "Primaries"
+                    ],
+                    "meta_creator": [
+                        "Hoopes, Roy, 1922-"
+                    ],
+                    "meta_date": [
+                        "1978-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "decreasing the power of the political party and {{{making it increasingly}}} pos\u00ac sible for a demagogue to win the nomination"
+                    ]
+                },
+                "_score": 9.728962,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL4549105M",
+                    "url": "/books/OL4549105M/Primaries_and_conventions",
+                    "title": "Primaries and conventions",
+                    "ocaid": "primariesconvent0000hoop",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL643663A",
+                            "name": "Roy Hoopes"
+                        }
+                    ],
+                    "work_key": "/works/OL3705218W",
+                    "cover_url": "//covers.openlibrary.org/w/id/9474465-M.jpg",
+                    "borrow_url": "/books/OL4549105M/Primaries_and_conventions/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "primariesconvent0000hoop",
+                    "isbn": "0531013561",
+                    "oclc": null,
+                    "openlibrary_work": "OL3705218W",
+                    "openlibrary_edition": "OL4549105M",
+                    "last_loan_date": null,
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "movingbeyondmyth0000nati|65fc34b1876d3a4dd9156f79f2687cd43ffc58cb",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1543049775",
+                    "identifier": [
+                        "movingbeyondmyth0000nati"
+                    ],
+                    "meta_publicdate": [
+                        "2018-11-24T07:34:14Z"
+                    ],
+                    "meta_titleSorter": [
+                        "moving beyond myths : revitalizing undergraduate mathematics"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "movingbeyondmyth0000nati_abbyy.gz"
+                    ],
+                    "created_on": "2019-01-11 22:18:51",
+                    "file_basename": "movingbeyondmyth0000nati",
+                    "meta_creatorSorter": [
+                        "national research council (u.s.). committee on the mathematical sciences in the year 2000"
+                    ],
+                    "meta_title": [
+                        "Moving beyond myths : revitalizing undergraduate mathematics"
+                    ],
+                    "page_num": [
+                        86
+                    ],
+                    "sha1_file": "f378962b0fa429d9f30ec6afffb245bb05c60355",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Washington, D.C. : National Academy Press"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1991"
+                    ],
+                    "updated_on": "2020-08-31 02:02:49",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks",
+                        "barryuniversity-ol",
+                        "cuny-ol",
+                        "dartmouthlibrary-ol",
+                        "holdings-test",
+                        "johnshopkins-ol",
+                        "mitlibraries-ol",
+                        "riceuniversity-ol",
+                        "the-claremont-colleges-ol",
+                        "universityofarizona-ol",
+                        "universityofcoloradoboulder-ol",
+                        "universityofoklahoma-ol",
+                        "yaleuniversitylibrary-ol"
+                    ],
+                    "meta_subjectSorter": [
+                        "Mathematics -- Study and teaching (Higher) -- United States",
+                        "MATHEMATICS -- Study & Teaching",
+                        "Mathematics -- Study and teaching (Higher)",
+                        "Wiskunde",
+                        "Wetenschappelijk onderwijs",
+                        "Onderwijsmethoden",
+                        "United States"
+                    ],
+                    "meta_creator": [
+                        "National Research Council (U.S.). Committee on the Mathematical Sciences in the Year 2000"
+                    ],
+                    "meta_date": [
+                        "1991-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "decline until the end of this century, {{{making it increasingly}}} dif\u00ac ficult to sustain present production"
+                    ]
+                },
+                "_score": 9.724009,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL1569273M",
+                    "url": "/books/OL1569273M/Moving_beyond_myths",
+                    "title": "Moving beyond myths",
+                    "ocaid": "movingbeyondmyth0000nati",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL775571A",
+                            "name": "Committee on the Mathematical Sciences in the Year 2000."
+                        }
+                    ],
+                    "work_key": "/works/OL4129469W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2361276-M.jpg",
+                    "borrow_url": "/books/OL1569273M/Moving_beyond_myths/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "movingbeyondmyth0000nati",
+                    "isbn": "0585143552",
+                    "oclc": null,
+                    "openlibrary_work": "OL4129469W",
+                    "openlibrary_edition": "OL1569273M",
+                    "last_loan_date": "2020-07-28T07:17:35Z",
+                    "num_waitlist": "0",
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "ldpd_11217282_000|72f4da7cf2048b378f510462fbe9624c86a9f923",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1427469256",
+                    "identifier": [
+                        "ldpd_11217282_000"
+                    ],
+                    "meta_publicdate": [
+                        "2015-03-27T14:55:32Z"
+                    ],
+                    "meta_titleSorter": [
+                        "bridging the deep in syria"
+                    ],
+                    "meta_downloads": [
+                        114
+                    ],
+                    "filename": [
+                        "ldpd_11217282_000_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-08 13:08:53",
+                    "file_basename": "ldpd_11217282_000",
+                    "meta_creatorSorter": [
+                        "bolitho, axchie a"
+                    ],
+                    "meta_title": [
+                        "Bridging the deep in Syria"
+                    ],
+                    "page_num": [
+                        68
+                    ],
+                    "sha1_file": "9b1283d8970efe5553cff26fdfceb876a07d5558",
+                    "meta_publisher": [
+                        "Anderson, Ind. : Missionary Board of the Church of God"
+                    ],
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "1932"
+                    ],
+                    "updated_on": "2020-09-18 07:18:46",
+                    "meta_collection": [
+                        "columbiamrlpamphlets",
+                        "ColumbiaUniversityLibraries",
+                        "americana"
+                    ],
+                    "meta_subjectSorter": [
+                        "Church of God (Anderson, Ind.)",
+                        "Missions"
+                    ],
+                    "meta_creator": [
+                        "Bolitho, Axchie A"
+                    ],
+                    "meta_date": [
+                        "1932-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "Nationalism, too, is growing in the country, {{{making it increasingly}}} difficult for the French government to"
+                    ]
+                },
+                "_score": 9.715996,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL25663669M",
+                    "url": "/books/OL25663669M/Bridging_the_deep_in_Syria",
+                    "title": "Bridging the deep in Syria",
+                    "ocaid": "ldpd_11217282_000",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL2196020A",
+                            "name": "Axchie A. Bolitho"
+                        }
+                    ],
+                    "work_key": "/works/OL17093356W",
+                    "cover_url": "//covers.openlibrary.org/b/id/9799044-M.jpg",
+                    "read_url": "/books/OL25663669M/Bridging_the_deep_in_Syria/borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "ldpd_11217282_000",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL17093356W",
+                    "openlibrary_edition": "OL25663669M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "germanyjapanatta0000shee_i1w9|703ff7a66845c32fdda5b3293ed2c6521a923b0d",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1614830657",
+                    "identifier": [
+                        "germanyjapanatta0000shee_i1w9"
+                    ],
+                    "meta_publicdate": [
+                        "2020-12-01T09:58:43Z"
+                    ],
+                    "meta_titleSorter": [
+                        "germany and japan attack"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "germanyjapanatta0000shee_i1w9_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2021-03-04 04:16:55",
+                    "file_basename": "germanyjapanatta0000shee_i1w9",
+                    "meta_creatorSorter": [
+                        "sheehan, sean, 1951-"
+                    ],
+                    "meta_title": [
+                        "Germany and Japan attack"
+                    ],
+                    "page_num": [
+                        [
+                            74
+                        ]
+                    ],
+                    "sha1_file": "a83c3b3c9918ccc8fe34c40d1518116ad884252d",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Austin, TX : Raintree Steck-Vaughn"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        2001
+                    ],
+                    "updated_on": "2021-04-06 02:45:20",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "World War, 1939-1945 -- Campaigns -- Juvenile literature",
+                        "World War, 1939-1945 -- Causes -- Juvenile literature",
+                        "World War, 1939-1945",
+                        "Military campaigns",
+                        "War -- Causes",
+                        "World War, 1939-1945 -- Campaigns",
+                        "World War, 1939-1945 -- Causes"
+                    ],
+                    "meta_creator": [
+                        "Sheehan, Sean, 1951-"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "faced a problem in Asia where Japan was {{{making it increasingly}}} clear that American attempts to limit its"
+                    ]
+                },
+                "_score": 9.701857,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL10805638M",
+                    "url": "/books/OL10805638M/Germany_and_Japan_(World_Wars)",
+                    "title": "Germany and Japan (World Wars)",
+                    "ocaid": "germanyjapanatta0000shee_i1w9",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL24804A",
+                            "name": "Sean Sheehan"
+                        }
+                    ],
+                    "work_key": "/works/OL14870861W",
+                    "cover_url": "//covers.openlibrary.org/w/id/2591114-M.jpg",
+                    "borrow_url": "/books/OL10805638M/Germany_and_Japan_(World_Wars)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "germanyjapanatta0000shee_i1w9",
+                    "isbn": "0739827545",
+                    "oclc": null,
+                    "openlibrary_work": "OL14870861W",
+                    "openlibrary_edition": "OL10805638M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "germanyjapanatta0000shee|fd614d59361d37403c56cc9b6da3705f19319117",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1599225426",
+                    "identifier": [
+                        "germanyjapanatta0000shee"
+                    ],
+                    "meta_publicdate": [
+                        "2020-09-02T09:48:42Z"
+                    ],
+                    "meta_titleSorter": [
+                        "germany and japan attack"
+                    ],
+                    "meta_downloads": [
+                        1
+                    ],
+                    "filename": [
+                        "germanyjapanatta0000shee_abbyy.gz"
+                    ],
+                    "created_on": "2020-09-04 13:30:13",
+                    "file_basename": "germanyjapanatta0000shee",
+                    "meta_creatorSorter": [
+                        "sheehan, sean, 1951-"
+                    ],
+                    "meta_title": [
+                        "Germany and Japan attack"
+                    ],
+                    "page_num": [
+                        74
+                    ],
+                    "sha1_file": "870a2aec0fee74ebad4ccd3919454dbb7d66d106",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Austin, TX : Raintree Steck-Vaughn"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        "2001"
+                    ],
+                    "updated_on": "2020-10-21 02:10:33",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "World War, 1939-1945 -- Campaigns -- Juvenile literature",
+                        "World War, 1939-1945 -- Causes -- Juvenile literature",
+                        "World War, 1939-1945"
+                    ],
+                    "meta_creator": [
+                        "Sheehan, Sean, 1951-"
+                    ],
+                    "meta_date": [
+                        "2001-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "faced a problem in Asia where Japan was {{{making it increasingly}}} clear that American attempts to limit its"
+                    ]
+                },
+                "_score": 9.697735,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL7919285M",
+                    "url": "/books/OL7919285M/Germany_and_Japan_Attack_(The_World_Wars)",
+                    "title": "Germany and Japan Attack (The World Wars)",
+                    "ocaid": "germanyjapanatta0000shee",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL24804A",
+                            "name": "Sean Sheehan"
+                        }
+                    ],
+                    "work_key": "/works/OL14870860W",
+                    "cover_url": "//covers.openlibrary.org/w/id/4691922-M.jpg",
+                    "borrow_url": "/books/OL7919285M/Germany_and_Japan_Attack_(The_World_Wars)/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": true,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "germanyjapanatta0000shee",
+                    "isbn": "0739827545",
+                    "oclc": null,
+                    "openlibrary_work": "OL14870860W",
+                    "openlibrary_edition": "OL7919285M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "jade0000ward|15f9ac9ecd87ed96dcc5e6bff6b9805fe35693e3",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1652173068",
+                    "identifier": [
+                        "jade0000ward"
+                    ],
+                    "meta_publicdate": [
+                        "2022-05-04T14:53:37Z"
+                    ],
+                    "meta_titleSorter": [
+                        "jade"
+                    ],
+                    "meta_downloads": [
+                        6
+                    ],
+                    "filename": [
+                        "jade0000ward_hocr_searchtext.txt.gz"
+                    ],
+                    "created_on": "2022-05-10 09:24:35",
+                    "file_basename": "jade0000ward",
+                    "meta_creatorSorter": [
+                        "ward, fred, 1935-"
+                    ],
+                    "meta_title": [
+                        "Jade"
+                    ],
+                    "page_num": [
+                        [
+                            70
+                        ]
+                    ],
+                    "sha1_file": "bef5a4a5e1f3fe2082defe80ff1ae7ceb12b0f2c",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "Bethesda, MD : Gem Book Publishers"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1996
+                    ],
+                    "updated_on": "2022-06-09 21:55:50",
+                    "meta_collection": [
+                        "inlibrary",
+                        "printdisabled",
+                        "internetarchivebooks"
+                    ],
+                    "meta_subjectSorter": [
+                        "Jade",
+                        "Precious stone industry",
+                        "Jade carving"
+                    ],
+                    "meta_creator": [
+                        "Ward, Fred, 1935-"
+                    ],
+                    "meta_date": [
+                        "1996-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "(either recut or \u201cas is\u201d) into new jewelry, {{{making it increasingly}}} difficult to identify the jewelry or jade"
+                    ]
+                },
+                "_score": 9.691057,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL22236374M",
+                    "url": "/books/OL22236374M/Jade",
+                    "title": "Jade",
+                    "ocaid": "jade0000ward",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL6423285A",
+                            "name": "Fred Ward"
+                        }
+                    ],
+                    "work_key": "/works/OL13559941W",
+                    "cover_url": "//covers.openlibrary.org/w/id/12737772-M.jpg",
+                    "borrow_url": "/books/OL22236374M/Jade/borrow"
+                },
+                "availability": {
+                    "status": "borrow_available",
+                    "available_to_browse": true,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": true,
+                    "is_readable": false,
+                    "is_lendable": true,
+                    "is_previewable": true,
+                    "identifier": "jade0000ward",
+                    "isbn": "0963372343",
+                    "oclc": null,
+                    "openlibrary_work": "OL13559941W",
+                    "openlibrary_edition": "OL22236374M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": true,
+                    "is_browseable": true,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            },
+            {
+                "_id": "arnoldbennettcal00benn|baedd7b3f5696fb1571670887c606929fddf6a4f",
+                "_index": "fts_main",
+                "fields": {
+                    "file_creation_mtime": "1275384787",
+                    "identifier": [
+                        "arnoldbennettcal00benn"
+                    ],
+                    "meta_publicdate": [
+                        "2009-11-17T18:41:05Z"
+                    ],
+                    "meta_titleSorter": [
+                        "the arnold bennett calendar"
+                    ],
+                    "meta_downloads": [
+                        761
+                    ],
+                    "filename": [
+                        "arnoldbennettcal00benn_abbyy.gz"
+                    ],
+                    "created_on": "2016-10-09 08:34:23",
+                    "file_basename": "arnoldbennettcal00benn",
+                    "meta_creatorSorter": [
+                        "bennett, arnold, 1867-1931"
+                    ],
+                    "meta_title": [
+                        "The Arnold Bennett calendar"
+                    ],
+                    "page_num": [
+                        142
+                    ],
+                    "sha1_file": "ff7dd75b6242051f86ddb87a53d9f1a7910085cd",
+                    "meta_mediatype": [
+                        "texts"
+                    ],
+                    "meta_publisher": [
+                        "New York, George H. Doran company"
+                    ],
+                    "meta_languageSorter": [
+                        "English"
+                    ],
+                    "meta_year": [
+                        1912
+                    ],
+                    "updated_on": "2022-04-05 04:06:37",
+                    "meta_collection": [
+                        "library_of_congress",
+                        "americana",
+                        "fav-gangstarr4life",
+                        "fav-flhoosier",
+                        "fav-steshaw83"
+                    ],
+                    "meta_subjectSorter": [
+                        "Bennett, Arnold, 1867-1931"
+                    ],
+                    "meta_creator": [
+                        "Bennett, Arnold, 1867-1931",
+                        "Bennett, Frank C., [from old catalog] comp"
+                    ],
+                    "meta_date": [
+                        "1912-01-01T00:00:00Z"
+                    ]
+                },
+                "highlight": {
+                    "text": [
+                        "\u2014 what an idea!\nTwenty-eight\nScience is {{{making it increasingly}}} difficult to conceive matter apart from"
+                    ]
+                },
+                "_score": 9.679714,
+                "_type": "_doc",
+                "edition": {
+                    "key": "/books/OL13447330M",
+                    "url": "/books/OL13447330M/The_Arnold_Bennett_calendar.",
+                    "title": "The Arnold Bennett calendar.",
+                    "ocaid": "arnoldbennettcal00benn",
+                    "eligibility": {},
+                    "availability": {},
+                    "authors": [
+                        {
+                            "key": "/authors/OL29586A",
+                            "name": "Arnold Bennett"
+                        }
+                    ],
+                    "work_key": "/works/OL109162W",
+                    "cover_url": "//covers.openlibrary.org/w/id/6275985-M.jpg",
+                    "read_url": "/books/OL13447330M/The_Arnold_Bennett_calendar./borrow"
+                },
+                "availability": {
+                    "status": "open",
+                    "available_to_browse": false,
+                    "available_to_borrow": false,
+                    "available_to_waitlist": false,
+                    "is_printdisabled": false,
+                    "is_readable": true,
+                    "is_lendable": false,
+                    "is_previewable": true,
+                    "identifier": "arnoldbennettcal00benn",
+                    "isbn": null,
+                    "oclc": null,
+                    "openlibrary_work": "OL109162W",
+                    "openlibrary_edition": "OL13447330M",
+                    "last_loan_date": null,
+                    "num_waitlist": null,
+                    "last_waitlist_date": null,
+                    "is_restricted": false,
+                    "is_browseable": false,
+                    "__src__": "core.models.lending.get_availability"
+                }
+            }
+        ]
+    },
+    "_shards": {
+        "skipped": 0,
+        "total": 240,
+        "failed": 0,
+        "successful": 240
+    },
+    "timed_out": false
+}
