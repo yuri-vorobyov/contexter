@@ -100,12 +100,15 @@ function parseItem(item) {
  *
  * @param {string} search
  * @param {number} [start=0]
- * @param {number} [count=40]
+ * @param {number} [count=COUNT]
  * @returns {Promise<{totalItems: number, items: GBSnippet[]}>}
  */
-async function searchPage(search, start = 0, count = 40) {
-  const url = urlFor(search, start, count);
-  // const url = "/test/mock-data/gb_giving-reasons-to.json";
+async function searchPage(search, start = 0, count = COUNT) {
+  // const url = urlFor(search, start, count);
+  const url = `/test/mock-data/gb_making-it-increasingly_${(
+    start / count +
+    1
+  ).toFixed(0)}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
@@ -132,6 +135,7 @@ async function searchPage(search, start = 0, count = 40) {
 /**
  * The main search facility. Asyncronous generator.
  * @param {string} search - Search query.
+ * @returns {AsyncGenerator<GBSnippet[]>}
  */
 async function* search(search) {
   /* saving execution time for benchmark purposes */
@@ -139,7 +143,7 @@ async function* search(search) {
 
   /* retrieving first page to get the idea about the total number of search results */
   const firstPage = await searchPage(search, 0, COUNT);
-  console.log(`first request took ${performance.now() - t0}ms`);
+  console.log(`[GB] request #1 finished in ${performance.now() - t0}ms`);
 
   yield firstPage.items;
 
@@ -167,5 +171,5 @@ async function* search(search) {
       }
     }
   }
-  console.log(`total time ${performance.now() - t0}ms`);
+  console.log(`[GB] total time ${performance.now() - t0}ms`);
 }
