@@ -5,6 +5,7 @@ import {
   isSimilar,
 } from "./text-processing.js";
 export { search, searchPage };
+import { wait, whoIsFirst, PromiseStatus } from "./asygen.js";
 
 function urlFor(search, page) {
   const url = new URL("https://openlibrary.org/search/inside.json");
@@ -74,7 +75,7 @@ function parseHit(hit) {
  *
  * @param {string} search - Search query.
  * @param {number} page - Page (a 20-book chunk) number.
- * @returns
+ * @returns {Promise<{cached: Boolean, totalItems: Number, items: OLSnippet[]}>}
  */
 async function searchPage(search, page) {
   const url = urlFor(search, page);
@@ -156,50 +157,47 @@ async function searchPage(search, page) {
   }
 }
 
-function wait(delay) {
-  return new Promise((resolve) => setTimeout(resolve, delay));
-}
-
 const COUNT = 20; // OpenLibrary returns results in chunks of 20 books
 
 /**
  * Performs search for a phrase using OpenLibrary API
  * @param {string} search - Search phrase.
- * @returns {Promise} A Promise resolved with a list of books.
+ * @returns {AsyncGenerator<OLSnippet[]>}
  */
-async function search(search) {
+async function* search(search) {
   const t0 = performance.now();
 
   /* initial request to ensure cached results */
   const firstPage = await searchPage(search);
-  console.log(`[OL] request #1 finished in ${performance.now() - t0}ms`);
-  console.log(`[OL] ${firstPage.hits.total} hits found`);
-  console.log(`[OL] ${firstPage.hits.hits.length} items returned`);
-  console.log(`[OL] cached = ${firstPage["fts-api"].cached}`);
-  const books = [];
-  books.push(...firstPage.hits.hits);
+  console.log(
+    `[OL] request #1 finished in ${performance.now() - t0}ms (${
+      firstPage.cached ? "cached" : "not cached"
+    })`
+  );
 
-  /* all the rest items, if any */
-  const remainingItems = firstPage.hits.total - firstPage.hits.hits.length;
+  yield firstPage.items;
+
+  const remainingItems = firstPage.totalItems - firstPage.items.length;
+
+  /* Retrieving all the rest items, if any */
   if (remainingItems > 0) {
     const promises = []; // preparing container for fetch promises
     /* making requests and saving promises 
        - maximum 10 pages (200 items) will be requested for the sake of performance
-       - each request is delayed 150 ms */
+       - each request is delayed 50 ms */
     for (let i = 0; i < Math.min(remainingItems / COUNT, 10); i++) {
-      promises.push(wait((i + 1) * 150).then(() => searchPage(search, i + 2)));
+      promises.push(wait(i * 50).then(() => searchPage(search, i + 2)));
     }
-    console.log(`[OL] ${promises.length} additional pages requested`);
-    /* collecting fetched results */
-    const results = await Promise.allSettled(promises);
-    console.log(`total time ${performance.now() - t0}ms`);
-    /* processing results */
-    for (const element of results) {
-      if (element.status === "fulfilled") {
-        books.push(...element.value.hits.hits);
+
+    while (promises.length > 0) {
+      const current = await whoIsFirst(promises);
+      promises.splice(current.index, 1);
+      if (current.status === PromiseStatus.FULFILLED) {
+        if (current.value.items.length > 0) {
+          yield current.value.items;
+        }
       }
     }
   }
-
-  return books;
+  console.log(`[OL] total time ${performance.now() - t0}ms`);
 }
