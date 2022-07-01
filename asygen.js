@@ -31,19 +31,29 @@ export const PromiseStatus = {
   REJECTED: "rejected",
 };
 
-/**
- * @typedef {Object} TFulfilledResult - Information about a fulfilled Promise.
- * @property {PromiseStatus} status - A string "fulfilled".
- * @property {*} value - Fulfillment value.
- * @property {Number} index - Index of a fulfilled Promise from the input array.
- */
+export class FulfilledElement {
+  /**
+   *
+   * @param {*} value
+   * @param {Number} index
+   */
+  constructor(value, index) {
+    this.value = value;
+    this.index = index;
+  }
+}
 
-/**
- * @typedef {Object} TRejectedResult - Information about a rejected Promise.
- * @property {PromiseStatus} status - A string "rejected".
- * @property {*} reason - Rejection reason.
- * @property {Number} index - Index of a rejected Promise from the input array.
- */
+class RejectedElement {
+  /**
+   *
+   * @param {*} reason
+   * @param {Number} index
+   */
+  constructor(reason, index) {
+    this.reason = reason;
+    this.index = index;
+  }
+}
 
 /**
  * Being given an array of Promise objects, returns a Promise that will be resolved
@@ -51,7 +61,7 @@ export const PromiseStatus = {
  *
  * @param {Promise[]} promises - Array of Promise objects. May be sparse?
  * @param {Promise[]} rest
- * @returns {Promise<TFulfilledResult | TRejectedResult>} Promise fulfilled with the
+ * @returns {Promise<FulfilledElement | RejectedElement>} Promise fulfilled with the
  * value (reason) and index of the first fulfilled (rejected) Promise from the array.
  */
 export function whoIsFirst(promises, ...rest) {
@@ -60,18 +70,10 @@ export function whoIsFirst(promises, ...rest) {
     promises.forEach((promise, index) =>
       Promise.resolve(promise)
         .then((value) => {
-          resolve({
-            status: PromiseStatus.FULFILLED,
-            value: value,
-            index: index,
-          });
+          resolve(new FulfilledElement(value, index));
         })
         .catch((reason) => {
-          resolve({
-            status: PromiseStatus.REJECTED,
-            reason: reason,
-            index: index,
-          });
+          resolve(new RejectedElement(reason, index));
         })
     );
   });
@@ -87,10 +89,43 @@ async function* contest(proms) {
   while (promises.length > 0) {
     const result = await whoIsFirst(promises); // waiting for a resolved Promise
     promises.splice(result.index, 1); // removing it from the array
-    if (result.status === PromiseStatus.FULFILLED) {
-      yield /** @type {TFulfilledResult} */ (result).value; // and returning its value
+    if (result instanceof FulfilledElement) {
+      yield result.value; // and returning its value
     } else {
-      // do nothing
+      // do nothing (ignore rejected Promises)
+    }
+  }
+}
+
+/**
+ * Runs many async generator concurrently. In essence, it converts many async generators
+ * to a single async generator. This generator will yield the first available value among
+ * all the generators untill they all are not done.
+ *
+ * It should be noted here that in case there are resolved Promises available in several
+ * generators they will be returned in the order in which their corresponding generators
+ * presented in the input array, and not necessary in order of their resolution.
+ *
+ * @param {AsyncGenerator[]} geners - Array of async generators to run concurrently.
+ */
+async function* runAll(geners) {
+  /* copy of generators array */
+  const generators = Array.from(geners);
+  /* array of promises, resolved with the first returned value of each generator */
+  const promises = generators.map((generator) => generator.next());
+
+  while (promises.length > 0) {
+    /* getting earliest */
+    const result = await whoIsFirst(promises); // {value, index}, where value is {value, done}
+    if (!result.value.done) {
+      /* for the earliest generator - next iteration, others are still on previous */
+      promises[result.index] = generators[result.index].next();
+      /* yielding result */
+      yield result.value.value;
+    } else {
+      /* a generator is done - forget about it */
+      promises.splice(result.index, 1);
+      generators.splice(result.index, 1);
     }
   }
 }

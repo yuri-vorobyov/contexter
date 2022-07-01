@@ -1,4 +1,6 @@
-import { wait, whoIsFirst, PromiseStatus } from "./asygen.js";
+// @ts-check
+
+import { wait, whoIsFirst, FulfilledElement } from "./asygen.js";
 import { Snippet } from "./snippet.js";
 export { search, searchPage };
 
@@ -27,8 +29,8 @@ function urlFor(search, start = 0, count = 10) {
   const url = new URL("https://www.googleapis.com/books/v1/volumes");
   url.searchParams.append("q", `"${search}"`); // adding quotes for strict search
   url.searchParams.append("langRestrict", "en"); // English sources only
-  url.searchParams.append("startIndex", start);
-  url.searchParams.append("maxResults", count);
+  url.searchParams.append("startIndex", start.toFixed(0));
+  url.searchParams.append("maxResults", count.toFixed(0));
   url.searchParams.append(
     "fields",
     "totalItems,items(volumeInfo(title,authors,publishedDate),searchInfo(textSnippet))"
@@ -42,7 +44,7 @@ function urlFor(search, start = 0, count = 10) {
  * @param {Object} page - Object returned by Google Books API.
  * @param {number} page.totalItems
  * @param {Item[]} page.items
- * @returns {Item[]} Array containing only those items for which "searchInfo" is defined.
+ * @returns { {totalItems: Number; items: Item[]} } Array containing only those items for which "searchInfo" is defined.
  */
 function processPage(page) {
   if ("items" in page) {
@@ -57,6 +59,9 @@ function processPage(page) {
 }
 
 class GBSnippet extends Snippet {
+  /**
+   * @param {string} source
+   */
   constructor(source) {
     super(source, /<b>(.+?)<\/b>/);
   }
@@ -112,7 +117,7 @@ async function searchPage(search, start = 0, count = COUNT) {
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
-    if (contentType.match(/application\/json/)) {
+    if (contentType?.match(/application\/json/)) {
       const page = await responce.json();
       const out = {};
       /* total number of results */
@@ -149,6 +154,7 @@ async function* search(search) {
 
   /* Unfortunately, GB API is broken - the number of total results is incorrect. The
      row below is a magic-number-crutch to circumvent it somehow. */
+  // TODO : firstPage.items.length returns the number of items AFTER processPage()
   const remainingItems = 0.85 * firstPage.totalItems - firstPage.items.length;
 
   /* Retrieving all the rest items if any */
@@ -164,7 +170,7 @@ async function* search(search) {
     while (promises.length > 0) {
       const current = await whoIsFirst(promises);
       promises.splice(current.index, 1);
-      if (current.status === PromiseStatus.FULFILLED) {
+      if (current instanceof FulfilledElement) {
         if (current.value.items.length > 0) {
           yield current.value.items;
         }

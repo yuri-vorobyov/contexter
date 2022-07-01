@@ -5,7 +5,7 @@ import {
   isSimilar,
 } from "./text-processing.js";
 export { search, searchPage };
-import { wait, whoIsFirst, PromiseStatus } from "./asygen.js";
+import { wait, whoIsFirst, FulfilledElement } from "./asygen.js";
 
 function urlFor(search, page) {
   const url = new URL("https://openlibrary.org/search/inside.json");
@@ -145,7 +145,7 @@ async function searchPage(search, page = 1) {
         //   i += 1;
         // }
 
-        console.log(`parsing took ${performance.now() - t0} ms`);
+        // console.log(`parsing took ${performance.now() - t0} ms`);
       }
 
       return out;
@@ -192,7 +192,7 @@ async function* search(search) {
     while (promises.length > 0) {
       const current = await whoIsFirst(promises);
       promises.splice(current.index, 1);
-      if (current.status === PromiseStatus.FULFILLED) {
+      if (current instanceof FulfilledElement) {
         if (current.value.items.length > 0) {
           yield current.value.items;
         }
