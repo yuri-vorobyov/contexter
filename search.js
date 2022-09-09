@@ -5,9 +5,12 @@ import { search as olSearch } from "./ol-client.js";
 
 import { FulfilledElement, whoIsFirst } from "./asygen.js";
 
+import { Source } from "./source.js";
+
 /**
  *
  * @param {string} search - What we search context for.
+ * @returns {AsyncGenerator<Source[]>}
  */
 export default async function* search(search) {
   /* creating generators with search results for each API */

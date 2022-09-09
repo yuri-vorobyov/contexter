@@ -2,6 +2,7 @@
 
 import { wait, whoIsFirst, FulfilledElement } from "./asygen.js";
 import { Snippet } from "./snippet.js";
+import { Source } from "./source.js";
 export { search, searchPage };
 
 /**
@@ -72,9 +73,10 @@ class GBSnippet extends Snippet {
  * @param {object} item
  * @param { {title: string, authors: string[], publishedDate: string} } item.volumeInfo
  * @param { {textSnippet: string} } item.searchInfo
+ * @returns {Source}
  */
 function parseItem(item) {
-  const out = {};
+  const out = new Source();
   try {
     /* parsing title, authors, and year */
     out.title = item.volumeInfo.title;
@@ -92,11 +94,12 @@ function parseItem(item) {
       .replace(/(\w)(-\s+)/g, "$1-");
     const snippet = new GBSnippet(snippetText);
     out.snippets = [snippet];
-    return out;
   } catch (err) {
     console.log(`Error: ${err}`);
     console.log("while parsing:");
     console.log(item);
+  } finally {
+    return out;
   }
 }
 
@@ -106,7 +109,7 @@ function parseItem(item) {
  * @param {string} search
  * @param {number} [start=0]
  * @param {number} [count=COUNT]
- * @returns {Promise<{totalItems: number, items: GBSnippet[]}>}
+ * @returns {Promise<{totalItems: number, items: Source[]}>}
  */
 async function searchPage(search, start = 0, count = COUNT) {
   // const url = urlFor(search, start, count);
@@ -123,8 +126,9 @@ async function searchPage(search, start = 0, count = COUNT) {
       /* total number of results */
       out.totalItems = page.totalItems;
       /* search results in unified format */
-      out.items = processPage(page).items.map(parseItem);
       /* search results must be strictly equal to the query */
+      /** @type {Source[]} */ out.items =
+        processPage(page).items.map(parseItem);
       out.items = out.items.filter(
         (item) => item.snippets[0].search.toLowerCase() === search.toLowerCase()
       );
@@ -140,7 +144,7 @@ async function searchPage(search, start = 0, count = COUNT) {
 /**
  * The main search facility. Asyncronous generator.
  * @param {string} search - Search query.
- * @returns {AsyncGenerator<GBSnippet[]>}
+ * @returns {AsyncGenerator<Source[]>}
  */
 async function* search(search) {
   /* saving execution time for benchmark purposes */

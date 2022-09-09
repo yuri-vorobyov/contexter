@@ -1,4 +1,5 @@
 import { Snippet } from "./snippet.js";
+import { Source } from "./source.js";
 import {
   removeCrossDuplicates,
   removeDuplicates,
@@ -27,9 +28,10 @@ class OLSnippet extends Snippet {
  * @param { {text: string[]} } hit.highlight
  * @param { {meta_title: string[], meta_year: number[], meta_creator: string[]} } hit.fields
  * @param { {title: string, authors: {name: string}[]} } hit.edition
+ * @returns {Source}
  */
 function parseHit(hit) {
-  let out = {};
+  const out = new Source();
   try {
     /* parsing title, authors, and year */
     out.title = "edition" in hit ? hit.edition.title : hit.fields.meta_title[0];
@@ -61,11 +63,11 @@ function parseHit(hit) {
     //     right: snippetParts[2],
     //   };
     // });
-
-    return out;
   } catch (err) {
     console.log(err);
     console.log(hit);
+  } finally {
+    return out;
   }
 }
 
@@ -75,7 +77,7 @@ function parseHit(hit) {
  *
  * @param {string} search - Search query.
  * @param {number} [page=1] - Page (a 20-book chunk) number.
- * @returns {Promise<{cached: Boolean, totalItems: Number, items: OLSnippet[]}>}
+ * @returns {Promise<{cached: Boolean, totalItems: Number, items: Source[]}>}
  */
 async function searchPage(search, page = 1) {
   // const url = urlFor(search, page);
@@ -162,7 +164,7 @@ const COUNT = 20; // OpenLibrary returns results in chunks of 20 books
 /**
  * Performs search for a phrase using OpenLibrary API
  * @param {string} search - Search phrase.
- * @returns {AsyncGenerator<OLSnippet[]>}
+ * @returns {AsyncGenerator<Source[]>}
  */
 async function* search(search) {
   const t0 = performance.now();
