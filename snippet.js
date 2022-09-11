@@ -1,3 +1,5 @@
+// @ts-check
+
 /**
  * Class representing a text snippet, which is an excerpt containing a search string
  * marked in some way. The way it is marked is specified via the constructor.
@@ -29,12 +31,42 @@ export class Snippet {
     this.rightWords = this.right.trim().split(/\s+/);
   }
 
+  /**
+   * @param {String} s
+   */
+  static #parseWord(s) {
+    if (s) {
+      const m = s.match(/\w+/);
+      if (m) {
+        return m[0].toLowerCase();
+      } else {
+        throw new ParseError(`"${s}" is not a word.`);
+      }
+    } else {
+      throw new ParseError("Nothing to parse.");
+    }
+  }
+
   get wordFromLeft() {
-    return this.leftWords[this.leftWords.length - 1];
+    /** @type {String} */ let out = "";
+    try {
+      out = Snippet.#parseWord(this.leftWords[this.leftWords.length - 1]);
+    } catch {
+      out = "";
+    } finally {
+      return out;
+    }
   }
 
   get wordFromRight() {
-    return this.rightWords[0];
+    /** @type {String} */ let out = "";
+    try {
+      out = Snippet.#parseWord(this.rightWords[0]);
+    } catch {
+      out = "";
+    } finally {
+      return out;
+    }
   }
 
   get source() {

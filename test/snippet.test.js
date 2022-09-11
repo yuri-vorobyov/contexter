@@ -30,12 +30,18 @@ describe("Snippet", () => {
   });
 
   describe("methods", () => {
-    it("should return the word from left and right of the search string", () => {
+    it("should return the word from left and right of the search string as they appear in the snippet", () => {
       const s = new Snippet("So many nice {tests} right here.", /\{(.+?)\}/);
       s.leftWords.should.deep.equal(["So", "many", "nice"]);
       s.wordFromLeft.should.equal("nice");
       s.rightWords.should.deep.equal(["right", "here."]);
       s.wordFromRight.should.equal("right");
+    });
+
+    it("should return word from left and word from right in lowercase and without punctuation", () => {
+      const s = new Snippet("Which {makes it} difficult.", /\{(.+?)\}/);
+      s.wordFromLeft.should.equal("which");
+      s.wordFromRight.should.equal("difficult");
     });
 
     it("should be converted to string consistently", () => {
