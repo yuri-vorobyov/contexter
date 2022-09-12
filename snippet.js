@@ -2,7 +2,16 @@
 
 /**
  * Class representing a text snippet, which is an excerpt containing a search string
- * marked in some way. The way it is marked is specified via the constructor.
+ * marked in some way. The way it is marked is specified via the constructor. This class
+ * is intended to be a base class for API-dependent classes, which differ in a way the search
+ * string is marked. For example, Google Books API encloses the search string in <b></b> tags.
+ * Therefore, we may define the subclass as:
+ *
+ *   class GBSnippet extends Snippet {
+ *     constructor(source) {
+ *       super(source, /<b>(.+?)<\/b>/);
+ *     }
+ *   }
  */
 export class Snippet {
   #source;
@@ -11,7 +20,7 @@ export class Snippet {
   #right;
 
   /**
-   * Create a Snippet.
+   * Create a Snippet. Performs parsing of the snippet text, throws error if something goes wrong.
    * @param {string} source - Snippet text with a search string marked in some way.
    * @param {RegExp} pattern - Regular expression matching to the search string in
    * the snippet text.

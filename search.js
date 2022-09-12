@@ -8,12 +8,15 @@ import { FulfilledElement, whoIsFirst } from "./asygen.js";
 import { Source } from "./source.js";
 
 /**
+ * Performs search using available full-text search APIs. Currently available are Google Books and
+ * Open Library. This routine implements an asyncronous generator.
  *
  * @param {string} search - What we search context for.
  * @returns {AsyncGenerator<Source[]>}
  */
 export default async function* search(search) {
-  /* creating generators with search results for each API */
+  /* Creating generators with search results for each API. Any number of search engines
+     is supported. */
   const generators = [gbSearch(search), olSearch(search)];
 
   /* array of promises, resolved with the first returned value of each generator */

@@ -1,9 +1,9 @@
+// @ts-check
+
 import search from "./search.js";
+import { Source } from "./source.js";
 
-document.querySelector("form").addEventListener("submit", handleSubmit);
-
-const gbList = document.querySelector("#gb ul"); // DOM container for the GB search results
-const olList = document.querySelector("#ol ul"); // DOM container for the OL search results
+document.querySelector("form")?.addEventListener("submit", handleSubmit);
 
 /**
  * Removes root's children one by one.
@@ -20,26 +20,49 @@ function clearChildren(root) {
 async function handleSubmit(event) {
   event.preventDefault();
 
-  const searchText = document.getElementById("search").value;
-
-  // for await (const chunk of gbSearch(searchText)) {
-  //   console.log(chunk);
-  // }
-
-  // for await (const chunk of olSearch(searchText)) {
-  //   console.log(chunk);
-  // }
-
-  for await (const chunk of search(searchText)) {
-    console.log(chunk);
+  if (document.body.classList.contains("initial")) {
+    document.body.classList.remove("initial");
   }
 
-  return;
+  const para = document.querySelector("#stat p");
 
-  clearChildren(gbList);
-  clearChildren(olList);
+  const searchText = document.getElementById("search").value;
 
-  /* showing loaders */
-  document.querySelector("#gb .loader").style.display = "block";
-  document.querySelector("#ol .loader").style.display = "block";
+  const leftWords = new WordCounter();
+  const rightWords = new WordCounter();
+
+  let snippetsCount = 0;
+
+  for await (const chunk of search(searchText)) {
+    // console.log(chunk);
+    for (const source of chunk) {
+      snippetsCount += source.snippets.length;
+      para.textContent = `Search is in process: ${snippetsCount} text snippets found.`;
+      for (const snippet of source.snippets) {
+        leftWords.add(snippet.wordFromLeft);
+        rightWords.add(snippet.wordFromRight);
+      }
+    }
+  }
+
+  para.textContent = `Done searching: ${snippetsCount} text snippets found.`;
+
+  console.log(leftWords);
+  console.log(rightWords);
+}
+
+/**
+ * A Map subclass which can count words.
+ */
+class WordCounter extends Map {
+  /**
+   * @param {String} word
+   */
+  add(word) {
+    if (this.has(word)) {
+      this.set(word, this.get(word) + 1);
+    } else {
+      this.set(word, 1);
+    }
+  }
 }

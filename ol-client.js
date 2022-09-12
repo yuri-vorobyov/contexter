@@ -54,15 +54,6 @@ function parseHit(hit) {
     );
     /* removing duplicating snippets */
     out.snippets = removeDuplicates(snippets);
-    /* parsing */
-    // out.snippets = snippets.map((snippet) => {
-    //   const snippetParts = snippet.split(/\{\{\{(.+?)\}\}\}/);
-    //   return {
-    //     left: snippetParts[0],
-    //     search: snippetParts[1],
-    //     right: snippetParts[2],
-    //   };
-    // });
   } catch (err) {
     console.log(err);
     console.log(hit);
@@ -80,8 +71,8 @@ function parseHit(hit) {
  * @returns {Promise<{cached: Boolean, totalItems: Number, items: Source[]}>}
  */
 async function searchPage(search, page = 1) {
-  // const url = urlFor(search, page);
-  const url = `/test/mock-data/ol_making-it-increasingly_${page}.json`;
+  const url = urlFor(search, page);
+  // const url = `/test/mock-data/ol_making-it-increasingly_${page}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
@@ -185,12 +176,13 @@ async function* search(search) {
   if (remainingItems > 0) {
     const promises = []; // preparing container for fetch promises
     /* making requests and saving promises 
-       - maximum 10 pages (200 items) will be requested for the sake of performance
+       - maximum 20 pages (400 items) will be requested for the sake of performance
        - each request is delayed 50 ms */
-    for (let i = 0; i < Math.min(remainingItems / COUNT, 10); i++) {
+    for (let i = 0; i < Math.min(remainingItems / COUNT, 20); i++) {
       promises.push(wait(i * 50).then(() => searchPage(search, i + 2)));
     }
 
+    /* awaiting promises, one by one, in order of resolution */
     while (promises.length > 0) {
       const current = await whoIsFirst(promises);
       promises.splice(current.index, 1);

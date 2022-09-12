@@ -23,14 +23,6 @@ async function waitAndReturn(delay, result) {
   return result;
 }
 
-/**
- * @enum {string} Represents status of a Promise.
- */
-export const PromiseStatus = {
-  FULFILLED: "fulfilled",
-  REJECTED: "rejected",
-};
-
 export class FulfilledElement {
   /**
    *
@@ -43,7 +35,7 @@ export class FulfilledElement {
   }
 }
 
-class RejectedElement {
+export class RejectedElement {
   /**
    *
    * @param {*} reason
@@ -68,7 +60,7 @@ export function whoIsFirst(promises, ...rest) {
   promises = Array.of(promises).concat(rest).flat();
   return new Promise((resolve) => {
     promises.forEach((promise, index) =>
-      Promise.resolve(promise)
+      Promise.resolve(promise) // "promisifying"
         .then((value) => {
           resolve(new FulfilledElement(value, index));
         })

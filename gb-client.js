@@ -112,11 +112,11 @@ function parseItem(item) {
  * @returns {Promise<{totalItems: number, items: Source[]}>}
  */
 async function searchPage(search, start = 0, count = COUNT) {
-  // const url = urlFor(search, start, count);
-  const url = `/test/mock-data/gb_making-it-increasingly_${(
-    start / count +
-    1
-  ).toFixed(0)}.json`;
+  const url = urlFor(search, start, count);
+  // const url = `/test/mock-data/gb_making-it-increasingly_${(
+  //   start / count +
+  //   1
+  // ).toFixed(0)}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
@@ -126,9 +126,10 @@ async function searchPage(search, start = 0, count = COUNT) {
       /* total number of results */
       out.totalItems = page.totalItems;
       /* search results in unified format */
-      /* search results must be strictly equal to the query */
       /** @type {Source[]} */ out.items =
         processPage(page).items.map(parseItem);
+      /* search results must be strictly equal to the query which is not always the case
+         for Google Books API */
       out.items = out.items.filter(
         (item) => item.snippets[0].search.toLowerCase() === search.toLowerCase()
       );
@@ -142,7 +143,7 @@ async function searchPage(search, start = 0, count = COUNT) {
 }
 
 /**
- * The main search facility. Asyncronous generator.
+ * The main search facility for Google Books API. Implements asyncronous generator.
  * @param {string} search - Search query.
  * @returns {AsyncGenerator<Source[]>}
  */

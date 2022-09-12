@@ -1,5 +1,6 @@
 :root {
   --input-radius: 4px;
+  --transition: 1s ease 50ms;
 }
 
 body {
@@ -8,10 +9,19 @@ body {
   color: #222;
   background-color: rgb(177, 210, 252);
   overflow-y: scroll;
+  margin: 1rem;
+  transition: var(--transition);
 }
 
+body.initial {
+  margin: 25vh 1rem 0 1rem;
+}
+
+/************************************************
+ *                    Header                    *
+ ************************************************/
+
 header {
-  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,27 +29,38 @@ header {
 
 header svg {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.4));
+  height: 4rem;
+  transition: var(--transition);
 }
 
-main {
-  max-width: 60ch;
-  margin: 0 auto;
+body.initial header svg {
+  width: 100vw;
+  height: 5.5rem;
+  margin-bottom: 1rem;
 }
 
 form {
+  max-width: 70ch;
+  margin: 1rem auto;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   box-shadow: 0 0 1rem rgba(48, 26, 129, 0.418);
   border-radius: var(--input-radius);
-  margin: 1rem 0;
 }
 
 form #search,
-#go {
+form #go {
   height: 2.5rem;
   font-size: 1.2rem;
   padding: 0.5rem;
+  transition: var(--transition);
+}
+
+body.initial form #search,
+body.initial form #go {
+  height: 3rem;
+  font-size: 1.5rem;
 }
 
 form #search {
@@ -60,6 +81,20 @@ form #go {
 
 .transparent {
   opacity: 0;
+}
+
+/*********************************************
+ *            Overall statistics             *
+ *********************************************/
+#stat {
+  max-width: 70ch;
+  margin: 1rem auto;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#stat p:first-of-type {
+  font-style: italic;
+  color: #222;
 }
 
 #gb,
