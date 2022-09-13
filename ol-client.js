@@ -6,7 +6,12 @@ import {
   isSimilar,
 } from "./text-processing.js";
 export { search, searchPage };
-import { wait, whoIsFirst, FulfilledElement } from "./asygen.js";
+import {
+  wait,
+  whoIsFirst,
+  FulfilledElement,
+  RejectedElement,
+} from "./asygen.js";
 
 function urlFor(search, page) {
   const url = new URL("https://openlibrary.org/search/inside.json");
@@ -183,13 +188,18 @@ async function* search(search) {
     }
 
     /* awaiting promises, one by one, in order of resolution */
-    while (promises.length > 0) {
+    while (promises.flat().length > 0) {
       const current = await whoIsFirst(promises);
-      promises.splice(current.index, 1);
+      delete promises[current.index]; // used instead of splice() to keep indexes between loop iterations
       if (current instanceof FulfilledElement) {
         if (current.value.items.length > 0) {
           yield current.value.items;
         }
+      } else if (current instanceof RejectedElement) {
+        // if error occured --- try to refetch
+        const i = current.index;
+        console.log(`[OL] refetching page #${i + 2}`);
+        promises.push(wait(i * 50).then(() => searchPage(search, i + 2)));
       }
     }
   }

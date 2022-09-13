@@ -1,6 +1,11 @@
 // @ts-check
 
-import { wait, whoIsFirst, FulfilledElement } from "./asygen.js";
+import {
+  wait,
+  whoIsFirst,
+  FulfilledElement,
+  RejectedElement,
+} from "./asygen.js";
 import { Snippet } from "./snippet.js";
 import { Source } from "./source.js";
 export { search, searchPage };
@@ -172,13 +177,19 @@ async function* search(search) {
         wait(i * 50).then(() => searchPage(search, (i + 1) * COUNT, COUNT))
       );
     }
-    while (promises.length > 0) {
+    while (promises.flat().length > 0) {
       const current = await whoIsFirst(promises);
-      promises.splice(current.index, 1);
+      delete promises[current.index];
       if (current instanceof FulfilledElement) {
         if (current.value.items.length > 0) {
           yield current.value.items;
         }
+      } else if (current instanceof RejectedElement) {
+        const i = current.index;
+        console.log(`[GB] refetching page #${i + 2}`);
+        promises.push(
+          wait(i * 50).then(() => searchPage(search, (i + 1) * COUNT, COUNT))
+        );
       }
     }
   }

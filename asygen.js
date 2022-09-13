@@ -51,14 +51,13 @@ export class RejectedElement {
  * Being given an array of Promise objects, returns a Promise that will be resolved
  * by the result of the first resolved Promise among array elements.
  *
- * @param {Promise[]} promises - Array of Promise objects. May be sparse?
- * @param {Promise[]} rest
+ * @param {Promise[]} promises - Array of Promise objects.
  * @returns {Promise<FulfilledElement | RejectedElement>} Promise fulfilled with the
  * value (reason) and index of the first fulfilled (rejected) Promise from the array.
  */
-export function whoIsFirst(promises, ...rest) {
-  promises = Array.of(promises).concat(rest).flat();
+export function whoIsFirst(promises) {
   return new Promise((resolve) => {
+    // forEach ignores empty elements so sparse arrays are Ok here
     promises.forEach((promise, index) =>
       Promise.resolve(promise) // "promisifying"
         .then((value) => {

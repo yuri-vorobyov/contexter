@@ -52,7 +52,7 @@ async function handleSubmit(event) {
 }
 
 /**
- * A Map subclass which can count words.
+ * A Map subclass which counts words.
  */
 class WordCounter extends Map {
   /**
