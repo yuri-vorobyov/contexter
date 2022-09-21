@@ -41,13 +41,14 @@ export class Snippet {
   }
 
   /**
+   * Parses a word out of a string.
    * @param {String} s
    */
   static #parseWord(s) {
     if (s) {
-      const m = s.match(/\w+/);
+      const m = s.toLowerCase().match(/\w+/);
       if (m) {
-        return m[0].toLowerCase();
+        return m[0];
       } else {
         throw new ParseError(`"${s}" is not a word.`);
       }
@@ -86,6 +87,10 @@ export class Snippet {
     return this.#search;
   }
 
+  /**
+   * Returns left part (before the search string) of the snippet. If the result is an
+   * empty string, then the snippet begins with the search string.
+   */
   get left() {
     return this.#left;
   }

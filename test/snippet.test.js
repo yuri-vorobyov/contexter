@@ -10,14 +10,16 @@ describe("Snippet", () => {
       s.left.should.equal("Hello, ");
       s.search.should.equal("World");
       s.right.should.equal("!");
+
       s = new Snippet("{Great} day!", /\{(.+?)\}/);
       s.left.should.equal("");
       s.search.should.equal("Great");
       s.right.should.equal(" day!");
-      s = new Snippet("Indeed, {Sir}", /\{(.+?)\}/);
+
+      s = new Snippet("Indeed, {Sir}.", /\{(.+?)\}/);
       s.left.should.equal("Indeed, ");
       s.search.should.equal("Sir");
-      s.right.should.equal("");
+      s.right.should.equal(".");
     });
 
     it("should throw ParseError in case pattern does not match", () => {
@@ -26,6 +28,30 @@ describe("Snippet", () => {
       } catch (e) {
         e.name.should.equal("ParseError");
       }
+    });
+
+    it("should split left and right part into words", () => {
+      let s = new Snippet(
+        "black, {which is why} it is not that hard.",
+        /\{(.+?)\}/
+      );
+      s.leftWords.should.deep.equal(["black,"]);
+      s.rightWords.should.deep.equal(["it", "is", "not", "that", "hard."]);
+
+      s = new Snippet(
+        "Making everyone happy is {my official job}.",
+        /\{(.+?)\}/
+      );
+      s.leftWords.should.deep.equal(["Making", "everyone", "happy", "is"]);
+      s.rightWords.should.deep.equal(["."]);
+
+      s = new Snippet("{Splitting} sentence into words.", /\{(.+?)\}/);
+      s.leftWords.should.deep.equal([""]);
+      s.rightWords.should.deep.equal(["sentence", "into", "words."]);
+
+      s = new Snippet("Quick thinking is {a matter of}", /\{(.+?)\}/);
+      s.leftWords.should.deep.equal(["Quick", "thinking", "is"]);
+      s.rightWords.should.deep.equal([""]);
     });
   });
 

@@ -117,11 +117,11 @@ function parseItem(item) {
  * @returns {Promise<{totalItems: number, items: Source[]}>}
  */
 async function searchPage(search, start = 0, count = COUNT) {
-  const url = urlFor(search, start, count);
-  // const url = `/test/mock-data/gb_making-it-increasingly_${(
-  //   start / count +
-  //   1
-  // ).toFixed(0)}.json`;
+  // const url = urlFor(search, start, count);
+  const url = `/test/mock-data/gb_making-it-increasingly_${(
+    start / count +
+    1
+  ).toFixed(0)}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
@@ -158,9 +158,8 @@ async function* search(search) {
 
   /* retrieving first page to get the idea about the total number of search results */
   const firstPage = await searchPage(search, 0, COUNT);
-  console.log(`[GB] request #1 finished in ${performance.now() - t0}ms`);
-
   yield firstPage.items;
+  console.log(`[GB] request #1 finished in ${performance.now() - t0}ms`);
 
   /* Unfortunately, GB API is broken - the number of total results is incorrect. The
      row below is a magic-number-crutch to circumvent it somehow. */

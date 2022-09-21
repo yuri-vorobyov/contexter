@@ -1,6 +1,7 @@
 :root {
   --input-radius: 4px;
   --transition: 1s ease 50ms;
+  --max-width: 70ch;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
   overflow-y: scroll;
   margin: 1rem;
   transition: var(--transition);
+}
+
+body * {
+  box-sizing: border-box;
 }
 
 body.initial {
@@ -40,7 +45,7 @@ body.initial header svg {
 }
 
 form {
-  max-width: 70ch;
+  max-width: var(--max-width);
   margin: 1rem auto;
   display: flex;
   flex-direction: row;
@@ -84,27 +89,117 @@ form #go {
 }
 
 /*********************************************
- *            Overall statistics             *
+ *              Search progress              *
  *********************************************/
-#stat {
-  max-width: 70ch;
+
+#progress {
+  position: relative;
+  top: 0;
+  transition: 0.5s ease 50ms;
+  max-width: var(--max-width);
   margin: 1rem auto;
   background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
 }
 
-#stat p:first-of-type {
+body.initial #progress.progress--invisible {
+  top: -2rem;
+  opacity: 0;
+}
+
+#progress p:first-of-type {
   font-style: italic;
-  color: #222;
+  font-size: smaller;
+  color: rgb(142, 142, 142);
+  padding: 0.2rem;
 }
 
-#gb,
-#ol {
-  max-height: 15rem;
-  overflow-y: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+/********************************************
+ *             Statistics                   *
+ ********************************************/
+
+#stat {
+  position: relative;
+  top: 0;
+  transition: 0.5s ease 50ms;
+  max-width: var(--max-width);
+  margin: 1rem auto;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-areas:
+    "left     search   right"
+    "snippets snippets snippets";
   background-color: rgba(255, 255, 255, 0.4);
-  margin: 1rem 0;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+body.initial #stat.stat--invisible {
+  top: -2rem;
+  opacity: 0;
+}
+
+.stat__left,
+.stat__right,
+.stat__search,
+.stat__snippets {
+  min-height: 3rem;
+  max-height: 12rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  overflow-y: auto;
+}
+
+.stat__left {
+  grid-area: left;
+}
+
+.stat__search {
+  font-weight: bold;
+}
+
+/***************************************************
+ *          List of left or right words            *
+ ***************************************************/
+/*#region*/
+
+.stat__list {
+  padding: 0.25rem;
+  user-select: none;
+}
+
+.stat__list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stat__list ul li {
+  border-radius: 2px;
+  padding: 0 0.25rem;
+}
+
+.stat__list ul li:hover {
+  background-color: rgba(76, 165, 254, 0.5);
+}
+
+/*#endregion*/
+
+.stat__search {
+  grid-area: search;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.stat__right {
+  grid-area: right;
+}
+
+.stat__snippets {
+  grid-area: snippets;
+  height: 3rem;
 }
 
 .matches {
