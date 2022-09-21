@@ -76,8 +76,8 @@ function parseHit(hit) {
  * @returns {Promise<{cached: Boolean, totalItems: Number, items: Source[]}>}
  */
 async function searchPage(search, page = 1) {
-  // const url = urlFor(search, page);
-  const url = `/test/mock-data/ol_making-it-increasingly_${page}.json`;
+  const url = urlFor(search, page);
+  // const url = `/test/mock-data/ol_making-it-increasingly_${page}.json`;
   const responce = await fetch(url);
   if (responce.ok) {
     const contentType = responce.headers.get("Content-Type");
