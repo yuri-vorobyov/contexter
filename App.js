@@ -1,5 +1,15 @@
 import search from "./search.js";
+import { Snippet } from "./snippet.js";
 import { Source } from "./source.js";
+import { WordCounter } from "./WordCounter.js";
+
+const STATE = {
+  searchText: "",
+  leftWords: new WordCounter(),
+  rightWords: new WordCounter(),
+  /** @type {Snippet[]} */
+  snippets: [],
+};
 
 const panels = {
   form: document.querySelector("form"),
@@ -32,55 +42,44 @@ async function handleSubmit(event) {
     if (document.body.classList.contains("initial")) {
       panels.progress.classList.remove("progress--invisible");
       panels.stat.classList.remove("stat--invisible");
+      document.body.classList.remove("initial");
     }
   });
 
-  const searchText = document.getElementById("search").value;
+  STATE.searchText = document.getElementById("search").value;
 
   // displaying search string
-  panels.stat.querySelector(".stat__search").innerHTML = searchText;
+  panels.stat.querySelector(".stat__search").innerHTML = STATE.searchText;
 
   const searchStatusText = document.querySelector("#progress p");
   searchStatusText.innerHTML = "Search is starting...";
 
-  if (document.body.classList.contains("initial")) {
-    document.body.classList.remove("initial");
-  }
-
-  const leftWords = new WordCounter();
-  const rightWords = new WordCounter();
-
   // fetching search results
-  let snippetsCount = 0;
-  for await (const chunk of search(searchText)) {
+  for await (const chunk of search(STATE.searchText)) {
     for (const source of chunk) {
+      // saving text snippets
+      STATE.snippets.push(...source.snippets);
+
       // updating progress bar
-      snippetsCount += source.snippets.length;
-      searchStatusText.textContent = `Search is in progress: ${snippetsCount} text snippets found.`;
+      searchStatusText.textContent = `Search is in progress: ${STATE.snippets.length} text snippets found.`;
 
       // updating statistics of left and right words
       for (const snippet of source.snippets) {
-        leftWords.add(snippet.wordFromLeft);
-        rightWords.add(snippet.wordFromRight);
+        STATE.leftWords.add(snippet.wordFromLeft);
+        STATE.rightWords.add(snippet.wordFromRight);
       }
-      leftWords.sort();
-      rightWords.sort();
+      STATE.leftWords.sort();
+      STATE.rightWords.sort();
 
       const leftList = panels.stat.querySelector(".stat__left ul");
       const rightList = panels.stat.querySelector(".stat__right ul");
 
-      updateListOfWords(leftList, leftWords);
-      updateListOfWords(rightList, rightWords);
+      updateListOfWords(leftList, STATE.leftWords);
+      updateListOfWords(rightList, STATE.rightWords);
     }
   }
 
-  leftWords.sort();
-  rightWords.sort();
-
-  searchStatusText.textContent = `Done searching: ${snippetsCount} text snippets found.`;
-
-  console.log(leftWords);
-  console.log(rightWords);
+  searchStatusText.textContent = `Done searching: ${STATE.snippets.length} text snippets found.`;
 }
 
 /**
@@ -92,41 +91,29 @@ function handleListClick(event) {
     return;
   }
 
-  // console.log(event);
-}
+  const word = event.target.innerText;
 
-/**
- * Counts words.
- */
-class WordCounter {
-  #wordsMap;
+  let snippets;
 
-  constructor() {
-    this.#wordsMap = new Map();
-  }
-
-  /**
-   * @param {String} word
-   */
-  add(word) {
-    if (this.#wordsMap.has(word)) {
-      this.#wordsMap.set(word, this.#wordsMap.get(word) + 1);
-    } else {
-      this.#wordsMap.set(word, 1);
-    }
-  }
-
-  sort() {
-    this.#wordsMap = new Map(
-      [...this.#wordsMap.entries()].sort(([ak, av], [bk, bv]) => bv - av)
+  if (event.target.parentNode.parentNode.classList.contains("stat__left")) {
+    snippets = STATE.snippets.filter((value) =>
+      value.wordFromLeft ? value.wordFromLeft === word : word === "..."
+    );
+  } else if (
+    event.target.parentNode.parentNode.classList.contains("stat__right")
+  ) {
+    snippets = STATE.snippets.filter((value) =>
+      value.wordFromRight ? value.wordFromRight === word : word === "..."
     );
   }
 
-  /**
-   * @returns {Iterator<[string, number]>}
-   */
-  [Symbol.iterator]() {
-    return this.#wordsMap[Symbol.iterator]();
+  const snippetsList = panels.stat.querySelector(".stat__snippets > UL");
+  clearChildren(snippetsList);
+
+  for (const snippet of snippets) {
+    const li = document.createElement("LI");
+    li.innerHTML = snippet.toHTMLString();
+    snippetsList.append(li);
   }
 }
 

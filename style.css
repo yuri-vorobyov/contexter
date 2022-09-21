@@ -1,7 +1,7 @@
 :root {
   --input-radius: 4px;
   --transition: 1s ease 50ms;
-  --max-width: 70ch;
+  --max-width: 80ch;
 }
 
 body {
@@ -150,10 +150,6 @@ body.initial #stat.stat--invisible {
   overflow-y: auto;
 }
 
-.stat__left {
-  grid-area: left;
-}
-
 .stat__search {
   font-weight: bold;
 }
@@ -161,7 +157,14 @@ body.initial #stat.stat--invisible {
 /***************************************************
  *          List of left or right words            *
  ***************************************************/
-/*#region*/
+
+.stat__left {
+  grid-area: left;
+}
+
+.stat__right {
+  grid-area: right;
+}
 
 .stat__list {
   padding: 0.25rem;
@@ -180,10 +183,28 @@ body.initial #stat.stat--invisible {
 }
 
 .stat__list ul li:hover {
-  background-color: rgba(76, 165, 254, 0.5);
+  background-color: rgba(76, 165, 254, 0.25);
 }
 
-/*#endregion*/
+/*****************************************************
+ *               List of text snippets               *
+ *****************************************************/
+
+.stat__snippets {
+  grid-area: snippets;
+  padding: 0;
+}
+
+.stat__snippets > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stat__snippets > ul > li {
+  padding: 0 0.25rem;
+  margin: 0.5rem 0;
+}
 
 .stat__search {
   grid-area: search;
@@ -191,15 +212,6 @@ body.initial #stat.stat--invisible {
   align-items: center;
   justify-content: center;
   font-size: larger;
-}
-
-.stat__right {
-  grid-area: right;
-}
-
-.stat__snippets {
-  grid-area: snippets;
-  height: 3rem;
 }
 
 .matches {

@@ -102,6 +102,10 @@ export class Snippet {
   toString() {
     return this.#left + this.#search + this.#right;
   }
+
+  toHTMLString() {
+    return `${this.#left} <strong>${this.#search}</strong> ${this.#right}`;
+  }
 }
 
 class ParseError extends Error {
