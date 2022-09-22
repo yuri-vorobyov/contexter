@@ -31,4 +31,8 @@ export class WordCounter {
   [Symbol.iterator]() {
     return this.#wordsMap[Symbol.iterator]();
   }
+
+  clear() {
+    this.#wordsMap.clear();
+  }
 }

@@ -9,6 +9,8 @@ const STATE = {
   rightWords: new WordCounter(),
   /** @type {Snippet[]} */
   snippets: [],
+  /** @type {HTMLLIElement} */
+  activeWord: null,
 };
 
 const panels = {
@@ -45,6 +47,15 @@ async function handleSubmit(event) {
       document.body.classList.remove("initial");
     }
   });
+
+  // clearing previous results
+  clearChildren(panels.stat.querySelector(".stat__left > ul"));
+  clearChildren(panels.stat.querySelector(".stat__right > ul"));
+  clearChildren(panels.stat.querySelector(".stat__snippets > ul"));
+  STATE.activeWord = null;
+  STATE.leftWords.clear();
+  STATE.rightWords.clear();
+  STATE.snippets = [];
 
   STATE.searchText = document.getElementById("search").value;
 
@@ -87,11 +98,18 @@ async function handleSubmit(event) {
  * @param {MouseEvent} event
  */
 function handleListClick(event) {
-  if (event.target.tagName !== "LI") {
+  if (event.target.tagName !== "LI" || event.target == STATE.activeWord) {
     return;
   }
 
-  const word = event.target.innerText;
+  if (STATE.activeWord?.classList.contains("active")) {
+    STATE.activeWord.classList.remove("active");
+  }
+
+  STATE.activeWord = event.target;
+  STATE.activeWord.classList.add("active");
+
+  const word = STATE.activeWord.innerText;
 
   let snippets;
 
